@@ -189,6 +189,12 @@
 
   .chips { display: flex; flex-wrap: wrap; gap: 8px; }
   .chips.scroll { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+  /* On phones, swipe through cards in one row instead of a tall wall of chips */
+  @media (max-width: 640px) {
+    #cardChips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+    #cardChips::-webkit-scrollbar { display: none; }
+    .controls .searchbox, .controls .sort { flex: 1 1 100%; }
+  }
   .chip {
     flex: 0 0 auto;
     border: 1px solid var(--border);
