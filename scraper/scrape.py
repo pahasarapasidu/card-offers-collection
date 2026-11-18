@@ -7,6 +7,7 @@ To add a bank: create scraper/banks/<bank>.py with a fetch_offers() function
 that returns a list of offer dicts, then add it to BANKS below.
 """
 
+import datetime as dt
 import json
 import os
 import sys
@@ -16,6 +17,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from banks import boc, combank, dfcc, hnb, ndb, ntb, peoples, sampath, seylan
+from dates import end_date
+
+# Offers end on Sri Lanka dates, while GitHub's servers run on UTC.
+SL_TIME = dt.timezone(dt.timedelta(hours=5, minutes=30))
 
 BANKS = [
     ("Sampath Bank", sampath.fetch_offers),
@@ -112,6 +117,18 @@ def main():
             print(f"  !! FAILED: {exc} (keeping {len(kept)} previous offers)")
             errors.append(f"{bank_name}: {exc}")
             all_offers.extend(kept)
+
+    # Record each offer's end date in one clean format (YYYY-MM-DD) for the
+    # apps, and drop offers that have already ended.
+    today = dt.datetime.now(SL_TIME).date()
+    live = []
+    for o in all_offers:
+        end = end_date(o.get("period"), today)
+        o["end_date"] = end.isoformat() if end else ""
+        if end is None or end >= today:
+            live.append(o)
+    print(f"\nDropped {len(all_offers) - len(live)} expired offers")
+    all_offers = live
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     result = {

@@ -5,6 +5,7 @@ loads its data from a JSON API. The API only answers when the request carries
 the same custom headers the website sends: `locale: en` and `platform: web`.
 """
 
+import datetime
 import html
 import json
 import re
@@ -51,6 +52,27 @@ def _detect_card_types(text):
     return sorted(cards)
 
 
+SL_TIME = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+
+
+def _date(ms):
+    """API timestamps are milliseconds since 1970; return a Sri Lanka date."""
+    try:
+        return datetime.datetime.fromtimestamp(int(ms) / 1000, SL_TIME).date()
+    except (TypeError, ValueError, OSError):
+        return None
+
+
+def _period(item):
+    text = _strip_html(item.get("promotion_period"))
+    if text:
+        return text
+    start, end = _date(item.get("display_on")), _date(item.get("expire_on"))
+    if start and end:
+        return f"{start} to {end}"
+    return f"Valid until {end}" if end else ""
+
+
 def fetch_offers():
     """Return a list of normalized offers from every enabled category."""
     categories = [c for c in _get(f"{BASE}/offer-catergories") if c.get("enable")]
@@ -80,7 +102,7 @@ def fetch_offers():
                     "description": description,
                     "category": label,
                     "city": (item.get("city") or "").strip(),
-                    "period": _strip_html(item.get("promotion_period")),
+                    "period": _period(item),
                     "card_types": _detect_card_types(description),
                     "details": _strip_html(item.get("promotion_details")),
                     "terms": _strip_html(item.get("terms_and_conditions")),

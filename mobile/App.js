@@ -69,7 +69,12 @@ const SORTS = [
 const MONTHS = { january:0, february:1, march:2, april:3, may:4, june:5,
                  july:6, august:7, september:8, october:9, november:10, december:11 };
 
-function parseEndDate(period) {
+// Prefer the scraper's clean end_date (YYYY-MM-DD); older data only has text.
+function parseEndDate(period, endDate) {
+  if (endDate) {
+    const d = new Date(endDate + "T23:59:59");
+    if (!isNaN(d)) return d;
+  }
   if (!period) return null;
   const iso = period.match(/\d{4}-\d{2}-\d{2}/g);
   if (iso) {
@@ -94,7 +99,7 @@ function discountLine(o) {
 function prepareOffers(raw) {
   const now = new Date();
   return raw.offers.map(o => {
-    const end = parseEndDate(o.period);
+    const end = parseEndDate(o.period, o.end_date);
     const days = end ? Math.ceil((end - now) / 86400000) : null;
     const pctM = (o.discount || o.description || "").match(/(\d{1,3})\s*%/);
     return {
