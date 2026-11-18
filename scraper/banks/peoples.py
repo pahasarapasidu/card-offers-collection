@@ -53,6 +53,9 @@ def _clean(text):
 def fetch_offers():
     offers = []
     seen = set()
+    # People's Bank publishes the same deal twice, once per card type, on
+    # separate pages. Merge those into one offer valid for both.
+    by_deal = {}
     for slug, label in CATEGORIES.items():
         for card in CARD_TYPES:
             url = BASE.format(slug=slug, card=card)
@@ -83,21 +86,37 @@ def fetch_offers():
 
                 badge = find(BADGE_RE)
                 name = _clean(name_m.group(1))
+                period = find(PERIOD_RE)
+                card_type = "credit" if card == "credit_card" else "debit"
+
+                key = (name.lower(), badge, period)
+                twin = by_deal.get(key)
+                if twin:
+                    if card_type not in twin["card_types"]:
+                        twin["card_types"] = sorted(twin["card_types"] + [card_type])
+                        twin["description"] = (
+                            f"{badge + ' off at ' if badge else ''}{name} "
+                            "with Peoples Bank credit & debit cards"
+                        )
+                    continue
+
                 slug_id = href.rstrip("/").rsplit("/", 1)[-1][:80]
-                offers.append({
+                offer = {
                     "id": f"peoples-{slug_id}",
                     "bank": "Peoples Bank",
                     "merchant": name,
                     "discount": f"{badge} off" if badge else "",
-                    "description": f"{badge + ' off at ' if badge else ''}{name} with Peoples Bank {card.replace('_', ' ')}s",
+                    "description": f"{badge + ' off at ' if badge else ''}{name} with Peoples Bank {card_type} cards",
                     "category": label,
                     "city": "",
-                    "period": find(PERIOD_RE),
-                    "card_types": ["credit"] if card == "credit_card" else ["debit"],
+                    "period": period,
+                    "card_types": [card_type],
                     "details": "",
                     "terms": "",
                     "image_url": find(IMG_RE) and IMG_RE.search(seg).group(1),
                     "source_url": href,
                     "updated_at": "",
-                })
+                }
+                by_deal[key] = offer
+                offers.append(offer)
     return offers
