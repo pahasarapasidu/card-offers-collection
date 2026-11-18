@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Mobile app build/dependency folders (mobile/.gitignore covers the rest)
+mobile/node_modules/
+mobile/.expo/
+
+# Local editor/tool settings
+.claude/

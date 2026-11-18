@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card Offers Collection</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f6f8;
+    --card: #ffffff;
+    --text: #17191d;
+    --muted: #6b7280;
+    --accent: #e8600a;
+    --accent-2: #ff8a3d;
+    --accent-soft: #fdeadd;
+    --chip: #ffffff;
+    --border: #e4e6ea;
+    --danger: #d12f2f;
+    --danger-soft: #fdeaea;
+    --shadow: 0 1px 3px rgba(15, 18, 24, .06), 0 6px 18px rgba(15, 18, 24, .05);
+    --shadow-hover: 0 4px 10px rgba(15, 18, 24, .10), 0 14px 32px rgba(15, 18, 24, .10);
+    --overlay: rgba(15, 18, 24, .55);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1013;
+      --card: #191c21;
+      --text: #edeef1;
+      --muted: #9aa1ab;
+      --accent: #ff8a3d;
+      --accent-2: #ffa866;
+      --accent-soft: #35200f;
+      --chip: #22262c;
+      --border: #2a2e35;
+      --danger: #ff6b6b;
+      --danger-soft: #3a1818;
+      --shadow: 0 1px 3px rgba(0,0,0,.4);
+      --shadow-hover: 0 8px 24px rgba(0,0,0,.5);
+      --overlay: rgba(0, 0, 0, .65);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+    background:
+      radial-gradient(900px 420px at 110% -5%, var(--accent-soft) 0%, transparent 55%),
+      radial-gradient(700px 380px at -15% 30%, var(--accent-soft) 0%, transparent 50%),
+      var(--bg);
+    background-attachment: fixed;
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, .merchant { font-family: "Outfit", "Inter", sans-serif; }
+
+  /* ---------- Hero header ---------- */
+  .hero {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    padding: 46px 16px 96px;
+    background:
+      radial-gradient(800px 360px at 88% -20%, rgba(255, 196, 140, .40), transparent 60%),
+      radial-gradient(640px 320px at -5% 120%, rgba(255, 138, 61, .35), transparent 60%),
+      linear-gradient(130deg, #21130a 0%, #46210a 32%, #a04104 68%, #e8600a 100%);
+  }
+  .hero::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,.16) 1px, transparent 1.6px);
+    background-size: 26px 26px;
+    -webkit-mask-image: linear-gradient(115deg, transparent 30%, rgba(0,0,0,.9));
+            mask-image: linear-gradient(115deg, transparent 30%, rgba(0,0,0,.9));
+    pointer-events: none;
+  }
+  .hero::after {
+    content: "";
+    position: absolute;
+    right: -120px; top: -140px;
+    width: 420px; height: 420px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,214,170,.35), transparent 65%);
+    filter: blur(10px);
+    pointer-events: none;
+  }
+  .hero .wrap { padding: 0 16px; position: relative; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 11px; font-weight: 700;
+    letter-spacing: .22em; text-transform: uppercase;
+    color: #ffd9b8;
+    background: rgba(255,255,255,.10);
+    border: 1px solid rgba(255,255,255,.18);
+    padding: 6px 12px;
+    border-radius: 999px;
+    backdrop-filter: blur(6px);
+    margin-bottom: 16px;
+  }
+  .eyebrow .dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: #7CFC9B;
+    box-shadow: 0 0 8px #7CFC9B;
+    animation: pulse 2.2s infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  .hero h1 {
+    margin: 0;
+    font-size: clamp(30px, 5.5vw, 44px);
+    font-weight: 800;
+    letter-spacing: -.025em;
+    line-height: 1.08;
+  }
+  .hero h1 .grad {
+    background: linear-gradient(90deg, #ffd9b8, #ffb36b, #fff2e4);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+  }
+  .hero p { margin: 12px 0 0; opacity: .88; font-size: 15px; max-width: 46ch; line-height: 1.55; }
+  .hero .stats { display: flex; gap: 10px; margin-top: 22px; flex-wrap: wrap; }
+  .hero .stats span {
+    display: flex; align-items: baseline; gap: 7px;
+    font-size: 12.5px; color: #ffe4cd;
+    background: rgba(255,255,255,.10);
+    border: 1px solid rgba(255,255,255,.16);
+    padding: 8px 14px;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+  }
+  .hero .stats b { font-size: 18px; font-weight: 800; color: #fff; font-family: "Outfit", sans-serif; }
+
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px 56px; }
+
+  /* ---------- Floating filter panel ---------- */
+  .panel {
+    background: color-mix(in srgb, var(--card) 82%, transparent);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    box-shadow: var(--shadow-hover);
+    padding: 18px;
+    margin-top: -56px;
+    position: relative;
+  }
+  .panel .row + .row { margin-top: 14px; }
+  .label { font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 8px; }
+
+  .searchbox { position: relative; flex: 1; }
+  .searchbox svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; stroke: var(--muted); }
+  .search {
+    width: 100%;
+    padding: 11px 14px 11px 38px;
+    font-size: 14px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg);
+    color: var(--text);
+    outline: none;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+  .controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .sort {
+    padding: 11px 12px;
+    font-size: 13px;
+    font-family: inherit;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg);
+    color: var(--text);
+    outline: none;
+    cursor: pointer;
+  }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chips.scroll { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+  .chip {
+    flex: 0 0 auto;
+    border: 1px solid var(--border);
+    background: var(--chip);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 8px 15px;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    user-select: none;
+    transition: all .15s;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .chip:hover { border-color: var(--accent); }
+  .chip.on {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(232, 96, 10, .35);
+  }
+  .chip .tick { display: none; font-weight: 800; }
+  .chip.on .tick { display: inline; }
+
+  .count { color: var(--muted); font-size: 13px; margin: 20px 2px 12px; }
+
+  /* ---------- Offer cards ---------- */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 16px; }
+  .offer {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex; flex-direction: column;
+    box-shadow: var(--shadow);
+    transition: transform .18s ease, box-shadow .18s ease;
+    position: relative;
+  }
+  .offer:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
+  .offer:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .thumb {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: linear-gradient(135deg, var(--accent-soft), var(--bg));
+    overflow: hidden;
+  }
+  .thumb img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .3s ease;
+  }
+  .offer:hover .thumb img { transform: scale(1.04); }
+  .thumb .initial {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 40px; font-weight: 800; color: var(--accent);
+    opacity: .5;
+  }
+  .badge {
+    position: absolute; left: 10px; bottom: 10px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 12px; font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    max-width: calc(100% - 58px);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .fav {
+    position: absolute; top: 10px; right: 10px;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    border: none; cursor: pointer;
+    background: rgba(0,0,0,.45);
+    color: #fff;
+    font-size: 16px; line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+    transition: transform .15s, background .15s;
+    z-index: 2;
+  }
+  .fav:hover { transform: scale(1.12); }
+  .fav.on { background: var(--accent); }
+  .soon {
+    position: absolute; top: 10px; left: 10px;
+    background: var(--danger);
+    color: #fff;
+    font-size: 10.5px; font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  }
+  .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .merchant { font-weight: 650; font-size: 15px; line-height: 1.3; }
+  .desc {
+    color: var(--muted); font-size: 12.5px; line-height: 1.5;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 8px; }
+  .tag {
+    font-size: 10.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px;
+    background: var(--bg); color: var(--muted); border: 1px solid var(--border);
+  }
+  .tag.bank { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .tag.expiry { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
+
+  .more {
+    display: block;
+    margin: 24px auto 0;
+    padding: 12px 28px;
+    font-size: 14px; font-weight: 650; font-family: inherit;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: none; border-radius: 12px;
+    cursor: pointer;
+  }
+  .more:hover { filter: brightness(.96); }
+
+  .empty { text-align: center; color: var(--muted); padding: 64px 0; }
+  .empty .big { font-size: 40px; margin-bottom: 8px; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 40px; }
+
+  /* ---------- Detail modal ---------- */
+  .modal-bg {
+    position: fixed; inset: 0;
+    background: var(--overlay);
+    display: none;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 50;
+    padding: 0;
+  }
+  .modal-bg.open { display: flex; }
+  @media (min-width: 640px) { .modal-bg { align-items: center; padding: 24px; } }
+  .modal {
+    background: var(--card);
+    width: 100%; max-width: 560px;
+    max-height: 88vh;
+    overflow-y: auto;
+    border-radius: 20px 20px 0 0;
+    animation: up .22s ease;
+  }
+  @media (min-width: 640px) { .modal { border-radius: 20px; animation: pop .18s ease; } }
+  @keyframes up  { from { transform: translateY(40px); opacity: .6; } to { transform: none; opacity: 1; } }
+  @keyframes pop { from { transform: scale(.96); opacity: .6; } to { transform: none; opacity: 1; } }
+
+  .modal .mthumb { position: relative; aspect-ratio: 16 / 9; background: linear-gradient(135deg, var(--accent-soft), var(--bg)); }
+  .modal .mthumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .mclose {
+    position: absolute; top: 12px; right: 12px;
+    width: 34px; height: 34px; border-radius: 50%;
+    border: none; cursor: pointer;
+    background: rgba(0,0,0,.5); color: #fff;
+    font-size: 17px; line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .mbody { padding: 18px 20px 24px; }
+  .mbody h2 { margin: 0 0 4px; font-size: 20px; letter-spacing: -.01em; }
+  .mdiscount { color: var(--accent); font-weight: 800; font-size: 16px; margin-bottom: 10px; }
+  .mdesc { font-size: 14px; line-height: 1.6; color: var(--text); }
+  .mrow { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0; }
+  .msec { margin-top: 16px; }
+  .msec summary {
+    cursor: pointer; font-weight: 650; font-size: 13.5px;
+    padding: 10px 0; border-top: 1px solid var(--border);
+    list-style: none; display: flex; justify-content: space-between; align-items: center;
+  }
+  .msec summary::after { content: "+"; color: var(--muted); font-size: 16px; }
+  .msec[open] summary::after { content: "–"; }
+  .msec .inner { font-size: 13px; color: var(--muted); line-height: 1.65; padding-bottom: 10px; }
+  .mlink {
+    display: inline-block; margin-top: 16px;
+    color: var(--accent); font-weight: 650; font-size: 13.5px;
+    text-decoration: none;
+  }
+  .mlink:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span> Updated daily</div>
+    <h1>Card Offers <span class="grad">Collection</span></h1>
+    <p>Every credit &amp; debit card discount from Sri Lanka's banks — pick your cards, see only what's yours.</p>
+    <div class="stats">
+      <span><b id="statOffers">–</b> offers</span>
+      <span><b id="statBanks">–</b> banks</span>
+      <span><b id="statCats">–</b> categories</span>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="panel">
+    <div class="row">
+      <div class="label">My cards</div>
+      <div class="chips" id="cardChips"></div>
+    </div>
+    <div class="row">
+      <div class="label">Category</div>
+      <div class="chips scroll" id="catChips"></div>
+    </div>
+    <div class="row controls">
+      <div class="searchbox">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input class="search" id="search" placeholder="Search merchant — Pizza, Hotel, Keells…">
+      </div>
+      <select class="sort" id="sort" aria-label="Sort offers">
+        <option value="featured">Sort: Featured</option>
+        <option value="ending">Ending soon</option>
+        <option value="discount">Biggest discount</option>
+        <option value="az">Merchant A–Z</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <button class="more" id="more" hidden>Show more</button>
+  <div class="empty" id="empty" hidden>
+    <div class="big">🔍</div>
+    No offers match your cards and filters.
+  </div>
+
+  <footer id="footer"></footer>
+</div>
+
+<div class="modal-bg" id="modalBg">
+  <div class="modal" id="modal" role="dialog" aria-modal="true"></div>
+</div>
+
+<script>
+const CARD_OPTIONS = [
+  { key: "sampath-visa",       label: "Sampath Visa",       bank: "Sampath Bank",    network: "visa" },
+  { key: "sampath-mastercard", label: "Sampath Mastercard", bank: "Sampath Bank",    network: "mastercard" },
+  { key: "sampath-amex",       label: "Sampath Amex",       bank: "Sampath Bank",    network: "amex" },
+  { key: "combank-visa",       label: "ComBank Visa",       bank: "Commercial Bank", network: "visa" },
+  { key: "combank-mastercard", label: "ComBank Mastercard", bank: "Commercial Bank", network: "mastercard" },
+  { key: "hnb-visa",           label: "HNB Visa",           bank: "HNB",             network: "visa" },
+  { key: "hnb-mastercard",     label: "HNB Mastercard",     bank: "HNB",             network: "mastercard" },
+  { key: "hnb-amex",           label: "HNB Amex",           bank: "HNB",             network: "amex" },
+  { key: "seylan-visa",        label: "Seylan Visa",        bank: "Seylan Bank",     network: "visa" },
+  { key: "seylan-mastercard",  label: "Seylan Mastercard",  bank: "Seylan Bank",     network: "mastercard" },
+  { key: "ntb-visa",           label: "NTB Visa",           bank: "Nations Trust",   network: "visa" },
+  { key: "ntb-mastercard",     label: "NTB Mastercard",     bank: "Nations Trust",   network: "mastercard" },
+  { key: "ntb-amex",           label: "NTB Amex",           bank: "Nations Trust",   network: "amex" },
+  { key: "boc-visa",           label: "BOC Visa",           bank: "BOC",             network: "visa" },
+  { key: "boc-mastercard",     label: "BOC Mastercard",     bank: "BOC",             network: "mastercard" },
+  { key: "ndb-visa",           label: "NDB Visa",           bank: "NDB",             network: "visa" },
+  { key: "ndb-mastercard",     label: "NDB Mastercard",     bank: "NDB",             network: "mastercard" },
+  { key: "peoples-visa",       label: "Peoples Visa",       bank: "Peoples Bank",    network: "visa" },
+  { key: "peoples-mastercard", label: "Peoples Mastercard", bank: "Peoples Bank",    network: "mastercard" },
+  { key: "dfcc-visa",          label: "DFCC Visa",          bank: "DFCC",            network: "visa" },
+  { key: "dfcc-mastercard",    label: "DFCC Mastercard",    bank: "DFCC",            network: "mastercard" },
+];
+
+const PAGE = 48;              // cards rendered per batch
+const SOON_DAYS = 7;          // "ending soon" threshold
+
+let offers = [];
+let myCards = new Set();
+let favs = new Set();
+let activeCat = "All";
+let query = "";
+let sortMode = "featured";
+let shown = PAGE;             // how many of the filtered list are rendered
+
+// "voex-*" keys are read once as a fallback so earlier selections survive the rename
+try { myCards = new Set(JSON.parse(localStorage.getItem("coc-cards") || localStorage.getItem("voex-cards") || "[]")); } catch (e) {}
+try { favs = new Set(JSON.parse(localStorage.getItem("coc-favs") || localStorage.getItem("voex-favs") || "[]")); } catch (e) {}
+function saveCards() { try { localStorage.setItem("coc-cards", JSON.stringify([...myCards])); } catch (e) {} }
+function saveFavs()  { try { localStorage.setItem("coc-favs",  JSON.stringify([...favs]));   } catch (e) {} }
+
+function esc(s) {
+  return String(s || "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+}
+
+/* ---------- derive sort keys once per offer ---------- */
+const MONTHS = { january:0, february:1, march:2, april:3, may:4, june:5,
+                 july:6, august:7, september:8, october:9, november:10, december:11 };
+
+// Pull an end date out of the many period formats the banks use:
+// "2026-09-07 to 2026-11-30", "Valid Until 2026-12-31",
+// "Offer valid till 31st December 2026", "Valid on 25 November 2026"...
+function parseEndDate(period) {
+  if (!period) return null;
+  const isoDates = period.match(/\d{4}-\d{2}-\d{2}/g);
+  if (isoDates) {
+    const d = new Date(isoDates[isoDates.length - 1] + "T23:59:59");
+    return isNaN(d) ? null : d;
+  }
+  const words = [...period.matchAll(/(\d{1,2})(?:st|nd|rd|th)?\s+(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{4})/gi)];
+  if (words.length) {
+    const m = words[words.length - 1];
+    return new Date(+m[3], MONTHS[m[2].toLowerCase()], +m[1], 23, 59, 59);
+  }
+  return null;
+}
+
+function parsePercent(o) {
+  const m = (o.discount || o.description || "").match(/(\d{1,3})\s*%/);
+  return m ? +m[1] : 0;
+}
+
+function discountLine(o) {
+  if (o.discount) return o.discount;
+  const m = (o.description || "").match(/(up to\s+)?\d{1,3}\s*%(\s*(discount|off))?/i);
+  return m ? m[0].replace(/\s+/g, " ").trim() : "";
+}
+
+function prepare() {
+  const now = new Date();
+  for (const o of offers) {
+    o._end = parseEndDate(o.period);
+    o._pct = parsePercent(o);
+    o._days = o._end ? Math.ceil((o._end - now) / 86400000) : null;
+    o._soon = o._days !== null && o._days >= 0 && o._days <= SOON_DAYS;
+    o._expired = o._days !== null && o._days < 0;
+  }
+}
+
+/* ---------- filtering + sorting ---------- */
+function offerMatchesCards(offer) {
+  if (myCards.size === 0) return true;
+  for (const key of myCards) {
+    const card = CARD_OPTIONS.find(c => c.key === key);
+    if (!card || card.bank !== offer.bank) continue;
+    const networks = (offer.card_types || []).filter(t => ["visa","mastercard","amex"].includes(t));
+    if (networks.length === 0 || networks.includes(card.network)) return true;
+  }
+  return false;
+}
+
+function visibleOffers() {
+  const q = query.toLowerCase();
+  let list = offers.filter(o =>
+    !o._expired &&
+    offerMatchesCards(o) &&
+    (activeCat === "All" ? true :
+     activeCat === "♥ Saved" ? favs.has(o.id) :
+     o.category === activeCat) &&
+    (!q || o.merchant.toLowerCase().includes(q) || o.description.toLowerCase().includes(q))
+  );
+  if (sortMode === "ending") {
+    list = list.slice().sort((a, b) => (a._end ?? Infinity) - (b._end ?? Infinity));
+  } else if (sortMode === "discount") {
+    list = list.slice().sort((a, b) => b._pct - a._pct);
+  } else if (sortMode === "az") {
+    list = list.slice().sort((a, b) => a.merchant.localeCompare(b.merchant));
+  }
+  return list;
+}
+
+/* ---------- rendering ---------- */
+function cardHTML(o) {
+  const d = discountLine(o);
+  const initial = esc((o.merchant || "?").trim().charAt(0).toUpperCase());
+  return `
+    <div class="offer" tabindex="0" data-id="${esc(o.id)}">
+      <div class="thumb">
+        <div class="initial">${initial}</div>
+        ${o.image_url ? `<img src="${esc(o.image_url)}" alt="" loading="lazy" onerror="this.remove()">` : ""}
+        ${o._soon ? `<div class="soon">${o._days === 0 ? "Last day" : o._days === 1 ? "1 day left" : o._days + " days left"}</div>` : ""}
+        ${d ? `<div class="badge">${esc(d)}</div>` : ""}
+        <button class="fav${favs.has(o.id) ? " on" : ""}" aria-label="Save offer">${favs.has(o.id) ? "♥" : "♡"}</button>
+      </div>
+      <div class="body">
+        <div class="merchant">${esc(o.merchant)}</div>
+        <div class="desc">${esc(o.description)}</div>
+        <div class="meta">
+          <span class="tag bank">${esc(o.bank)}</span>
+          <span class="tag">${esc(o.category)}</span>
+          ${o._end && !o._soon ? `<span class="tag">until ${o._end.toISOString().slice(0,10)}</span>` : ""}
+          ${o._soon ? `<span class="tag expiry">ends ${o._end.toISOString().slice(0,10)}</span>` : ""}
+        </div>
+      </div>
+    </div>`;
+}
+
+function attachCardEvents(root) {
+  root.querySelectorAll(".offer:not([data-wired])").forEach(el => {
+    el.dataset.wired = "1";
+    const o = offers.find(x => x.id === el.dataset.id);
+    el.addEventListener("click", e => {
+      if (e.target.closest(".fav")) return;
+      openModal(o);
+    });
+    el.addEventListener("keydown", e => { if (e.key === "Enter") openModal(o); });
+    el.querySelector(".fav").addEventListener("click", () => toggleFav(o.id, el));
+  });
+}
+
+function toggleFav(id, el) {
+  favs.has(id) ? favs.delete(id) : favs.add(id);
+  saveFavs();
+  const btn = el && el.querySelector(".fav");
+  if (btn) {
+    btn.classList.toggle("on", favs.has(id));
+    btn.textContent = favs.has(id) ? "♥" : "♡";
+  }
+  renderCatChips();                       // keep the Saved count fresh
+  if (activeCat === "♥ Saved") render();  // removing from Saved view hides it
+}
+
+let lastList = [];
+function render(reset = true) {
+  if (reset) shown = PAGE;
+  lastList = visibleOffers();
+  const soonCount = lastList.filter(o => o._soon).length;
+  document.getElementById("count").textContent =
+    `${lastList.length} offer${lastList.length === 1 ? "" : "s"}` +
+    (myCards.size ? " for your cards" : " — select your cards to personalise") +
+    (soonCount ? ` · ${soonCount} ending within a week` : "");
+  document.getElementById("empty").hidden = lastList.length > 0;
+
+  const slice = lastList.slice(0, shown);
+  const grid = document.getElementById("grid");
+  grid.innerHTML = slice.map(cardHTML).join("");
+  attachCardEvents(grid);
+  document.getElementById("more").hidden = lastList.length <= shown;
+}
+
+function showMore() {
+  shown += PAGE;
+  const grid = document.getElementById("grid");
+  grid.insertAdjacentHTML("beforeend",
+    lastList.slice(grid.children.length, shown).map(cardHTML).join(""));
+  attachCardEvents(grid);
+  document.getElementById("more").hidden = lastList.length <= shown;
+}
+document.getElementById("more").addEventListener("click", showMore);
+
+// Auto-load the next batch when the button scrolls into view.
+new IntersectionObserver(entries => {
+  if (entries[0].isIntersecting && !document.getElementById("more").hidden) showMore();
+}, { rootMargin: "600px" }).observe(document.getElementById("more"));
+
+/* ---------- modal ---------- */
+function openModal(o) {
+  const modal = document.getElementById("modal");
+  const d = discountLine(o);
+  modal.innerHTML = `
+    <div class="mthumb">
+      ${o.image_url ? `<img src="${esc(o.image_url)}" alt="" onerror="this.remove()">` : ""}
+      <button class="mclose" aria-label="Close">✕</button>
+    </div>
+    <div class="mbody">
+      <h2>${esc(o.merchant)}</h2>
+      ${d ? `<div class="mdiscount">${esc(d)}</div>` : ""}
+      <div class="mdesc">${esc(o.description)}</div>
+      <div class="mrow">
+        <span class="tag bank">${esc(o.bank)}</span>
+        <span class="tag">${esc(o.category)}</span>
+        ${o.city ? `<span class="tag">📍 ${esc(o.city)}</span>` : ""}
+        ${o.period ? `<span class="tag${o._soon ? " expiry" : ""}">🗓 ${esc(o.period)}</span>` : ""}
+      </div>
+      ${o.details ? `
+        <details class="msec" open>
+          <summary>Offer details</summary>
+          <div class="inner">${esc(o.details)}</div>
+        </details>` : ""}
+      ${o.terms ? `
+        <details class="msec">
+          <summary>Terms &amp; conditions</summary>
+          <div class="inner">${esc(o.terms)}</div>
+        </details>` : ""}
+      <a class="mlink" href="${esc(o.source_url)}" target="_blank" rel="noopener">
+        View on ${esc(o.bank)} website →
+      </a>
+    </div>`;
+  modal.querySelector(".mclose").onclick = closeModal;
+  document.getElementById("modalBg").classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeModal() {
+  document.getElementById("modalBg").classList.remove("open");
+  document.body.style.overflow = "";
+}
+document.getElementById("modalBg").addEventListener("click", e => {
+  if (e.target.id === "modalBg") closeModal();
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+
+/* ---------- filter chips ---------- */
+function renderCardChips() {
+  const el = document.getElementById("cardChips");
+  el.innerHTML = "";
+  for (const card of CARD_OPTIONS) {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (myCards.has(card.key) ? " on" : "");
+    chip.innerHTML = `<span class="tick">✓</span>${esc(card.label)}`;
+    chip.onclick = () => {
+      myCards.has(card.key) ? myCards.delete(card.key) : myCards.add(card.key);
+      saveCards(); renderCardChips(); render();
+    };
+    el.appendChild(chip);
+  }
+}
+
+let categories = [];
+function renderCatChips() {
+  const el = document.getElementById("catChips");
+  el.innerHTML = "";
+  const savedLabel = favs.size ? `♥ Saved (${favs.size})` : "♥ Saved";
+  for (const cat of ["All", "♥ Saved", ...categories]) {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (activeCat === cat ? " on" : "");
+    chip.textContent = cat === "♥ Saved" ? savedLabel : cat;
+    chip.onclick = () => { activeCat = cat; renderCatChips(); render(); };
+    el.appendChild(chip);
+  }
+}
+
+document.getElementById("search").addEventListener("input", e => {
+  query = e.target.value; render();
+});
+document.getElementById("sort").addEventListener("change", e => {
+  sortMode = e.target.value; render();
+});
+
+/* ---------- boot + live refresh ---------- */
+let lastGenerated = "";
+
+function loadData(initial) {
+  // cache-bust so a freshly scraped offers.json is picked up immediately
+  fetch("../data/offers.json?t=" + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      if (!initial && data.generated_at === lastGenerated) return; // nothing new
+      lastGenerated = data.generated_at;
+      offers = data.offers;
+      prepare();
+      categories = [...new Set(offers.map(o => o.category))].sort();
+      document.getElementById("statOffers").textContent = data.offer_count;
+      document.getElementById("statBanks").textContent = data.banks.length;
+      document.getElementById("statCats").textContent = categories.length;
+      document.getElementById("footer").textContent =
+        `Offers from ${data.banks.join(", ")} · data refreshed ${new Date(data.generated_at).toLocaleString()}`;
+      renderCardChips();
+      renderCatChips();
+      render(initial);   // on a background refresh, keep the scroll position
+    })
+    .catch(() => {
+      if (!initial) return; // keep showing current data if a refresh fails
+      const empty = document.getElementById("empty");
+      empty.hidden = false;
+      empty.textContent = "Could not load offers.json — run: python scraper/scrape.py";
+    });
+}
+
+loadData(true);
+setInterval(() => loadData(false), 30 * 60 * 1000);          // every 30 min
+document.addEventListener("visibilitychange", () => {         // and on return
+  if (!document.hidden) loadData(false);
+});
+</script>
+</body>
+</html>

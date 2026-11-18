@@ -1,0 +1,36 @@
+name: Update offers
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # 00:30 UTC = 06:00 Sri Lanka time, every day
+  workflow_dispatch:        # adds a "Run workflow" button on GitHub
+
+permissions:
+  contents: write           # needed to commit the refreshed offers.json
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scrape all banks
+        run: python scraper/scrape.py
+
+      - name: Publish if anything changed
+        run: |
+          cp data/offers.json mobile/assets/offers.json
+          git config user.name "offers-bot"
+          git config user.email "offers-bot@users.noreply.github.com"
+          git add data/offers.json mobile/assets/offers.json
+          if git diff --cached --quiet; then
+            echo "No changes in offers today."
+          else
+            git commit -m "Update offers $(date -u +%Y-%m-%d)"
+            git push
+          fi
