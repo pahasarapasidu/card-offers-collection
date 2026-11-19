@@ -60,6 +60,13 @@ const imgSource = (uri) => {
   };
 };
 
+const KIND_OPTIONS = [{ key: "credit", label: "Credit card" }, { key: "debit", label: "Debit card" }];
+const offerKinds = (o) => (o.card_types || []).filter(t => t === "credit" || t === "debit");
+const kindLabel = (o) => {
+  const k = offerKinds(o);
+  return k.length === 2 ? "Credit & debit" : k[0] === "credit" ? "Credit cards" : k[0] === "debit" ? "Debit cards" : "";
+};
+
 const CARD_OPTIONS = [
   { key: "sampath-visa",       label: "Sampath Visa",       bank: "Sampath Bank",    network: "visa" },
   { key: "sampath-mastercard", label: "Sampath Mastercard", bank: "Sampath Bank",    network: "mastercard" },
@@ -187,6 +194,7 @@ export default function App() {
   const theme = useMemo(() => ({ T: THEMES[mode], s: STYLES[mode] }), [mode]);
   const { s, T } = theme;
   const [myCards, setMyCards] = useState([]);
+  const [myKinds, setMyKinds] = useState([]);   // "credit" / "debit"
   const [favs, setFavs] = useState([]);
   const [cat, setCat] = useState("All");
   const [query, setQuery] = useState("");
@@ -226,10 +234,12 @@ export default function App() {
       try {
         const c = await AsyncStorage.getItem("coc-cards");
         const f = await AsyncStorage.getItem("coc-favs");
+        const k = await AsyncStorage.getItem("coc-kinds");
         // If the user already tapped something while this was loading,
         // keep their choice rather than overwriting it with the old list.
         if (c) setMyCards(cur => (cur.length ? cur : JSON.parse(c)));
         if (f) setFavs(cur => (cur.length ? cur : JSON.parse(f)));
+        if (k) setMyKinds(cur => (cur.length ? cur : JSON.parse(k)));
       } catch (e) {}
     })();
   }, []);
@@ -238,6 +248,13 @@ export default function App() {
     setMyCards(cur => {
       const next = cur.includes(key) ? cur.filter(k => k !== key) : [...cur, key];
       AsyncStorage.setItem("coc-cards", JSON.stringify(next)).catch(() => {});
+      return next;
+    });
+  };
+  const toggleKind = (key) => {
+    setMyKinds(cur => {
+      const next = cur.includes(key) ? cur.filter(k => k !== key) : [...cur, key];
+      AsyncStorage.setItem("coc-kinds", JSON.stringify(next)).catch(() => {});
       return next;
     });
   };
@@ -260,6 +277,14 @@ export default function App() {
     [dataset, favs]
   );
 
+  // Banks often list one deal twice at different rates for credit and debit
+  // cards (HNB Subway: 20% credit, 15% debit). Unstated = any card.
+  const matchesKind = (o) => {
+    if (myKinds.length === 0) return true;
+    const kinds = offerKinds(o);
+    return kinds.length === 0 || kinds.some(k => myKinds.includes(k));
+  };
+
   const matchesCards = (o) => {
     if (myCards.length === 0) return true;
     for (const key of myCards) {
@@ -276,13 +301,14 @@ export default function App() {
     const words = fold(query).trim().split(" ").filter(Boolean);
     let list = dataset.offers.filter(o =>
       matchesCards(o) &&
+      matchesKind(o) &&
       (cat === "All" ? true : cat === "♥ Saved" ? favs.includes(o.id) : o.category === cat) &&
       (!words.length || words.every(w => o._search.includes(w)))
     );
     if (sort === "ending") list = [...list].sort((a, b) => (a._end ?? Infinity) - (b._end ?? Infinity));
     if (sort === "discount") list = [...list].sort((a, b) => b._pct - a._pct);
     return list;
-  }, [dataset, myCards, favs, cat, query, sort]);
+  }, [dataset, myCards, myKinds, favs, cat, query, sort]);
 
   const soonCount = visible.filter(o => o._soon).length;
 
@@ -302,6 +328,7 @@ export default function App() {
           <Header
             dataset={dataset} categories={categories}
             myCards={myCards} toggleCard={toggleCard}
+            myKinds={myKinds} toggleKind={toggleKind}
             cat={cat} setCat={setCat} favCount={savedCount}
             query={query} setQuery={setQuery}
             sort={sort} setSort={setSort}
@@ -322,7 +349,7 @@ export default function App() {
 }
 
 /* ---------------------------- header ---------------------------- */
-function Header({ dataset, categories, myCards, toggleCard, cat, setCat, favCount, query, setQuery, sort, setSort, total, soonCount }) {
+function Header({ dataset, categories, myCards, toggleCard, myKinds, toggleKind, cat, setCat, favCount, query, setQuery, sort, setSort, total, soonCount }) {
   const { s, T } = useTheme();
   const updated = formatUpdated(dataset.generatedAt);
   return (
@@ -343,6 +370,13 @@ function Header({ dataset, categories, myCards, toggleCard, cat, setCat, favCoun
           <Stat n={categories.length - 2} t="categories" />
         </View>
       </LinearGradient>
+
+      <Text style={s.label}>I PAY WITH</Text>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.chipRow}>
+        {KIND_OPTIONS.map(k => (
+          <Chip key={k.key} on={myKinds.includes(k.key)} label={k.label} onPress={() => toggleKind(k.key)} />
+        ))}
+      </ScrollView>
 
       <Text style={s.label}>MY CARDS</Text>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.chipRow}>
@@ -377,7 +411,7 @@ function Header({ dataset, categories, myCards, toggleCard, cat, setCat, favCoun
 
       <Text style={s.count}>
         {total} offer{total === 1 ? "" : "s"}
-        {myCards.length ? " for your cards" : " — select your cards to personalise"}
+        {myCards.length || myKinds.length ? " for your cards" : " — select your cards to personalise"}
         {soonCount ? ` · ${soonCount} ending soon` : ""}
       </Text>
     </View>
@@ -430,6 +464,7 @@ function OfferCard({ o, fav, onPress, onFav }) {
         <Text style={s.desc} numberOfLines={2}>{o.description}</Text>
         <View style={s.tagRow}>
           <Text style={[s.tag, s.tagBank]}>{o.bank}</Text>
+          {!!kindLabel(o) && <Text style={[s.tag, s.tagKind]}>{kindLabel(o)}</Text>}
           <Text style={[s.tag, s.tagCat]}>{o.category}</Text>
         </View>
       </View>
@@ -453,6 +488,7 @@ function OfferModal({ o, onClose }) {
               <Text style={s.modalDesc}>{o.description}</Text>
               <View style={s.tagRow}>
                 <Text style={[s.tag, s.tagBank]}>{o.bank}</Text>
+                {!!kindLabel(o) && <Text style={[s.tag, s.tagKind]}>{kindLabel(o)}</Text>}
                 <Text style={[s.tag, s.tagCat]}>{o.category}</Text>
                 {!!o.period && <Text style={s.tag}>🗓 {o.period}</Text>}
                 {!!o.city && <Text style={s.tag}>📍 {o.city}</Text>}
@@ -539,6 +575,7 @@ const makeStyles = (T) => StyleSheet.create({
     borderRadius: 6, paddingHorizontal: 7, paddingVertical: 3, overflow: "hidden" },
   tagBank: { color: T.accentInk, backgroundColor: T.accentSoft },
   tagCat: { color: T.catText, backgroundColor: T.catBg },
+  tagKind: { color: T.text, backgroundColor: T.card, borderWidth: 1, borderColor: T.border },
 
   modalBg: { flex: 1, backgroundColor: T.overlay, justifyContent: "flex-end" },
   // Fixed pixel height: percentage heights around a ScrollView break

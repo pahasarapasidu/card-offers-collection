@@ -347,6 +347,7 @@
     font-size: 10.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px;
     background: var(--bg); color: var(--muted); border: 1px solid var(--border);
   }
+  .tag.kind { background: var(--card); color: var(--text); border-color: var(--border); }
   .tag.cat { background: var(--cat-bg); color: var(--cat-text); border-color: transparent; }
   .tag.bank { background: var(--accent-soft); color: var(--accent-ink); border-color: transparent; }
   .tag.expiry { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
@@ -442,6 +443,10 @@
 <div class="wrap">
   <div class="panel">
     <div class="row">
+      <div class="label">I pay with</div>
+      <div class="chips" id="kindChips"></div>
+    </div>
+    <div class="row">
       <div class="label">My cards</div>
       <div class="chips" id="cardChips"></div>
     </div>
@@ -508,6 +513,7 @@ const SOON_DAYS = 7;          // "ending soon" threshold
 
 let offers = [];
 let myCards = new Set();
+let myKinds = new Set();   // "credit" / "debit": which kind of card the user pays with
 let favs = new Set();
 let activeCat = "All";
 let query = "";
@@ -517,7 +523,9 @@ let shown = PAGE;             // how many of the filtered list are rendered
 // "voex-*" keys are read once as a fallback so earlier selections survive the rename
 try { myCards = new Set(JSON.parse(localStorage.getItem("coc-cards") || localStorage.getItem("voex-cards") || "[]")); } catch (e) {}
 try { favs = new Set(JSON.parse(localStorage.getItem("coc-favs") || localStorage.getItem("voex-favs") || "[]")); } catch (e) {}
+try { myKinds = new Set(JSON.parse(localStorage.getItem("coc-kinds") || "[]")); } catch (e) {}
 function saveCards() { try { localStorage.setItem("coc-cards", JSON.stringify([...myCards])); } catch (e) {} }
+function saveKinds() { try { localStorage.setItem("coc-kinds", JSON.stringify([...myKinds])); } catch (e) {} }
 function saveFavs()  { try { localStorage.setItem("coc-favs",  JSON.stringify([...favs]));   } catch (e) {} }
 
 function esc(s) {
@@ -588,6 +596,21 @@ function offerMatchesCards(offer) {
   return false;
 }
 
+// Banks often run the same deal at different rates for credit and debit
+// cards (HNB Subway: 20% credit, 15% debit), listed as separate offers.
+function offerKinds(o) {
+  return (o.card_types || []).filter(t => t === "credit" || t === "debit");
+}
+function offerMatchesKind(o) {
+  if (myKinds.size === 0) return true;
+  const kinds = offerKinds(o);
+  return kinds.length === 0 || kinds.some(k => myKinds.has(k));  // unstated = any card
+}
+function kindLabel(o) {
+  const k = offerKinds(o);
+  return k.length === 2 ? "Credit & debit" : k[0] === "credit" ? "Credit cards" : k[0] === "debit" ? "Debit cards" : "";
+}
+
 // Lower-case, accents removed ("Café" -> "cafe"), spaces collapsed.
 function fold(s) {
   return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\s+/g, " ");
@@ -599,6 +622,7 @@ function visibleOffers() {
   let list = offers.filter(o =>
     !o._expired &&
     offerMatchesCards(o) &&
+    offerMatchesKind(o) &&
     (activeCat === "All" ? true :
      activeCat === "♥ Saved" ? favs.has(o.id) :
      o.category === activeCat) &&
@@ -632,6 +656,7 @@ function cardHTML(o) {
         <div class="desc">${esc(o.description)}</div>
         <div class="meta">
           <span class="tag bank">${esc(o.bank)}</span>
+          ${kindLabel(o) ? `<span class="tag kind">${kindLabel(o)}</span>` : ""}
           <span class="tag cat">${esc(o.category)}</span>
           ${o._end && !o._soon ? `<span class="tag">until ${o._endText}</span>` : ""}
           ${o._soon ? `<span class="tag expiry">ends ${o._endText}</span>` : ""}
@@ -675,7 +700,7 @@ function render(reset = true) {
   const soonCount = lastList.filter(o => o._soon).length;
   document.getElementById("count").textContent =
     `${lastList.length} offer${lastList.length === 1 ? "" : "s"}` +
-    (myCards.size ? " for your cards" : " — select your cards to personalise") +
+    (myCards.size || myKinds.size ? " for your cards" : " — select your cards to personalise") +
     (soonCount ? ` · ${soonCount} ending within a week` : "");
   document.getElementById("empty").hidden = lastList.length > 0;
 
@@ -716,6 +741,7 @@ function openModal(o) {
       <div class="mdesc">${esc(o.description)}</div>
       <div class="mrow">
         <span class="tag bank">${esc(o.bank)}</span>
+        ${kindLabel(o) ? `<span class="tag kind">${kindLabel(o)}</span>` : ""}
         <span class="tag cat">${esc(o.category)}</span>
         ${o.city ? `<span class="tag">📍 ${esc(o.city)}</span>` : ""}
         ${o.period ? `<span class="tag${o._soon ? " expiry" : ""}">🗓 ${esc(o.period)}</span>` : ""}
@@ -764,6 +790,22 @@ document.getElementById("modalBg").addEventListener("click", e => {
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
 
 /* ---------- filter chips ---------- */
+const KIND_OPTIONS = [{ key: "credit", label: "Credit card" }, { key: "debit", label: "Debit card" }];
+function renderKindChips() {
+  const el = document.getElementById("kindChips");
+  el.innerHTML = "";
+  for (const k of KIND_OPTIONS) {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (myKinds.has(k.key) ? " on" : "");
+    chip.innerHTML = `<span class="tick">✓</span>${k.label}`;
+    chip.onclick = () => {
+      myKinds.has(k.key) ? myKinds.delete(k.key) : myKinds.add(k.key);
+      saveKinds(); renderKindChips(); render();
+    };
+    el.appendChild(chip);
+  }
+}
+
 function renderCardChips() {
   const el = document.getElementById("cardChips");
   el.innerHTML = "";
@@ -830,6 +872,7 @@ function loadData(initial) {
       document.getElementById("statCats").textContent = categories.length;
       document.getElementById("footer").textContent =
         `Offers from ${data.banks.join(", ")} · data refreshed ${new Date(data.generated_at).toLocaleString()}`;
+      renderKindChips();
       renderCardChips();
       renderCatChips();
       render(initial);   // on a background refresh, keep the scroll position
