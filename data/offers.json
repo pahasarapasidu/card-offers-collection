@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T03:59:41Z",
+ "generated_at": "2026-11-19T04:04:59Z",
  "offer_count": 3024,
  "banks": [
   "BOC",
@@ -50001,6 +50001,25 @@
    "end_date": "2026-12-20"
   },
   {
+   "id": "dfcc-5thavenue-lk",
+   "bank": "DFCC",
+   "merchant": "5thavenue.lk",
+   "discount": "40%",
+   "description": "40% Savings on Steve Madden New York Shoes & Handbags at 5thavenue.lk. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Online",
+   "city": "",
+   "period": "21st to 30th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/329abed1-5913-4351-8c4b-cda8cc5b0b1e/5thavenue.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/5thavenue-lk",
+   "updated_at": "",
+   "end_date": "2026-12-30"
+  },
+  {
    "id": "dfcc-06-and-12-months-0-easy-payment-plans-on-hospital-payments-over-rs-25-000-with-dfcc-and-standard-chartered-credit-cards",
    "bank": "DFCC",
    "merchant": "06 & 12 Months 0% Easy Payment Plans on Hospital payments ov",
@@ -52094,25 +52113,6 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/the-factory-hub",
    "updated_at": "",
    "end_date": "2026-12-22"
-  },
-  {
-   "id": "dfcc-5thavenue-lk",
-   "bank": "DFCC",
-   "merchant": "5thavenue.lk",
-   "discount": "40%",
-   "description": "40% Savings on Steve Madden New York Shoes & Handbags at 5thavenue.lk. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "21st to 30th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/329abed1-5913-4351-8c4b-cda8cc5b0b1e/5thavenue.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/5thavenue-lk",
-   "updated_at": "",
-   "end_date": "2026-12-30"
   },
   {
    "id": "dfcc-stadium",
