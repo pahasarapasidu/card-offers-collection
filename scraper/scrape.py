@@ -1,4 +1,4 @@
-"""Card Offers Collection scraper — collects credit card offers from Sri Lankan banks.
+"""Credit Card Offers LK scraper — collects credit card offers from Sri Lankan banks.
 
 Run:  python scraper/scrape.py
 Writes all offers to data/offers.json, which the app reads.

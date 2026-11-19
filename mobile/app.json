@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Card Offers Collection",
+    "name": "Credit Card Offers LK",
     "slug": "card-offers-collection",
     "version": "1.0.3",
     "orientation": "portrait",
@@ -13,7 +13,7 @@
       "package": "com.pahasarapasidu.cardofferscollection",
       "versionCode": 4,
       "adaptiveIcon": {
-        "backgroundColor": "#a04104",
+        "backgroundColor": "#1E40AF",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"

@@ -1,4 +1,4 @@
-"""Automated checks for Card Offers Collection.
+"""Automated checks for Credit Card Offers LK.
 
 Run from the project folder:   python -m unittest discover tests -v
 

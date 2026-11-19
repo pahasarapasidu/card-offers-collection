@@ -1,4 +1,4 @@
-// Card Offers Collection — mobile app (Android / iOS / web via Expo)
+// Credit Card Offers LK — mobile app (Android / iOS / web via Expo)
 //
 // Shows every scraped bank offer; the user picks the cards they own and the
 // list filters to what applies to them. The app starts with the copy of
@@ -7,22 +7,37 @@
 
 import React, { useEffect, useMemo, useState } from "react";
 import {
-  AppState, Dimensions, FlatList, Linking, Modal, Pressable, SafeAreaView, ScrollView,
+  AppState, Dimensions, Platform, FlatList, Linking, Modal, Pressable, SafeAreaView, ScrollView,
   StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View,
 } from "react-native";
 // expo-image decodes images by content, not by the server's (sometimes wrong)
 // content-type header — Sampath serves JPEGs labelled application/octet-stream.
 import { Image } from "expo-image";
+import { LinearGradient } from "expo-linear-gradient";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import data from "./assets/offers.json";
 
-const ACCENT = "#e8600a";
+// Palette: deep slate navy + royal blue brand, vibrant blue for
+// interactive things, emerald for deals/savings (same as the website).
+const NAVY = "#0F172A";
+const BRAND = "#1E40AF";
+const ACCENT = "#3B82F6";
+const ACCENT_INK = "#1D4ED8";   // blue text on white
+const ACCENT_SOFT = "#DBEAFE";
+const DEAL = "#10B981";         // % off badges
+const DEAL_INK = "#047857";     // emerald text on white
+const TEXT = "#1E293B";
+const MUTED = "#64748B";
+const BORDER = "#E2E8F0";
 const SOON_DAYS = 7;
 const OFFERS_URL = "https://raw.githubusercontent.com/pahasarapasidu/card-offers-collection/main/data/offers.json";
 
 // Some bank sites (e.g. Sampath) reject image requests that don't look like
 // they come from a normal browser, so send browser-like headers.
 const imgSource = (uri) => {
+  // Browsers block cross-site image requests that carry custom headers (CORS),
+  // and only the phone apps need them, so send a plain request on web.
+  if (Platform.OS === "web") return { uri };
   const origin = (uri.match(/^https?:\/\/[^/]+/) || [""])[0];
   return {
     uri,
@@ -259,7 +274,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={s.safe}>
-      <StatusBar barStyle="light-content" backgroundColor="#21130a" />
+      <StatusBar barStyle="light-content" backgroundColor={NAVY} />
       <FlatList
         data={visible}
         keyExtractor={o => o.id}
@@ -295,12 +310,13 @@ function Header({ dataset, categories, myCards, toggleCard, cat, setCat, favCoun
   const updated = formatUpdated(dataset.generatedAt);
   return (
     <View>
-      <View style={s.hero}>
+      <LinearGradient colors={[NAVY, "#172554", BRAND, ACCENT]} locations={[0, 0.38, 0.74, 1]}
+        start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={s.hero}>
         <View style={s.eyebrow}>
           <View style={s.dot} />
           <Text style={s.eyebrowText}>{updated ? `UPDATED ${updated.toUpperCase()}` : "UPDATED DAILY"}</Text>
         </View>
-        <Text style={s.h1}>Card Offers <Text style={{ color: "#ffb36b" }}>Collection</Text></Text>
+        <Text style={s.h1}>Credit Card <Text style={{ color: "#6EE7B7" }}>Offers LK</Text></Text>
         <Text style={s.heroSub}>
           Every card discount from Sri Lanka's banks — pick your cards, see only what's yours.
         </Text>
@@ -309,7 +325,7 @@ function Header({ dataset, categories, myCards, toggleCard, cat, setCat, favCoun
           <Stat n={dataset.bankCount} t="banks" />
           <Stat n={categories.length - 2} t="categories" />
         </View>
-      </View>
+      </LinearGradient>
 
       <Text style={s.label}>MY CARDS</Text>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.chipRow}>
@@ -330,7 +346,7 @@ function Header({ dataset, categories, myCards, toggleCard, cat, setCat, favCoun
       <TextInput
         style={s.search}
         placeholder="Search merchant — Pizza, Hotel, Keells…"
-        placeholderTextColor="#999"
+        placeholderTextColor="#94A3B8"
         value={query}
         onChangeText={setQuery}
       />
@@ -367,7 +383,9 @@ function OfferCard({ o, fav, onPress, onFav }) {
   const [imgFailed, setImgFailed] = useState(false);
   return (
     <Pressable style={s.card} onPress={onPress}
-      accessibilityRole="button" accessibilityLabel={`${o.merchant}. ${o._d || ""}. ${o.bank}`}>
+      // On web, role "button" becomes a <button>, which can't contain the ♡ button.
+      accessibilityRole={Platform.OS === "web" ? undefined : "button"}
+      accessibilityLabel={`${o.merchant}. ${o._d || ""}. ${o.bank}`}>
       <View style={s.thumbWrap}>
         {o.image_url && !imgFailed
           ? <Image source={imgSource(o.image_url)} style={s.thumb} contentFit="cover" cachePolicy="memory-disk"
@@ -446,68 +464,68 @@ function Section({ title, body }) {
 
 /* ---------------------------- styles ---------------------------- */
 const s = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: "#f6f6f8" },
-  hero: { backgroundColor: "#2a1608", padding: 20, paddingTop: 42, paddingBottom: 26 },
+  safe: { flex: 1, backgroundColor: "#F8FAFC" },
+  hero: { padding: 20, paddingTop: 42, paddingBottom: 26 },
   eyebrow: { flexDirection: "row", alignItems: "center", gap: 6, alignSelf: "flex-start",
     backgroundColor: "rgba(255,255,255,0.12)", borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4, marginBottom: 12 },
-  dot: { width: 7, height: 7, borderRadius: 4, backgroundColor: "#7CFC9B" },
-  eyebrowText: { color: "#ffd9b8", fontSize: 10, fontWeight: "700", letterSpacing: 2 },
+  dot: { width: 7, height: 7, borderRadius: 4, backgroundColor: "#34D399" },
+  eyebrowText: { color: "#BFDBFE", fontSize: 10, fontWeight: "700", letterSpacing: 2 },
   h1: { color: "#fff", fontSize: 30, fontWeight: "800", letterSpacing: -0.5 },
   heroSub: { color: "rgba(255,255,255,0.85)", marginTop: 8, fontSize: 13, lineHeight: 19 },
   statsRow: { flexDirection: "row", gap: 8, marginTop: 16 },
   stat: { flexDirection: "row", alignItems: "baseline", gap: 5,
     backgroundColor: "rgba(255,255,255,0.10)", borderRadius: 10, paddingHorizontal: 12, paddingVertical: 7 },
   statN: { color: "#fff", fontWeight: "800", fontSize: 16 },
-  statT: { color: "#ffe4cd", fontSize: 11 },
+  statT: { color: "#DBEAFE", fontSize: 11 },
 
-  label: { fontSize: 10, fontWeight: "700", color: "#8a8f98", letterSpacing: 1.5, marginTop: 16, marginLeft: 16, marginBottom: 6 },
+  label: { fontSize: 10, fontWeight: "700", color: MUTED, letterSpacing: 1.5, marginTop: 16, marginLeft: 16, marginBottom: 6 },
   chipRow: { paddingHorizontal: 16, gap: 8 },
-  chip: { borderWidth: 1, borderColor: "#e0e2e6", backgroundColor: "#fff", borderRadius: 999,
+  chip: { borderWidth: 1, borderColor: BORDER, backgroundColor: "#fff", borderRadius: 999,
     paddingHorizontal: 14, paddingVertical: 8 },
-  chipOn: { backgroundColor: ACCENT, borderColor: ACCENT },
-  chipText: { fontSize: 12.5, color: "#333" },
+  chipOn: { backgroundColor: BRAND, borderColor: BRAND },
+  chipText: { fontSize: 12.5, color: TEXT },
   chipTextOn: { color: "#fff", fontWeight: "700" },
   search: { marginHorizontal: 16, marginTop: 14, marginBottom: 10, backgroundColor: "#fff",
-    borderWidth: 1, borderColor: "#e0e2e6", borderRadius: 12, paddingHorizontal: 14, paddingVertical: 10, fontSize: 14 },
-  count: { color: "#777", fontSize: 12, margin: 16, marginBottom: 8 },
-  empty: { textAlign: "center", color: "#888", marginTop: 48 },
+    borderWidth: 1, borderColor: BORDER, borderRadius: 12, paddingHorizontal: 14, paddingVertical: 10, fontSize: 14 },
+  count: { color: MUTED, fontSize: 12, margin: 16, marginBottom: 8 },
+  empty: { textAlign: "center", color: MUTED, marginTop: 48 },
 
   card: { backgroundColor: "#fff", borderRadius: 16, marginHorizontal: 16, marginBottom: 14,
     overflow: "hidden", elevation: 2, shadowColor: "#000", shadowOpacity: 0.07, shadowRadius: 8, shadowOffset: { width: 0, height: 3 } },
   thumbWrap: { position: "relative" },
-  thumb: { width: "100%", aspectRatio: 16 / 9, backgroundColor: "#fdeadd" },
+  thumb: { width: "100%", aspectRatio: 16 / 9, backgroundColor: ACCENT_SOFT },
   thumbEmpty: { alignItems: "center", justifyContent: "center" },
   thumbInitial: { fontSize: 40, fontWeight: "800", color: ACCENT, opacity: 0.5 },
-  badge: { position: "absolute", left: 10, bottom: 10, backgroundColor: ACCENT,
+  badge: { position: "absolute", left: 10, bottom: 10, backgroundColor: DEAL,
     borderRadius: 8, paddingHorizontal: 9, paddingVertical: 4, maxWidth: "70%" },
-  badgeText: { color: "#fff", fontSize: 11.5, fontWeight: "700" },
-  soon: { position: "absolute", left: 10, top: 10, backgroundColor: "#d12f2f",
+  badgeText: { color: "#022C22", fontSize: 11.5, fontWeight: "700" },
+  soon: { position: "absolute", left: 10, top: 10, backgroundColor: "#DC2626",
     borderRadius: 7, paddingHorizontal: 8, paddingVertical: 3 },
   soonText: { color: "#fff", fontSize: 10, fontWeight: "700", textTransform: "uppercase" },
   fav: { position: "absolute", right: 10, top: 10, width: 32, height: 32, borderRadius: 16,
     backgroundColor: "rgba(0,0,0,0.45)", alignItems: "center", justifyContent: "center" },
-  favOn: { backgroundColor: ACCENT },
+  favOn: { backgroundColor: BRAND },
   cardBody: { padding: 12 },
-  merchant: { fontSize: 15, fontWeight: "700", color: "#1a1d21" },
-  desc: { fontSize: 12, color: "#6b7280", marginTop: 3, lineHeight: 17 },
+  merchant: { fontSize: 15, fontWeight: "700", color: TEXT },
+  desc: { fontSize: 12, color: MUTED, marginTop: 3, lineHeight: 17 },
   tagRow: { flexDirection: "row", flexWrap: "wrap", gap: 6, marginTop: 9 },
-  tag: { fontSize: 10, fontWeight: "600", color: "#6b7280", backgroundColor: "#f1f2f4",
+  tag: { fontSize: 10, fontWeight: "600", color: MUTED, backgroundColor: "#F1F5F9",
     borderRadius: 6, paddingHorizontal: 7, paddingVertical: 3, overflow: "hidden" },
-  tagBank: { color: ACCENT, backgroundColor: "#fdeadd" },
+  tagBank: { color: ACCENT_INK, backgroundColor: ACCENT_SOFT },
 
-  modalBg: { flex: 1, backgroundColor: "rgba(0,0,0,0.55)", justifyContent: "flex-end" },
+  modalBg: { flex: 1, backgroundColor: "rgba(15,23,42,0.6)", justifyContent: "flex-end" },
   // Fixed pixel height: percentage heights around a ScrollView break
   // scrolling on Android, so give the sheet a definite size.
   modal: { backgroundColor: "#fff", borderTopLeftRadius: 20, borderTopRightRadius: 20,
     height: Math.round(Dimensions.get("window").height * 0.85), overflow: "hidden" },
   modalImg: { width: "100%", aspectRatio: 16 / 9 },
-  modalTitle: { fontSize: 20, fontWeight: "800", color: "#1a1d21" },
-  modalDiscount: { color: ACCENT, fontWeight: "800", fontSize: 15, marginTop: 4 },
-  modalDesc: { fontSize: 13.5, color: "#333", lineHeight: 20, marginTop: 10 },
-  section: { marginTop: 14, borderTopWidth: 1, borderTopColor: "#eee", paddingTop: 10 },
-  sectionTitle: { fontWeight: "700", fontSize: 13.5, color: "#1a1d21" },
-  sectionBody: { fontSize: 12.5, color: "#6b7280", lineHeight: 19, marginTop: 8 },
-  link: { color: ACCENT, fontWeight: "700", marginTop: 16, fontSize: 13.5 },
+  modalTitle: { fontSize: 20, fontWeight: "800", color: TEXT },
+  modalDiscount: { color: DEAL_INK, fontWeight: "800", fontSize: 15, marginTop: 4 },
+  modalDesc: { fontSize: 13.5, color: TEXT, lineHeight: 20, marginTop: 10 },
+  section: { marginTop: 14, borderTopWidth: 1, borderTopColor: BORDER, paddingTop: 10 },
+  sectionTitle: { fontWeight: "700", fontSize: 13.5, color: TEXT },
+  sectionBody: { fontSize: 12.5, color: MUTED, lineHeight: 19, marginTop: 8 },
+  link: { color: ACCENT_INK, fontWeight: "700", marginTop: 16, fontSize: 13.5 },
   close: { position: "absolute", top: 12, right: 12, width: 32, height: 32, borderRadius: 16,
     backgroundColor: "rgba(0,0,0,0.5)", alignItems: "center", justifyContent: "center" },
 });

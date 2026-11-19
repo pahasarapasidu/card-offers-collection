@@ -3,52 +3,64 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Card Offers Collection</title>
+<title>Credit Card Offers LK</title>
 <meta name="description" content="Every credit & debit card discount from Sri Lanka's banks — pick your cards, see only what's yours.">
-<meta name="theme-color" content="#2a1608">
+<meta name="theme-color" content="#0F172A">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Card Offers">
+<meta name="apple-mobile-web-app-title" content="Card Offers LK">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+  /* Palette: deep slate navy + royal blue brand, vibrant blue for
+     interactive things, emerald for deals/savings. */
   :root {
-    --bg: #f6f6f8;
-    --card: #ffffff;
-    --text: #17191d;
-    --muted: #6b7280;
-    --accent: #e8600a;
-    --accent-2: #ff8a3d;
-    --accent-soft: #fdeadd;
-    --chip: #ffffff;
-    --border: #e4e6ea;
-    --danger: #d12f2f;
-    --danger-soft: #fdeaea;
-    --shadow: 0 1px 3px rgba(15, 18, 24, .06), 0 6px 18px rgba(15, 18, 24, .05);
-    --shadow-hover: 0 4px 10px rgba(15, 18, 24, .10), 0 14px 32px rgba(15, 18, 24, .10);
-    --overlay: rgba(15, 18, 24, .55);
+    --bg: #F8FAFC;           /* alabaster */
+    --card: #FFFFFF;
+    --text: #1E293B;         /* dark slate */
+    --muted: #64748B;
+    --border: #E2E8F0;
+    --brand-deep: #0F172A;   /* deep slate navy */
+    --brand: #1E40AF;        /* royal fintech blue: active chips/tabs */
+    --accent: #3B82F6;       /* vibrant blue: buttons, links, focus */
+    --accent-ink: #1D4ED8;   /* blue text on white (readable contrast) */
+    --accent-soft: #DBEAFE;
+    --deal: #10B981;         /* emerald: % off badges */
+    --deal-on: #022C22;      /* text on the emerald badge */
+    --deal-ink: #047857;     /* emerald text on white */
+    --chip: #FFFFFF;
+    --danger: #DC2626;
+    --danger-soft: #FEE2E2;
+    --shadow: 0 1px 3px rgba(15, 23, 42, .06), 0 6px 18px rgba(15, 23, 42, .05);
+    --shadow-hover: 0 4px 10px rgba(15, 23, 42, .10), 0 14px 32px rgba(15, 23, 42, .10);
+    --overlay: rgba(15, 23, 42, .6);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #0e1013;
-      --card: #191c21;
-      --text: #edeef1;
-      --muted: #9aa1ab;
-      --accent: #ff8a3d;
-      --accent-2: #ffa866;
-      --accent-soft: #35200f;
-      --chip: #22262c;
-      --border: #2a2e35;
-      --danger: #ff6b6b;
-      --danger-soft: #3a1818;
+      --bg: #0B1120;
+      --card: #131C2E;
+      --text: #E2E8F0;
+      --muted: #94A3B8;
+      --border: #1F2A40;
+      --brand-deep: #020617;
+      --brand: #2563EB;
+      --accent: #60A5FA;
+      --accent-ink: #93C5FD;
+      --accent-soft: #172554;
+      --deal: #34D399;
+      --deal-on: #022C22;
+      --deal-ink: #34D399;
+      --chip: #1A2438;
+      --danger: #F87171;
+      --danger-soft: #3B1515;
       --shadow: 0 1px 3px rgba(0,0,0,.4);
       --shadow-hover: 0 8px 24px rgba(0,0,0,.5);
-      --overlay: rgba(0, 0, 0, .65);
+      --overlay: rgba(0, 0, 0, .7);
     }
   }
   * { box-sizing: border-box; }
@@ -73,9 +85,9 @@
     color: #fff;
     padding: calc(46px + env(safe-area-inset-top, 0px)) 16px 96px;
     background:
-      radial-gradient(800px 360px at 88% -20%, rgba(255, 196, 140, .40), transparent 60%),
-      radial-gradient(640px 320px at -5% 120%, rgba(255, 138, 61, .35), transparent 60%),
-      linear-gradient(130deg, #21130a 0%, #46210a 32%, #a04104 68%, #e8600a 100%);
+      radial-gradient(800px 360px at 88% -20%, rgba(96, 165, 250, .38), transparent 60%),
+      radial-gradient(640px 320px at -5% 120%, rgba(16, 185, 129, .22), transparent 60%),
+      linear-gradient(130deg, #0F172A 0%, #172554 38%, #1E40AF 74%, #3B82F6 100%);
   }
   .hero::before {
     content: "";
@@ -92,7 +104,7 @@
     right: -120px; top: -140px;
     width: 420px; height: 420px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(255,214,170,.35), transparent 65%);
+    background: radial-gradient(circle, rgba(147,197,253,.30), transparent 65%);
     filter: blur(10px);
     pointer-events: none;
   }
@@ -101,7 +113,7 @@
     display: inline-flex; align-items: center; gap: 8px;
     font-size: 11px; font-weight: 700;
     letter-spacing: .22em; text-transform: uppercase;
-    color: #ffd9b8;
+    color: #BFDBFE;
     background: rgba(255,255,255,.10);
     border: 1px solid rgba(255,255,255,.18);
     padding: 6px 12px;
@@ -111,8 +123,8 @@
   }
   .eyebrow .dot {
     width: 7px; height: 7px; border-radius: 50%;
-    background: #7CFC9B;
-    box-shadow: 0 0 8px #7CFC9B;
+    background: #34D399;
+    box-shadow: 0 0 8px #34D399;
     animation: pulse 2.2s infinite;
   }
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
@@ -124,7 +136,7 @@
     line-height: 1.08;
   }
   .hero h1 .grad {
-    background: linear-gradient(90deg, #ffd9b8, #ffb36b, #fff2e4);
+    background: linear-gradient(90deg, #93C5FD, #6EE7B7);
     -webkit-background-clip: text;
             background-clip: text;
     color: transparent;
@@ -133,7 +145,7 @@
   .hero .stats { display: flex; gap: 10px; margin-top: 22px; flex-wrap: wrap; }
   .hero .stats span {
     display: flex; align-items: baseline; gap: 7px;
-    font-size: 12.5px; color: #ffe4cd;
+    font-size: 12.5px; color: #DBEAFE;
     background: rgba(255,255,255,.10);
     border: 1px solid rgba(255,255,255,.16);
     padding: 8px 14px;
@@ -211,11 +223,11 @@
   }
   .chip:hover { border-color: var(--accent); }
   .chip.on {
-    background: var(--accent);
-    border-color: var(--accent);
+    background: var(--brand);
+    border-color: var(--brand);
     color: #fff;
     font-weight: 600;
-    box-shadow: 0 2px 8px rgba(232, 96, 10, .35);
+    box-shadow: 0 2px 8px rgba(30, 64, 175, .35);
   }
   .chip .tick { display: none; font-weight: 800; }
   .chip.on .tick { display: inline; }
@@ -259,8 +271,8 @@
   }
   .badge {
     position: absolute; left: 10px; bottom: 10px;
-    background: var(--accent);
-    color: #fff;
+    background: var(--deal);
+    color: var(--deal-on);
     font-size: 12px; font-weight: 700;
     padding: 5px 10px;
     border-radius: 8px;
@@ -281,7 +293,7 @@
     z-index: 2;
   }
   .fav:hover { transform: scale(1.12); }
-  .fav.on { background: var(--accent); }
+  .fav.on { background: var(--brand); }
   .soon {
     position: absolute; top: 10px; left: 10px;
     background: var(--danger);
@@ -304,7 +316,7 @@
     font-size: 10.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px;
     background: var(--bg); color: var(--muted); border: 1px solid var(--border);
   }
-  .tag.bank { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .tag.bank { background: var(--accent-soft); color: var(--accent-ink); border-color: transparent; }
   .tag.expiry { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
 
   [hidden] { display: none !important; }
@@ -313,7 +325,7 @@
     margin: 24px auto 0;
     padding: 12px 28px;
     font-size: 14px; font-weight: 650; font-family: inherit;
-    color: var(--accent);
+    color: var(--accent-ink);
     background: var(--accent-soft);
     border: none; border-radius: 12px;
     cursor: pointer;
@@ -360,7 +372,7 @@
   }
   .mbody { padding: 18px 20px 24px; }
   .mbody h2 { margin: 0 0 4px; font-size: 20px; letter-spacing: -.01em; }
-  .mdiscount { color: var(--accent); font-weight: 800; font-size: 16px; margin-bottom: 10px; }
+  .mdiscount { color: var(--deal-ink); font-weight: 800; font-size: 16px; margin-bottom: 10px; }
   .mdesc { font-size: 14px; line-height: 1.6; color: var(--text); }
   .mrow { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0; }
   .msec { margin-top: 16px; }
@@ -374,7 +386,7 @@
   .msec .inner { font-size: 13px; color: var(--muted); line-height: 1.65; padding-bottom: 10px; }
   .mlink {
     display: inline-block; margin-top: 16px;
-    color: var(--accent); font-weight: 650; font-size: 13.5px;
+    color: var(--accent-ink); font-weight: 650; font-size: 13.5px;
     text-decoration: none;
   }
   .mlink:hover { text-decoration: underline; }
@@ -385,7 +397,7 @@
 <div class="hero">
   <div class="wrap">
     <div class="eyebrow"><span class="dot"></span> Updated daily</div>
-    <h1>Card Offers <span class="grad">Collection</span></h1>
+    <h1>Credit Card <span class="grad">Offers LK</span></h1>
     <p>Every credit &amp; debit card discount from Sri Lanka's banks — pick your cards, see only what's yours.</p>
     <div class="stats">
       <span><b id="statOffers">–</b> offers</span>
