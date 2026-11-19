@@ -10,6 +10,7 @@ that returns a list of offer dicts, then add it to BANKS below.
 import datetime as dt
 import json
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -77,11 +78,71 @@ CANONICAL_CATEGORY = {
     "online deals": "Online",
     "solar solutions": "Other",
     "other": "Other",
+    "health": "Health",
+    "healthcare": "Health",
+    "health beauty": "Health",
+    "auto": "Auto",
+    "supermarket": "Supermarkets",
+    "zero plans": "Instalment Plans",
+    "installments": "Instalment Plans",
+    "premium card offers": "Premium",
+    "private banking": "Premium",
 }
+
+# When a bank gives no useful category, guess one from the offer's words.
+# First match wins, so more specific groups come first.
+KEYWORD_CATEGORY = [
+    ("Instalment Plans", r"\b0\s*% (interest|installment|instalment)|easy payment|installment plan|instalment plan|\bipp\b|\bepp\b|\becip\b"),
+    ("Hotels", r"hotel|resort|villa|bungalow|\bspa\b|lodge|\binn\b|retreat|cabana|glamping|suites?\b|stay\b"),
+    ("Travel", r"airline|airways|\bflight|travels?\b|tours?\b|holiday|duty free|airport|lounge"),
+    ("Dining", r"restaurant|cafe|café|pizza|burger|\bkfc\b|dining|bakery|kitchen|grill|buffet|dine\b|food\b|bistro|\bpub\b|coffee|tea\b|cake|dessert"),
+    ("Supermarkets", r"supermarket|keells|cargills|food city|glomark|\barpico super|laugfs super|spar\b"),
+    ("Fashion", r"fashion|clothing|apparel|saree|textile|boutique|shoe|footwear|\bodel\b|nolimit|cotton collection|kelly felder|\bwear\b"),
+    ("Jewellery", r"jewel|\bvogue\b"),  # not "gold": Visa Gold is a card
+    ("Electronics & Furniture", r"electronic|mobile phone|smartphone|laptop|computer|\btv\b|appliance|furniture|singer|abans|damro|softlogic|singhagiri|\bapple\b|samsung"),
+    ("Health", r"hospital|clinic|medical|pharmacy|health|dental|optical|optician|salon|beauty|wellness|ayurved|fitness|\bgym\b|channel"),
+    ("Auto", r"tyre|\btire|vehicle|motor|\bauto|car care|fuel|service station|battery|toyota|honda"),
+    ("Education", r"school|educat|universit|college|campus|tuition|course|institute|academy|\bexam"),
+    ("Online", r"online|\.lk\b|\.com\b|daraz|app\b|e-?commerce|website|pickme|uber"),
+]
+
+
+def guess_category(o):
+    text = " ".join(o.get(k) or "" for k in ("merchant", "description", "discount")).lower()
+    for label, rx in KEYWORD_CATEGORY:
+        if re.search(rx, text):
+            return label
+    return "Other"
+
+
+UNMAPPED = {}  # bank category labels not in CANONICAL_CATEGORY -> count
 
 
 def normalize_category(label):
-    return CANONICAL_CATEGORY.get((label or "").strip().lower(), "Other")
+    key = (label or "").strip().lower()
+    if key not in CANONICAL_CATEGORY:
+        UNMAPPED[key] = UNMAPPED.get(key, 0) + 1
+    return CANONICAL_CATEGORY.get(key, "Other")
+
+
+# Some bank pages are saved with the wrong text encoding, so "’" arrives as
+# "â€™". Re-decode those, and drop leftover replacement characters.
+MOJIBAKE = re.compile("[ÂÃâ][\u0080-¿Œ-ƒˆ-˜–-™]")
+
+
+def clean_text(s):
+    if not isinstance(s, str) or not s:
+        return s
+    for _ in range(3):  # some text was mangled twice
+        if not MOJIBAKE.search(s):
+            break
+        try:
+            s = s.encode("cp1252").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            break
+    s = s.replace("�", "")
+    s = re.sub("(Ã‚)?Â(?=[\\s\\W]|$)", "", s)  # stray "Â" / "Ã‚Â"
+    return re.sub(r"[ \t]{2,}", " ", s).strip()
 
 
 def load_previous():
@@ -107,7 +168,12 @@ def main():
             if not offers:
                 raise RuntimeError("no offers found (site layout may have changed)")
             for o in offers:
+                for k, v in o.items():
+                    if isinstance(v, str) and k not in ("image_url", "source_url"):
+                        o[k] = clean_text(v)
                 o["category"] = normalize_category(o["category"])
+                if o["category"] == "Other":
+                    o["category"] = guess_category(o)
             print(f"  -> {len(offers)} offers")
             all_offers.extend(offers)
         except Exception as exc:
@@ -128,6 +194,9 @@ def main():
         if end is None or end >= today:
             live.append(o)
     print(f"\nDropped {len(all_offers) - len(live)} expired offers")
+    if UNMAPPED:
+        print("Categories shown as 'Other':",
+              ", ".join(f"{k or '(none)'} x{n}" for k, n in sorted(UNMAPPED.items(), key=lambda x: -x[1])))
     all_offers = live
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)

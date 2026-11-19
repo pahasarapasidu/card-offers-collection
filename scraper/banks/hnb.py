@@ -40,7 +40,8 @@ def _detect_card_types(title, card_type):
     t = title.lower()
     cards = set()
     if card_type:
-        cards.add(card_type.lower())  # "credit" or "debit"
+        # "credit", "debit" or "credit/debit"
+        cards.update(p.strip() for p in card_type.lower().split("/") if p.strip())
     if "mastercard" in t:
         cards.add("mastercard")
     if "visa" in t:

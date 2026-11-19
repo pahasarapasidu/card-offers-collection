@@ -95,10 +95,16 @@ function discountLine(o) {
   return m ? m[0].replace(/\s+/g, " ").trim() : "";
 }
 
-// Precompute sort/expiry fields once per dataset.
+// Lower-case, accents removed ("Café" -> "cafe"), spaces collapsed.
+function fold(s) {
+  return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\s+/g, " ");
+}
+
+// Precompute sort/expiry/search fields once per dataset.
 function prepareOffers(raw) {
   const now = new Date();
-  return raw.offers.map(o => {
+  const seen = new Set();  // ids must be unique: favourites and list keys use them
+  return raw.offers.filter(o => !seen.has(o.id) && seen.add(o.id)).map(o => {
     const end = parseEndDate(o.period, o.end_date);
     // Whole days left after today: 0 = ends tonight. An offer whose end
     // (23:59:59 on its last day) has passed is expired.
@@ -113,6 +119,7 @@ function prepareOffers(raw) {
       _expired: expired,
       _pct: pctM ? +pctM[1] : 0,
       _d: discountLine(o),
+      _search: fold([o.merchant, o.description, o.bank, o.category, o.city].join(" ")),
     };
   }).filter(o => !o._expired);
 }
@@ -121,7 +128,6 @@ function makeDataset(raw) {
   return {
     raw,
     generatedAt: raw.generated_at,
-    offerCount: raw.offer_count,
     bankCount: raw.banks.length,
     offers: prepareOffers(raw),
   };
@@ -191,22 +197,39 @@ export default function App() {
       try {
         const c = await AsyncStorage.getItem("coc-cards");
         const f = await AsyncStorage.getItem("coc-favs");
-        if (c) setMyCards(JSON.parse(c));
-        if (f) setFavs(JSON.parse(f));
+        // If the user already tapped something while this was loading,
+        // keep their choice rather than overwriting it with the old list.
+        if (c) setMyCards(cur => (cur.length ? cur : JSON.parse(c)));
+        if (f) setFavs(cur => (cur.length ? cur : JSON.parse(f)));
       } catch (e) {}
     })();
   }, []);
 
   const toggleCard = (key) => {
-    const next = myCards.includes(key) ? myCards.filter(k => k !== key) : [...myCards, key];
-    setMyCards(next);
-    AsyncStorage.setItem("coc-cards", JSON.stringify(next)).catch(() => {});
+    setMyCards(cur => {
+      const next = cur.includes(key) ? cur.filter(k => k !== key) : [...cur, key];
+      AsyncStorage.setItem("coc-cards", JSON.stringify(next)).catch(() => {});
+      return next;
+    });
   };
   const toggleFav = (id) => {
-    const next = favs.includes(id) ? favs.filter(k => k !== id) : [...favs, id];
-    setFavs(next);
-    AsyncStorage.setItem("coc-favs", JSON.stringify(next)).catch(() => {});
+    setFavs(cur => {
+      const next = cur.includes(id) ? cur.filter(k => k !== id) : [...cur, id];
+      AsyncStorage.setItem("coc-favs", JSON.stringify(next)).catch(() => {});
+      return next;
+    });
   };
+
+  // If a data refresh removed the chosen category, go back to "All".
+  useEffect(() => {
+    if (!categories.includes(cat)) setCat("All");
+  }, [categories]);
+
+  // Only count saved offers that still exist (old ones expire away).
+  const savedCount = useMemo(
+    () => dataset.offers.filter(o => favs.includes(o.id)).length,
+    [dataset, favs]
+  );
 
   const matchesCards = (o) => {
     if (myCards.length === 0) return true;
@@ -220,11 +243,12 @@ export default function App() {
   };
 
   const visible = useMemo(() => {
-    const q = query.toLowerCase();
+    // Every word typed must appear somewhere: "hnb pizza" finds HNB's pizza deals.
+    const words = fold(query).trim().split(" ").filter(Boolean);
     let list = dataset.offers.filter(o =>
       matchesCards(o) &&
       (cat === "All" ? true : cat === "♥ Saved" ? favs.includes(o.id) : o.category === cat) &&
-      (!q || o.merchant.toLowerCase().includes(q) || o.description.toLowerCase().includes(q))
+      (!words.length || words.every(w => o._search.includes(w)))
     );
     if (sort === "ending") list = [...list].sort((a, b) => (a._end ?? Infinity) - (b._end ?? Infinity));
     if (sort === "discount") list = [...list].sort((a, b) => b._pct - a._pct);
@@ -248,7 +272,7 @@ export default function App() {
           <Header
             dataset={dataset} categories={categories}
             myCards={myCards} toggleCard={toggleCard}
-            cat={cat} setCat={setCat} favCount={favs.length}
+            cat={cat} setCat={setCat} favCount={savedCount}
             query={query} setQuery={setQuery}
             sort={sort} setSort={setSort}
             total={visible.length} soonCount={soonCount}
@@ -281,7 +305,7 @@ function Header({ dataset, categories, myCards, toggleCard, cat, setCat, favCoun
           Every card discount from Sri Lanka's banks — pick your cards, see only what's yours.
         </Text>
         <View style={s.statsRow}>
-          <Stat n={dataset.offerCount} t="offers" />
+          <Stat n={dataset.offers.length} t="offers" />
           <Stat n={dataset.bankCount} t="banks" />
           <Stat n={categories.length - 2} t="categories" />
         </View>
@@ -332,26 +356,32 @@ const Stat = ({ n, t }) => (
 );
 
 const Chip = ({ on, label, onPress }) => (
-  <TouchableOpacity style={[s.chip, on && s.chipOn]} onPress={onPress}>
+  <TouchableOpacity style={[s.chip, on && s.chipOn]} onPress={onPress}
+    accessibilityRole="button" accessibilityLabel={label} accessibilityState={{ selected: !!on }}>
     <Text style={[s.chipText, on && s.chipTextOn]}>{on ? "✓ " : ""}{label}</Text>
   </TouchableOpacity>
 );
 
 /* ---------------------------- offer card ---------------------------- */
 function OfferCard({ o, fav, onPress, onFav }) {
+  const [imgFailed, setImgFailed] = useState(false);
   return (
-    <Pressable style={s.card} onPress={onPress}>
+    <Pressable style={s.card} onPress={onPress}
+      accessibilityRole="button" accessibilityLabel={`${o.merchant}. ${o._d || ""}. ${o.bank}`}>
       <View style={s.thumbWrap}>
-        {o.image_url
-          ? <Image source={imgSource(o.image_url)} style={s.thumb} contentFit="cover" cachePolicy="memory-disk" transition={150} />
-          : <View style={[s.thumb, s.thumbEmpty]}><Text style={s.thumbInitial}>{(o.merchant || "?")[0]}</Text></View>}
+        {o.image_url && !imgFailed
+          ? <Image source={imgSource(o.image_url)} style={s.thumb} contentFit="cover" cachePolicy="memory-disk"
+              transition={150} onError={() => setImgFailed(true)} />
+          : <View style={[s.thumb, s.thumbEmpty]}><Text style={s.thumbInitial}>{(o.merchant || "?").trim().charAt(0).toUpperCase()}</Text></View>}
         {o._soon && (
           <View style={s.soon}><Text style={s.soonText}>
             {o._days === 0 ? "Last day" : o._days === 1 ? "1 day left" : `${o._days} days left`}
           </Text></View>
         )}
         {!!o._d && <View style={s.badge}><Text style={s.badgeText} numberOfLines={1}>{o._d}</Text></View>}
-        <TouchableOpacity style={[s.fav, fav && s.favOn]} onPress={onFav}>
+        <TouchableOpacity style={[s.fav, fav && s.favOn]} onPress={onFav} hitSlop={8}
+          accessibilityRole="button" accessibilityLabel={fav ? "Remove from saved" : "Save offer"}
+          accessibilityState={{ selected: fav }}>
           <Text style={{ color: "#fff", fontSize: 15 }}>{fav ? "♥" : "♡"}</Text>
         </TouchableOpacity>
       </View>

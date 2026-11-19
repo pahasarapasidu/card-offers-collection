@@ -66,7 +66,8 @@ def fetch_offers():
 
         href = m.group("href")
         # Stable id from the offer's own URL slug
-        slug = href.rstrip("/").rsplit("/", 1)[-1][:80] or f"n{n}"
+        # (kept whole: two offers can share their first 80+ characters)
+        slug = href.rstrip("/").rsplit("/", 1)[-1] or f"n{n}"
         offers.append({
             "id": f"combank-{slug}",
             "bank": "Commercial Bank",

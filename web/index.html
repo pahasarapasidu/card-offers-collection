@@ -307,6 +307,7 @@
   .tag.bank { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
   .tag.expiry { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
 
+  [hidden] { display: none !important; }
   .more {
     display: block;
     margin: 24px auto 0;
@@ -526,6 +527,8 @@ function prepare() {
     o._days = o._end ? Math.floor((o._end - now) / 86400000) : null;
     o._expired = o._end ? o._end < now : false;
     o._soon = !o._expired && o._days !== null && o._days <= SOON_DAYS;
+    o._endText = o._end ? `${o._end.getFullYear()}-${String(o._end.getMonth() + 1).padStart(2, "0")}-${String(o._end.getDate()).padStart(2, "0")}` : "";
+    o._search = fold([o.merchant, o.description, o.bank, o.category, o.city].join(" "));
   }
 }
 
@@ -541,15 +544,21 @@ function offerMatchesCards(offer) {
   return false;
 }
 
+// Lower-case, accents removed ("Café" -> "cafe"), spaces collapsed.
+function fold(s) {
+  return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\s+/g, " ");
+}
+
 function visibleOffers() {
-  const q = query.toLowerCase();
+  // Every word typed must appear somewhere: "hnb pizza" finds HNB's pizza deals.
+  const words = fold(query).trim().split(" ").filter(Boolean);
   let list = offers.filter(o =>
     !o._expired &&
     offerMatchesCards(o) &&
     (activeCat === "All" ? true :
      activeCat === "♥ Saved" ? favs.has(o.id) :
      o.category === activeCat) &&
-    (!q || o.merchant.toLowerCase().includes(q) || o.description.toLowerCase().includes(q))
+    (!words.length || words.every(w => o._search.includes(w)))
   );
   if (sortMode === "ending") {
     list = list.slice().sort((a, b) => (a._end ?? Infinity) - (b._end ?? Infinity));
@@ -580,8 +589,8 @@ function cardHTML(o) {
         <div class="meta">
           <span class="tag bank">${esc(o.bank)}</span>
           <span class="tag">${esc(o.category)}</span>
-          ${o._end && !o._soon ? `<span class="tag">until ${o._end.toISOString().slice(0,10)}</span>` : ""}
-          ${o._soon ? `<span class="tag expiry">ends ${o._end.toISOString().slice(0,10)}</span>` : ""}
+          ${o._end && !o._soon ? `<span class="tag">until ${o._endText}</span>` : ""}
+          ${o._soon ? `<span class="tag expiry">ends ${o._endText}</span>` : ""}
         </div>
       </div>
     </div>`;
@@ -595,7 +604,10 @@ function attachCardEvents(root) {
       if (e.target.closest(".fav")) return;
       openModal(o);
     });
-    el.addEventListener("keydown", e => { if (e.key === "Enter") openModal(o); });
+    el.addEventListener("keydown", e => {
+      if (e.target !== el) return;  // Enter on the heart button only saves
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(o); }
+    });
     el.querySelector(".fav").addEventListener("click", () => toggleFav(o.id, el));
   });
 }
@@ -679,13 +691,29 @@ function openModal(o) {
       </a>
     </div>`;
   modal.querySelector(".mclose").onclick = closeModal;
+  lastFocus = document.activeElement;
   document.getElementById("modalBg").classList.add("open");
   document.body.style.overflow = "hidden";
+  modal.querySelector(".mclose").focus();
 }
+let lastFocus = null;
 function closeModal() {
-  document.getElementById("modalBg").classList.remove("open");
+  const bg = document.getElementById("modalBg");
+  if (!bg.classList.contains("open")) return;
+  bg.classList.remove("open");
   document.body.style.overflow = "";
+  if (lastFocus && document.contains(lastFocus)) lastFocus.focus();
 }
+// Keep Tab inside the open dialog instead of wandering behind it.
+document.addEventListener("keydown", e => {
+  if (e.key !== "Tab" || !document.getElementById("modalBg").classList.contains("open")) return;
+  const items = [...document.getElementById("modal").querySelectorAll("button, a, summary")];
+  if (!items.length) return;
+  const first = items[0], last = items[items.length - 1];
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  else if (!document.getElementById("modal").contains(document.activeElement)) { e.preventDefault(); first.focus(); }
+});
 document.getElementById("modalBg").addEventListener("click", e => {
   if (e.target.id === "modalBg") closeModal();
 });
@@ -711,7 +739,9 @@ let categories = [];
 function renderCatChips() {
   const el = document.getElementById("catChips");
   el.innerHTML = "";
-  const savedLabel = favs.size ? `♥ Saved (${favs.size})` : "♥ Saved";
+  // Count only saved offers that still exist (old ones expire away).
+  const savedCount = offers.filter(o => !o._expired && favs.has(o.id)).length;
+  const savedLabel = savedCount ? `♥ Saved (${savedCount})` : "♥ Saved";
   for (const cat of ["All", "♥ Saved", ...categories]) {
     const chip = document.createElement("button");
     chip.className = "chip" + (activeCat === cat ? " on" : "");
@@ -730,18 +760,28 @@ document.getElementById("sort").addEventListener("change", e => {
 
 /* ---------- boot + live refresh ---------- */
 let lastGenerated = "";
+const EMPTY_HTML = document.getElementById("empty").innerHTML;
 
 function loadData(initial) {
   // cache-bust so a freshly scraped offers.json is picked up immediately
   fetch("../data/offers.json?t=" + Date.now())
     .then(r => r.json())
     .then(data => {
-      if (!initial && data.generated_at === lastGenerated) return; // nothing new
+      const empty = document.getElementById("empty");
+      empty.innerHTML = EMPTY_HTML;   // clear any earlier "could not load" message
+      if (!initial && data.generated_at === lastGenerated) {
+        // Same data, but time has moved on: re-check what has expired.
+        prepare(); renderCatChips(); render(false);
+        return;
+      }
       lastGenerated = data.generated_at;
-      offers = data.offers;
+      // Ids must be unique: favourites and the details popup look offers up by id.
+      const seen = new Set();
+      offers = data.offers.filter(o => !seen.has(o.id) && seen.add(o.id));
       prepare();
       categories = [...new Set(offers.map(o => o.category))].sort();
-      document.getElementById("statOffers").textContent = data.offer_count;
+      if (activeCat !== "All" && activeCat !== "♥ Saved" && !categories.includes(activeCat)) activeCat = "All";
+      document.getElementById("statOffers").textContent = offers.filter(o => !o._expired).length;
       document.getElementById("statBanks").textContent = data.banks.length;
       document.getElementById("statCats").textContent = categories.length;
       document.getElementById("footer").textContent =
