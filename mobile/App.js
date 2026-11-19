@@ -7,7 +7,7 @@
 
 import React, { useEffect, useMemo, useState } from "react";
 import {
-  Dimensions, FlatList, Linking, Modal, Pressable, SafeAreaView, ScrollView,
+  AppState, Dimensions, FlatList, Linking, Modal, Pressable, SafeAreaView, ScrollView,
   StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View,
 } from "react-native";
 // expo-image decodes images by content, not by the server's (sometimes wrong)
@@ -100,14 +100,17 @@ function prepareOffers(raw) {
   const now = new Date();
   return raw.offers.map(o => {
     const end = parseEndDate(o.period, o.end_date);
-    const days = end ? Math.ceil((end - now) / 86400000) : null;
+    // Whole days left after today: 0 = ends tonight. An offer whose end
+    // (23:59:59 on its last day) has passed is expired.
+    const days = end ? Math.floor((end - now) / 86400000) : null;
+    const expired = end ? end < now : false;
     const pctM = (o.discount || o.description || "").match(/(\d{1,3})\s*%/);
     return {
       ...o,
       _end: end ? end.getTime() : null,
       _days: days,
-      _soon: days !== null && days >= 0 && days <= SOON_DAYS,
-      _expired: days !== null && days < 0,
+      _soon: !expired && days !== null && days <= SOON_DAYS,
+      _expired: expired,
       _pct: pctM ? +pctM[1] : 0,
       _d: discountLine(o),
     };
@@ -116,6 +119,7 @@ function prepareOffers(raw) {
 
 function makeDataset(raw) {
   return {
+    raw,
     generatedAt: raw.generated_at,
     offerCount: raw.offer_count,
     bankCount: raw.banks.length,
@@ -156,15 +160,19 @@ export default function App() {
   const [dataset, setDataset] = useState(() => makeDataset(data));
   const [refreshing, setRefreshing] = useState(false);
 
-  // Swap in the online copy if it's newer than what we're showing.
+  // Swap in the online copy if it's newer than what we're showing. Either
+  // way, re-check expiry so offers that ended since last time drop out.
   const refreshOffers = async () => {
     const raw = await downloadOffers();
-    if (raw) {
-      setDataset(cur => (raw.generated_at > cur.generatedAt ? makeDataset(raw) : cur));
-    }
+    setDataset(cur => makeDataset(raw && raw.generated_at > cur.generatedAt ? raw : cur.raw));
   };
 
-  useEffect(() => { refreshOffers(); }, []);
+  useEffect(() => {
+    refreshOffers();
+    // Phones keep apps alive in the background for days; refresh on return.
+    const sub = AppState.addEventListener("change", s => { if (s === "active") refreshOffers(); });
+    return () => sub.remove();
+  }, []);
 
   const onPullRefresh = async () => {
     setRefreshing(true);

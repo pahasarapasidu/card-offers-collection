@@ -522,9 +522,10 @@ function prepare() {
   for (const o of offers) {
     o._end = parseEndDate(o.period, o.end_date);
     o._pct = parsePercent(o);
-    o._days = o._end ? Math.ceil((o._end - now) / 86400000) : null;
-    o._soon = o._days !== null && o._days >= 0 && o._days <= SOON_DAYS;
-    o._expired = o._days !== null && o._days < 0;
+    // Whole days left after today (0 = ends tonight); past its 23:59:59 = expired.
+    o._days = o._end ? Math.floor((o._end - now) / 86400000) : null;
+    o._expired = o._end ? o._end < now : false;
+    o._soon = !o._expired && o._days !== null && o._days <= SOON_DAYS;
   }
 }
 

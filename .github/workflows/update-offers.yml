@@ -2,7 +2,10 @@ name: Update offers
 
 on:
   schedule:
-    - cron: "30 0 * * *"   # 00:30 UTC = 06:00 Sri Lanka time, every day
+    # GitHub may delay or skip scheduled runs when busy (worst at :00/:30),
+    # so run twice a day at quieter minutes: 05:47 and 17:47 Sri Lanka time.
+    - cron: "17 0 * * *"
+    - cron: "17 12 * * *"
   workflow_dispatch:        # adds a "Run workflow" button on GitHub
 
 permissions:
