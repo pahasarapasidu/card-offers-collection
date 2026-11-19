@@ -39,17 +39,23 @@ def _detect_card_types(text):
     """Guess which card networks an offer applies to from its description."""
     t = text.lower()
     cards = set()
-    if "mastercard" in t or "master card" in t:
+    if re.search(r"\bmastercard\b", t) or re.search(r"\bmaster card\b", t):
         cards.add("mastercard")
-    if "visa" in t:
+    if re.search(r"\bvisa\b", t):
         cards.add("visa")
-    if "american express" in t or "amex" in t:
+    if re.search(r"\bamerican express\b", t) or re.search(r"\bamex\b", t):
         cards.add("amex")
-    if "debit" in t:
+    if re.search(r"\bdebit\b", t):
         cards.add("debit")
-    if "credit" in t:
+    if re.search(r"\bcredit\b", t):
         cards.add("credit")
     return sorted(cards)
+
+
+def _value(item, key):
+    """A field's text; the API writes missing values as the string "None"."""
+    text = _strip_html(item.get(key))
+    return "" if text in ("None", "null") else text
 
 
 SL_TIME = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
@@ -93,19 +99,21 @@ def fetch_offers():
                 if uid in seen_ids:  # same offer can appear in two categories
                     continue
                 seen_ids.add(uid)
-                description = _strip_html(item.get("description"))
+                description = _value(item, "description")
                 offers.append({
                     "id": uid,
                     "bank": "Sampath Bank",
-                    "merchant": _strip_html(item.get("company_name")),
-                    "discount": _strip_html(item.get("discount")),
+                    "merchant": _value(item, "company_name"),
+                    # "discount" is always empty in the API; the badge text
+                    # lives in "short_discount" (e.g. "20% Discount").
+                    "discount": _value(item, "short_discount") or _value(item, "discount"),
                     "description": description,
                     "category": label,
                     "city": (item.get("city") or "").strip(),
                     "period": _period(item),
                     "card_types": _detect_card_types(description),
-                    "details": _strip_html(item.get("promotion_details")),
-                    "terms": _strip_html(item.get("terms_and_conditions")),
+                    "details": _value(item, "promotion_details"),
+                    "terms": _value(item, "terms_and_conditions"),
                     "image_url": item.get("image_url") or "",
                     "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
                     "updated_at": item.get("updated_at") or "",

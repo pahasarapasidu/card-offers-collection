@@ -38,15 +38,15 @@ def _clean(text):
 def _detect_card_types(title, cardline):
     t = f"{title} {cardline}".lower()
     cards = set()
-    if "mastercard" in t:
+    if re.search(r"\bmastercard\b", t):
         cards.add("mastercard")
-    if "visa" in t:
+    if re.search(r"\bvisa\b", t):
         cards.add("visa")
-    if "amex" in t or "american express" in t:
+    if re.search(r"\bamex\b", t) or re.search(r"\bamerican express\b", t):
         cards.add("amex")
-    if "debit" in t:
+    if re.search(r"\bdebit\b", t):
         cards.add("debit")
-    if "credit" in t:
+    if re.search(r"\bcredit\b", t):
         cards.add("credit")
     return sorted(cards)
 
@@ -54,30 +54,6 @@ def _detect_card_types(title, cardline):
 def _discount_from_text(text):
     m = re.search(r"(up to\s+)?\d{1,3}\s*%(\s*(off|discount|savings?))?", text, re.I)
     return re.sub(r"\s+", " ", m.group(0)).strip() if m else ""
-
-
-# NDB's listing has no category labels, so guess one from the offer text.
-CATEGORY_HINTS = [
-    ("Dining", ["restaurant", "dining", "dine", "cafe", "pizza", "buffet", "bistro"]),
-    ("Hotels", ["hotel", "resort", "villa", "stay", "room"]),
-    ("Supermarkets", ["supermarket", "food city", "keells", "glomark", "spar"]),
-    ("Fashion", ["fashion", "clothing", "wear", "apparel", "saree", "salon"]),
-    ("Electronics & Furniture", ["electronics", "furniture", "appliance", "singer", "abans", "damro"]),
-    ("Jewellery", ["jewel", "gems", "diamond", "gold"]),
-    ("Health", ["hospital", "pharmacy", "wellness", "spa", "medical", "optical"]),
-    ("Travel", ["travel", "air", "flight", "tour", "taxi"]),
-    ("Education", ["education", "campus", "school", "course"]),
-    ("Online", ["online", "daraz", ".lk", "delivery"]),
-    ("Auto", ["auto", "tyre", "vehicle", "car "]),
-]
-
-
-def _guess_category(text):
-    t = text.lower()
-    for label, words in CATEGORY_HINTS:
-        if any(w in t for w in words):
-            return label
-    return "Other"
 
 
 def fetch_offers():
@@ -102,7 +78,8 @@ def fetch_offers():
             "merchant": merchant or title,
             "discount": _discount_from_text(title),
             "description": title,
-            "category": _guess_category(f"{title} {merchant}"),
+            # NDB gives no categories; scrape.py's shared guesser fills it in.
+            "category": "Other",
             "city": "",
             "period": period,
             "card_types": _detect_card_types(title, _clean(m.group("cardline"))),

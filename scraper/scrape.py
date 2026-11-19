@@ -9,6 +9,7 @@ that returns a list of offer dicts, then add it to BANKS below.
 
 import datetime as dt
 import json
+import urllib.parse
 import os
 import re
 import sys
@@ -93,8 +94,9 @@ CANONICAL_CATEGORY = {
 # When a bank gives no useful category, guess one from the offer's words.
 # First match wins, so more specific groups come first.
 KEYWORD_CATEGORY = [
+    ("Health", r"hospital|\bin-?(door )?patients?\b"),  # before Hotels: "room rates for in-patients"
     ("Instalment Plans", r"\b0\s*% (interest|installment|instalment)|easy payment|installment plan|instalment plan|\bipp\b|\bepp\b|\becip\b"),
-    ("Hotels", r"hotel|resort|villa|bungalow|\bspa\b|lodge|\binn\b|retreat|cabana|glamping|suites?\b|stay\b"),
+    ("Hotels", r"hotel|resort|villa|bungalow|\bspa\b|lodge|\binn\b|retreat|cabana|glamping|suites?\b|stay\b|half[- ]board|full[- ]board|rack rates?|room (rates?|bookings?)|bed (and|&) breakfast|accommodation|\bnights?\b"),
     ("Travel", r"airline|airways|\bflight|travels?\b|tours?\b|holiday|duty free|airport|lounge"),
     ("Dining", r"restaurant|cafe|café|pizza|burger|\bkfc\b|dining|bakery|kitchen|grill|buffet|dine\b|food\b|bistro|\bpub\b|coffee|tea\b|cake|dessert"),
     ("Supermarkets", r"supermarket|keells|cargills|food city|glomark|\barpico super|laugfs super|spar\b"),
@@ -116,6 +118,11 @@ def guess_category(o):
     return "Other"
 
 
+# Bank labels that lump several kinds of offer together: use the label only
+# when the offer's own words don't say what it is.
+MIXED_CATEGORIES = {"travel and leisure", "travel & leisure", "leisure", "lifestyle",
+                    "seasonal offers", "premium offers", "visa offers", "mastercard offers"}
+
 UNMAPPED = {}  # bank category labels not in CANONICAL_CATEGORY -> count
 
 
@@ -129,6 +136,15 @@ def normalize_category(label):
 # Some bank pages are saved with the wrong text encoding, so "’" arrives as
 # "â€™". Re-decode those, and drop leftover replacement characters.
 MOJIBAKE = re.compile("[ÂÃâ][\u0080-¿Œ-ƒˆ-˜–-™]")
+
+
+def clean_url(url):
+    """Turn "&amp;" back into "&" and encode spaces, so links work everywhere."""
+    if not url:
+        return url
+    # Only "&amp;" and numeric codes: a real "&copy=" query must stay as is.
+    url = re.sub(r"&#(\d+);", lambda m: chr(int(m.group(1))), url.strip().replace("&amp;", "&"))
+    return urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~")
 
 
 def clean_text(s):
@@ -170,11 +186,19 @@ def main():
                 raise RuntimeError("no offers found (site layout may have changed)")
             for o in offers:
                 for k, v in o.items():
-                    if isinstance(v, str) and k not in ("image_url", "source_url"):
+                    if k in ("image_url", "source_url"):
+                        o[k] = clean_url(v)
+                    elif isinstance(v, str):
                         o[k] = clean_text(v)
+                raw_cat = (o["category"] or "").strip().lower()
                 o["category"] = normalize_category(o["category"])
                 if o["category"] == "Other":
                     o["category"] = guess_category(o)
+                elif raw_cat in MIXED_CATEGORIES:
+                    # e.g. BOC's "Travel and Leisure" is mostly hotels
+                    guess = guess_category(o)
+                    if guess != "Other":
+                        o["category"] = guess
             print(f"  -> {len(offers)} offers")
             all_offers.extend(offers)
         except Exception as exc:

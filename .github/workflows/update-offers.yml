@@ -37,3 +37,9 @@ jobs:
             git commit -m "Update offers $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # Runs after publishing, so fresh offers still go out; if the new data
+      # has problems (duplicates, broken text, a bank missing...) the run is
+      # marked failed and GitHub sends an email.
+      - name: Check the data
+        run: python -m unittest discover tests -v

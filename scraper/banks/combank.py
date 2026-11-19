@@ -38,15 +38,15 @@ def _clean(text):
 def _detect_card_types(text):
     t = text.lower()
     cards = set()
-    if "mastercard" in t:
+    if re.search(r"\bmastercard\b", t):
         cards.add("mastercard")
-    if "visa" in t:
+    if re.search(r"\bvisa\b", t):
         cards.add("visa")
-    if "american express" in t or "amex" in t:
+    if re.search(r"\bamerican express\b", t) or re.search(r"\bamex\b", t):
         cards.add("amex")
-    if "debit" in t:
+    if re.search(r"\bdebit\b", t):
         cards.add("debit")
-    if "credit" in t:
+    if re.search(r"\bcredit\b", t):
         cards.add("credit")
     return sorted(cards)
 

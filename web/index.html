@@ -794,7 +794,7 @@ function loadData(initial) {
       if (!initial) return; // keep showing current data if a refresh fails
       const empty = document.getElementById("empty");
       empty.hidden = false;
-      empty.textContent = "Could not load offers.json — run: python scraper/scrape.py";
+      empty.textContent = "Couldn't load the offers. Check your internet connection and refresh the page.";
     });
 }
 

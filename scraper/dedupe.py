@@ -55,6 +55,12 @@ def _same_deal(a, b):
     da, db = _desc(a), _desc(b)
     if da and da == db:
         return True
+    # A credit-card deal and a debit-card deal are different offers even when
+    # they share a headline (HNB: "+ 0% instalments" is credit-only).
+    ca = set(a.get("card_types") or []) & {"credit", "debit"}
+    cb = set(b.get("card_types") or []) & {"credit", "debit"}
+    if ca and cb and not ca & cb:
+        return False
     same_image = a.get("image_url") and a.get("image_url") == b.get("image_url")
     return bool(same_image) and len(_core(a)) >= 8 and _core(a) == _core(b)
 

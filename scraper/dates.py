@@ -30,6 +30,7 @@ DAY_MONTH = re.compile(r"\b" + _DAY + r"\s*(?:of\s+)?" + _MON + _YEAR, re.I)
 MONTH_DAY = re.compile(r"\b" + _MON + r"\s*" + _DAY + r"\b" + _YEAR, re.I)
 MONTH_YEAR = re.compile(r"\b" + _MON + r"\s*(\d{4})", re.I)
 ANY_YEAR = re.compile(r"\b(20\d{2})\b")
+NUMERIC = re.compile(r"\b(\d{1,2})[./](\d{1,2})[./](20\d{2})\b")
 
 
 def _make(year, month, day):
@@ -44,11 +45,13 @@ def end_date(period, today=None):
         return None
     today = today or dt.date.today()
     text = period.replace(" ", " ")
-    found = []      # dates with an explicit year
-    yearless = []   # (month, day) pairs
+    found = []      # (position, date) for dates with an explicit year
+    yearless = []   # (position, month, day)
 
-    for y, m, d in ISO.findall(text):
-        found.append(_make(int(y), int(m), int(d)))
+    for m in ISO.finditer(text):
+        found.append((m.start(), _make(int(m.group(1)), int(m.group(2)), int(m.group(3)))))
+    for m in NUMERIC.finditer(text):  # 31/12/2026 or 31.12.2026 (day first, as in Sri Lanka)
+        found.append((m.start(), _make(int(m.group(3)), int(m.group(2)), int(m.group(1)))))
 
     used = []  # spans already turned into a day+month date
     for rx, order in ((DAY_MONTH, "dm"), (MONTH_DAY, "md")):
@@ -62,29 +65,49 @@ def end_date(period, today=None):
                 mon, day, year = m.group(1), m.group(2), m.group(3)
             month = MONTHS[mon.lower().rstrip(".")]
             if year:
-                found.append(_make(int(year), month, int(day)))
+                found.append((m.start(), _make(int(year), month, int(day))))
             else:
-                yearless.append((month, int(day)))
+                yearless.append((m.start(), month, int(day)))
 
     # "till December 2026" with no day -> last day of that month
     for m in MONTH_YEAR.finditer(text):
         if any(a <= m.start() < b for a, b in used):
             continue
         year, month = int(m.group(2)), MONTHS[m.group(1).lower().rstrip(".")]
-        found.append(_make(year, month, calendar.monthrange(year, month)[1]))
+        found.append((m.start(), _make(year, month, calendar.monthrange(year, month)[1])))
 
-    if yearless:
+    found = [(p, d) for p, d in found if d]
+    dates = [d for _, d in found]
+    for pos, month, day in yearless:
+        before = [d for p, d in found if p < pos]
+        after = [d for p, d in found if p > pos]
+        if before:
+            # "15 November 2026 to 15 January": carries on from the last dated
+            # point, rolling into the next year if needed.
+            ref = before[-1]
+            d = _make(ref.year, month, day)
+            if month < ref.month:  # not "...(excluding 25th December)"
+                d = _make(ref.year + 1, month, day)
+        elif after:
+            # "28 & 29 November and 23 December 2026": same year as what follows,
+            # unless that puts it after the following date ("28 Dec to 5 Jan 2027").
+            ref = after[0]
+            d = _make(ref.year, month, day)
+            if month > ref.month:
+                d = _make(ref.year - 1, month, day)
+        else:
+            # No year anywhere: the year that puts the date closest to today.
+            options = [_make(today.year + k, month, day) for k in (-1, 0, 1)]
+            d = min((o for o in options if o), key=lambda o: abs((o - today).days), default=None)
+        if d:
+            dates.append(d)
+
+    if not dates:
+        # "20th - Month end in Every month 2026": only a year -> its last day
         years = [int(y) for y in ANY_YEAR.findall(text)]
-        for month, day in yearless:
-            year = max(years) if years else today.year
-            d = _make(year, month, day)
-            # No year written and the date looks long gone: it means next year.
-            if d and not years and (today - d).days > 180:
-                d = _make(year + 1, month, day)
-            found.append(d)
-
-    found = [d for d in found if d]
-    return max(found) if found else None
+        if years:
+            dates.append(dt.date(max(years), 12, 31))
+    return max(dates) if dates else None
 
 
 if __name__ == "__main__":

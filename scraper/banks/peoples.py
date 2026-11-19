@@ -56,6 +56,7 @@ def fetch_offers():
     # People's Bank publishes the same deal twice, once per card type, on
     # separate pages. Merge those into one offer valid for both.
     by_deal = {}
+    failed = 0
     for slug, label in CATEGORIES.items():
         for card in CARD_TYPES:
             url = BASE.format(slug=slug, card=card)
@@ -64,7 +65,8 @@ def fetch_offers():
                 with urllib.request.urlopen(req, timeout=60) as resp:
                     page = resp.read().decode("utf-8", "replace")
             except Exception:
-                continue  # a category/cardType combo may not exist
+                failed += 1  # a combo may not exist; too many means the site is down
+                continue
 
             starts = [a.start() for a in ARTICLE_RE.finditer(page)]
             for n, start in enumerate(starts):
@@ -119,4 +121,11 @@ def fetch_offers():
                 }
                 by_deal[key] = offer
                 offers.append(offer)
+    pages = len(CATEGORIES) * len(CARD_TYPES)
+    if failed > pages // 4:
+        # Better to keep yesterday's offers (scrape.py falls back) than
+        # to publish a list with whole categories silently missing.
+        raise RuntimeError(f"{failed} of {pages} category pages failed to load")
+    if failed:
+        print(f"  (skipped {failed} of {pages} category pages)")
     return offers

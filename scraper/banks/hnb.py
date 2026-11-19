@@ -42,11 +42,11 @@ def _detect_card_types(title, card_type):
     if card_type:
         # "credit", "debit" or "credit/debit"
         cards.update(p.strip() for p in card_type.lower().split("/") if p.strip())
-    if "mastercard" in t:
+    if re.search(r"\bmastercard\b", t):
         cards.add("mastercard")
-    if "visa" in t:
+    if re.search(r"\bvisa\b", t):
         cards.add("visa")
-    if "amex" in t or "american express" in t:
+    if re.search(r"\bamex\b", t) or re.search(r"\bamerican express\b", t):
         cards.add("amex")
     return sorted(cards)
 

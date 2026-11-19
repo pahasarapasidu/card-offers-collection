@@ -66,6 +66,11 @@ def fetch_offers():
             continue
         seen.add(uid)
 
+        # Boxes with no validity date aren't offers: they're town landing
+        # pages ("Exclusive offers in Kandy") and the general T&C page.
+        if not _clean(m.group("period")):
+            continue
+
         cat_slug = m.group("cat")
         merchant = _clean(m.group("merchant"))
         discount = _clean(m.group("discount"))

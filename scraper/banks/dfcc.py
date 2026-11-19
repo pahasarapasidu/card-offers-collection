@@ -54,13 +54,13 @@ def _clean(text):
 def _detect_card_types(text):
     t = text.lower()
     cards = set()
-    if "mastercard" in t:
+    if re.search(r"\bmastercard\b", t):
         cards.add("mastercard")
-    if "visa" in t:
+    if re.search(r"\bvisa\b", t):
         cards.add("visa")
-    if "debit" in t:
+    if re.search(r"\bdebit\b", t):
         cards.add("debit")
-    if "credit" in t:
+    if re.search(r"\bcredit\b", t):
         cards.add("credit")
     return sorted(cards)
 
@@ -75,13 +75,15 @@ def _merchant_from_text(text):
 def fetch_offers():
     offers = []
     seen = set()
+    failed = 0
     for slug, label in CATEGORIES.items():
         try:
             req = urllib.request.Request(SITE + slug, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=60) as resp:
                 page = resp.read().decode("utf-8", "replace")
         except Exception:
-            continue  # category page may be missing
+            failed += 1  # a page may be missing; too many means the site is down
+            continue
 
         starts = [m.start() for m in ITEM_RE.finditer(page)]
         for n, start in enumerate(starts):
@@ -117,4 +119,11 @@ def fetch_offers():
                 "source_url": "https://www.dfcc.lk" + href if href else SITE + slug,
                 "updated_at": "",
             })
+    pages = len(CATEGORIES)
+    if failed > pages // 4:
+        # Better to keep yesterday's offers (scrape.py falls back) than
+        # to publish a list with whole categories silently missing.
+        raise RuntimeError(f"{failed} of {pages} category pages failed to load")
+    if failed:
+        print(f"  (skipped {failed} of {pages} category pages)")
     return offers
