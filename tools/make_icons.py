@@ -21,12 +21,13 @@ WEB = ROOT / "web" / "icons"
 S = 1024
 SAFE = 0.58  # share of the canvas the mark may use (Android adaptive safe zone ~61%)
 
-# Palette (same as the website and app)
-NAVY = (0x0F, 0x17, 0x2A)
-BRAND = (0x1E, 0x40, 0xAF)
-BLUE = (0x3B, 0x82, 0xF6)
-EMERALD = (0x10, 0xB9, 0x81)
+# Palette (same as the website and app's light "Indigo" look)
+NAVY = (0x1E, 0x1B, 0x4B)      # deep indigo
+BRAND = (0x4F, 0x46, 0xE5)     # modern indigo
+BLUE = (0x7C, 0x3A, 0xED)      # violet end of the gradient
+BADGE = (0xF9, 0x73, 0x16)   # coral orange % badge
 CHIP_GOLD = (253, 224, 138)
+GLOW = (221, 214, 254)
 
 
 def lerp(a, b, t):
@@ -43,7 +44,7 @@ def background():
     glow = Image.new("L", (S, S), 0)
     ImageDraw.Draw(glow).ellipse((560, -260, 1300, 480), fill=95)
     glow = glow.filter(ImageFilter.GaussianBlur(120))
-    return Image.composite(Image.new("RGB", (S, S), (191, 219, 254)), bg, glow).convert("RGBA")
+    return Image.composite(Image.new("RGB", (S, S), GLOW), bg, glow).convert("RGBA")
 
 
 def mark():
@@ -66,7 +67,7 @@ def mark():
     b = ImageDraw.Draw(badge)
     bx, by, r = 742, 300, 150
     b.ellipse((bx - r - 10, by - r - 10, bx + r + 10, by + r + 10), fill=(255, 255, 255, 255))
-    b.ellipse((bx - r, by - r, bx + r, by + r), fill=EMERALD + (255,))
+    b.ellipse((bx - r, by - r, bx + r, by + r), fill=BADGE + (255,))
     try:
         font = ImageFont.truetype("C:/Windows/Fonts/segoeuib.ttf", 200)
     except OSError:

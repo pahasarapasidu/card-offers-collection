@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Credit Card Offers LK</title>
 <meta name="description" content="Every credit & debit card discount from Sri Lanka's banks — pick your cards, see only what's yours.">
-<meta name="theme-color" content="#0F172A">
+<meta name="theme-color" content="#1E1B4B" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0F19" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -17,50 +18,76 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  /* Palette: deep slate navy + royal blue brand, vibrant blue for
-     interactive things, emerald for deals/savings. */
+  /* Light ("Indigo"): lively shopping-app look, coral-orange deal badges.
+     Dark ("Platinum"): black/platinum-card look, soft indigo, gold badges.
+     Which one shows follows the visitor's light/dark system setting. */
   :root {
-    --bg: #F8FAFC;           /* alabaster */
+    --bg: #F9FAFB;
     --card: #FFFFFF;
-    --text: #1E293B;         /* dark slate */
-    --muted: #64748B;
-    --border: #E2E8F0;
-    --brand-deep: #0F172A;   /* deep slate navy */
-    --brand: #1E40AF;        /* royal fintech blue: active chips/tabs */
-    --accent: #3B82F6;       /* vibrant blue: buttons, links, focus */
-    --accent-ink: #1D4ED8;   /* blue text on white (readable contrast) */
-    --accent-soft: #DBEAFE;
-    --deal: #10B981;         /* emerald: % off badges */
-    --deal-on: #022C22;      /* text on the emerald badge */
-    --deal-ink: #047857;     /* emerald text on white */
+    --text: #111827;
+    --muted: #6B7280;
+    --border: #E5E7EB;
+    --brand-deep: #1E1B4B;
+    --brand: #4F46E5;        /* modern indigo: selected chips, saved heart */
+    --brand-on: #FFFFFF;     /* text on --brand */
+    --accent: #4F46E5;       /* focus rings, hovers */
+    --accent-ink: #4338CA;   /* indigo text on white */
+    --accent-soft: #EEF2FF;
+    --deal: #F97316;         /* coral orange: % off badges */
+    --deal-on: #FFFFFF;
+    --deal-ink: #C2410C;     /* orange text on white */
+    --cat-bg: #EEF2FF;       /* category tags */
+    --cat-text: #4F46E5;
     --chip: #FFFFFF;
+    --chip-shadow: rgba(79, 70, 229, .35);
     --danger: #DC2626;
     --danger-soft: #FEE2E2;
-    --shadow: 0 1px 3px rgba(15, 23, 42, .06), 0 6px 18px rgba(15, 23, 42, .05);
-    --shadow-hover: 0 4px 10px rgba(15, 23, 42, .10), 0 14px 32px rgba(15, 23, 42, .10);
-    --overlay: rgba(15, 23, 42, .6);
+    --shadow: 0 1px 3px rgba(17, 24, 39, .06), 0 6px 18px rgba(17, 24, 39, .05);
+    --shadow-hover: 0 4px 10px rgba(17, 24, 39, .10), 0 14px 32px rgba(17, 24, 39, .10);
+    --overlay: rgba(17, 24, 39, .6);
+    --hero-grad: linear-gradient(130deg, #1E1B4B 0%, #312E81 38%, #4F46E5 74%, #7C3AED 100%);
+    --hero-glow-a: rgba(167, 139, 250, .40);
+    --hero-glow-b: rgba(249, 115, 22, .28);
+    --hero-orb: rgba(196, 181, 253, .30);
+    --hero-tint: #E0E7FF;
+    --hero-tint-2: #EEF2FF;
+    --live-dot: #FB923C;
+    --title-grad: linear-gradient(90deg, #C7D2FE, #FDBA74);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #0B1120;
-      --card: #131C2E;
-      --text: #E2E8F0;
-      --muted: #94A3B8;
-      --border: #1F2A40;
-      --brand-deep: #020617;
-      --brand: #2563EB;
-      --accent: #60A5FA;
-      --accent-ink: #93C5FD;
-      --accent-soft: #172554;
-      --deal: #34D399;
-      --deal-on: #022C22;
-      --deal-ink: #34D399;
-      --chip: #1A2438;
+      color-scheme: dark;
+      --bg: #0B0F19;          /* rich obsidian */
+      --card: #111827;
+      --text: #F9FAFB;
+      --muted: #9CA3AF;       /* soft silver */
+      --border: #1F2937;
+      --brand-deep: #05070D;
+      --brand: #818CF8;       /* soft indigo */
+      --brand-on: #0B0F19;
+      --accent: #818CF8;
+      --accent-ink: #A5B4FC;
+      --accent-soft: #1A1A3A;
+      --deal: #F59E0B;        /* gold / amber */
+      --deal-on: #1A1100;
+      --deal-ink: #FBBF24;
+      --cat-bg: #1F2937;
+      --cat-text: #A5B4FC;
+      --chip: #151D2C;
+      --chip-shadow: rgba(129, 140, 248, .30);
       --danger: #F87171;
       --danger-soft: #3B1515;
-      --shadow: 0 1px 3px rgba(0,0,0,.4);
-      --shadow-hover: 0 8px 24px rgba(0,0,0,.5);
-      --overlay: rgba(0, 0, 0, .7);
+      --shadow: 0 1px 3px rgba(0, 0, 0, .5);
+      --shadow-hover: 0 8px 28px rgba(0, 0, 0, .6);
+      --overlay: rgba(0, 0, 0, .75);
+      --hero-grad: linear-gradient(130deg, #05070D 0%, #0B0F19 40%, #111827 72%, #1F2937 100%);
+      --hero-glow-a: rgba(129, 140, 248, .24);
+      --hero-glow-b: rgba(245, 158, 11, .16);
+      --hero-orb: rgba(229, 231, 235, .10);
+      --hero-tint: #CBD5E1;
+      --hero-tint-2: #E5E7EB;
+      --live-dot: #34D399;
+      --title-grad: linear-gradient(90deg, #E5E7EB, #818CF8);
     }
   }
   * { box-sizing: border-box; }
@@ -85,9 +112,9 @@
     color: #fff;
     padding: calc(46px + env(safe-area-inset-top, 0px)) 16px 96px;
     background:
-      radial-gradient(800px 360px at 88% -20%, rgba(96, 165, 250, .38), transparent 60%),
-      radial-gradient(640px 320px at -5% 120%, rgba(16, 185, 129, .22), transparent 60%),
-      linear-gradient(130deg, #0F172A 0%, #172554 38%, #1E40AF 74%, #3B82F6 100%);
+      radial-gradient(800px 360px at 88% -20%, var(--hero-glow-a), transparent 60%),
+      radial-gradient(640px 320px at -5% 120%, var(--hero-glow-b), transparent 60%),
+      var(--hero-grad);
   }
   .hero::before {
     content: "";
@@ -104,7 +131,7 @@
     right: -120px; top: -140px;
     width: 420px; height: 420px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(147,197,253,.30), transparent 65%);
+    background: radial-gradient(circle, var(--hero-orb), transparent 65%);
     filter: blur(10px);
     pointer-events: none;
   }
@@ -113,7 +140,7 @@
     display: inline-flex; align-items: center; gap: 8px;
     font-size: 11px; font-weight: 700;
     letter-spacing: .22em; text-transform: uppercase;
-    color: #BFDBFE;
+    color: var(--hero-tint);
     background: rgba(255,255,255,.10);
     border: 1px solid rgba(255,255,255,.18);
     padding: 6px 12px;
@@ -123,8 +150,8 @@
   }
   .eyebrow .dot {
     width: 7px; height: 7px; border-radius: 50%;
-    background: #34D399;
-    box-shadow: 0 0 8px #34D399;
+    background: var(--live-dot);
+    box-shadow: 0 0 8px var(--live-dot);
     animation: pulse 2.2s infinite;
   }
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
@@ -136,7 +163,7 @@
     line-height: 1.08;
   }
   .hero h1 .grad {
-    background: linear-gradient(90deg, #93C5FD, #6EE7B7);
+    background: var(--title-grad);
     -webkit-background-clip: text;
             background-clip: text;
     color: transparent;
@@ -145,7 +172,7 @@
   .hero .stats { display: flex; gap: 10px; margin-top: 22px; flex-wrap: wrap; }
   .hero .stats span {
     display: flex; align-items: baseline; gap: 7px;
-    font-size: 12.5px; color: #DBEAFE;
+    font-size: 12.5px; color: var(--hero-tint-2);
     background: rgba(255,255,255,.10);
     border: 1px solid rgba(255,255,255,.16);
     padding: 8px 14px;
@@ -225,9 +252,9 @@
   .chip.on {
     background: var(--brand);
     border-color: var(--brand);
-    color: #fff;
+    color: var(--brand-on);
     font-weight: 600;
-    box-shadow: 0 2px 8px rgba(30, 64, 175, .35);
+    box-shadow: 0 2px 8px var(--chip-shadow);
   }
   .chip .tick { display: none; font-weight: 800; }
   .chip.on .tick { display: inline; }
@@ -263,6 +290,10 @@
     transition: transform .3s ease;
   }
   .offer:hover .thumb img { transform: scale(1.04); }
+  /* Once the picture is in, hide the letter (it showed through transparent
+     logos) and give logos the white backdrop they're designed for. */
+  .thumb.loaded { background: #fff; }
+  .thumb.loaded .initial { display: none; }
   .thumb .initial {
     position: absolute; inset: 0;
     display: flex; align-items: center; justify-content: center;
@@ -293,7 +324,7 @@
     z-index: 2;
   }
   .fav:hover { transform: scale(1.12); }
-  .fav.on { background: var(--brand); }
+  .fav.on { background: var(--brand); color: var(--brand-on); }
   .soon {
     position: absolute; top: 10px; left: 10px;
     background: var(--danger);
@@ -316,6 +347,7 @@
     font-size: 10.5px; font-weight: 600; padding: 3px 8px; border-radius: 6px;
     background: var(--bg); color: var(--muted); border: 1px solid var(--border);
   }
+  .tag.cat { background: var(--cat-bg); color: var(--cat-text); border-color: transparent; }
   .tag.bank { background: var(--accent-soft); color: var(--accent-ink); border-color: transparent; }
   .tag.expiry { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
 
@@ -590,7 +622,7 @@ function cardHTML(o) {
     <div class="offer" tabindex="0" data-id="${esc(o.id)}">
       <div class="thumb">
         <div class="initial">${initial}</div>
-        ${o.image_url ? `<img src="${esc(o.image_url)}" alt="" loading="lazy" onerror="this.remove()">` : ""}
+        ${o.image_url ? `<img src="${esc(o.image_url)}" alt="" loading="lazy" onload="this.parentNode.classList.add('loaded')" onerror="this.remove()">` : ""}
         ${o._soon ? `<div class="soon">${o._days === 0 ? "Last day" : o._days === 1 ? "1 day left" : o._days + " days left"}</div>` : ""}
         ${d ? `<div class="badge">${esc(d)}</div>` : ""}
         <button class="fav${favs.has(o.id) ? " on" : ""}" aria-label="Save offer">${favs.has(o.id) ? "♥" : "♡"}</button>
@@ -600,7 +632,7 @@ function cardHTML(o) {
         <div class="desc">${esc(o.description)}</div>
         <div class="meta">
           <span class="tag bank">${esc(o.bank)}</span>
-          <span class="tag">${esc(o.category)}</span>
+          <span class="tag cat">${esc(o.category)}</span>
           ${o._end && !o._soon ? `<span class="tag">until ${o._endText}</span>` : ""}
           ${o._soon ? `<span class="tag expiry">ends ${o._endText}</span>` : ""}
         </div>
@@ -684,7 +716,7 @@ function openModal(o) {
       <div class="mdesc">${esc(o.description)}</div>
       <div class="mrow">
         <span class="tag bank">${esc(o.bank)}</span>
-        <span class="tag">${esc(o.category)}</span>
+        <span class="tag cat">${esc(o.category)}</span>
         ${o.city ? `<span class="tag">📍 ${esc(o.city)}</span>` : ""}
         ${o.period ? `<span class="tag${o._soon ? " expiry" : ""}">🗓 ${esc(o.period)}</span>` : ""}
       </div>
