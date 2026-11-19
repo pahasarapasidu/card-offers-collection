@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T17:02:27Z",
- "offer_count": 3152,
+ "generated_at": "2026-11-19T03:10:43Z",
+ "offer_count": 3148,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -8098,25 +8098,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4464",
    "updated_at": "",
    "end_date": "2027-04-30"
-  },
-  {
-   "id": "hnb-2529",
-   "bank": "HNB",
-   "merchant": "Pizza Hut New",
-   "discount": "50% off",
-   "description": "50% off on Total bill above LKR 4,000",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid On (3rd Wednesday) 2026-11-18",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Pizza%20Hut%20New/PizzaHutNew.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=2529",
-   "updated_at": "",
-   "end_date": "2026-11-18"
   },
   {
    "id": "hnb-4373",
@@ -18306,25 +18287,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4443",
    "updated_at": "",
    "end_date": "2026-12-23"
-  },
-  {
-   "id": "hnb-4453",
-   "bank": "HNB",
-   "merchant": "BAYLEEE",
-   "discount": "20% off",
-   "description": "20% off on at BAYLEEE",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid From 2026-11-16 to 2026-11-18",
-   "card_types": [
-    "credit/debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/BAYLEEE/BAYLEEE.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4453",
-   "updated_at": "",
-   "end_date": "2026-11-18"
   },
   {
    "id": "hnb-4454",
@@ -38616,23 +38578,6 @@
    "end_date": "2028-09-30"
   },
   {
-   "id": "ndb-10559",
-   "bank": "NDB",
-   "merchant": "Vacation Travels and Holidays",
-   "discount": "0%",
-   "description": "Up to 10,000 discounts up to 36 months 0% Installment plans",
-   "category": "Travel",
-   "city": "",
-   "period": "Until 18th November 2026",
-   "card_types": [],
-   "details": "",
-   "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/ef2d727d-84f1-4bf9-8127-5bda1720601d_vacation-travels-and-holidays.jfif",
-   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/10559",
-   "updated_at": "",
-   "end_date": "2026-11-18"
-  },
-  {
    "id": "ndb-10628",
    "bank": "NDB",
    "merchant": "Luxasella by Hairskiin",
@@ -43938,7 +43883,7 @@
    "description": "30% off at Ceylon City Mart with Peoples Bank credit cards",
    "category": "Fashion",
    "city": "",
-   "period": "(19th, 20th, 23rd & 24th December 2026)",
+   "period": "(19th, 20th, 30th & 31st December 2026)",
    "card_types": [
     "credit"
    ],
@@ -43947,7 +43892,7 @@
    "image_url": "https://www.peoplesbank.lk/roastoth/2025/07/Ceylon-City-Mart.jpg",
    "source_url": "https://www.peoplesbank.lk/promotion/ceylon-city-mart-25-off-credit/",
    "updated_at": "",
-   "end_date": "2026-12-24"
+   "end_date": "2026-12-31"
   },
   {
    "id": "peoples-chenara-dodge-20-off-credit",
@@ -56487,25 +56432,6 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/wimaladharma-brothers",
    "updated_at": "",
    "end_date": "2026-12-31"
-  },
-  {
-   "id": "dfcc-edys",
-   "bank": "DFCC",
-   "merchant": "EDYS - Colombo 04 for bills above Rs. 5,000/-",
-   "discount": "Up to 15%",
-   "description": "Up to 15% Savings on selected products at EDYS - Colombo 04 for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Shopping",
-   "city": "",
-   "period": "18th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/4bd48acd-97e0-4fe0-838b-cb0a5ad0e260/Logo-Edys.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/edys",
-   "updated_at": "",
-   "end_date": "2026-11-18"
   },
   {
    "id": "dfcc-scentson",
