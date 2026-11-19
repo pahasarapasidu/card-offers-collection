@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from banks import boc, combank, dfcc, hnb, ndb, ntb, peoples, sampath, seylan
 from dates import end_date
+from dedupe import merge_duplicates
 
 # Offers end on Sri Lanka dates, while GitHub's servers run on UTC.
 SL_TIME = dt.timezone(dt.timedelta(hours=5, minutes=30))
@@ -197,7 +198,8 @@ def main():
     if UNMAPPED:
         print("Categories shown as 'Other':",
               ", ".join(f"{k or '(none)'} x{n}" for k, n in sorted(UNMAPPED.items(), key=lambda x: -x[1])))
-    all_offers = live
+    all_offers = merge_duplicates(live)
+    print(f"Merged {len(live) - len(all_offers)} duplicate listings")
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     result = {
