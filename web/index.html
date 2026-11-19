@@ -608,7 +608,7 @@ function offerMatchesKind(o) {
 }
 function kindLabel(o) {
   const k = offerKinds(o);
-  return k.length === 2 ? "Credit & debit" : k[0] === "credit" ? "Credit cards" : k[0] === "debit" ? "Debit cards" : "";
+  return k.length === 2 ? "Credit & Debit" : k[0] === "credit" ? "Credit cards" : k[0] === "debit" ? "Debit cards" : "";
 }
 
 // Lower-case, accents removed ("Café" -> "cafe"), spaces collapsed.

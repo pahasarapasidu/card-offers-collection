@@ -64,7 +64,7 @@ const KIND_OPTIONS = [{ key: "credit", label: "Credit card" }, { key: "debit", l
 const offerKinds = (o) => (o.card_types || []).filter(t => t === "credit" || t === "debit");
 const kindLabel = (o) => {
   const k = offerKinds(o);
-  return k.length === 2 ? "Credit & debit" : k[0] === "credit" ? "Credit cards" : k[0] === "debit" ? "Debit cards" : "";
+  return k.length === 2 ? "Credit & Debit" : k[0] === "credit" ? "Credit cards" : k[0] === "debit" ? "Debit cards" : "";
 };
 
 const CARD_OPTIONS = [
