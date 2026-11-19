@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T04:04:59Z",
- "offer_count": 3024,
+ "generated_at": "2026-11-19T20:43:38Z",
+ "offer_count": 3038,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -2834,7 +2834,7 @@
    "bank": "Sampath Bank",
    "merchant": "DUFRY - Sri Lanka Duty Free",
    "discount": "15% Discounts",
-   "description": "15% Discount on non-promotional items available at Arrival and Departure shops of DUFRY - SRI LANKA DUTY FREE at Bandaranaike International Airport (BIA) for all Sampath Mastercard, Visa Credit Cardholders & Sampath Bank American Express Platinum Ultramiles Credit Cardmembers.",
+   "description": "15% Discount on non-promotional items available at Arrival and Departure shops of DUFRY - SRI LANKA DUTY FREE at Bandaranaike International Airport (BIA) for all Sampath Mastercard, Visa Credit Cardholders, Sampath Bank American Express Platinum Ultramiles Credit Cardmembers and Sampath Mastercard Corporate/Business & Visa Corporate/Business Credit Cardholders.",
    "category": "Travel",
    "city": "",
    "period": "2026-11-12 to 2026-12-31",
@@ -2845,10 +2845,10 @@
     "visa"
    ],
    "details": "Promotion Period – Valid till 31st December 2026 • Valid for minimum bill value of USD 60. • This offer is not valid for Chanel & Marlboro brands.",
-   "terms": "1. The offer will be valid for all Sampath Mastercard, Visa Credit Cardholders & Sampath Bank American Express® Platinum Ultramiles Credit Cardmembers (Excluding Sampath Corporate Credit Cards). 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard, Visa Credit Card or Sampath Bank American Express® Platinum Ultramiles Credit Card. 3. The discount will be granted for transactions made over USD 60 at Arrival and Departure DUFRY - Sri Lanka Duty Free shops at Bandaranaike International Airport (BIA), Katunayake. 4. This offer is not valid for Chanel & Marlboro brands. 5. Offer is not valid for on-line transactions. 6. Offer cannot be combined with any other existing offers. 7. The Bank accepts no responsibility in any way for any goods/services purchased and any dispute relating to same should be resolved by the Cardholder directly with the partner and any claim by the Cardholder against the partner will not relieve the Cardholder from his/her obligation or repayment to the Bank. 8. Spending made under above promotion will not qualify for the accumulation of Ultramiles & Ultra Rewards Loyalty points. 9. In the event of any dispute, the decision of the Bank shall be final. 10. The general Terms & Conditions of Sampath Bank and Dufry Shops Colombo Ltd shall apply. 11. The Bank reserves the right to modify or change the Terms & Conditions of the offer. 12. The Bank reserves the right to amend/withdraw this offer at its sole discretion",
+   "terms": "1. The offer will be valid for all Sampath Mastercard, Visa Credit Cardholders & Sampath Bank American Express® Platinum Ultramiles Credit Cardmembers and Sampath Mastercard Corporate/Business & Visa Corporate/Business Credit Cardholders. 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard, Visa Credit Card, Sampath Bank American Express® Platinum Ultramiles Credit Card and Sampath Mastercard Corporate/Business & Visa Corporate/Business Credit Card. 3. The discount will be granted for transactions made over USD 60 at Arrival and Departure DUFRY - Sri Lanka Duty Free shops at Bandaranaike International Airport (BIA), Katunayake. 4. This offer is not valid for Chanel & Marlboro brands. 5. Offer is not valid for on-line transactions. 6. Offer cannot be combined with any other existing offers. 7. The Bank accepts no responsibility in any way for any goods/services purchased and any dispute relating to same should be resolved by the Cardholder directly with the partner and any claim by the Cardholder against the partner will not relieve the Cardholder from his/her obligation or repayment to the Bank. 8. Spending made under above promotion will not qualify for the accumulation of Ultramiles & Ultra Rewards Loyalty points. 9. In the event of any dispute, the decision of the Bank shall be final. 10. The general Terms & Conditions of Sampath Bank and Dufry Shops Colombo Ltd shall apply. 11. The Bank reserves the right to modify or change the Terms & Conditions of the offer. 12. The Bank reserves the right to amend/withdraw this offer at its sole discretion",
    "image_url": "https://www.sampath.lk/api/uploads/blob_18c6f2e64f_d8c97ea15e_c215ec8cba",
    "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
-   "updated_at": "2026-11-11T14:21:36.000Z",
+   "updated_at": "2026-11-19T05:13:22.000Z",
    "end_date": "2026-12-31"
   },
   {
@@ -6679,6 +6679,26 @@
    "end_date": "2027-03-31"
   },
   {
+   "id": "hnb-4474",
+   "bank": "HNB",
+   "merchant": "Breeze Pasikudah Hotel",
+   "discount": "Up to 40% off",
+   "description": "Up to 40% off on BB, HB & FB basis at Breeze Pasikudah Hotel",
+   "category": "Hotels",
+   "city": "",
+   "period": "Valid Until 2026-12-17",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Breeze%20Pasikudah%20Hotel/BreezePasikudahHotel.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4474",
+   "updated_at": "",
+   "end_date": "2026-12-17"
+  },
+  {
    "id": "hnb-4430",
    "bank": "HNB",
    "merchant": "Findmyfare.com",
@@ -7781,6 +7801,425 @@
    "end_date": "2027-04-30"
   },
   {
+   "id": "hnb-4391",
+   "bank": "HNB",
+   "merchant": "Dindigul Thalappakatti",
+   "discount": "20% off",
+   "description": "20% off on dine-in & take-away at Dindigul Thalappakatti Restaurants",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid From 2026-11-15 to 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Dindigul%20Thalappakatti/DindigulThalappakatti.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4391",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "hnb-51",
+   "bank": "HNB",
+   "merchant": "ISSO Restaurant",
+   "discount": "20% off",
+   "description": "20% off on dine-in at ISSO Restaurant",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until 2026-11-30",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/isso-restaurant-logo.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=51",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
+   "id": "hnb-61",
+   "bank": "HNB",
+   "merchant": "Maharaja Palace",
+   "discount": "20% off",
+   "description": "20% off on Dine-In, Delivery and Take-Away Orders at Maharaja Palace Restaurant",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until 2026-11-30",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/maharaja-palace-logo.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=61",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
+   "id": "hnb-60",
+   "bank": "HNB",
+   "merchant": "THE MANGO TREE",
+   "discount": "20% Off",
+   "description": "20% Off ON FOOD FOR DINE-IN & TAKE-AWAY AT THE MANGO TREE",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until 2026-11-30",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/THE%20MANGO%20TREE/THEMANGOTREE.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=60",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
+   "id": "hnb-4225",
+   "bank": "HNB",
+   "merchant": "Burley's Restaurant",
+   "discount": "15% off",
+   "description": "15% off on total bill at Burley's Restaurant",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid On 2026-11-27 & 2026-11-28, 2026-12-30 & 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Burley%27s%20Restaurant/Burley%27sRestaurant.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4225",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "hnb-4226",
+   "bank": "HNB",
+   "merchant": "Burley's Restaurant",
+   "discount": "10% off",
+   "description": "10% off on total bill at Burley's Restaurant",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid On 2026-11-27 & 2026-11-28, 2026-12-30 & 2026-12-31",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Burley%27s%20Restaurant/Burley%27sRestaurant.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4226",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "hnb-4409",
+   "bank": "HNB",
+   "merchant": "Kingsbru Tea Cafe & Restaurant",
+   "discount": "20% off",
+   "description": "20% off at Kingsbru Maharagama",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until 2026-12-31",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Kingsbru%20Tea%20Cafe%20%26%20Restaurant/KingsbruTeaCafe%26Restaurant.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4409",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "hnb-854",
+   "bank": "HNB",
+   "merchant": "Jade Restaurant",
+   "discount": "20% off",
+   "description": "20% off on total bill at Jade restaurants for dine-in & take away",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until 2026-11-30",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Jade%20Restaurant/JadeRestaurant.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=854",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
+   "id": "hnb-1280",
+   "bank": "HNB",
+   "merchant": "PappaRich New",
+   "discount": "20% off",
+   "description": "20% off on food and beverages at PappaRich",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until 2026-11-30",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/PappaRich%20New/PappaRichNew.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=1280",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
+   "id": "hnb-3856",
+   "bank": "HNB",
+   "merchant": "Burger King",
+   "discount": "20% off",
+   "description": "20% off at Burger King outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/burger-king-logo.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3856",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3857",
+   "bank": "HNB",
+   "merchant": "Burger King",
+   "discount": "10% off",
+   "description": "10% off at Burger King outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/burger-king-logo.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3857",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3860",
+   "bank": "HNB",
+   "merchant": "Popeyes",
+   "discount": "20% off",
+   "description": "20% off at Popeyes outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/popeyes-new-logos.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3860",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3861",
+   "bank": "HNB",
+   "merchant": "Popeyes",
+   "discount": "10% off",
+   "description": "10% off at Popeyes outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/popeyes-new-logos.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3861",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3851",
+   "bank": "HNB",
+   "merchant": "Baskin Robbins",
+   "discount": "20% off",
+   "description": "20% off at Baskin Robbins outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/baskin-robbins-logo-new.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3851",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3852",
+   "bank": "HNB",
+   "merchant": "Baskin Robbins",
+   "discount": "10% off",
+   "description": "10% off at Baskin Robbins outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/baskin-robbins-logo-new.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3852",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3849",
+   "bank": "HNB",
+   "merchant": "Delifrance",
+   "discount": "20% off",
+   "description": "20% off at Delifrance outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Delifrance/Delifrance.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3849",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3850",
+   "bank": "HNB",
+   "merchant": "Delifrance",
+   "discount": "10% off",
+   "description": "10% off at Delifrance outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Delifrance/Delifrance.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3850",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3858",
+   "bank": "HNB",
+   "merchant": "Subway",
+   "discount": "20% off",
+   "description": "20% off at Subway outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/subway-logo.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3858",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3859",
+   "bank": "HNB",
+   "merchant": "Subway",
+   "discount": "10% off",
+   "description": "10% off at Subway outlets (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/subway-logo.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3859",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-4169",
+   "bank": "HNB",
+   "merchant": "Foody.lk by Softlogic",
+   "discount": "20% off",
+   "description": "20% off at Foody.lk by Softlogic (Every Friday)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Foody.lk%20by%20Softlogic/Foody.lkbySoftlogic.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4169",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3847",
+   "bank": "HNB",
+   "merchant": "Crystal Jade",
+   "discount": "20% off",
+   "description": "20% off at Crystal Jade - OGF (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/crystal-jade-logo-new.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3847",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
+   "id": "hnb-3848",
+   "bank": "HNB",
+   "merchant": "Crystal Jade",
+   "discount": "10% off",
+   "description": "10% off at Crystal Jade - OGF (Fridays)",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid Until (Every Friday) 2026-11-27",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/crystal-jade-logo-new.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3848",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
    "id": "hnb-4373",
    "bank": "HNB",
    "merchant": "Pullman Colombo Downtown",
@@ -8030,44 +8469,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=856",
    "updated_at": "",
    "end_date": "2026-11-26"
-  },
-  {
-   "id": "hnb-4225",
-   "bank": "HNB",
-   "merchant": "Burley's Restaurant",
-   "discount": "15% off",
-   "description": "15% off on total bill at Burley's Restaurant",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid On 2026-11-27 & 2026-11-28, 2026-12-30 & 2026-12-31",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Burley%27s%20Restaurant/Burley%27sRestaurant.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4225",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "hnb-4226",
-   "bank": "HNB",
-   "merchant": "Burley's Restaurant",
-   "discount": "10% off",
-   "description": "10% off on total bill at Burley's Restaurant",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid On 2026-11-27 & 2026-11-28, 2026-12-30 & 2026-12-31",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Burley%27s%20Restaurant/Burley%27sRestaurant.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4226",
-   "updated_at": "",
-   "end_date": "2026-12-31"
   },
   {
    "id": "hnb-4268",
@@ -8453,120 +8854,6 @@
    "end_date": "2026-12-20"
   },
   {
-   "id": "hnb-51",
-   "bank": "HNB",
-   "merchant": "ISSO Restaurant",
-   "discount": "20% off",
-   "description": "20% off on dine-in at ISSO Restaurant",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until 2026-11-30",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/isso-restaurant-logo.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=51",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
-   "id": "hnb-61",
-   "bank": "HNB",
-   "merchant": "Maharaja Palace",
-   "discount": "20% off",
-   "description": "20% off on Dine-In, Delivery and Take-Away Orders at Maharaja Palace Restaurant",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until 2026-11-30",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/maharaja-palace-logo.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=61",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
-   "id": "hnb-60",
-   "bank": "HNB",
-   "merchant": "THE MANGO TREE",
-   "discount": "20% Off",
-   "description": "20% Off ON FOOD FOR DINE-IN & TAKE-AWAY AT THE MANGO TREE",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until 2026-11-30",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/THE%20MANGO%20TREE/THEMANGOTREE.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=60",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
-   "id": "hnb-854",
-   "bank": "HNB",
-   "merchant": "Jade Restaurant",
-   "discount": "20% off",
-   "description": "20% off on total bill at Jade restaurants for dine-in & take away",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until 2026-11-30",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Jade%20Restaurant/JadeRestaurant.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=854",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
-   "id": "hnb-1280",
-   "bank": "HNB",
-   "merchant": "PappaRich New",
-   "discount": "20% off",
-   "description": "20% off on food and beverages at PappaRich",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until 2026-11-30",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/PappaRich%20New/PappaRichNew.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=1280",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
-   "id": "hnb-4391",
-   "bank": "HNB",
-   "merchant": "Dindigul Thalappakatti",
-   "discount": "20% off",
-   "description": "20% off on dine-in & take-away at Dindigul Thalappakatti Restaurants",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid From 2026-11-15 to 2026-12-31",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Dindigul%20Thalappakatti/DindigulThalappakatti.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4391",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
    "id": "hnb-4393",
    "bank": "HNB",
    "merchant": "Marine Spice",
@@ -8625,273 +8912,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4408",
    "updated_at": "",
    "end_date": "2026-11-30"
-  },
-  {
-   "id": "hnb-4409",
-   "bank": "HNB",
-   "merchant": "Kingsbru Tea Cafe & Restaurant",
-   "discount": "20% off",
-   "description": "20% off at Kingsbru Maharagama",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until 2026-12-31",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Kingsbru%20Tea%20Cafe%20%26%20Restaurant/KingsbruTeaCafe%26Restaurant.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4409",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "hnb-3856",
-   "bank": "HNB",
-   "merchant": "Burger King",
-   "discount": "20% off",
-   "description": "20% off at Burger King outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/burger-king-logo.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3856",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3857",
-   "bank": "HNB",
-   "merchant": "Burger King",
-   "discount": "10% off",
-   "description": "10% off at Burger King outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/burger-king-logo.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3857",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3860",
-   "bank": "HNB",
-   "merchant": "Popeyes",
-   "discount": "20% off",
-   "description": "20% off at Popeyes outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/popeyes-new-logos.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3860",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3861",
-   "bank": "HNB",
-   "merchant": "Popeyes",
-   "discount": "10% off",
-   "description": "10% off at Popeyes outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/popeyes-new-logos.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3861",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3851",
-   "bank": "HNB",
-   "merchant": "Baskin Robbins",
-   "discount": "20% off",
-   "description": "20% off at Baskin Robbins outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/baskin-robbins-logo-new.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3851",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3852",
-   "bank": "HNB",
-   "merchant": "Baskin Robbins",
-   "discount": "10% off",
-   "description": "10% off at Baskin Robbins outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/baskin-robbins-logo-new.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3852",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3849",
-   "bank": "HNB",
-   "merchant": "Delifrance",
-   "discount": "20% off",
-   "description": "20% off at Delifrance outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Delifrance/Delifrance.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3849",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3850",
-   "bank": "HNB",
-   "merchant": "Delifrance",
-   "discount": "10% off",
-   "description": "10% off at Delifrance outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Delifrance/Delifrance.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3850",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3847",
-   "bank": "HNB",
-   "merchant": "Crystal Jade",
-   "discount": "20% off",
-   "description": "20% off at Crystal Jade - OGF (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/crystal-jade-logo-new.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3847",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3848",
-   "bank": "HNB",
-   "merchant": "Crystal Jade",
-   "discount": "10% off",
-   "description": "10% off at Crystal Jade - OGF (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/crystal-jade-logo-new.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3848",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3858",
-   "bank": "HNB",
-   "merchant": "Subway",
-   "discount": "20% off",
-   "description": "20% off at Subway outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/subway-logo.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3858",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-3859",
-   "bank": "HNB",
-   "merchant": "Subway",
-   "discount": "10% off",
-   "description": "10% off at Subway outlets (Fridays)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/subway-logo.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=3859",
-   "updated_at": "",
-   "end_date": "2026-11-27"
-  },
-  {
-   "id": "hnb-4169",
-   "bank": "HNB",
-   "merchant": "Foody.lk by Softlogic",
-   "discount": "20% off",
-   "description": "20% off at Foody.lk by Softlogic (Every Friday)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Friday) 2026-11-27",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Foody.lk%20by%20Softlogic/Foody.lkbySoftlogic.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4169",
-   "updated_at": "",
-   "end_date": "2026-11-27"
   },
   {
    "id": "hnb-1365",
@@ -13855,6 +13875,25 @@
    "end_date": "2027-01-10"
   },
   {
+   "id": "hnb-4473",
+   "bank": "HNB",
+   "merchant": "Infinity Store",
+   "discount": "Up to 60% off",
+   "description": "Up to 60% off on selected electronics + Up to 06 months 0% installments at Infinity Store",
+   "category": "Instalment Plans",
+   "city": "",
+   "period": "Valid Until 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Infinity%20Store/InfinityStore.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4473",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
    "id": "hnb-1508",
    "bank": "HNB",
    "merchant": "Tudo.LK",
@@ -17420,6 +17459,25 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "hnb-4477",
+   "bank": "HNB",
+   "merchant": "Cool Planet | Exibit | Nick Nack | Moonstone",
+   "discount": "0%",
+   "description": "3 months 0% installments at Cool Planet for transactions above LKR 20,000",
+   "category": "Instalment Plans",
+   "city": "",
+   "period": "Valid Until 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Cool%20Planet%20%7C%20Exibit%20%7C%20Nick%20Nack%20%7C%20Moonstone/CoolPlanet%7CExibit%7CNickNack%7CMoonstone.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4477",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
    "id": "hnb-4429",
    "bank": "HNB",
    "merchant": "House of Fashions New",
@@ -17953,6 +18011,177 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4469",
    "updated_at": "",
    "end_date": "2026-12-06"
+  },
+  {
+   "id": "hnb-4475",
+   "bank": "HNB",
+   "merchant": "Fashion Bug",
+   "discount": "25% off",
+   "description": "25% off at Fashion Bug",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-12 & 2026-12-13",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/fashion-bug.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4475",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4476",
+   "bank": "HNB",
+   "merchant": "Fashion Bug",
+   "discount": "10% off",
+   "description": "10% off at Fashion Bug",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-12 & 2026-12-13",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/fashion-bug.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4476",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4478",
+   "bank": "HNB",
+   "merchant": "NOLIMIT",
+   "discount": "25% off",
+   "description": "25% off at NOLIMIT",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-19",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/NOLIMIT/NOLIMIT.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4478",
+   "updated_at": "",
+   "end_date": "2026-12-19"
+  },
+  {
+   "id": "hnb-4479",
+   "bank": "HNB",
+   "merchant": "NOLIMIT",
+   "discount": "10% off",
+   "description": "10% off at NOLIMIT",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-19",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/NOLIMIT/NOLIMIT.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4479",
+   "updated_at": "",
+   "end_date": "2026-12-19"
+  },
+  {
+   "id": "hnb-4480",
+   "bank": "HNB",
+   "merchant": "Hameedia Envoy Mansion Signature H-Sports",
+   "discount": "25% off",
+   "description": "25% off on a wide array of products",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Hameedia%20Envoy%20Mansion%20Signature%20H-Sports/HameediaEnvoyMansionSignatureH-Sports.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4480",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "hnb-4481",
+   "bank": "HNB",
+   "merchant": "Hameedia Envoy Mansion Signature H-Sports",
+   "discount": "10% off",
+   "description": "10% off at Hameedia | Envoy Mansion | Signature | H - Sports",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Hameedia%20Envoy%20Mansion%20Signature%20H-Sports/HameediaEnvoyMansionSignatureH-Sports.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4481",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "hnb-4482",
+   "bank": "HNB",
+   "merchant": "Thilakma",
+   "discount": "25% off",
+   "description": "25% off at Thilakma",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-11 & 2026-12-23",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Thilakma/Thilakma.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4482",
+   "updated_at": "",
+   "end_date": "2026-12-23"
+  },
+  {
+   "id": "hnb-4483",
+   "bank": "HNB",
+   "merchant": "Thilakma",
+   "discount": "10% off",
+   "description": "10% off at Thilakma",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-31",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Thilakma/Thilakma.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4483",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "hnb-4484",
+   "bank": "HNB",
+   "merchant": "SPA CEYLON",
+   "discount": "20% off",
+   "description": "20% off at Spa Ceylon",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-11 & 2026-12-12",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/SPA%20CEYLON/SPACEYLON.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4484",
+   "updated_at": "",
+   "end_date": "2026-12-12"
   },
   {
    "id": "hnb-3640",
@@ -22914,26 +23143,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "seylan-the-plains-green-1",
-   "bank": "Seylan Bank",
-   "merchant": "The Plains Green",
-   "discount": "30% off",
-   "description": "30% off with your Seylan Credit & Debit Cards...",
-   "category": "Other",
-   "city": "",
-   "period": "2026-10-15 to 2026-11-30",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.seylan.lk/uploads/1792046111_6ad0741f58c9f_New-Project---2026-10-15T120220.344.jpg",
-   "source_url": "https://www.seylan.lk/the-plains-green-1",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
    "id": "seylan-cardholder-dines-free-offer-1",
    "bank": "Seylan Bank",
    "merchant": "CARD MEMBER DINES FREE GENERAL CARDS OFFER",
@@ -25422,6 +25631,25 @@
    "end_date": "2027-04-30"
   },
   {
+   "id": "seylan-thilakawardane-textiles-1",
+   "bank": "Seylan Bank",
+   "merchant": "THILAKAWARDANE TEXTILES",
+   "discount": "10% OFF",
+   "description": "10% OFF FOR CREDIT CARDS ON TOTAL BILL...",
+   "category": "Fashion",
+   "city": "",
+   "period": "2026-11-20 to 2026-11-21",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.seylan.lk/uploads/1795064395_6afe824b65ab7_New-Project---2026-11-19T102314.176.jpg",
+   "source_url": "https://www.seylan.lk/thilakawardane-textiles-1",
+   "updated_at": "",
+   "end_date": "2026-11-21"
+  },
+  {
    "id": "seylan-balinese-ayu-spas-1",
    "bank": "Seylan Bank",
    "merchant": "Balinese Ayu Spas",
@@ -25509,6 +25737,23 @@
    "terms": "",
    "image_url": "https://www.seylan.lk/uploads/1781505852_6a2f9f3c36743_New-Project-(82).jpg",
    "source_url": "https://www.seylan.lk/mosh-1",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
+   "id": "seylan-mintpay-cashback-1",
+   "bank": "Seylan Bank",
+   "merchant": "MINTPAY",
+   "discount": "Up to 30% off",
+   "description": "Up to 30% off on Mintpay Black Friday for selected merchants with Seylan Cards...",
+   "category": "Other",
+   "city": "",
+   "period": "2026-11-25 to 2026-11-30",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.seylan.lk/uploads/MINT-PAY.jpg",
+   "source_url": "https://www.seylan.lk/mintpay-cashback-1",
    "updated_at": "",
    "end_date": "2026-11-30"
   },
@@ -29987,6 +30232,23 @@
    "source_url": "https://www.seylan.lk/cinnamon-hotels-resorts-1_",
    "updated_at": "",
    "end_date": "2027-07-21"
+  },
+  {
+   "id": "seylan-play-book-1",
+   "bank": "Seylan Bank",
+   "merchant": "Play. Book",
+   "discount": "up to 10%",
+   "description": "Book your favourite venues, or find new places to play & Enjoy up to 10% with your Seylan Cards...",
+   "category": "Other",
+   "city": "",
+   "period": "2026-11-19 to 2027-09-30",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.seylan.lk/uploads/1795066294_6afe89b67a56b_New-Project---2026-11-19T105721.685.jpg",
+   "source_url": "https://www.seylan.lk/play-book-1",
+   "updated_at": "",
+   "end_date": "2027-09-30"
   },
   {
    "id": "seylan-edwards-collection-luxury-villas-sri-lanka-1",
@@ -36800,6 +37062,25 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "ndb-10631",
+   "bank": "NDB",
+   "merchant": "ACCA",
+   "discount": "0%",
+   "description": "Up to 36 months 0% Installment plans",
+   "category": "Instalment Plans",
+   "city": "",
+   "period": "Until 31st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/c2ccca18-b3a3-4171-8660-ab57c666d612-acca.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/10631",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
    "id": "ndb-25",
    "bank": "NDB",
    "merchant": "Special IPP Promotions",
@@ -36875,26 +37156,6 @@
    "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/258",
    "updated_at": "",
    "end_date": "2026-12-31"
-  },
-  {
-   "id": "ndb-343",
-   "bank": "NDB",
-   "merchant": "Anantaya Resorts & Spa - Chilaw",
-   "discount": "50% Savings",
-   "description": "50% Savings on Reservations",
-   "category": "Hotels",
-   "city": "",
-   "period": "18th & 19th November 2026",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/38b78388-97ed-44f3-a412-f8b7afd0621d_anantaya-resort-&-spa-chilaw.jpg",
-   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/343",
-   "updated_at": "",
-   "end_date": "2026-11-19"
   },
   {
    "id": "ndb-367",
@@ -37281,26 +37542,6 @@
    "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/331",
    "updated_at": "",
    "end_date": "2026-12-31"
-  },
-  {
-   "id": "ndb-399",
-   "bank": "NDB",
-   "merchant": "Anantaya Resorts & Spa – Pasikudah",
-   "discount": "50% Savings",
-   "description": "50% Savings on Reservations",
-   "category": "Hotels",
-   "city": "",
-   "period": "18th & 19th November 2026",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/95eed161-3ea0-4dc4-bf74-6e8a1a896769_anantaya-resort-&-spa-pasikudah.jpg",
-   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/399",
-   "updated_at": "",
-   "end_date": "2026-11-19"
   },
   {
    "id": "ndb-413",
@@ -48240,9 +48481,9 @@
   {
    "id": "dfcc-great-wall-restaurants",
    "bank": "DFCC",
-   "merchant": "Great Wall Restaurants for bills above Rs. 5,000/-",
+   "merchant": "Great Wall Restaurants for bills above Rs.3,000/-",
    "discount": "20%",
-   "description": "20% Savings on dine-in at Great Wall Restaurants for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "description": "20% Savings on dine-in at Great Wall Restaurants for bills above Rs.3,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
    "category": "Dining",
    "city": "",
    "period": "15th November to 31st December 2026",
@@ -50018,6 +50259,44 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/5thavenue-lk",
    "updated_at": "",
    "end_date": "2026-12-30"
+  },
+  {
+   "id": "dfcc-yaliz",
+   "bank": "DFCC",
+   "merchant": "Yaliz and www.yalizclothing.com",
+   "discount": "20%",
+   "description": "20% Savings at Yaliz and www.yalizclothing.com. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Online",
+   "city": "",
+   "period": "23rd & 24th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3c6be7fb-a23a-45d0-a09f-1cb9e0bc2b2b/YalizLOGO1.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/yaliz",
+   "updated_at": "",
+   "end_date": "2026-12-24"
+  },
+  {
+   "id": "dfcc-tofo",
+   "bank": "DFCC",
+   "merchant": "tofo - City of Dreams Shoppes outlet and www.lovetofo.com",
+   "discount": "20%",
+   "description": "20% Savings at tofo - City of Dreams Shoppes outlet and www.lovetofo.com. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Online",
+   "city": "",
+   "period": "24th November to 29th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/e88db98a-16b0-4e84-a1d5-c4a7a59f6440/tofologoagainsttropicalpeachbackground.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/tofo",
+   "updated_at": "",
+   "end_date": "2026-12-29"
   },
   {
    "id": "dfcc-06-and-12-months-0-easy-payment-plans-on-hospital-payments-over-rs-25-000-with-dfcc-and-standard-chartered-credit-cards",
@@ -52343,25 +52622,6 @@
    "end_date": "2026-12-28"
   },
   {
-   "id": "dfcc-yaliz",
-   "bank": "DFCC",
-   "merchant": "Yaliz",
-   "discount": "20%",
-   "description": "20% Savings at Yaliz. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "23rd & 24th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3c6be7fb-a23a-45d0-a09f-1cb9e0bc2b2b/YalizLOGO1.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/yaliz",
-   "updated_at": "",
-   "end_date": "2026-12-24"
-  },
-  {
    "id": "dfcc-crocodile",
    "bank": "DFCC",
    "merchant": "Crocodile showrooms and www.crocodilesrilanka.com",
@@ -52417,25 +52677,6 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/shirtworks",
    "updated_at": "",
    "end_date": "2026-12-24"
-  },
-  {
-   "id": "dfcc-tofo",
-   "bank": "DFCC",
-   "merchant": "tofo - City of Dreams Shoppes outlet and www.lovetofo.com",
-   "discount": "20%",
-   "description": "20% Savings at tofo - City of Dreams Shoppes outlet and www.lovetofo.com. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "24th November 2026 to 29th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/e88db98a-16b0-4e84-a1d5-c4a7a59f6440/tofologoagainsttropicalpeachbackground.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/tofo",
-   "updated_at": "",
-   "end_date": "2026-12-29"
   },
   {
    "id": "dfcc-richway-raja-garments",
@@ -54886,6 +55127,25 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/toytopia",
    "updated_at": "",
    "end_date": "2026-12-06"
+  },
+  {
+   "id": "dfcc-tiny-togs",
+   "bank": "DFCC",
+   "merchant": "Tiny Togs outlets",
+   "discount": "10%",
+   "description": "10% Savings at Tiny Togs outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Shopping",
+   "city": "",
+   "period": "10th to 31st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/64fdb19a-51d0-437a-aa36-16566be6d7e4/OfferLogos_7606001.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/tiny-togs",
+   "updated_at": "",
+   "end_date": "2026-12-31"
   },
   {
    "id": "dfcc-eric-rajapakse",
