@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T20:43:38Z",
- "offer_count": 3038,
+ "generated_at": "2026-11-20T07:23:24Z",
+ "offer_count": 3026,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -955,27 +955,6 @@
    "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
    "updated_at": "2026-08-04T09:11:14.000Z",
    "end_date": "2026-11-30"
-  },
-  {
-   "id": "sampath-2834",
-   "bank": "Sampath Bank",
-   "merchant": "Luxor Kirindi Ella Resort & Spa",
-   "discount": "20% Discount",
-   "description": "20% Discount on double and triple room bookings on bed and breakfast at Luxor Kirindi Ella Resort & Spa, Bandarawela for Sampath Mastercard and Visa Credit Cardholders.",
-   "category": "Hotels",
-   "city": "Bandarawela",
-   "period": "2026-08-03 to 2026-11-20",
-   "card_types": [
-    "credit",
-    "mastercard",
-    "visa"
-   ],
-   "details": "Booking Period - Valid till 20th November 2026 Stay Period - Valid on 01st September to 30th November 2026",
-   "terms": "1. The offer will be valid only for all Sampath Mastercard & Visa Credit Cardholders(Excluding corporate cards). 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard or Visa Credit Card. 3. All bookings must be made exclusively through the central reservation line. 4. Offer is not valid for online bookings. 5. Offer is only applicable for double and triple room booking on bed and breakfast basis. 6. 50% of the payment will be deducted at the time of making the reservation. 7. This offer is non-refundable and once the booking date is confirmed, date cannot be altered. 8. Cardholder must be present at the duration of booked stay period for the offer to be valid. 9. Reservations will be confirmed subject to availability. 10. Discount will not be applicable on upgrades, extras and supplements. 11. The offer is not valid for corporate events / functions. 12. The offer will not be applicable on pre-confirmed bookings made prior to the promotional date. 13. The offer cannot be combined with any other existing offer. 14. The offer will be valid on local standard room rates and will not apply on any special promotional rate. 15. Spending made under above promotion will not qualify for the accumulation of Ultramiles & Ultra Rewards Loyalty points. 16. The Bank accepts no responsibility in any way for any goods/services purchased and any dispute relating to same should be resolved by the Cardholder directly with the Hotel and any claim by the Cardholder against the Hotel will not relieve the Cardholder from his/her obligation or repayment to the Bank. 17. The general Terms & Conditions of Sampath Bank and Luxor Kirindi Ella Resort & Spa shall apply. 18. The Bank reserves the right to modify or change the Terms & Conditions of the offer. 19. The Bank reserves the right to amend/withdraw this offer at its sole discretion.",
-   "image_url": "https://www.sampath.lk/api/uploads/blob_47a7b2e5f7_a507aa97e0_00930a013b",
-   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
-   "updated_at": "2026-08-04T09:10:49.000Z",
-   "end_date": "2026-11-20"
   },
   {
    "id": "sampath-2772",
@@ -4829,6 +4808,25 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4392",
    "updated_at": "",
    "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4485",
+   "bank": "HNB",
+   "merchant": "Celestia | The Sky Track Lounge & Bar - Réseau Hotel & Spa, Negombo",
+   "discount": "",
+   "description": "Cardholder Dines Free at Regal Réseau Hotel & Spa, Negombo",
+   "category": "Premium",
+   "city": "",
+   "period": "Valid From 2026-11-01 to 2026-11-30",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Celestia%20%7C%20The%20Sky%20Track%20Lounge%20%26%20Bar%20-%20R%C3%A9seau%20Hotel%20%26%20Spa%2C%20Negombo/Celestia%7CTheSkyTrackLounge%26Bar-R%C3%A9seauHotel%26Spa%2CNegombo.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4485",
+   "updated_at": "",
+   "end_date": "2026-11-30"
   },
   {
    "id": "hnb-3952",
@@ -17461,7 +17459,7 @@
   {
    "id": "hnb-4477",
    "bank": "HNB",
-   "merchant": "Cool Planet | Exibit | Nick Nack | Moonstone",
+   "merchant": "COOL PLANET",
    "discount": "0%",
    "description": "3 months 0% installments at Cool Planet for transactions above LKR 20,000",
    "category": "Instalment Plans",
@@ -17472,15 +17470,91 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Cool%20Planet%20%7C%20Exibit%20%7C%20Nick%20Nack%20%7C%20Moonstone/CoolPlanet%7CExibit%7CNickNack%7CMoonstone.jpg",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/COOL%20PLANET/COOLPLANET.jpg",
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4477",
    "updated_at": "",
    "end_date": "2026-12-31"
   },
   {
+   "id": "hnb-4458",
+   "bank": "HNB",
+   "merchant": "Mimosa",
+   "discount": "25% off",
+   "description": "25% off at Mimosa",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Mimosa/Mimosa.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4458",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "hnb-4459",
+   "bank": "HNB",
+   "merchant": "Mimosa",
+   "discount": "10% off",
+   "description": "10% off at Mimosa",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Mimosa/Mimosa.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4459",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "hnb-4468",
+   "bank": "HNB",
+   "merchant": "The Vanta Studios",
+   "discount": "25% off",
+   "description": "25% off at The Vanta Studios",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/The%20Vanta%20Studios/TheVantaStudios.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4468",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "hnb-4469",
+   "bank": "HNB",
+   "merchant": "The Vanta Studios",
+   "discount": "10% off",
+   "description": "10% off at The Vanta Studios",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/The%20Vanta%20Studios/TheVantaStudios.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4469",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
    "id": "hnb-4429",
    "bank": "HNB",
-   "merchant": "House of Fashions New",
+   "merchant": "HOUSE OF FASHIONS NEW",
    "discount": "25% off",
    "description": "25% off at House of fashions",
    "category": "Fashion",
@@ -17491,7 +17565,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/House%20of%20Fashions%20New/HouseofFashionsNew.png",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/HOUSE%20OF%20FASHIONS%20NEW/HOUSEOFFASHIONSNEW.png",
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4429",
    "updated_at": "",
    "end_date": "2026-12-19"
@@ -17861,44 +17935,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "hnb-4458",
-   "bank": "HNB",
-   "merchant": "Mimosa",
-   "discount": "25% off",
-   "description": "25% off at Mimosa",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Mimosa/Mimosa.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4458",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "hnb-4459",
-   "bank": "HNB",
-   "merchant": "Mimosa",
-   "discount": "10% off",
-   "description": "10% off at Mimosa",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Mimosa/Mimosa.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4459",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
    "id": "hnb-4460",
    "bank": "HNB",
    "merchant": "Kingsman Perennial",
@@ -17975,44 +18011,6 @@
    "end_date": "2026-12-06"
   },
   {
-   "id": "hnb-4468",
-   "bank": "HNB",
-   "merchant": "The Vanta Studios",
-   "discount": "25% off",
-   "description": "25% off at The Vanta Studios",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/The%20Vanta%20Studios/TheVantaStudios.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4468",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "hnb-4469",
-   "bank": "HNB",
-   "merchant": "The Vanta Studios",
-   "discount": "10% off",
-   "description": "10% off at The Vanta Studios",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/The%20Vanta%20Studios/TheVantaStudios.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4469",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
    "id": "hnb-4475",
    "bank": "HNB",
    "merchant": "Fashion Bug",
@@ -18053,7 +18051,7 @@
   {
    "id": "hnb-4478",
    "bank": "HNB",
-   "merchant": "NOLIMIT",
+   "merchant": "NOLIMIT-NEW",
    "discount": "25% off",
    "description": "25% off at NOLIMIT",
    "category": "Fashion",
@@ -18064,7 +18062,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/NOLIMIT/NOLIMIT.jpg",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/NOLIMIT-NEW/NOLIMIT-NEW.jpg",
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4478",
    "updated_at": "",
    "end_date": "2026-12-19"
@@ -18072,18 +18070,18 @@
   {
    "id": "hnb-4479",
    "bank": "HNB",
-   "merchant": "NOLIMIT",
+   "merchant": "NOLIMIT-NEW",
    "discount": "10% off",
    "description": "10% off at NOLIMIT",
    "category": "Fashion",
    "city": "",
    "period": "Valid On 2026-12-19",
    "card_types": [
-    "credit"
+    "debit"
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/NOLIMIT/NOLIMIT.jpg",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/NOLIMIT-NEW/NOLIMIT-NEW.jpg",
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4479",
    "updated_at": "",
    "end_date": "2026-12-19"
@@ -18093,7 +18091,7 @@
    "bank": "HNB",
    "merchant": "Hameedia Envoy Mansion Signature H-Sports",
    "discount": "25% off",
-   "description": "25% off on a wide array of products",
+   "description": "25% off at Hameedia | Envoy Mansion | Signature | H - Sports",
    "category": "Fashion",
    "city": "",
    "period": "Valid On 2026-12-05 & 2026-12-06",
@@ -18182,6 +18180,120 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4484",
    "updated_at": "",
    "end_date": "2026-12-12"
+  },
+  {
+   "id": "hnb-4486",
+   "bank": "HNB",
+   "merchant": "Kelly Felder | Scylla Zelus | Redvers Buller",
+   "discount": "25% off",
+   "description": "25% off at Kelly Felder | Scylla Zelus | Redvers Buller",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-12 & 2026-12-13",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Kelly%20Felder%20%7C%20Scylla%20Zelus%20%7C%20Redvers%20Buller/KellyFelder%7CScyllaZelus%7CRedversBuller.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4486",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4487",
+   "bank": "HNB",
+   "merchant": "Kelly Felder | Scylla Zelus | Redvers Buller",
+   "discount": "10% off",
+   "description": "10% off at Kelly Felder | Scylla Zelus | Redvers Buller",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-12 & 2026-12-13",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Kelly%20Felder%20%7C%20Scylla%20Zelus%20%7C%20Redvers%20Buller/KellyFelder%7CScyllaZelus%7CRedversBuller.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4487",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4488",
+   "bank": "HNB",
+   "merchant": "Sriyani Dress Point",
+   "discount": "25% off",
+   "description": "25% off at Sriyani Dress Point",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-13",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Sriyani%20Dress%20Point/SriyaniDressPoint.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4488",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4489",
+   "bank": "HNB",
+   "merchant": "Supul",
+   "discount": "20% off",
+   "description": "20% off at Supul",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-10 & 2026-12-11",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Supul/Supul.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4489",
+   "updated_at": "",
+   "end_date": "2026-12-11"
+  },
+  {
+   "id": "hnb-4490",
+   "bank": "HNB",
+   "merchant": "Sky One",
+   "discount": "20% off",
+   "description": "20% off at Sky One",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-10 & 2026-12-11",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Sky%20One/SkyOne.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4490",
+   "updated_at": "",
+   "end_date": "2026-12-11"
+  },
+  {
+   "id": "hnb-4491",
+   "bank": "HNB",
+   "merchant": "Softlogic & Odel & Cotton",
+   "discount": "25% off",
+   "description": "25% off at ODEL | Cotton Collection | Softlogic Brands",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-17 & 2026-12-18",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Softlogic%20%26%20Odel%20%26%20Cotton/Softlogic%26Odel%26Cotton.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4491",
+   "updated_at": "",
+   "end_date": "2026-12-18"
   },
   {
    "id": "hnb-3640",
@@ -26077,6 +26189,23 @@
    "end_date": "2026-12-13"
   },
   {
+   "id": "seylan-downtown-1",
+   "bank": "Seylan Bank",
+   "merchant": "DOWNTOWN",
+   "discount": "10% off",
+   "description": "10% off with your Seylan Cards...",
+   "category": "Other",
+   "city": "",
+   "period": "2026-12-12 to 2026-12-13",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.seylan.lk/uploads/DOWNTOWN.jpg",
+   "source_url": "https://www.seylan.lk/downtown-1",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
    "id": "seylan-stripes-checks-inc-1",
    "bank": "Seylan Bank",
    "merchant": "Stripes & Checks Inc",
@@ -26919,6 +27048,23 @@
    "terms": "",
    "image_url": "https://www.seylan.lk/uploads/BURLEYS.jpg",
    "source_url": "https://www.seylan.lk/burleys-restaurant-2",
+   "updated_at": "",
+   "end_date": "2026-12-29"
+  },
+  {
+   "id": "seylan-zuzi-1",
+   "bank": "Seylan Bank",
+   "merchant": "ZUZI",
+   "discount": "20% off",
+   "description": "Upto 20% off for Seylan Cards...",
+   "category": "Other",
+   "city": "",
+   "period": "2026-12-13 to 2026-12-29",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.seylan.lk/uploads/zuzi-new.jpg",
+   "source_url": "https://www.seylan.lk/zuzi-1",
    "updated_at": "",
    "end_date": "2026-12-29"
   },
@@ -37081,6 +37227,25 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "ndb-10632",
+   "bank": "NDB",
+   "merchant": "Hayleys Fentons",
+   "discount": "0%",
+   "description": "Up to 60-month 0% interest installment plans on Solar purchases",
+   "category": "Instalment Plans",
+   "city": "",
+   "period": "Until 31st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/364b343d-a187-47cf-8d98-a02c033063aa-hayleys-fentons.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/10632",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
    "id": "ndb-25",
    "bank": "NDB",
    "merchant": "Special IPP Promotions",
@@ -46620,580 +46785,6 @@
    "end_date": "2026-12-11"
   },
   {
-   "id": "peoples-www-amante-lk-30-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.amante.lk",
-   "discount": "30% off",
-   "description": "30% off at www.amante.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From December 5, 2026 to December 6, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/07/amante.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-amante-lk-30-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "peoples-softlogic-glomark-www-glomark-lk-30-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "Softlogic Glomark",
-   "discount": "30% off",
-   "description": "30% off at Softlogic Glomark with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "Till December 31, 2026 ((Every Tuesday & Every Friday))",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/Glomark.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/softlogic-glomark-www-glomark-lk-30-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "peoples-softlogic-glomark-30-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "Softlogic Glomark / www.glomark.lk",
-   "discount": "30% off",
-   "description": "30% off at Softlogic Glomark / www.glomark.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(22nd November & 20th December 2026 )",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/Glomark.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/softlogic-glomark-30-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-20"
-  },
-  {
-   "id": "peoples-www-dillyandcarlo-com-30-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.dillyandcarlo.com",
-   "discount": "30% off",
-   "description": "30% off at www.dillyandcarlo.com with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(15th, 16th November & 18th,19th December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2022/03/dillycarlo.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-dillyandcarlo-com-30-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-19"
-  },
-  {
-   "id": "peoples-www-bigdeals-lk-70-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.bigdeals.lk",
-   "discount": "30% off",
-   "description": "30% off at www.bigdeals.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From November 24, 2026 to November 30, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/Bigdeals.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-bigdeals-lk-70-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
-   "id": "peoples-www-crocodilesrilanka-com-30-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.crocodilesrilanka.com",
-   "discount": "30% off",
-   "description": "30% off at www.crocodilesrilanka.com with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(21st, 22nd & 15th & 16th December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2025/03/Crocodile-New.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-crocodilesrilanka-com-30-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-16"
-  },
-  {
-   "id": "peoples-www-emerald-lk-30-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.emerald.lk",
-   "discount": "30% off",
-   "description": "30% off at www.emerald.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From December 5, 2026 to December 6, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2025/03/Emerald-New.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-emerald-lk-30-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "peoples-www-absolutebasics-lk-30-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.absolutebasics.lk",
-   "discount": "30% off",
-   "description": "30% off at www.absolutebasics.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From December 11, 2026 to December 12, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/Absolute.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-absolutebasics-lk-30-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-12"
-  },
-  {
-   "id": "peoples-www-dsifootcandy-lk-25-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.dsifootcandy.lk",
-   "discount": "25% off",
-   "description": "25% off at www.dsifootcandy.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(29th November & 23rd, 24th December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/DSI_footcandy.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-dsifootcandy-lk-25-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-24"
-  },
-  {
-   "id": "peoples-www-nolimit-lk-25-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.nolimit.lk",
-   "discount": "25% off",
-   "description": "25% off at www.nolimit.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(16th December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2022/03/nolimit.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-nolimit-lk-25-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-16"
-  },
-  {
-   "id": "peoples-www-nilsonline-lk-20-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.nilsonline.lk",
-   "discount": "25% off",
-   "description": "25% off at www.nilsonline.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(22nd, 23rd November & 21st, 22nd December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2022/03/Nils_Stores-1.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-nilsonline-lk-20-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-22"
-  },
-  {
-   "id": "peoples-softlogic-glomark-www-glomark-lk-25-off-on-total-bill-value-credit",
-   "bank": "Peoples Bank",
-   "merchant": "Softlogic Glomark",
-   "discount": "25% off",
-   "description": "25% off at Softlogic Glomark with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "Till December 31, 2026 (Every Friday, valid for Online & In-Store)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/Glomark.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/softlogic-glomark-www-glomark-lk-25-off-on-total-bill-value-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "peoples-www-marcopolohq-com-25-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.marcopolohq.com",
-   "discount": "25% off",
-   "description": "25% off at www.marcopolohq.com with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(10th, 11st & 23rd December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/eepsysha/assets/images/PB_LOGO_Pride%20of%20the%20Nation11.png",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-marcopolohq-com-25-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-23"
-  },
-  {
-   "id": "peoples-www-giggles-lk-25-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.giggles.lk",
-   "discount": "25% off",
-   "description": "25% off at www.giggles.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(9th & 28th December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/eepsysha/assets/images/PB_LOGO_Pride%20of%20the%20Nation11.png",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-giggles-lk-25-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-28"
-  },
-  {
-   "id": "peoples-www-hameedia-com-25-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.hameedia.com",
-   "discount": "20% off",
-   "description": "20% off at www.hameedia.com with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(28th, 29th November & 21st, 22nd December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2025/07/Hameedia.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-hameedia-com-25-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-22"
-  },
-  {
-   "id": "peoples-www-signature-lk-25-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.signature.lk",
-   "discount": "20% off",
-   "description": "20% off at www.signature.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(28th, 29th November & 21st, 22nd December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2023/11/Signature.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-signature-lk-25-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-22"
-  },
-  {
-   "id": "peoples-www-springandsummer-lk-25-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.springandsummer.lk",
-   "discount": "20% off",
-   "description": "20% off at www.springandsummer.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(5th, 6th,23rd & 24th December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2023/03/SpringSummer.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-springandsummer-lk-25-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-24"
-  },
-  {
-   "id": "peoples-www-wishque-com-25-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.wishque.com",
-   "discount": "20% off",
-   "description": "20% off at www.wishque.com with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From December 15, 2026 to December 22, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2025/05/wishque_.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-wishque-com-25-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-22"
-  },
-  {
-   "id": "peoples-www-jumpclothing-lk-20-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.jumpclothing.lk",
-   "discount": "20% off",
-   "description": "20% off at www.jumpclothing.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From December 25, 2026 to December 27, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2022/03/Jump_Clothing-1.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-jumpclothing-lk-20-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-27"
-  },
-  {
-   "id": "peoples-www-wasi-lk-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.wasi.lk",
-   "discount": "20% off",
-   "description": "20% off at www.wasi.lk with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "( 23rd to 30th November & 7th to the 13th & 23rd to 30th December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/WasiLk.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-wasi-lk-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-30"
-  },
-  {
-   "id": "peoples-atlas-myshop",
-   "bank": "Peoples Bank",
-   "merchant": "Atlas myshop",
-   "discount": "20% off",
-   "description": "20% off at Atlas myshop with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "Till December 31, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2023/06/Atlas_new.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/atlas-myshop/",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "peoples-www-lassana-com-15-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.lassana.com",
-   "discount": "20% off",
-   "description": "20% off at www.lassana.com with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From December 19, 2026 to December 24, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2025/05/Lassana.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-lassana-com-15-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-24"
-  },
-  {
-   "id": "peoples-www-cargillsonline-com-20-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.cargillsonline.com",
-   "discount": "20% off",
-   "description": "20% off at www.cargillsonline.com with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "(11th to 20th November & 11th to 20th December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2025/05/Cargills_Online.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-cargillsonline-com-20-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-20"
-  },
-  {
-   "id": "peoples-scentson-20-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "ScentsOn",
-   "discount": "20% off",
-   "description": "20% off at ScentsOn with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From December 16, 2026 to December 20, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Scents_On-scaled.jpeg",
-   "source_url": "https://www.peoplesbank.lk/promotion/scentson-20-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-20"
-  },
-  {
-   "id": "peoples-www-tudo-lk-15-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.tudo.lk",
-   "discount": "10% off",
-   "description": "10% off at www.tudo.lk with Peoples Bank credit & debit cards",
-   "category": "Online",
-   "city": "",
-   "period": "Till December 31, 2026 ((Every Monday) )",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/tudo.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-tudo-lk-15-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "peoples-www-thilakawardhana-com-10-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.thilakawardhana.com",
-   "discount": "10% off",
-   "description": "10% off at www.thilakawardhana.com with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From November 21, 2026 to November 22, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2023/03/Thilkawardhana-Textiles.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-thilakawardhana-com-10-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
-   "id": "peoples-daraz-10-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "Daraz",
-   "discount": "10% off",
-   "description": "10% off at Daraz with Peoples Bank credit & debit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From November 14, 2026 to November 30, 2026",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2022/03/Darazn-1.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/daraz-10-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
-   "id": "peoples-www-singer-lk-up-to-60-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.singer.lk",
-   "discount": "Up to 60% off",
-   "description": "Up to 60% off at www.singer.lk with Peoples Bank credit & debit cards",
-   "category": "Online",
-   "city": "",
-   "period": "Till December 31, 2026",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2022/03/singerlk.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-singer-lk-up-to-60-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "peoples-teleseen-credit",
-   "bank": "Peoples Bank",
-   "merchant": "Teleseen",
-   "discount": "Up to 60% off",
-   "description": "Up to 60% off at Teleseen with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "Till December 31, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2025/11/Teleseen-Primary.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/teleseen-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "peoples-www-tudo-lk-10-off-salary-week-offer-credit",
-   "bank": "Peoples Bank",
-   "merchant": "https://tudo.lk/",
-   "discount": "Up to 70% off",
-   "description": "Up to 70% off at https://tudo.lk/ with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From November 24, 2026 to December 25, 2026",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/tudo.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-tudo-lk-10-off-salary-week-offer-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-25"
-  },
-  {
    "id": "peoples-www-amante-lk-10-off-debit",
    "bank": "Peoples Bank",
    "merchant": "www.amante.lk",
@@ -47308,6 +46899,25 @@
    "end_date": "2026-12-22"
   },
   {
+   "id": "peoples-www-tudo-lk-15-off-debit",
+   "bank": "Peoples Bank",
+   "merchant": "www.tudo.lk",
+   "discount": "10% off",
+   "description": "10% off at www.tudo.lk with Peoples Bank debit cards",
+   "category": "Online",
+   "city": "",
+   "period": "Till December 31, 2026 ((Every Monday) )",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/tudo.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/www-tudo-lk-15-off-debit/",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
    "id": "peoples-atlas-myshop-15-off-debit",
    "bank": "Peoples Bank",
    "merchant": "Atlas myshop",
@@ -47363,6 +46973,25 @@
    "source_url": "https://www.peoplesbank.lk/promotion/www-fashionbug-lk-10-off-debit/",
    "updated_at": "",
    "end_date": "2026-12-23"
+  },
+  {
+   "id": "peoples-daraz-10-off-debit",
+   "bank": "Peoples Bank",
+   "merchant": "Daraz",
+   "discount": "10% off",
+   "description": "10% off at Daraz with Peoples Bank debit cards",
+   "category": "Online",
+   "city": "",
+   "period": "From November 14, 2026 to November 30, 2026",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2022/03/Darazn-1.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/daraz-10-off-debit/",
+   "updated_at": "",
+   "end_date": "2026-11-30"
   },
   {
    "id": "peoples-www-crocodilesrilanka-com-10-off-debit",
@@ -47496,6 +47125,44 @@
    "source_url": "https://www.peoplesbank.lk/promotion/scentson-10-off-debit/",
    "updated_at": "",
    "end_date": "2026-12-20"
+  },
+  {
+   "id": "peoples-www-singer-lk-up-to-60-off-debit",
+   "bank": "Peoples Bank",
+   "merchant": "www.singer.lk",
+   "discount": "Up to 60% off",
+   "description": "Up to 60% off at www.singer.lk with Peoples Bank debit cards",
+   "category": "Online",
+   "city": "",
+   "period": "Till December 31, 2026",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2022/03/singerlk.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/www-singer-lk-up-to-60-off-debit/",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "peoples-www-tudo-lk-10-off-salary-week-offer-debit",
+   "bank": "Peoples Bank",
+   "merchant": "www.tudo.lk",
+   "discount": "Up to 70% off",
+   "description": "Up to 70% off at www.tudo.lk with Peoples Bank debit cards",
+   "category": "Online",
+   "city": "",
+   "period": "From November 24, 2026 to December 25, 2026",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/tudo.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/www-tudo-lk-10-off-salary-week-offer-debit/",
+   "updated_at": "",
+   "end_date": "2026-12-25"
   },
   {
    "id": "peoples-dilshan-drapers-up-to-50-off-credit",
@@ -47749,6 +47416,63 @@
    "source_url": "https://www.peoplesbank.lk/promotion/the-parfumerie-10-off-debit/",
    "updated_at": "",
    "end_date": "2026-11-22"
+  },
+  {
+   "id": "peoples-softlogic-glomark-www-glomark-lk-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Softlogic Glomark",
+   "discount": "30% off",
+   "description": "30% off at Softlogic Glomark with Peoples Bank credit cards",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "Till December 31, 2026 ((Every Tuesday & Every Friday))",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/Glomark.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/softlogic-glomark-www-glomark-lk-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "peoples-softlogic-glomark-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Softlogic Glomark / www.glomark.lk",
+   "discount": "30% off",
+   "description": "30% off at Softlogic Glomark / www.glomark.lk with Peoples Bank credit cards",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "(22nd November & 20th December 2026 )",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/Glomark.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/softlogic-glomark-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "peoples-softlogic-glomark-www-glomark-lk-25-off-on-total-bill-value-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Softlogic Glomark",
+   "discount": "25% off",
+   "description": "25% off at Softlogic Glomark with Peoples Bank credit cards",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "Till December 31, 2026 (Every Friday, valid for Online & In-Store)",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/Glomark.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/softlogic-glomark-www-glomark-lk-25-off-on-total-bill-value-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-31"
   },
   {
    "id": "peoples-cargills-25-off-credit",
@@ -48019,6 +47743,25 @@
    "source_url": "https://www.peoplesbank.lk/promotion/wickramarachchi-opticians-30-off-credit-2/",
    "updated_at": "",
    "end_date": "2026-12-31"
+  },
+  {
+   "id": "peoples-siddhalepa-clinics-25-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Siddhalepa Clinics",
+   "discount": "25% off",
+   "description": "25% off at Siddhalepa Clinics with Peoples Bank credit cards",
+   "category": "Health",
+   "city": "",
+   "period": "(27th November 2026)",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/06/Siddhalepa-Clinic.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/siddhalepa-clinics-25-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-11-27"
   },
   {
    "id": "peoples-vision-care-20-off-credit",
@@ -54464,25 +54207,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "dfcc-wimaladharma-and-sons",
-   "bank": "DFCC",
-   "merchant": "Wimaladharma & Sons",
-   "discount": "Up to 50%",
-   "description": "Up to 50% Savings on selected watches at Wimaladharma & Sons. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Shopping",
-   "city": "",
-   "period": "13th to 16th November and 01st to 30th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/caf1eac3-b732-46e1-9724-4da1a0e89c0b/wimaladharma_400-X-2251.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/wimaladharma-and-sons",
-   "updated_at": "",
-   "end_date": "2026-12-30"
-  },
-  {
    "id": "dfcc-zden-col-04",
    "bank": "DFCC",
    "merchant": "Zden",
@@ -54690,6 +54414,25 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/house-of-gifts",
    "updated_at": "",
    "end_date": "2026-12-25"
+  },
+  {
+   "id": "dfcc-wimaladharma-and-sons",
+   "bank": "DFCC",
+   "merchant": "Wimaladharma & Sons",
+   "discount": "Up to 30%",
+   "description": "Up to 30% Savings on selected watches at Wimaladharma & Sons. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Shopping",
+   "city": "",
+   "period": "01st to 30th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/caf1eac3-b732-46e1-9724-4da1a0e89c0b/wimaladharma_400-X-2251.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/wimaladharma-and-sons",
+   "updated_at": "",
+   "end_date": "2026-12-30"
   },
   {
    "id": "dfcc-thingz-lk",
@@ -55146,6 +54889,25 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/tiny-togs",
    "updated_at": "",
    "end_date": "2026-12-31"
+  },
+  {
+   "id": "dfcc-the-kids-warehouse",
+   "bank": "DFCC",
+   "merchant": "The Kids Warehouse - Colombo 04 for bills above Rs. 5,000/-",
+   "discount": "25%",
+   "description": "25% Savings at The Kids Warehouse - Colombo 04 for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Shopping",
+   "city": "",
+   "period": "28th & 29th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/95174e9f-6097-4338-9f33-6388cb3e967d/TKW.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/the-kids-warehouse",
+   "updated_at": "",
+   "end_date": "2026-12-29"
   },
   {
    "id": "dfcc-eric-rajapakse",
