@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T06:47:51Z",
- "offer_count": 3053,
+ "generated_at": "2026-11-22T19:46:49Z",
+ "offer_count": 3040,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -4149,25 +4149,6 @@
    "end_date": "2026-12-19"
   },
   {
-   "id": "combank-buy-now-and-pay-later-with-orange-electrics-and-combank-credit-cards",
-   "bank": "Commercial Bank",
-   "merchant": "Buy now and pay later with Orange Electrics and ComBank Credit Cards",
-   "discount": "Best Offer",
-   "description": "Buy now and pay later with Orange Electrics and ComBank Credit Cards",
-   "category": "Other",
-   "city": "",
-   "period": "Offer valid on 21st and 22nd November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Flexi-Week-EDM-NOV-thumb.jpg",
-   "source_url": "https://www.combank.lk/rewards-promotion/other-offers/buy-now-and-pay-later-with-orange-electrics-and-combank-credit-cards",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
    "id": "combank-make-every-space-extraordinary-with-lanka-tiles-using-combank-credit-cards",
    "bank": "Commercial Bank",
    "merchant": "Make every space extraordinary with Lanka Tiles using ComBank Credit Cards",
@@ -4447,23 +4428,6 @@
    "source_url": "https://www.combank.lk/rewards-promotion/q-payment-app-offers/enjoy-a-10-cashback-for-scan-and-pay-payments-via-q-payment-app",
    "updated_at": "",
    "end_date": "2026-11-30"
-  },
-  {
-   "id": "combank-enjoy-a-10-cashback-for-electricity-bill-payment-via-q-payment-app",
-   "bank": "Commercial Bank",
-   "merchant": "Enjoy a 10% Cashback for Electricity Bill Payment via Q+ Payment App",
-   "discount": "Up to 10% Off",
-   "description": "Enjoy a 10% Cashback for Electricity Bill Payment via Q+ Payment App",
-   "category": "Online",
-   "city": "",
-   "period": "Offer valid on 22nd November 2026",
-   "card_types": [],
-   "details": "",
-   "terms": "",
-   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/CEB-LECO-Q%2B-Payment-App-thumb.jpg",
-   "source_url": "https://www.combank.lk/rewards-promotion/q-payment-app-offers/enjoy-a-10-cashback-for-electricity-bill-payment-via-q-payment-app",
-   "updated_at": "",
-   "end_date": "2026-11-22"
   },
   {
    "id": "combank-enjoy-a-25-cashback-for-water-bill-payment-via-q-payment-app",
@@ -13294,44 +13258,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "hnb-4283",
-   "bank": "HNB",
-   "merchant": "EDYS Holdings (Pvt) Ltd",
-   "discount": "Up to 10% off",
-   "description": "Up to 10% off on selected items + up to 06 months 0% installments at EDYS Holdings",
-   "category": "Instalment Plans",
-   "city": "",
-   "period": "Valid On 2026-11-21 & 2026-11-22",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/EDYS%20Holdings%20%28Pvt%29%20Ltd/EDYSHoldings%28Pvt%29Ltd.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4283",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
-   "id": "hnb-4284",
-   "bank": "HNB",
-   "merchant": "EDYS Holdings (Pvt) Ltd",
-   "discount": "Up to 10% off",
-   "description": "Up to 10% off on selected items at EDYS Holdings",
-   "category": "Lifestyle",
-   "city": "",
-   "period": "Valid On 2026-11-21 & 2026-11-22",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/EDYS%20Holdings%20%28Pvt%29%20Ltd/EDYSHoldings%28Pvt%29Ltd.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4284",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
    "id": "hnb-4289",
    "bank": "HNB",
    "merchant": "Orel Corporation (Pvt) Ltd / Orel Ceylon (Pvt) Ltd. - Orange Electricals",
@@ -17674,25 +17600,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4411",
    "updated_at": "",
    "end_date": "2026-12-20"
-  },
-  {
-   "id": "hnb-4418",
-   "bank": "HNB",
-   "merchant": "Dsifootcandy.lk & Avi.lk",
-   "discount": "15% off",
-   "description": "15% off on www.dsifootcandy.lk & www.avi.lk",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid On 2026-11-21 & 2026-11-22",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Dsifootcandy.lk%20%26%20Avi.lk/Dsifootcandy.lk%26Avi.lk.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4418",
-   "updated_at": "",
-   "end_date": "2026-11-22"
   },
   {
    "id": "hnb-4438",
@@ -30847,23 +30754,6 @@
    "end_date": "2026-12-06"
   },
   {
-   "id": "ntb-20-savings-41",
-   "bank": "Nations Trust",
-   "merchant": "Jezza",
-   "discount": "20% Savings",
-   "description": "20% Savings at Jezza",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 21 & 22 November 2026",
-   "card_types": [],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.nationstrust.com/3292/New-Project-(19).jpg",
-   "source_url": "https://www.nationstrust.com/promotions/20-savings-41",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
    "id": "ntb-up-to-55-savings",
    "bank": "Nations Trust",
    "merchant": "Abans Clothing",
@@ -38501,26 +38391,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "ndb-116",
-   "bank": "NDB",
-   "merchant": "Envoy Mansion",
-   "discount": "15% Savings",
-   "description": "15% Savings on Credit Cards & 10% Savings on Debit Cards",
-   "category": "Other",
-   "city": "",
-   "period": "21st & 22nd November",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/97e50526-b441-4fff-8f86-696a2ce858cb_whatsapp-image-2024-11-20-at-10.23.49-am-(6).jpeg",
-   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/116",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
    "id": "ndb-129",
    "bank": "NDB",
    "merchant": "La Vivente",
@@ -38788,26 +38658,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "ndb-122",
-   "bank": "NDB",
-   "merchant": "Signature",
-   "discount": "15% Savings",
-   "description": "15% Savings on Credit Cards & 10% Savings on Debit Cards",
-   "category": "Other",
-   "city": "",
-   "period": "21st & 22nd November 2026",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/5f9eae87-1ea0-4f53-90ba-0d5ec39120e7_whatsapp-image-2024-11-20-at-10.23.49-am-(6).jpeg",
-   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/122",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
    "id": "ndb-187",
    "bank": "NDB",
    "merchant": "Kingsman Perennial",
@@ -38826,26 +38676,6 @@
    "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/187",
    "updated_at": "",
    "end_date": "2026-11-24"
-  },
-  {
-   "id": "ndb-124",
-   "bank": "NDB",
-   "merchant": "H- Sports (Racecourse)",
-   "discount": "15% Savings",
-   "description": "15% Savings on Credit Cards & 10% Savings on Debit Cards",
-   "category": "Education",
-   "city": "",
-   "period": "21st & 22nd November 2026",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/5966ad73-65a8-4ac1-9598-5a2fc522a90d_whatsapp-image-2024-11-20-at-10.23.49-am-(8).jpeg",
-   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/124",
-   "updated_at": "",
-   "end_date": "2026-11-22"
   },
   {
    "id": "ndb-337",
@@ -44664,25 +44494,6 @@
    "end_date": "2026-12-08"
   },
   {
-   "id": "peoples-thilakawardhana-textiles-10-off-credit-2",
-   "bank": "Peoples Bank",
-   "merchant": "Thilakawardhana Textiles",
-   "discount": "10% off",
-   "description": "10% off at Thilakawardhana Textiles with Peoples Bank credit cards",
-   "category": "Fashion",
-   "city": "",
-   "period": "From November 21, 2026 to November 22, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2023/03/Thilkawardhana-Textiles.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/thilakawardhana-textiles-10-off-credit-2/",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
    "id": "peoples-under-armour-by-abans-up-to-70-off-credit-2",
    "bank": "Peoples Bank",
    "merchant": "Under Armour (By Abans)",
@@ -47306,25 +47117,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "peoples-www-thilakawardhana-com-10-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "www.thilakawardhana.com",
-   "discount": "10% off",
-   "description": "10% off at www.thilakawardhana.com with Peoples Bank credit cards",
-   "category": "Online",
-   "city": "",
-   "period": "From November 21, 2026 to November 22, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2023/03/Thilkawardhana-Textiles.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/www-thilakawardhana-com-10-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
    "id": "peoples-daraz-10-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Daraz",
@@ -47980,25 +47772,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "peoples-the-parfumerie-10-off-debit",
-   "bank": "Peoples Bank",
-   "merchant": "The Parfumerie",
-   "discount": "10% off",
-   "description": "10% off at The Parfumerie with Peoples Bank debit cards",
-   "category": "Electronics & Furniture",
-   "city": "",
-   "period": "From November 21, 2026 to November 22, 2026",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2022/11/Parfumerie.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/the-parfumerie-10-off-debit/",
-   "updated_at": "",
-   "end_date": "2026-11-22"
-  },
-  {
    "id": "peoples-cargills-25-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Cargills",
@@ -48497,25 +48270,6 @@
    "source_url": "https://www.peoplesbank.lk/promotion/exibit-20-off-credit/",
    "updated_at": "",
    "end_date": "2026-12-30"
-  },
-  {
-   "id": "peoples-the-parfumerie-20-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "The Parfumerie",
-   "discount": "20% off",
-   "description": "20% off at The Parfumerie with Peoples Bank credit cards",
-   "category": "Other",
-   "city": "",
-   "period": "From November 21, 2026 to November 22, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2022/11/Parfumerie.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/the-parfumerie-20-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-11-22"
   },
   {
    "id": "peoples-laundromat-up-to-20-off-credit",
