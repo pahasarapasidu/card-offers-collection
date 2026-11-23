@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T07:37:20Z",
- "offer_count": 3049,
+ "generated_at": "2026-11-23T23:59:32Z",
+ "offer_count": 3051,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -4762,7 +4762,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Celestia%20%7C%20The%20Sky%20Track%20Lounge%20%26%20Bar%20-%20R%C3%A9seau%20Hotel%20%26%20Spa%2C%20Negombo/Celestia%7CTheSkyTrackLounge%26Bar-R%C3%A9seauHotel%26Spa%2CNegombo.png",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/%20Celestia%20%7C%20The%20Sky%20Track%20Lounge%20%26%20Bar%20-%20R%C3%A9seau%20Hotel%20%26%20Spa%2C%20Negombo/Celestia%7CTheSkyTrackLounge%26Bar-R%C3%A9seauHotel%26Spa%2CNegombo.png",
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4485",
    "updated_at": "",
    "end_date": "2026-11-30"
@@ -17397,80 +17397,80 @@
    "end_date": "2026-11-27"
   },
   {
-   "id": "hnb-4458",
+   "id": "hnb-4523",
    "bank": "HNB",
-   "merchant": "Mimosa",
-   "discount": "25% off",
-   "description": "25% off at Mimosa",
-   "category": "Fashion",
+   "merchant": "HNB Credit Cards New",
+   "discount": "0%",
+   "description": "Up to 06 Months 0% Installments for South night event tickets on purchases above LKR 8,000 at HNB South Regional Sports Club",
+   "category": "Instalment Plans",
    "city": "",
-   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
+   "period": "Valid Until 2026-11-27",
    "card_types": [
     "credit"
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Mimosa/Mimosa.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4458",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/HNB%20Credit%20Cards%20New/HNBCreditCardsNew.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4523",
    "updated_at": "",
-   "end_date": "2026-12-06"
+   "end_date": "2026-11-27"
   },
   {
-   "id": "hnb-4459",
+   "id": "hnb-4517",
    "bank": "HNB",
-   "merchant": "Mimosa",
-   "discount": "10% off",
-   "description": "10% off at Mimosa",
+   "merchant": "Barracks Clothing",
+   "discount": "Up to 60% off",
+   "description": "Up to 60% off @ Barracks Clothing",
    "category": "Fashion",
    "city": "",
-   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Mimosa/Mimosa.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4459",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "hnb-4468",
-   "bank": "HNB",
-   "merchant": "The Vanta Studios",
-   "discount": "25% off",
-   "description": "25% off at The Vanta Studios",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
+   "period": "Valid On 2026-11-25 & 2026-11-26",
    "card_types": [
     "credit"
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/The%20Vanta%20Studios/TheVantaStudios.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4468",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Barracks%20Clothing%20/BarracksClothing.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4517",
    "updated_at": "",
-   "end_date": "2026-12-06"
+   "end_date": "2026-11-26"
   },
   {
-   "id": "hnb-4469",
+   "id": "hnb-4519",
    "bank": "HNB",
-   "merchant": "The Vanta Studios",
-   "discount": "10% off",
-   "description": "10% off at The Vanta Studios",
+   "merchant": "Handloom Gallery",
+   "discount": "15% off",
+   "description": "15% off at Handloom Gallery",
    "category": "Fashion",
    "city": "",
-   "period": "Valid From 2026-11-20 to 2026-11-22, 2026-12-05 & 2026-12-06",
+   "period": "Valid On 2026-11-25 & 2026-11-26",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Handloom%20Gallery/HandloomGallery.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4519",
+   "updated_at": "",
+   "end_date": "2026-11-26"
+  },
+  {
+   "id": "hnb-4520",
+   "bank": "HNB",
+   "merchant": "Handloom Gallery",
+   "discount": "10% off",
+   "description": "10% off at Handloom Gallery",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-11-25 & 2026-11-26",
    "card_types": [
     "debit"
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/The%20Vanta%20Studios/TheVantaStudios.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4469",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Handloom%20Gallery/HandloomGallery.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4520",
    "updated_at": "",
-   "end_date": "2026-12-06"
+   "end_date": "2026-11-26"
   },
   {
    "id": "hnb-4429",
@@ -17490,6 +17490,122 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4429",
    "updated_at": "",
    "end_date": "2026-12-19"
+  },
+  {
+   "id": "hnb-4521",
+   "bank": "HNB",
+   "merchant": "Tropic of Linen",
+   "discount": "15% off",
+   "description": "15% off at Tropic of Linen",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-11-25 & 2026-11-27, 2026-12-10 & 2026-12-12",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Tropic%20of%20Linen/TropicofLinen.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4521",
+   "updated_at": "",
+   "end_date": "2026-12-12"
+  },
+  {
+   "id": "hnb-4501",
+   "bank": "HNB",
+   "merchant": "Barki Ceylon",
+   "discount": "15% off",
+   "description": "15% off at Barki Ceylon",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 11-25-2026 to 2026-12-31",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Barki%20Ceylon/BarkiCeylon.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4501",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "hnb-4458",
+   "bank": "HNB",
+   "merchant": "Mimosa",
+   "discount": "25% off",
+   "description": "25% off at Mimosa",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Mimosa/Mimosa.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4458",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "hnb-4459",
+   "bank": "HNB",
+   "merchant": "Mimosa",
+   "discount": "10% off",
+   "description": "10% off at Mimosa",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Mimosa/Mimosa.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4459",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "hnb-4468",
+   "bank": "HNB",
+   "merchant": "The Vanta Studios",
+   "discount": "25% off",
+   "description": "25% off at The Vanta Studios",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/The%20Vanta%20Studios/TheVantaStudios.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4468",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "hnb-4469",
+   "bank": "HNB",
+   "merchant": "The Vanta Studios",
+   "discount": "10% off",
+   "description": "10% off at The Vanta Studios",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-05 & 2026-12-06",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/The%20Vanta%20Studios/TheVantaStudios.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4469",
+   "updated_at": "",
+   "end_date": "2026-12-06"
   },
   {
    "id": "hnb-4399",
@@ -18297,25 +18413,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "hnb-4498",
-   "bank": "HNB",
-   "merchant": "Kathyusha",
-   "discount": "30% off",
-   "description": "30% off at Kathyusha Exclusive Lines",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid from 11-21-2026 to 2026-11-23",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Kathyusha/Kathyusha.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4498",
-   "updated_at": "",
-   "end_date": "2026-11-23"
-  },
-  {
    "id": "hnb-4499",
    "bank": "HNB",
    "merchant": "Zara Redthiplimahgethra",
@@ -18356,26 +18453,6 @@
    "end_date": "2026-12-13"
   },
   {
-   "id": "hnb-4501",
-   "bank": "HNB",
-   "merchant": "Barki Ceylon",
-   "discount": "15% off",
-   "description": "15% off at Barki Ceylon",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid from 11-25-2026 to 2026-12-31",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Barki%20Ceylon/BarkiCeylon.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4501",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
    "id": "hnb-4505",
    "bank": "HNB",
    "merchant": "Nisaco Mall",
@@ -18393,25 +18470,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4505",
    "updated_at": "",
    "end_date": "2026-12-05"
-  },
-  {
-   "id": "hnb-4507",
-   "bank": "HNB",
-   "merchant": "Kathyusha",
-   "discount": "20% off",
-   "description": "20% off at Kathyusha Exclusive Lines",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid from 11-21-2026 to 2026-11-23",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Kathyusha/Kathyusha.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4507",
-   "updated_at": "",
-   "end_date": "2026-11-23"
   },
   {
    "id": "hnb-4511",
@@ -18469,25 +18527,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4513",
    "updated_at": "",
    "end_date": "2026-12-20"
-  },
-  {
-   "id": "hnb-4517",
-   "bank": "HNB",
-   "merchant": "Barracks Clothing",
-   "discount": "Up to 60% off",
-   "description": "Up to 60% off @ Barracks Clothing",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid On 2026-11-25 & 2026-11-26",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Barracks%20Clothing%20/BarracksClothing.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4517",
-   "updated_at": "",
-   "end_date": "2026-11-26"
   },
   {
    "id": "hnb-4518",
@@ -24672,7 +24711,7 @@
    "bank": "Seylan Bank",
    "merchant": "IDEAL MOTORS",
    "discount": "0%",
-   "description": "Special Offer + 0% Instalment plans up to 6 months with your Seylan Credit Cards....",
+   "description": "Special Offer + 0% Instalment plans with your Seylan Credit Cards....",
    "category": "Instalment Plans",
    "city": "",
    "period": "2026-03-13 to 2026-12-31",
@@ -50839,7 +50878,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/4daac2cf-3bbd-4d02-96e9-4e5c8c05811b/bedesi.jpeg",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/8c6239e2-cf8f-4742-a2d5-2b0b40bf7b4a/BeDesi.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/be-desi",
    "updated_at": "",
    "end_date": "2026-12-21"
@@ -50858,27 +50897,8 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Be-Dapper-Logo-Banners-760-X-600.jpg",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/4c032f29-ddbe-47e1-9aa8-1bd7f68ac26e/BeDapper.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/be-dapper",
-   "updated_at": "",
-   "end_date": "2026-12-21"
-  },
-  {
-   "id": "dfcc-raja-and-rani-by-be-desi",
-   "bank": "DFCC",
-   "merchant": "Raja Rani by Be Desi - Colombo 06 for bills above Rs. 10,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Raja Rani by Be Desi - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 21st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3f93ec15-937e-4391-8d30-468f19b63413/raja_rani_2000px_2.png.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/raja-and-rani-by-be-desi",
    "updated_at": "",
    "end_date": "2026-12-21"
   },
@@ -50896,8 +50916,27 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/f97dbe57-76a6-491d-9258-7844f7f574f7/sultan500px2.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/5e520d41-0ea3-40b4-bc0b-90844deb1f05/Sultanbybedesi.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/sultan-by-be-desi",
+   "updated_at": "",
+   "end_date": "2026-12-21"
+  },
+  {
+   "id": "dfcc-raja-and-rani-by-be-desi",
+   "bank": "DFCC",
+   "merchant": "Raja Rani by Be Desi - Colombo 06 for bills above Rs. 10,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Raja Rani by Be Desi - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 21st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/e1a22905-a17c-4991-b189-6b041ef280c2/RajaRanibybedesi.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/raja-and-rani-by-be-desi",
    "updated_at": "",
    "end_date": "2026-12-21"
   },
@@ -51675,7 +51714,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/67788073-c274-478e-9438-efde18a53de2/CIB.jpeg",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/37e5f68d-ef16-4730-af91-8900ba5c023a/CIBShoppingcentre.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/cib-2",
    "updated_at": "",
    "end_date": "2026-12-13"
@@ -51694,7 +51733,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/89cb679b-a742-4015-a051-c547c32deb42/CIBcurtains.jpeg",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/fbdfc476-7cfd-4580-b5e2-367790e9b543/CIBCurtains.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/cib-curtains",
    "updated_at": "",
    "end_date": "2026-12-13"
@@ -51732,7 +51771,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/cab41094-e2ac-4846-b2ab-13b81d79a2e6/HouseofTailors1.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/bb37d8a5-c912-4c00-848e-0f1e1df124d0/HouseofTailors.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/house-of-tailors",
    "updated_at": "",
    "end_date": "2026-12-13"
@@ -52264,7 +52303,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/217eeea5-69f8-4bb7-ad81-f2c2b3a6aa07/rvfashion.jpeg",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/6aef5178-dd90-4a80-9a5a-0357b1800a84/RVFashion.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/rv-fashion",
    "updated_at": "",
    "end_date": "2026-12-20"
@@ -55347,7 +55386,7 @@
    "end_date": "2026-12-29"
   },
   {
-   "id": "dfcc-eric-rajapakse",
+   "id": "dfcc-eric-rajapakse-2",
    "bank": "DFCC",
    "merchant": "Eric Rajapakse Opticians",
    "discount": "15%",
@@ -55361,7 +55400,7 @@
    "details": "",
    "terms": "",
    "image_url": "https://properties.dfcc.lk/dfccweb/uploads/c4d001b7-5765-4951-bcfd-69bcf2fa2d92/Eric-Rajapakse-Web-Banners_760-X-600.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/eric-rajapakse",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/eric-rajapakse-2",
    "updated_at": "",
    "end_date": "2026-12-31"
   },
