@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T19:46:49Z",
- "offer_count": 3040,
+ "generated_at": "2026-11-23T07:37:20Z",
+ "offer_count": 3049,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -3161,6 +3161,28 @@
    "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
    "updated_at": "2026-08-21T10:32:32.000Z",
    "end_date": "2027-06-30"
+  },
+  {
+   "id": "sampath-3805",
+   "bank": "Sampath Bank",
+   "merchant": "Gourmet Market By MA's Kitchen",
+   "discount": "20% Discount",
+   "description": "Offer 01 20% discount at MA's Kitchen Outlets for all Sampath Mastercard and Visa Credit Cardholders. Offer 02 15% discount at MA's Kitchen Outlets for all Sampath Debit Cardholders.",
+   "category": "Dining",
+   "city": "",
+   "period": "2026-11-23 to 2026-11-29",
+   "card_types": [
+    "credit",
+    "debit",
+    "mastercard",
+    "visa"
+   ],
+   "details": "*The offer is valid for bills above Rs. 4,000 and valid up to a maximum bill value of Rs. 20,000/- per cardholder. Each cardholder may purchase up to a maximum of five 5 units per transaction. *This promotion will apply only to in-store transactions and will not be applicable for online, Uber Eats, or PickMe orders.",
+   "terms": "1. This offer is valid only for all Sampath Mastercard, Visa Credit Cardholders & Sampath Debit Cardholders (Excluding Sampath Corporate Cards). 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard, Visa Credit Card or Sampath Debit Card. 3. The offer is valid for bills above Rs. 4,000 and valid up to a maximum bill value of Rs. 20,000/- per cardholder. Each cardholder may purchase up to a maximum of five 5 units per transaction. 4. This promotion will apply only to in-store transactions and will not be applicable for online, Uber Eats, or PickMe orders. 5. Discount will not be applicable on gift voucher purchases and already discounted items. 6. Offer(s) cannot be combined with any other existing offers. 7. The Bank accepts no responsibility in any way for any goods/ services purchased and any dispute relating to same should be resolved by the cardholder directly with the Partner and any claim by the cardholder against the Partner will not relieve the cardholder from his/ her obligation or repayment to the Bank. 8. Spending made under above promotions will not qualify for the accumulation of Ultra Rewards Loyalty points. 9. The general terms & conditions of Sampath Bank & Gourmet Market By MA's Kitchen shall apply. 10. In the event of any dispute, the decision of the Bank shall be final. 11. The Bank reserves the right to modify or change the terms & conditions of the offers. 12. The Bank reserves the right to amend/ withdraw this offer at its sole discretion.",
+   "image_url": "https://www.sampath.lk/api/uploads/blob_b927209a2b_01b2346e16_f30eebd522",
+   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
+   "updated_at": "2026-11-20T15:44:24.000Z",
+   "end_date": "2026-11-29"
   },
   {
    "id": "sampath-3752",
@@ -8700,7 +8722,7 @@
    "description": "50% off on total bill above LKR 4,000 @ Taco Bell",
    "category": "Dining",
    "city": "",
-   "period": "Valid On (4th Wednesday) 2026-11-25",
+   "period": "Valid On 2026-11-23 & 2026-11-25",
    "card_types": [
     "credit"
    ],
@@ -13752,6 +13774,25 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "hnb-4514",
+   "bank": "HNB",
+   "merchant": "Wasi.lk",
+   "discount": "20% off",
+   "description": "Wasi Flash Offer! Get 20% off + up to 24 months 0% installments",
+   "category": "Online",
+   "city": "",
+   "period": "Valid On 2026-11-25",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/wasi-lk-new.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4514",
+   "updated_at": "",
+   "end_date": "2026-11-25"
+  },
+  {
    "id": "hnb-1508",
    "bank": "HNB",
    "merchant": "Tudo.LK",
@@ -14894,6 +14935,26 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4446",
    "updated_at": "",
    "end_date": "2026-12-01"
+  },
+  {
+   "id": "hnb-4515",
+   "bank": "HNB",
+   "merchant": "Vantage",
+   "discount": "20% off",
+   "description": "20% off at www.vantage.lk",
+   "category": "Online",
+   "city": "",
+   "period": "Valid From 2026-12-15 to 2026-12-17",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Vantage/Vantage.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4515",
+   "updated_at": "",
+   "end_date": "2026-12-17"
   },
   {
    "id": "hnb-4012",
@@ -17317,6 +17378,25 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "hnb-4516",
+   "bank": "HNB",
+   "merchant": "SIDDHALEPA CLINIC",
+   "discount": "20% off",
+   "description": "20% off on bills above LKR 10,000 at Siddhalepa Clinic",
+   "category": "Health",
+   "city": "",
+   "period": "Valid On 2026-11-27",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/SIDDHALEPA%20CLINIC/SIDDHALEPACLINIC.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4516",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
    "id": "hnb-4458",
    "bank": "HNB",
    "merchant": "Mimosa",
@@ -18370,6 +18450,63 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4512",
    "updated_at": "",
    "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4513",
+   "bank": "HNB",
+   "merchant": "ZUZI",
+   "discount": "20% off",
+   "description": "20% off at ZUZI",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-11-24 & 2026-12-20",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/ZUZI/ZUZI.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4513",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "hnb-4517",
+   "bank": "HNB",
+   "merchant": "Barracks Clothing",
+   "discount": "Up to 60% off",
+   "description": "Up to 60% off @ Barracks Clothing",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-11-25 & 2026-11-26",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Barracks%20Clothing%20/BarracksClothing.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4517",
+   "updated_at": "",
+   "end_date": "2026-11-26"
+  },
+  {
+   "id": "hnb-4518",
+   "bank": "HNB",
+   "merchant": "ZUZI",
+   "discount": "10% off",
+   "description": "10% off at ZUZI",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-11-24 & 2026-12-20",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/ZUZI/ZUZI.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4518",
+   "updated_at": "",
+   "end_date": "2026-12-20"
   },
   {
    "id": "hnb-3640",
@@ -23331,23 +23468,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "seylan-card-member-dines-free-premier-cards-offer-1",
-   "bank": "Seylan Bank",
-   "merchant": "CARD MEMBER DINES FREE PREMIER CARDS OFFER",
-   "discount": "",
-   "description": "FOR SEYLAN PREMIER CARHOLDERS...",
-   "category": "Other",
-   "city": "",
-   "period": "2026-10-01 to 2026-11-30",
-   "card_types": [],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.seylan.lk/uploads/1769772157_697c947d861d2_NEW-LOGO.jpg",
-   "source_url": "https://www.seylan.lk/card-member-dines-free-premier-cards-offer-1",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
    "id": "seylan-molly-boulevard-1_",
    "bank": "Seylan Bank",
    "merchant": "MOLLY BOULEVARD",
@@ -25741,6 +25861,25 @@
    "source_url": "https://www.seylan.lk/browns-hotels-resorts-1",
    "updated_at": "",
    "end_date": "2027-01-01"
+  },
+  {
+   "id": "seylan-amaya-resorts-spas_",
+   "bank": "Seylan Bank",
+   "merchant": "AMAYA RESORTS & SPAS",
+   "discount": "up to 38% off",
+   "description": "Enjoy up to 38% off on Half Board and Full Board plans on Double & Triple Basis only with your Seylan Credit Cards...",
+   "category": "Hotels",
+   "city": "",
+   "period": "2026-11-23 to 2027-01-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.seylan.lk/uploads/Amaya-Resorts-&-Spas.jpg",
+   "source_url": "https://www.seylan.lk/seylancard/promotions/local%20travel/amaya-resorts-spas_",
+   "updated_at": "",
+   "end_date": "2027-01-31"
   },
   {
    "id": "seylan-oak-ray-hotels-resorts-1",
@@ -38736,6 +38875,26 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "peoples-seerock-the-kings-domain-hotel-50-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Seerock The King's Domain Hotel",
+   "discount": "50% off",
+   "description": "50% off at Seerock The King's Domain Hotel with Peoples Bank credit & debit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "From November 20, 2026 to December 20, 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2023/03/kings_domains-1.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/seerock-the-kings-domain-hotel-50-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
    "id": "peoples-uga-bay-passikudah-45-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Uga Bay - Passikudah",
@@ -42725,6 +42884,25 @@
    "end_date": "2026-12-06"
   },
   {
+   "id": "peoples-spring-summer-25-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Spring & Summer",
+   "discount": "25% off",
+   "description": "25% off at Spring & Summer with Peoples Bank credit cards",
+   "category": "Fashion",
+   "city": "",
+   "period": "(5th, 6th,23rd & 24th December 2026)",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/SpringSummer.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/spring-summer-25-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-24"
+  },
+  {
    "id": "peoples-rv-fashion-25-off-credit",
    "bank": "Peoples Bank",
    "merchant": "RV Fashion",
@@ -43232,7 +43410,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://www.peoplesbank.lk/eepsysha/assets/images/PB_LOGO_Pride%20of%20the%20Nation11.png",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Samagi_Tex.jpg",
    "source_url": "https://www.peoplesbank.lk/promotion/samagi-tex-25-off-credit/",
    "updated_at": "",
    "end_date": "2026-12-20"
@@ -43369,25 +43547,6 @@
    "source_url": "https://www.peoplesbank.lk/promotion/aditi-infinity-25-off-credit/",
    "updated_at": "",
    "end_date": "2026-12-06"
-  },
-  {
-   "id": "peoples-spring-summer-25-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "Spring & Summer",
-   "discount": "20% off",
-   "description": "20% off at Spring & Summer with Peoples Bank credit cards",
-   "category": "Fashion",
-   "city": "",
-   "period": "(5th, 6th,23rd & 24th December 2026)",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2024/03/SpringSummer.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/spring-summer-25-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-24"
   },
   {
    "id": "peoples-sriyani-dresspoint-25-off-credit",
@@ -44334,7 +44493,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://www.peoplesbank.lk/eepsysha/assets/images/PB_LOGO_Pride%20of%20the%20Nation11.png",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Forever_21.jpg",
    "source_url": "https://www.peoplesbank.lk/promotion/forever-21-20-off-credit/",
    "updated_at": "",
    "end_date": "2026-12-30"
@@ -44372,7 +44531,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://www.peoplesbank.lk/eepsysha/assets/images/PB_LOGO_Pride%20of%20the%20Nation11.png",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Visaga.jpg",
    "source_url": "https://www.peoplesbank.lk/promotion/visaga-fashion-20-off-credit/",
    "updated_at": "",
    "end_date": "2026-12-08"
@@ -44410,7 +44569,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://www.peoplesbank.lk/eepsysha/assets/images/PB_LOGO_Pride%20of%20the%20Nation11.png",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/GFlock.jpg",
    "source_url": "https://www.peoplesbank.lk/promotion/gflock-20-off-credit/",
    "updated_at": "",
    "end_date": "2026-12-11"
@@ -44473,25 +44632,6 @@
    "source_url": "https://www.peoplesbank.lk/promotion/nithijaya-clothing-store-10-off-credit/",
    "updated_at": "",
    "end_date": "2026-12-31"
-  },
-  {
-   "id": "peoples-visaga-fashion-10-off-debit",
-   "bank": "Peoples Bank",
-   "merchant": "Visaga Fashion",
-   "discount": "10% off",
-   "description": "10% off at Visaga Fashion with Peoples Bank credit cards",
-   "category": "Fashion",
-   "city": "",
-   "period": "From December 7, 2026 to December 8, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/eepsysha/assets/images/PB_LOGO_Pride%20of%20the%20Nation11.png",
-   "source_url": "https://www.peoplesbank.lk/promotion/visaga-fashion-10-off-debit/",
-   "updated_at": "",
-   "end_date": "2026-12-08"
   },
   {
    "id": "peoples-under-armour-by-abans-up-to-70-off-credit-2",
@@ -46521,7 +46661,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://www.peoplesbank.lk/eepsysha/assets/images/PB_LOGO_Pride%20of%20the%20Nation11.png",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Forever_21.jpg",
    "source_url": "https://www.peoplesbank.lk/promotion/forever-21-10-off-debit/",
    "updated_at": "",
    "end_date": "2026-12-30"
@@ -46584,6 +46724,25 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "peoples-visaga-fashion-10-off-debit",
+   "bank": "Peoples Bank",
+   "merchant": "Visaga Fashion",
+   "discount": "10% off",
+   "description": "10% off at Visaga Fashion with Peoples Bank debit cards",
+   "category": "Fashion",
+   "city": "",
+   "period": "From December 7, 2026 to December 8, 2026",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Visaga.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/visaga-fashion-10-off-debit/",
+   "updated_at": "",
+   "end_date": "2026-12-08"
+  },
+  {
    "id": "peoples-myc-10-off-debit",
    "bank": "Peoples Bank",
    "merchant": "MYC",
@@ -46635,7 +46794,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://www.peoplesbank.lk/eepsysha/assets/images/PB_LOGO_Pride%20of%20the%20Nation11.png",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/GFlock.jpg",
    "source_url": "https://www.peoplesbank.lk/promotion/gflock-10-off-debit/",
    "updated_at": "",
    "end_date": "2026-12-11"
@@ -46667,7 +46826,7 @@
    "description": "30% off at Softlogic Glomark with Peoples Bank credit cards",
    "category": "Online",
    "city": "",
-   "period": "Till December 31, 2026 ((Every Tuesday & Every Friday))",
+   "period": "Till December 31, 2026 ((Every Tuesday))",
    "card_types": [
     "credit"
    ],
@@ -46857,7 +47016,7 @@
    "description": "25% off at Softlogic Glomark with Peoples Bank credit cards",
    "category": "Online",
    "city": "",
-   "period": "Till December 31, 2026 (Every Friday, valid for Online & In-Store)",
+   "period": "Till December 31, 2026 (Every Friday)",
    "card_types": [
     "credit"
    ],
@@ -49451,14 +49610,14 @@
    "end_date": "2027-01-31"
   },
   {
-   "id": "dfcc-the-commons",
+   "id": "dfcc-the-commons-2",
    "bank": "DFCC",
    "merchant": "The Commons",
    "discount": "15%",
-   "description": "15% savings on the total bill for bills above Rs. 4,000/- at The Commons. Offer valid on DFCC Visa Credit Cards and Standard Chartered Visa Credit Cards now serviced by DFCC Bank. Applicable only on Tap to Pay Transactions",
-   "category": "Other",
+   "description": "15% savings on the total bill for bills above Rs. 4,000/- at The Commons. Offer valid on DFCC Visa Credit Cards and Standard Chartered Visa Credit Cards now serviced by DFCC Bank.",
+   "category": "Dining",
    "city": "",
-   "period": "Valid every Thursday from 01st August 2026 to 31st January 2027",
+   "period": "Every Thursday from 01st August 2026 to 31st January 2027",
    "card_types": [
     "credit",
     "visa"
@@ -49466,7 +49625,7 @@
    "details": "",
    "terms": "",
    "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1dcf6bda-12d1-4533-ba7d-6301b43b5f0c/TheCommonslogo.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/the-commons",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/the-commons-2",
    "updated_at": "",
    "end_date": "2027-01-31"
   },
@@ -50467,7 +50626,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/8ce731a1-a6b6-4611-9bf0-4b61ae996d9c/springandsummernewlogo.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/da1565b9-b0c8-48d5-801f-785924ff051f/SpringandSummer.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/spring-and-summer-2493",
    "updated_at": "",
    "end_date": "2027-01-31"
@@ -50487,7 +50646,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/57af2068-e650-4929-b20b-a48d154d5fb2/Fusion14Logo.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1ff3ae16-b628-43e9-a395-7ccbb0a873b7/Fusionfourteen.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/fusion-forteen",
    "updated_at": "",
    "end_date": "2027-01-31"
@@ -50507,7 +50666,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1904dd9e-c6ae-4431-b54b-33699e35b6b5/AmanteLogo.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/422db7cd-6246-4998-ba36-4d7bcee7e023/Amante.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/amante-3",
    "updated_at": "",
    "end_date": "2027-01-31"
@@ -50527,7 +50686,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/63b02a29-ee1f-4b8d-b2b7-2d5973300c67/StripesChecksLogo.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/8ed4a5b9-9551-4460-8147-3bebdd992681/StripesandChecks.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/stripes-and-checks-3",
    "updated_at": "",
    "end_date": "2027-01-31"
@@ -50547,7 +50706,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/97c9ef96-dc74-4b16-9ec2-e40f3e5432bd/CelciusBeddingLogo.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/f8d2d1a3-b478-4605-b70e-16c5446dd391/CelciusLuxuryBedding.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/celcius-luxury-bedding-3",
    "updated_at": "",
    "end_date": "2027-01-31"
@@ -50566,7 +50725,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/65902267-c228-43db-987f-4335adfb3cf3/HANA-04.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/64a0a125-cc7c-4902-a387-082b537bad14/HanaClothing.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/hana-clothing",
    "updated_at": "",
    "end_date": "2026-11-30"
@@ -50604,7 +50763,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1904dd9e-c6ae-4431-b54b-33699e35b6b5/AmanteLogo.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/fc910dd8-f149-434c-a30c-7031cbaad9c2/Amante.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/amante",
    "updated_at": "",
    "end_date": "2026-12-08"
@@ -50623,7 +50782,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/59cf8f35-c274-4cdb-ae3f-046df5b176dc/ASB.jpeg",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/ffea595d-c925-42c2-a40a-7ea486597064/ASBFashion.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/asb-fashion",
    "updated_at": "",
    "end_date": "2026-12-11"
@@ -50642,7 +50801,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/5f988825-913f-42cb-9cc6-34acf4c6360e/GlamourGate1.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/2ad81895-9355-4073-a8a1-40365c837f3c/ASBGlamourGate.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/glamour-gate",
    "updated_at": "",
    "end_date": "2026-12-11"
@@ -50794,7 +50953,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/d817fc66-13c7-4dae-b41f-9bc8f35a6024/celcius.jpeg",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/f8d2d1a3-b478-4605-b70e-16c5446dd391/CelciusLuxuryBedding.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/celcius-luxury-bedding",
    "updated_at": "",
    "end_date": "2026-12-31"
@@ -50889,7 +51048,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/960e1379-5941-4ab8-b2b1-37c24256906f/Giggleslogo.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/13a98981-165c-4b33-b78b-41e54f4316b0/Giggles.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/giggles-lk-2",
    "updated_at": "",
    "end_date": "2026-12-21"
@@ -51212,7 +51371,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1e512009-551c-4e54-99ed-5e4e7c9b59b8/NisacoMall.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/9b89101f-bec9-48bb-98f7-d7845e5d78ee/NisacoMall.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/nisaco-mall",
    "updated_at": "",
    "end_date": "2026-12-09"
@@ -51630,7 +51789,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Galis-Logo-Banners-760-X-600.jpg",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/5f9f06f5-f61c-434d-8fcb-23a230d4e753/GalisLingerie.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/gali-s-lingerie",
    "updated_at": "",
    "end_date": "2026-12-13"
@@ -52048,7 +52207,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/e7f5b07f-1e67-48b7-8cb5-74744b7b6d0c/logonirmani.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/15e40676-d56c-484b-a6a2-7e525adce711/NirmaniDresspoint.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/nirmani-dress-point",
    "updated_at": "",
    "end_date": "2026-12-31"
@@ -54998,6 +55157,25 @@
    "end_date": "2027-01-31"
   },
   {
+   "id": "dfcc-nawaloka-care",
+   "bank": "DFCC",
+   "merchant": "Nawaloka Care Laboratories for bills above Rs. 3,000/-",
+   "discount": "15%",
+   "description": "15% Savings on Lab tests & services at Nawaloka Care Laboratories for bills above Rs. 3,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Health",
+   "city": "",
+   "period": "Valid from Friday to Sunday from 09th October 2026 to 31st January 2027",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/d9f5f0e6-8b3c-4193-85c8-68568b114754/NawalokaCareLabsLogoFinal_Eng1.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nawaloka-care",
+   "updated_at": "",
+   "end_date": "2027-01-31"
+  },
+  {
    "id": "dfcc-cool-kidz",
    "bank": "DFCC",
    "merchant": "Cool Kidz – Col. 04",
@@ -55011,7 +55189,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/decf8ba4-e42a-4265-9a45-9f0ab12fe329/CoolKids.png",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/9812659b-0631-4c28-a135-09bea8ca4e14/CoolKIdz.png",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/cool-kidz",
    "updated_at": "",
    "end_date": "2026-12-23"
@@ -57322,6 +57500,26 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "dfcc-the-commons",
+   "bank": "DFCC",
+   "merchant": "The Commons",
+   "discount": "15%",
+   "description": "15% savings on the total bill for bills above Rs. 4,000/- at The Commons. Offer valid on DFCC Visa Credit Cards and Standard Chartered Visa Credit Cards now serviced by DFCC Bank. Applicable only on Tap to Pay Transactions",
+   "category": "Other",
+   "city": "",
+   "period": "Valid every Thursday from 01st August 2026 to 31st January 2027",
+   "card_types": [
+    "credit",
+    "visa"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1570c2e0-254a-4959-a98f-cb1b4ead23ce/TheCommons.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/the-commons",
+   "updated_at": "",
+   "end_date": "2027-01-31"
+  },
+  {
    "id": "dfcc-celcius-bedding",
    "bank": "DFCC",
    "merchant": "Celcius Bedding",
@@ -57819,25 +58017,6 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/green-solar",
    "updated_at": "",
    "end_date": "2026-12-31"
-  },
-  {
-   "id": "dfcc-nawaloka-care",
-   "bank": "DFCC",
-   "merchant": "Nawaloka Care Laboratories for bills above Rs. 3,000/-",
-   "discount": "15%",
-   "description": "15% Savings on Lab testing & services at Nawaloka Care Laboratories for bills above Rs. 3,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Other",
-   "city": "",
-   "period": "Valid from Friday to Sunday from 09th October 2026 to 31st January 2027",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/d9f5f0e6-8b3c-4193-85c8-68568b114754/NawalokaCareLabsLogoFinal_Eng1.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nawaloka-care",
-   "updated_at": "",
-   "end_date": "2027-01-31"
   }
  ]
 }
