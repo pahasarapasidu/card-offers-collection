@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T09:56:08Z",
- "offer_count": 3051,
+ "generated_at": "2026-11-24T22:32:38Z",
+ "offer_count": 3040,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -8696,25 +8696,6 @@
    "end_date": "2026-11-30"
   },
   {
-   "id": "hnb-1367",
-   "bank": "HNB",
-   "merchant": "Solo Bowl",
-   "discount": "20% off",
-   "description": "20% off on take-away at Solo Bowl (Every Tuesday)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid (Every Tuesday) Until 2026-11-24",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/solo-bowl.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=1367",
-   "updated_at": "",
-   "end_date": "2026-11-24"
-  },
-  {
    "id": "hnb-2431",
    "bank": "HNB",
    "merchant": "Taco Bell",
@@ -8792,26 +8773,6 @@
    "end_date": "2026-11-30"
   },
   {
-   "id": "hnb-4394",
-   "bank": "HNB",
-   "merchant": "Marine Spice",
-   "discount": "",
-   "description": "Buy 1 & Get 1 Free selected meals for dine- in & takeaway at Marine Spice",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid Until (Every Tuesday) 2026-11-24",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Marine%20Spice/MarineSpice.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4394",
-   "updated_at": "",
-   "end_date": "2026-11-24"
-  },
-  {
    "id": "hnb-4408",
    "bank": "HNB",
    "merchant": "Grillo's",
@@ -8849,25 +8810,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=1365",
    "updated_at": "",
    "end_date": "2026-12-28"
-  },
-  {
-   "id": "hnb-2369",
-   "bank": "HNB",
-   "merchant": "Keells",
-   "discount": "25% off",
-   "description": "25% off on fresh Vegetables, Fruits, Meat & Seafood for bills above LKR 5,000 at Keells outlets",
-   "category": "Shopping",
-   "city": "",
-   "period": "Valid From 2026-11-03 to (Every Tuesday) 2026-11-24",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/keells.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=2369",
-   "updated_at": "",
-   "end_date": "2026-11-24"
   },
   {
    "id": "hnb-2402",
@@ -18332,26 +18274,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4493",
    "updated_at": "",
    "end_date": "2026-12-31"
-  },
-  {
-   "id": "hnb-4494",
-   "bank": "HNB",
-   "merchant": "Kandygs",
-   "discount": "15% off",
-   "description": "15% off at Kandygs",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid from 11-21-2026 to 2026-11-24",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Kandygs/Kandygs.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4494",
-   "updated_at": "",
-   "end_date": "2026-11-24"
   },
   {
    "id": "hnb-4495",
@@ -38836,26 +38758,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "ndb-187",
-   "bank": "NDB",
-   "merchant": "Kingsman Perennial",
-   "discount": "20% Savings",
-   "description": "20% Savings on Credit & 10% Savings on Debit cards",
-   "category": "Other",
-   "city": "",
-   "period": "23rd & 24th November 2026",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/a8c475f2-b815-4033-9337-24a0bce83429_whatsapp-image-2024-11-20-at-10.23.49-am-(4).jpeg",
-   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/187",
-   "updated_at": "",
-   "end_date": "2026-11-24"
-  },
-  {
    "id": "ndb-337",
    "bank": "NDB",
    "merchant": "Araliya Green Hills – Nuwara Eliya",
@@ -48811,120 +48713,6 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/colombo-steak-house",
    "updated_at": "",
    "end_date": "2026-12-31"
-  },
-  {
-   "id": "dfcc-crystal-jade",
-   "bank": "DFCC",
-   "merchant": "Crystal Jade - One Galle Face Mall",
-   "discount": "25%",
-   "description": "25% Savings at Crystal Jade - One Galle Face Mall. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Dining",
-   "city": "",
-   "period": "Every Tuesday from 03rd to 24th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/8bc6c0dc-85bc-43ee-8b0b-e99fb4467c48/Crystal-Jade.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/crystal-jade",
-   "updated_at": "",
-   "end_date": "2026-11-24"
-  },
-  {
-   "id": "dfcc-burger-king",
-   "bank": "DFCC",
-   "merchant": "Burger King",
-   "discount": "25%",
-   "description": "25% Savings at Burger King. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Dining",
-   "city": "",
-   "period": "Every Tuesday from 03rd to 24th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/8d13f3af-eb69-48ad-bc6c-12b315fe00d4/Burger-King.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/burger-king",
-   "updated_at": "",
-   "end_date": "2026-11-24"
-  },
-  {
-   "id": "dfcc-baskin-robbins",
-   "bank": "DFCC",
-   "merchant": "Baskin Robbins",
-   "discount": "25%",
-   "description": "25% Savings at Baskin Robbins. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Dining",
-   "city": "",
-   "period": "Every Tuesday from 03rd to 24th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/dfdda8c1-22e1-42fc-b412-bf4ea1178c76/Baskin-Robbins.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/baskin-robbins",
-   "updated_at": "",
-   "end_date": "2026-11-24"
-  },
-  {
-   "id": "dfcc-popeyes",
-   "bank": "DFCC",
-   "merchant": "POPEYES",
-   "discount": "25%",
-   "description": "25% Savings at POPEYES. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Dining",
-   "city": "",
-   "period": "Every Tuesday from 03rd to 24th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/6d72ba78-0fe1-49a0-957f-5ccc960e5360/Popeyes.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/popeyes",
-   "updated_at": "",
-   "end_date": "2026-11-24"
-  },
-  {
-   "id": "dfcc-delifrance",
-   "bank": "DFCC",
-   "merchant": "Delifrance for bills above Rs. 2,500/-",
-   "discount": "25%",
-   "description": "25% Savings at Delifrance for bills above Rs. 2,500/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Dining",
-   "city": "",
-   "period": "Every Tuesday from 03rd to 24th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/5ad8a3b7-267e-41ba-8e43-0b6bf4780886/Delifrance.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/delifrance",
-   "updated_at": "",
-   "end_date": "2026-11-24"
-  },
-  {
-   "id": "dfcc-subway",
-   "bank": "DFCC",
-   "merchant": "Subway",
-   "discount": "25%",
-   "description": "25% Savings at Subway. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Dining",
-   "city": "",
-   "period": "Every Tuesday from 03rd to 24th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/42c7e0bb-74aa-4cb0-acae-28bc80ce89d1/Subway.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/subway",
-   "updated_at": "",
-   "end_date": "2026-11-24"
   },
   {
    "id": "dfcc-domino-s-pizza",
