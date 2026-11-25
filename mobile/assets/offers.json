@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T17:13:26Z",
+ "generated_at": "2026-11-25T21:46:58Z",
  "offer_count": 3108,
  "banks": [
   "BOC",
@@ -1219,28 +1219,6 @@
    "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
    "updated_at": "2026-11-03T07:22:31.000Z",
    "end_date": "2026-11-30",
-   "first_seen": ""
-  },
-  {
-   "id": "sampath-3476",
-   "bank": "Sampath Bank",
-   "merchant": "LAUGFS Supermarkets",
-   "discount": "10% Discount",
-   "description": "10% Discount on TOTAL BILL at all LAUGFS Supermarket outlets on EVERY WEDNESDAY for all Sampath Mastercard & Visa Credit Cardholders",
-   "category": "Supermarkets",
-   "city": "",
-   "period": "2026-10-30 to 2026-11-25",
-   "card_types": [
-    "credit",
-    "mastercard",
-    "visa"
-   ],
-   "details": "• Offer valid on EVERY WEDNESDAY till 25th November 2026 • Minimum bill value Rs.5,000/- • Maximum discount cap per transaction is Rs.1,000/-",
-   "terms": "1. This offer is valid only for all Sampath Mastercard & Visa Credit Cardholders Every Wednesday till 30th September 2026 (Excluding corporate cards). 2. Offer is valid for the bills above Rs.5,000/- and maximum discount offered will be limited to Rs.1,000/- per Cardholder per day. 3. Multiple or Split transactions where the cumulative bill value/s exceeds the eligible Maximum Bill value during the promotion period per single cardholder will not be qualified for the discount. 4. The discount will be extended for goods purchased for personal use, therefore Multiple or Split transactions, purchases in large quantities for commercial purpose will not be allowed. 5. Maximum Quantities per bill 3Kg or 3 Units per item from the categories of Milk powder, Rice, Sugar, Dhal & Flour is applicable. 6. The discount will not be applicable for liquor, tobacco, pharmaceuticals, existing discounted products, gift vouchers, hampers, gas purchases & utility bill payments. 7. This offer cannot be used in conjunction with other promotional offers and cannot be exchanged for cash. 8. This offer is not valid for online transactions. 9. Spending made under above promotions will not qualify for the accumulation of Ultra Rewards Loyalty points. 10. The Bank accepts no responsibility in any way for any goods/ services purchased and any dispute relating to same should be resolved by the Cardholder directly with the Partner and any claim by the Cardholder against the Partner will not relieve the Cardholder from his/ her obligation or repayment to the Bank. 11. The bank reserves the right to modify or change the Terms & Conditions applicable for the offer. 12. In the event of any dispute, the decision of the bank shall be final. 13. Sampath Bank reserves the right to amend/withdraw this offer at its sole discretion. 14. Other general Terms and Conditions of Sampath Bank Plc and LAUGFS Supermarkets (Pvt) Limited shall apply.",
-   "image_url": "https://www.sampath.lk/api/uploads/blob_4ddf4bde0a_dc9cdbefd6_7577a1c8f0",
-   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
-   "updated_at": "2026-11-02T05:36:48.000Z",
-   "end_date": "2026-11-25",
    "first_seen": ""
   },
   {
@@ -3806,6 +3784,46 @@
    "first_seen": ""
   },
   {
+   "id": "combank-unwrap-the-seasonal-magic-at-keells-hampers-with-combank-credit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Unwrap the seasonal magic at Keells (Hampers) with ComBank Credit Cards",
+   "discount": "Best Offer",
+   "description": "Unwrap the seasonal magic at Keells (Hampers) with ComBank Credit Cards",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "Offer valid from 1st to 31st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Keels-Hamper-offer-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/supermarket/unwrap-the-seasonal-magic-at-keells-hampers-with-combank-credit-cards",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "combank-unwrap-the-seasonal-magic-at-cargills-food-city-hampers-with-combank-credit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Unwrap the seasonal magic at Cargills Food City (Hampers) with ComBank Credit Cards",
+   "discount": "Up to 10% Off",
+   "description": "Unwrap the seasonal magic at Cargills Food City (Hampers) with ComBank Credit Cards",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "Offer valid from 1st to 31st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Cargills-hamper-offer-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/supermarket/unwrap-the-seasonal-magic-at-cargills-food-city-hampers-with-combank-credit-cards",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-26"
+  },
+  {
    "id": "combank-unwrap-the-seasonal-magic-at-arpico-hampers-with-combank-credit-cards",
    "bank": "Commercial Bank",
    "merchant": "Unwrap the seasonal magic at Arpico (Hampers) with ComBank Credit Cards",
@@ -4741,24 +4759,6 @@
    "updated_at": "",
    "end_date": "2026-11-30",
    "first_seen": "2026-11-21"
-  },
-  {
-   "id": "combank-enjoy-a-20-cashback-at-arpico-supermarkets-with-q-payment-app",
-   "bank": "Commercial Bank",
-   "merchant": "Enjoy a 20% Cashback at Arpico Supermarkets with Q+ Payment App",
-   "discount": "Up to 20% Off",
-   "description": "Enjoy a 20% Cashback at Arpico Supermarkets with Q+ Payment App",
-   "category": "Supermarkets",
-   "city": "",
-   "period": "Offer valid on 04th, 11th, 18th and 25th November 2026",
-   "card_types": [],
-   "details": "",
-   "terms": "",
-   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Arpico-Offer_EDM-thumb.jpg",
-   "source_url": "https://www.combank.lk/rewards-promotion/q-payment-app-offers/enjoy-a-20-cashback-at-arpico-supermarkets-with-q-payment-app",
-   "updated_at": "",
-   "end_date": "2026-11-25",
-   "first_seen": ""
   },
   {
    "id": "combank-enjoy-a-25-cashback-for-expressway-toll-payments-with-q-payment-app",
@@ -9229,26 +9229,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=1366",
    "updated_at": "",
    "end_date": "2026-11-30",
-   "first_seen": ""
-  },
-  {
-   "id": "hnb-2431",
-   "bank": "HNB",
-   "merchant": "Taco Bell",
-   "discount": "50% off",
-   "description": "50% off on total bill above LKR 4,000 @ Taco Bell",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid On 2026-11-23 & 2026-11-25",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/taco-bell-new-logo.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=2431",
-   "updated_at": "",
-   "end_date": "2026-11-25",
    "first_seen": ""
   },
   {
@@ -14575,26 +14555,6 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4514",
-   "bank": "HNB",
-   "merchant": "Wasi.lk",
-   "discount": "20% off",
-   "description": "Wasi Flash Offer! Get 20% off + up to 24 months 0% installments",
-   "category": "Online",
-   "city": "",
-   "period": "Valid On 2026-11-25",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/wasi-lk-new.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4514",
-   "updated_at": "",
-   "end_date": "2026-11-25",
-   "first_seen": "2026-11-23"
   },
   {
    "id": "hnb-1508",
@@ -33238,6 +33198,60 @@
    "first_seen": ""
   },
   {
+   "id": "ntb-15-savings-47",
+   "bank": "Nations Trust",
+   "merchant": "Envoy Mansion",
+   "discount": "15% savings",
+   "description": "15% savings at Envoy Mansion",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 28 November 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4125/New-Project-(15).jpg",
+   "source_url": "https://www.nationstrust.com/promotions/15-savings-47",
+   "updated_at": "",
+   "end_date": "2026-11-28",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "ntb-15-savings-45",
+   "bank": "Nations Trust",
+   "merchant": "H Sports",
+   "discount": "15% savings",
+   "description": "15% savings at H Sports",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 28 November 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4126/New-Project-(16).jpg",
+   "source_url": "https://www.nationstrust.com/promotions/15-savings-45",
+   "updated_at": "",
+   "end_date": "2026-11-28",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "ntb-15-savings-46",
+   "bank": "Nations Trust",
+   "merchant": "Signature",
+   "discount": "15% savings",
+   "description": "15% savings at Signature",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 28 November 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4127/New-Project-(17).jpg",
+   "source_url": "https://www.nationstrust.com/promotions/15-savings-46",
+   "updated_at": "",
+   "end_date": "2026-11-28",
+   "first_seen": "2026-11-26"
+  },
+  {
    "id": "ntb-up-to-25-savings-6",
    "bank": "Nations Trust",
    "merchant": "Tony Pelle",
@@ -34532,6 +34546,24 @@
    "updated_at": "",
    "end_date": "2026-12-27",
    "first_seen": ""
+  },
+  {
+   "id": "ntb-15-savings-44",
+   "bank": "Nations Trust",
+   "merchant": "Hameedia",
+   "discount": "15% savings",
+   "description": "15% savings at Hameedia",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 28 November 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4124/Hameedia_new.jpg",
+   "source_url": "https://www.nationstrust.com/promotions/15-savings-44",
+   "updated_at": "",
+   "end_date": "2026-11-28",
+   "first_seen": "2026-11-26"
   },
   {
    "id": "ntb-up-to-20-savings-23",
@@ -41667,27 +41699,6 @@
    "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/129",
    "updated_at": "",
    "end_date": "2026-11-27",
-   "first_seen": ""
-  },
-  {
-   "id": "ndb-156",
-   "bank": "NDB",
-   "merchant": "ZUZI",
-   "discount": "15% Savings",
-   "description": "15% Savings on Credit & 10% Savings on Debit cards",
-   "category": "Other",
-   "city": "",
-   "period": "25th November 2026",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/be96eaa6-f88f-42c6-9a1c-1b7d9a757afc_whatsapp-image-2024-11-20-at-10.23.49-am-(4).jpeg",
-   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/156",
-   "updated_at": "",
-   "end_date": "2026-11-25",
    "first_seen": ""
   },
   {
@@ -58724,26 +58735,6 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/wimaladharma-brothers",
    "updated_at": "",
    "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-scentson",
-   "bank": "DFCC",
-   "merchant": "ScentsOn & www.scentson.lk",
-   "discount": "20%",
-   "description": "20% Savings at ScentsOn & www.scentson.lk. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Shopping",
-   "city": "",
-   "period": "20th to 25th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/73796edf-622c-4073-8463-aef68b8b181e/ScentsON_760-X-6001.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/scentson",
-   "updated_at": "",
-   "end_date": "2026-11-25",
    "first_seen": ""
   },
   {
