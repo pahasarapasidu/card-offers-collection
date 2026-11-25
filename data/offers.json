@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T22:32:38Z",
- "offer_count": 3040,
+ "generated_at": "2026-11-25T08:33:24Z",
+ "offer_count": 3103,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -3303,6 +3303,26 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "combank-enjoy-the-art-of-dining-at-pegasus-reef-wattala-with-combank-credit-and-debit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy the art of dining at Pegasus Reef Wattala with ComBank Credit and Debit Cards",
+   "discount": "Up to 20% Off",
+   "description": "Enjoy the art of dining at Pegasus Reef Wattala with ComBank Credit and Debit Cards",
+   "category": "Dining",
+   "city": "",
+   "period": "Offer valid till 30th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Pegasus-Reef-Wattala-Nov-%26-Dec-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-pegasus-reef-wattala-with-combank-credit-and-debit-cards",
+   "updated_at": "",
+   "end_date": "2026-12-30"
+  },
+  {
    "id": "combank-enjoy-the-art-of-dining-at-your-favourite-restaurant-with-combank-cards",
    "bank": "Commercial Bank",
    "merchant": "Enjoy the art of dining at your favourite Restaurant with ComBank Cards",
@@ -3690,6 +3710,26 @@
    "source_url": "https://www.combank.lk/rewards-promotion/supermarket/unwrap-the-seasonal-magic-at-spar-supermarket-hampers-with-combank-credit-cards",
    "updated_at": "",
    "end_date": "2026-12-31"
+  },
+  {
+   "id": "combank-enjoy-the-best-supermarket-deals-at-savemor-maharaja-super-with-combank-credit-and-debit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy the best supermarket deals at SaveMor Maharaja Super with ComBank Credit and Debit Cards",
+   "discount": "Up to 20% Off",
+   "description": "Enjoy the best supermarket deals at SaveMor Maharaja Super with ComBank Credit and Debit Cards",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "Offer valid on 22nd November and 23rd December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/October/SaveMor-Maharaja-Super-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-savemor-maharaja-super-with-combank-credit-and-debit-cards",
+   "updated_at": "",
+   "end_date": "2026-12-23"
   },
   {
    "id": "combank-enjoy-the-best-supermarket-deals-at-laugfs-super-with-combank-credit-cards",
@@ -4431,6 +4471,23 @@
    "terms": "",
    "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/June/Visa-Cross-Border-Visa-Offers-June-thumb.jpg",
    "source_url": "https://www.combank.lk/rewards-promotion/other-offers/embark-on-a-journey-to-japan-with-combank-visa-cards",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "combank-enjoy-a-10-cashback-at-keells-with-q-payment-app",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy a 10% Cashback at Keells with Q+ Payment App",
+   "discount": "Up to 10% Off",
+   "description": "Enjoy a 10% Cashback at Keells with Q+ Payment App",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "Offer valid from 23rd November to 31st December 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Keells-Offer_EDM-Q%2BPayment-App-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/q-payment-app-offers/enjoy-a-10-cashback-at-keells-with-q-payment-app",
    "updated_at": "",
    "end_date": "2026-12-31"
   },
@@ -6617,6 +6674,26 @@
    "end_date": "2026-12-17"
   },
   {
+   "id": "hnb-4570",
+   "bank": "HNB",
+   "merchant": "Ruveesha Garden Residence",
+   "discount": "20% off",
+   "description": "20% off on BB, HB & FB room basis at Ruveesha Garden Residence",
+   "category": "Hotels",
+   "city": "",
+   "period": "Valid Until 2027-04-30",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Ruveesha%20Garden%20Residence/RuveeshaGardenResidence.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4570",
+   "updated_at": "",
+   "end_date": "2027-04-30"
+  },
+  {
    "id": "hnb-4430",
    "bank": "HNB",
    "merchant": "Findmyfare.com",
@@ -8791,6 +8868,26 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4408",
    "updated_at": "",
    "end_date": "2026-11-30"
+  },
+  {
+   "id": "hnb-4524",
+   "bank": "HNB",
+   "merchant": "PEPERONE BYOB",
+   "discount": "20% off",
+   "description": "20% off on dine-in at Peperone Colombo",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid From 2026-11-25 to 2027-01-01",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/peperone-byob-logo.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4524",
+   "updated_at": "",
+   "end_date": "2027-01-01"
   },
   {
    "id": "hnb-1365",
@@ -18470,6 +18567,772 @@
    "end_date": "2026-12-20"
   },
   {
+   "id": "hnb-4525",
+   "bank": "HNB",
+   "merchant": "K P L Hevan City",
+   "discount": "10% off",
+   "description": "10% off at K P L Hevan City",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid From 2026-12-23 to 2026-12-27",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/K%20P%20L%20Hevan%20City/KPLHevanCity.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4525",
+   "updated_at": "",
+   "end_date": "2026-12-27"
+  },
+  {
+   "id": "hnb-4526",
+   "bank": "HNB",
+   "merchant": "Don'S Branded Clothing",
+   "discount": "15% off",
+   "description": "15% off at Don's Branded Clothing",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-12 & 2026-12-13",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Don%27S%20Branded%20Clothing%20/Don%27SBrandedClothing.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4526",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4527",
+   "bank": "HNB",
+   "merchant": "Don'S Branded Clothing",
+   "discount": "10% off",
+   "description": "10% off at Don's Branded Clothing",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-12 & 2026-12-13",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Don%27S%20Branded%20Clothing%20/Don%27SBrandedClothing.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4527",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4529",
+   "bank": "HNB",
+   "merchant": "Molly Boulevard",
+   "discount": "20% off",
+   "description": "20% off at Molly Boulevard",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 11-25 to 11-27,\r\n12-18 to 2026-12-20",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Molly%20Boulevard/MollyBoulevard.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4529",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "hnb-4531",
+   "bank": "HNB",
+   "merchant": "Molly Boulevard",
+   "discount": "10% off",
+   "description": "10% off at Molly Boulevard",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 11-25 to 11-27,\r\n12-18 to 2026-12-20",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Molly%20Boulevard/MollyBoulevard.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4531",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "hnb-4532",
+   "bank": "HNB",
+   "merchant": "Harriet",
+   "discount": "10% off",
+   "description": "10% off at www.harrietshopping.com",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 11-25 to 11-30,\r\n12-18 to 2026-12-20",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Harriet/Harriet.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4532",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "hnb-4534",
+   "bank": "HNB",
+   "merchant": "HNB Credit Cards New",
+   "discount": "15% off",
+   "description": "15% off at Sereppu",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 11-26-2026 to 2026-11-30",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/HNB%20Credit%20Cards%20New/HNBCreditCardsNew.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4534",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
+   "id": "hnb-4536",
+   "bank": "HNB",
+   "merchant": "HNB Credit Cards New",
+   "discount": "15% off",
+   "description": "15% off at Saloma Garment",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 11-26 to 11-28,\r\n12-09,12-10,12-12,\r\n12-22 & 2026-12-23",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/HNB%20Credit%20Cards%20New/HNBCreditCardsNew.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4536",
+   "updated_at": "",
+   "end_date": "2026-12-23"
+  },
+  {
+   "id": "hnb-4537",
+   "bank": "HNB",
+   "merchant": "HNB Credit Cards New",
+   "discount": "10% off",
+   "description": "10% off at Saloma Garment",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 11-26 to 11-28,\r\n12-09,12-10,12-12,\r\n12-22 & 2026-12-23",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/HNB%20Credit%20Cards%20New/HNBCreditCardsNew.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4537",
+   "updated_at": "",
+   "end_date": "2026-12-23"
+  },
+  {
+   "id": "hnb-4538",
+   "bank": "HNB",
+   "merchant": "HNB Credit Cards New",
+   "discount": "25% off",
+   "description": "25% off at Design Club",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 11-26 to 11-29,\r\n12-21 to 2026-12-25",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/HNB%20Credit%20Cards%20New/HNBCreditCardsNew.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4538",
+   "updated_at": "",
+   "end_date": "2026-12-25"
+  },
+  {
+   "id": "hnb-4539",
+   "bank": "HNB",
+   "merchant": "SALE HOUSE NEW",
+   "discount": "20% off",
+   "description": "20% off at Sale House",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-27, 12-18 & 2026-12-28",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/SALE%20HOUSE%20NEW/SALEHOUSENEW.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4539",
+   "updated_at": "",
+   "end_date": "2026-12-28"
+  },
+  {
+   "id": "hnb-4540",
+   "bank": "HNB",
+   "merchant": "SALE HOUSE NEW",
+   "discount": "10% off",
+   "description": "10% off at Sale House",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-27, 12-18 & 2026-12-28",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/SALE%20HOUSE%20NEW/SALEHOUSENEW.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4540",
+   "updated_at": "",
+   "end_date": "2026-12-28"
+  },
+  {
+   "id": "hnb-4541",
+   "bank": "HNB",
+   "merchant": "Blooms & Butterflies",
+   "discount": "20% off",
+   "description": "20% off at Blooms & Butterflies",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-12-19",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Blooms%20%26%20Butterflies/Blooms%26Butterflies.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4541",
+   "updated_at": "",
+   "end_date": "2026-12-19"
+  },
+  {
+   "id": "hnb-4542",
+   "bank": "HNB",
+   "merchant": "Blooms & Butterflies",
+   "discount": "10% off",
+   "description": "10% off at Blooms & Butterflies",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-12-19",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Blooms%20%26%20Butterflies/Blooms%26Butterflies.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4542",
+   "updated_at": "",
+   "end_date": "2026-12-19"
+  },
+  {
+   "id": "hnb-4543",
+   "bank": "HNB",
+   "merchant": "Comfort",
+   "discount": "20% off",
+   "description": "20% off at Comfort",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Comfort/Comfort.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4543",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4544",
+   "bank": "HNB",
+   "merchant": "Comfort",
+   "discount": "10% off",
+   "description": "10% off at Comfort",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-11-29",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Comfort/Comfort.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4544",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4545",
+   "bank": "HNB",
+   "merchant": "La Vivente",
+   "discount": "15% off",
+   "description": "15% off at La Vivente",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/La%20Vivente/LaVivente.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4545",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4546",
+   "bank": "HNB",
+   "merchant": "La Vivente",
+   "discount": "10% off",
+   "description": "10% off at La Vivente",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-11-29",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/La%20Vivente/LaVivente.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4546",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4547",
+   "bank": "HNB",
+   "merchant": "Zigzag",
+   "discount": "20% off",
+   "description": "20% off at Zigzag",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 11-28-2026 to 2026-11-30",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/zigzag-logo.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4547",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
+   "id": "hnb-4549",
+   "bank": "HNB",
+   "merchant": "LEGACY LONDON NEW",
+   "discount": "25% off",
+   "description": "25% off at Legacy London",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28 & 11-29,\r\n12-12 & 2026-12-13",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/LEGACY%20LONDON%20NEW/LEGACYLONDONNEW.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4549",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4551",
+   "bank": "HNB",
+   "merchant": "Montrianna",
+   "discount": "20% off",
+   "description": "20% off at Montrianna",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-12-13",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Montrianna/Montrianna.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4551",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4552",
+   "bank": "HNB",
+   "merchant": "Montrianna",
+   "discount": "5% off",
+   "description": "12.5% off at Montrianna",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-12-13",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Montrianna/Montrianna.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4552",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4553",
+   "bank": "HNB",
+   "merchant": "Down Town",
+   "discount": "20% off",
+   "description": "20% off at Down Town",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Down%20Town/DownTown.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4553",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4554",
+   "bank": "HNB",
+   "merchant": "Diliganz",
+   "discount": "20% off",
+   "description": "20% off at Diliganz",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Diliganz/Diliganz.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4554",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4555",
+   "bank": "HNB",
+   "merchant": "Diliganz",
+   "discount": "10% off",
+   "description": "10% off at Diliganz",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-11-29",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Diliganz/Diliganz.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4555",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4556",
+   "bank": "HNB",
+   "merchant": "Dirali",
+   "discount": "20% off",
+   "description": "20% off at Dirali",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Dirali/Dirali.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4556",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4557",
+   "bank": "HNB",
+   "merchant": "Dirali",
+   "discount": "10% off",
+   "description": "10% off at Dirali",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-28-2026 & 2026-11-29",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Dirali/Dirali.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4557",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "hnb-4558",
+   "bank": "HNB",
+   "merchant": "Win Mart",
+   "discount": "20% off",
+   "description": "20% off at Win Mart",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-29-2026 & 2026-12-20",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Win%20Mart/WinMart.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4558",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "hnb-4559",
+   "bank": "HNB",
+   "merchant": "Win Mart",
+   "discount": "10% off",
+   "description": "10% off at Win Mart",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-29-2026 & 2026-12-20",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Win%20Mart/WinMart.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4559",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "hnb-4560",
+   "bank": "HNB",
+   "merchant": "JEZZA",
+   "discount": "20% off",
+   "description": "20% off at JEZZA",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 11-29 & 11-30,\r\n12-19 & 2026-12-20",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/JEZZA/JEZZA.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4560",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "hnb-4562",
+   "bank": "HNB",
+   "merchant": "Elegant Smockers",
+   "discount": "20% off",
+   "description": "20% off at Elegant Smockers",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 12-01-2026 & 2026-12-02",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Elegant%20Smockers/ElegantSmockers.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4562",
+   "updated_at": "",
+   "end_date": "2026-12-02"
+  },
+  {
+   "id": "hnb-4563",
+   "bank": "HNB",
+   "merchant": "Disel Fashion",
+   "discount": "15% off",
+   "description": "15% off at Disel Fashion",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 12-01 to 12-03,\r\n12-14 & 2026-12-15",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Disel%20Fashion/DiselFashion.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4563",
+   "updated_at": "",
+   "end_date": "2026-12-15"
+  },
+  {
+   "id": "hnb-4564",
+   "bank": "HNB",
+   "merchant": "Disel Fashion",
+   "discount": "10% off",
+   "description": "10% off at Disel Fashion",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 12-01 to 12-03,\r\n12-14 & 2026-12-15",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Disel%20Fashion/DiselFashion.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4564",
+   "updated_at": "",
+   "end_date": "2026-12-15"
+  },
+  {
+   "id": "hnb-4565",
+   "bank": "HNB",
+   "merchant": "Arienti",
+   "discount": "20% off",
+   "description": "20% off at Arienti",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-09 & 2026-12-10",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Arienti/Arienti.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4565",
+   "updated_at": "",
+   "end_date": "2026-12-10"
+  },
+  {
+   "id": "hnb-4566",
+   "bank": "HNB",
+   "merchant": "SAFFANS",
+   "discount": "25% off",
+   "description": "25% off at SAFFANS",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-11 & 2026-12-12",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/SAFFANS/SAFFANS.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4566",
+   "updated_at": "",
+   "end_date": "2026-12-12"
+  },
+  {
+   "id": "hnb-4567",
+   "bank": "HNB",
+   "merchant": "SAFFANS",
+   "discount": "10% off",
+   "description": "10% off at SAFFANS",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-11 & 2026-12-12",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/SAFFANS/SAFFANS.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4567",
+   "updated_at": "",
+   "end_date": "2026-12-12"
+  },
+  {
+   "id": "hnb-4568",
+   "bank": "HNB",
+   "merchant": "Gflock",
+   "discount": "25% off",
+   "description": "25% off at Gflock",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-12 & 2026-12-13",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Gflock/Gflock.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4568",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4569",
+   "bank": "HNB",
+   "merchant": "Gflock",
+   "discount": "10% off",
+   "description": "10% off at Gflock",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-12 & 2026-12-13",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Gflock/Gflock.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4569",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "hnb-4571",
+   "bank": "HNB",
+   "merchant": "Srina Palace",
+   "discount": "10% off",
+   "description": "10% off on Cosmetics and Jewelry Items at Srina Palace",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-19 & 2026-12-20",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Srina%20Palace/SrinaPalace.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4571",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "hnb-4572",
+   "bank": "HNB",
+   "merchant": "Bata",
+   "discount": "10% off",
+   "description": "10% off at Bata Showrooms",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid From Dec 10 - 13, Dec 19 - 24 & Dec 28 - 2026-12-31",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Bata%20/Bata.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4572",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
    "id": "hnb-3640",
    "bank": "HNB",
    "merchant": "Durdans Hospital",
@@ -23563,6 +24426,26 @@
    "source_url": "https://www.seylan.lk/promotions/cards/style/zigzag",
    "updated_at": "",
    "end_date": "2026-12-08"
+  },
+  {
+   "id": "seylan-kyla-co-1",
+   "bank": "Seylan Bank",
+   "merchant": "KYLA & CO",
+   "discount": "20% OFF",
+   "description": "20% OFF FOR SEYLAN CREDIT & 10% OFF FOR DEBIT CARDS...",
+   "category": "Other",
+   "city": "",
+   "period": "2026-12-04 to 2026-12-11",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.seylan.lk/uploads/1795588000_6b067fa00142b_New-Project---2026-11-25T115302.953.jpg",
+   "source_url": "https://www.seylan.lk/kyla-co-1",
+   "updated_at": "",
+   "end_date": "2026-12-11"
   },
   {
    "id": "seylan-the-kids-warehouse",
@@ -30276,6 +31159,25 @@
    "end_date": "2027-01-03"
   },
   {
+   "id": "seylan-suriyaarachchi-sons-furniture-1",
+   "bank": "Seylan Bank",
+   "merchant": "Suriyaarachchi & Sons Furniture",
+   "discount": "15%",
+   "description": "15%–40% off storewide on all types of wooden home furniture, varying by item for Seylan Credit Cards...",
+   "category": "Electronics & Furniture",
+   "city": "",
+   "period": "2026-11-26 to 2027-01-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.seylan.lk/uploads/1795588849_6b0682f1e4e59_New-Project---2026-11-25T120800.703.jpg",
+   "source_url": "https://www.seylan.lk/suriyaarachchi-sons-furniture-1",
+   "updated_at": "",
+   "end_date": "2027-01-31"
+  },
+  {
    "id": "seylan-serenity-leisure-park-hotels-pvt-ltd-ella-kanda-holiday-villas-1",
    "bank": "Seylan Bank",
    "merchant": "Serenity Leisure Park Hotels (Pvt) Ltd Ella Kanda Holiday Villas",
@@ -30803,21 +31705,21 @@
    "end_date": "2026-12-24"
   },
   {
-   "id": "ntb-20-savings-39",
+   "id": "ntb-10-savings-17",
    "bank": "Nations Trust",
    "merchant": "Molly Fashion Circle",
-   "discount": "20% Savings",
-   "description": "20% Savings at Molly Fashion Circle",
+   "discount": "10% Savings",
+   "description": "10% Savings at Molly Fashion Circle",
    "category": "Fashion",
    "city": "",
-   "period": "Valid from 22 to 24 November & 9 to 11 December 2026",
+   "period": "Valid on 22 to 25 December 2026",
    "card_types": [],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.nationstrust.com/3512/New-Project-(70).jpg",
-   "source_url": "https://www.nationstrust.com/promotions/20-savings-39",
+   "image_url": "https://assets.nationstrust.com/4112/New-Project-(70).jpg",
+   "source_url": "https://www.nationstrust.com/promotions/10-savings-17",
    "updated_at": "",
-   "end_date": "2026-12-11"
+   "end_date": "2026-12-25"
   },
   {
    "id": "ntb-25-savings-9",
@@ -31422,14 +32324,14 @@
    "description": "15% Savings at Tropic Of Linen",
    "category": "Fashion",
    "city": "",
-   "period": "Valid on 23, 27 & 29 December 2026",
+   "period": "Valid on 25 & 27 November and 10 & 12 December 2026",
    "card_types": [],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.nationstrust.com/3320/New-Project-(29).jpg",
+   "image_url": "https://assets.nationstrust.com/4109/New-Project-(29).jpg",
    "source_url": "https://www.nationstrust.com/promotions/15-savings-33",
    "updated_at": "",
-   "end_date": "2026-12-29"
+   "end_date": "2026-12-12"
   },
   {
    "id": "ntb-10-savings-10",
@@ -31838,6 +32740,23 @@
    "source_url": "https://www.nationstrust.com/promotions/up-to-15-savings-11",
    "updated_at": "",
    "end_date": "2026-12-27"
+  },
+  {
+   "id": "ntb-up-to-20-savings-23",
+   "bank": "Nations Trust",
+   "merchant": "Molly Boulevard",
+   "discount": "Up to 20% savings",
+   "description": "Up to 20% savings at Molly Boulevard",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid till 24 Nov and from 9 to 11 Dec 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4115/images.png",
+   "source_url": "https://www.nationstrust.com/promotions/up-to-20-savings-23",
+   "updated_at": "",
+   "end_date": "2026-12-11"
   },
   {
    "id": "ntb-25-savings-5",
@@ -34118,6 +35037,23 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "ntb-25-savings-19",
+   "bank": "Nations Trust",
+   "merchant": "Uber Eats",
+   "discount": "25% savings",
+   "description": "25% savings at Uber Eats",
+   "category": "Online",
+   "city": "",
+   "period": "Valid till 2 December 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4123/uber-eats.jpg",
+   "source_url": "https://www.nationstrust.com/promotions/25-savings-19",
+   "updated_at": "",
+   "end_date": "2026-12-02"
+  },
+  {
    "id": "ntb-20-savings-15",
    "bank": "Nations Trust",
    "merchant": "FindMyFare",
@@ -35081,7 +36017,7 @@
    "card_types": [],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.nationstrust.com/3075/Installment.png",
+   "image_url": "https://assets.nationstrust.com/4122/Installment.png",
    "source_url": "https://www.nationstrust.com/promotions/enjoy-installment-plans-at-a-range-of-merchant-partners-9",
    "updated_at": "",
    "end_date": "2026-12-31"
@@ -35119,6 +36055,23 @@
    "source_url": "https://www.nationstrust.com/promotions/10-off-with-mastercard-credit-cards-14",
    "updated_at": "",
    "end_date": "2026-11-30"
+  },
+  {
+   "id": "ntb-black-friday-sale-20-savings",
+   "bank": "Nations Trust",
+   "merchant": "SriLankan Airlines",
+   "discount": "Black Friday Sale - 20% Savings",
+   "description": "Black Friday Sale - 20% Savings at SriLankan Airlines",
+   "category": "Travel",
+   "city": "",
+   "period": "Valid on 26 and 27 November 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4120/New-Project---2026-11-23T113419.663.jpg",
+   "source_url": "https://www.nationstrust.com/promotions/black-friday-sale-20-savings",
+   "updated_at": "",
+   "end_date": "2026-11-27"
   },
   {
    "id": "ntb-25-off-with-mastercard-credit-debit-cards-6",
@@ -37321,6 +38274,25 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "ndb-10633",
+   "bank": "NDB",
+   "merchant": "Special IPP Promotions",
+   "discount": "0%",
+   "description": "Up to 36-month 0% installment plans on any purchase, anywhere.",
+   "category": "Instalment Plans",
+   "city": "",
+   "period": "27th, 28th & 29th November 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/a94dd70e-b76c-43d7-9c22-63ea847837dc-anything-anywhere.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/10633",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
    "id": "ndb-25",
    "bank": "NDB",
    "merchant": "Special IPP Promotions",
@@ -37478,20 +38450,20 @@
    "id": "ndb-239",
    "bank": "NDB",
    "merchant": "Srilankan Airlines",
-   "discount": "0%",
-   "description": "Up to 36 months 0% Installment plans",
+   "discount": "20% Savings",
+   "description": "20% Savings on return tickets with Up to 36 months 0% Installment plans",
    "category": "Instalment Plans",
    "city": "",
-   "period": "Until 31st December 2026",
+   "period": "26th & 27th November 2026",
    "card_types": [
     "credit"
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/24b69845-c512-43f5-a8b2-64826ccd91fc_travel.jpg",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/3caf9ae1-b0cc-48ca-839c-52ee29c94ed2-sri-lankan-air-lines.jpg",
    "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/239",
    "updated_at": "",
-   "end_date": "2026-12-31"
+   "end_date": "2026-11-27"
   },
   {
    "id": "ndb-259",
@@ -37704,6 +38676,26 @@
    "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/108",
    "updated_at": "",
    "end_date": "2026-12-31"
+  },
+  {
+   "id": "ndb-153",
+   "bank": "NDB",
+   "merchant": "MIMOSA",
+   "discount": "25% Savings",
+   "description": "25% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Other",
+   "city": "",
+   "period": "25th, 26th & 27th November 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/28c7620f-8b63-49ba-82d8-4394b1a3f84f_whatsapp-image-2024-11-20-at-10.23.49-am-(1).jpeg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/153",
+   "updated_at": "",
+   "end_date": "2026-11-27"
   },
   {
    "id": "ndb-237",
@@ -39675,25 +40667,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "peoples-uga-prava-tangalle-20-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "Uga Prava - Tangalle",
-   "discount": "20% off",
-   "description": "20% off at Uga Prava - Tangalle with Peoples Bank credit cards",
-   "category": "Hotels",
-   "city": "",
-   "period": "Till November 30, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2026/03/Uga-Prava.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/uga-prava-tangalle-20-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
    "id": "peoples-suriya-resorts-waikkal-15-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Suriya Resorts - Waikkal",
@@ -39712,6 +40685,25 @@
    "source_url": "https://www.peoplesbank.lk/promotion/suriya-resorts-waikkal-15-off-credit/",
    "updated_at": "",
    "end_date": "2026-12-23"
+  },
+  {
+   "id": "peoples-uga-prava-tangalle-20-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Uga Prava - Tangalle",
+   "discount": "20% off",
+   "description": "20% off at Uga Prava - Tangalle with Peoples Bank credit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "Till November 30, 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/03/Uga-Prava.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/uga-prava-tangalle-20-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-11-30"
   },
   {
    "id": "peoples-amagla-deduru-oya-estate-20-off-credit",
@@ -40200,6 +41192,25 @@
    "end_date": "2026-12-30"
   },
   {
+   "id": "peoples-amaya-beach-pasikuda-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Amaya Beach - Pasikuda",
+   "discount": "Up to 38% off",
+   "description": "Up to 38% off at Amaya Beach - Pasikuda with Peoples Bank credit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "From November 25, 2026 to January 31, 2027",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2023/10/Amaya-Beach.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/amaya-beach-pasikuda-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2027-01-31"
+  },
+  {
    "id": "peoples-oak-ray-regency-kandy-up-to-25-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Oak Ray Regency - Kandy",
@@ -40331,6 +41342,25 @@
    "source_url": "https://www.peoplesbank.lk/promotion/fresco-water-villa-sigiriya-up-to-25-off-credit/",
    "updated_at": "",
    "end_date": "2027-04-30"
+  },
+  {
+   "id": "peoples-amaya-hills-kandy-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Amaya Hills - Kandy",
+   "discount": "Up to 38% off",
+   "description": "Up to 38% off at Amaya Hills - Kandy with Peoples Bank credit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "From November 25, 2026 to January 31, 2027",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2023/10/Amaya-Hills.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/amaya-hills-kandy-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2027-01-31"
   },
   {
    "id": "peoples-oak-ray-elephant-lake-habarana-up-to-25-off-credit",
@@ -40483,6 +41513,25 @@
    "source_url": "https://www.peoplesbank.lk/promotion/liyya-water-villa-dambulla-up-to-25-off-credit/",
    "updated_at": "",
    "end_date": "2027-04-30"
+  },
+  {
+   "id": "peoples-amaya-lake-dambulla-25-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Amaya Lake - Dambulla",
+   "discount": "Up to 32% off",
+   "description": "Up to 32% off at Amaya Lake - Dambulla with Peoples Bank credit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "From November 25, 2026 to January 31, 2027",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2023/10/Amaya-Lake.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/amaya-lake-dambulla-25-off-credit/",
+   "updated_at": "",
+   "end_date": "2027-01-31"
   },
   {
    "id": "peoples-oak-ray-sky-terrace-up-to-35-off-credit",
@@ -40886,6 +41935,25 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "peoples-weekend-high-tea-at-cinnamon-red-colombo-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Weekend High Tea at Cinnamon Red Colombo",
+   "discount": "30% off",
+   "description": "30% off at Weekend High Tea at Cinnamon Red Colombo with Peoples Bank credit cards",
+   "category": "Dining",
+   "city": "",
+   "period": "Till February 28, 2027 (Weekend Only)",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2025/10/Cinnamon_Red.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/weekend-high-tea-at-cinnamon-red-colombo-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2027-02-28"
+  },
+  {
    "id": "peoples-boardwalk-by-waters-edge-20-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Boardwalk - By Waters Edge",
@@ -41216,7 +42284,7 @@
    "description": "30% off at King of the Mambo (KOTM) - At Galle Face Hotel with Peoples Bank credit cards",
    "category": "Dining",
    "city": "",
-   "period": "Till December 30, 2026 (Excluding 24th & 25th December 2026)",
+   "period": "From December 3, 2026 to December 5, 2026",
    "card_types": [
     "credit"
    ],
@@ -41225,7 +42293,7 @@
    "image_url": "https://www.peoplesbank.lk/roastoth/2026/02/King-of-the-Mambo.jpg",
    "source_url": "https://www.peoplesbank.lk/promotion/king-of-the-mambo-kotm-at-galle-face-hotel-30-off-credit/",
    "updated_at": "",
-   "end_date": "2026-12-30"
+   "end_date": "2026-12-05"
   },
   {
    "id": "peoples-in-on-the-green-at-galle-face-hotel-30-off-credit",
@@ -41323,25 +42391,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "peoples-clerk-2-ceo-30-off-credit",
-   "bank": "Peoples Bank",
-   "merchant": "Clerk 2 CEO",
-   "discount": "30% off",
-   "description": "30% off at Clerk 2 CEO with Peoples Bank credit cards",
-   "category": "Dining",
-   "city": "",
-   "period": "Till December 31, 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://www.peoplesbank.lk/roastoth/2026/10/Clerk-to-CEO.jpg",
-   "source_url": "https://www.peoplesbank.lk/promotion/clerk-2-ceo-30-off-credit/",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
    "id": "peoples-the-warehouse-30-off-credit",
    "bank": "Peoples Bank",
    "merchant": "The Warehouse",
@@ -41359,6 +42408,25 @@
    "source_url": "https://www.peoplesbank.lk/promotion/the-warehouse-30-off-credit/",
    "updated_at": "",
    "end_date": "2026-11-30"
+  },
+  {
+   "id": "peoples-clerk-2-ceo-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Clerk 2 CEO",
+   "discount": "30% off",
+   "description": "30% off at Clerk 2 CEO with Peoples Bank credit cards",
+   "category": "Dining",
+   "city": "",
+   "period": "Till December 31, 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/10/Clerk-to-CEO.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/clerk-2-ceo-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-31"
   },
   {
    "id": "peoples-kingsbru-30-off-credit",
@@ -41397,6 +42465,25 @@
    "source_url": "https://www.peoplesbank.lk/promotion/adiyaa-at-pullman-colombo-downtown-30-off-credit/",
    "updated_at": "",
    "end_date": "2026-12-31"
+  },
+  {
+   "id": "peoples-thanksgiving-dinner-by-cinnamon-red-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Thanksgiving Dinner By Cinnamon Red",
+   "discount": "30% off",
+   "description": "30% off at Thanksgiving Dinner By Cinnamon Red with Peoples Bank credit cards",
+   "category": "Dining",
+   "city": "",
+   "period": "(27th November 2026)",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2025/10/Cinnamon_Red.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/thanksgiving-dinner-by-cinnamon-red-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-11-27"
   },
   {
    "id": "peoples-chinese-dragon-cafe-20-off-credit",
@@ -47834,6 +48921,26 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "peoples-singer-lk-singer-retail-outlets-singer-mega-outlets-black-friday-offer-up-to-60-",
+   "bank": "Peoples Bank",
+   "merchant": "Singer.lk | Singer Retail Outlets & Singer Mega Outlets - Black Friday offer",
+   "discount": "Up to 60% off",
+   "description": "Up to 60% off at Singer.lk | Singer Retail Outlets & Singer Mega Outlets - Black Friday offer with Peoples Bank credit & debit cards",
+   "category": "Electronics & Furniture",
+   "city": "",
+   "period": "From November 25, 2026 to November 29, 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2023/11/Singer.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/singer-lk-singer-retail-outlets-singer-mega-outlets-black-friday-offer-up-to-60-credit/",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
    "id": "peoples-quantum-fitness-15-off-debit",
    "bank": "Peoples Bank",
    "merchant": "Quantum Fitness",
@@ -48168,7 +49275,7 @@
    "description": "15% off at Vision Care with Peoples Bank credit cards",
    "category": "Health",
    "city": "",
-   "period": "From November 18, 2026 to December 31, 2026",
+   "period": "From December 18, 2026 to December 31, 2026",
    "card_types": [
     "credit"
    ],
@@ -48277,6 +49384,26 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "peoples-srilankan-airlines-valentines-day-offer",
+   "bank": "Peoples Bank",
+   "merchant": "SriLankan Airlines",
+   "discount": "20% off",
+   "description": "20% off at SriLankan Airlines with Peoples Bank credit & debit cards",
+   "category": "Travel",
+   "city": "",
+   "period": "From November 26, 2026 to November 27, 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2025/05/Sri-Lankan-Airlines_oneworld-2.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/srilankan-airlines-valentines-day-offer/",
+   "updated_at": "",
+   "end_date": "2026-11-27"
+  },
+  {
    "id": "peoples-pearl-bay-leisure-park-35-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Pearl Bay - Leisure Park",
@@ -48372,6 +49499,25 @@
    "end_date": "2026-12-30"
   },
   {
+   "id": "peoples-ceylon-choice-welisara-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Ceylon Choice – Welisara",
+   "discount": "15% off",
+   "description": "15% off at Ceylon Choice – Welisara with Peoples Bank credit cards",
+   "category": "Other",
+   "city": "",
+   "period": "From December 12, 2026 to December 14, 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Ceylon-Choice.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/ceylon-choice-welisara-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-14"
+  },
+  {
    "id": "peoples-laundromat-up-to-20-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Laundromat",
@@ -48465,6 +49611,25 @@
    "source_url": "https://www.peoplesbank.lk/promotion/exibit-10-off-debit/",
    "updated_at": "",
    "end_date": "2026-12-30"
+  },
+  {
+   "id": "peoples-ceylon-choice-welisara-debit",
+   "bank": "Peoples Bank",
+   "merchant": "Ceylon Choice - Welisara",
+   "discount": "10% off",
+   "description": "10% off at Ceylon Choice - Welisara with Peoples Bank debit cards",
+   "category": "Other",
+   "city": "",
+   "period": "From December 12, 2026 to December 14, 2026",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Ceylon-Choice.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/ceylon-choice-welisara-debit/",
+   "updated_at": "",
+   "end_date": "2026-12-14"
   },
   {
    "id": "dfcc-itc-ratnadipa",
@@ -50539,308 +51704,23 @@
    "end_date": "2027-01-31"
   },
   {
-   "id": "dfcc-hana-clothing",
+   "id": "dfcc-zie-fashion",
    "bank": "DFCC",
-   "merchant": "Up to 15% Savings HANA Clothing and www.hanaclothing.lk",
-   "discount": "Up to 15%",
-   "description": "Up to 15% Savings HANA Clothing and www.hanaclothing.lk. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "15th to 30th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/64a0a125-cc7c-4902-a387-082b537bad14/HanaClothing.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/hana-clothing",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
-   "id": "dfcc-aditi",
-   "bank": "DFCC",
-   "merchant": "Aditi outlets for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Aditi outlets for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "01st & 02nd December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/599a0aa3-a973-4fcc-9aa3-0bbbc62c9bf7/AditiLogo.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/aditi",
-   "updated_at": "",
-   "end_date": "2026-12-02"
-  },
-  {
-   "id": "dfcc-amante",
-   "bank": "DFCC",
-   "merchant": "Amante outlets",
-   "discount": "25%",
-   "description": "25% Savings at Amante outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "07th & 08th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/fc910dd8-f149-434c-a30c-7031cbaad9c2/Amante.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/amante",
-   "updated_at": "",
-   "end_date": "2026-12-08"
-  },
-  {
-   "id": "dfcc-asb-fashion",
-   "bank": "DFCC",
-   "merchant": "ASB Fashion outlets",
-   "discount": "20%",
-   "description": "20% Savings at ASB Fashion outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 11th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/ffea595d-c925-42c2-a40a-7ea486597064/ASBFashion.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/asb-fashion",
-   "updated_at": "",
-   "end_date": "2026-12-11"
-  },
-  {
-   "id": "dfcc-glamour-gate",
-   "bank": "DFCC",
-   "merchant": "Glamour Gate for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Glamour Gate for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 11th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/2ad81895-9355-4073-a8a1-40365c837f3c/ASBGlamourGate.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/glamour-gate",
-   "updated_at": "",
-   "end_date": "2026-12-11"
-  },
-  {
-   "id": "dfcc-calista",
-   "bank": "DFCC",
-   "merchant": "Calista Clothing for bills above Rs. 5,000/-",
+   "merchant": "ZIE Fashion",
    "discount": "15%",
-   "description": "15% Savings at Calista Clothing for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "description": "15% Savings at ZIE Fashion. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
    "category": "Fashion",
    "city": "",
-   "period": "10th to 15th November and 20th to 31st December 2026",
+   "period": "20th to 25th November and 10th to 15th & 20th to 25th December 2026",
    "card_types": [
     "credit"
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/0428a4ec-b45b-43c4-bdb4-d04ccfd3a8c5/CalistaLogo.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/calista",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/4e3b0769-b09f-4968-b1b7-8c3691660db2/NewZIElogo.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/zie-fashion",
    "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "dfcc-be-desi",
-   "bank": "DFCC",
-   "merchant": "Be Desi - Colombo 06 for bills above Rs. 10,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Be Desi - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 21st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/8c6239e2-cf8f-4742-a2d5-2b0b40bf7b4a/BeDesi.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/be-desi",
-   "updated_at": "",
-   "end_date": "2026-12-21"
-  },
-  {
-   "id": "dfcc-be-dapper",
-   "bank": "DFCC",
-   "merchant": "Be Dapper - Colombo 06 for bills above Rs. 10,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Be Dapper - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 21st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/4c032f29-ddbe-47e1-9aa8-1bd7f68ac26e/BeDapper.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/be-dapper",
-   "updated_at": "",
-   "end_date": "2026-12-21"
-  },
-  {
-   "id": "dfcc-sultan-by-be-desi",
-   "bank": "DFCC",
-   "merchant": "Sultan By Be Desi - Colombo 06 for bills above Rs. 10,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Sultan By Be Desi - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 21st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/5e520d41-0ea3-40b4-bc0b-90844deb1f05/Sultanbybedesi.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/sultan-by-be-desi",
-   "updated_at": "",
-   "end_date": "2026-12-21"
-  },
-  {
-   "id": "dfcc-raja-and-rani-by-be-desi",
-   "bank": "DFCC",
-   "merchant": "Raja Rani by Be Desi - Colombo 06 for bills above Rs. 10,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Raja Rani by Be Desi - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 21st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/e1a22905-a17c-4991-b189-6b041ef280c2/RajaRanibybedesi.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/raja-and-rani-by-be-desi",
-   "updated_at": "",
-   "end_date": "2026-12-21"
-  },
-  {
-   "id": "dfcc-blue-line-collection",
-   "bank": "DFCC",
-   "merchant": "Blue Line Collection",
-   "discount": "15%",
-   "description": "15% Savings at Blue Line Collection. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "04th to 06th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/521c182f-2135-4e84-8933-7d6c8181f739/Blueline-Logo.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/blue-line-collection",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "dfcc-dilly-and-carlo",
-   "bank": "DFCC",
-   "merchant": "Dilly & Carlo and www.dillyandcarlo.com for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Dilly & Carlo and www.dillyandcarlo.com for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "03rd & 04th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b32ecb32-9288-487a-9f4d-3ba9e9eb79f2/dillyandcarlo.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/dilly-and-carlo",
-   "updated_at": "",
-   "end_date": "2026-12-04"
-  },
-  {
-   "id": "dfcc-celcius-luxury-bedding",
-   "bank": "DFCC",
-   "merchant": "Celcius outlets",
-   "discount": "20%",
-   "description": "20% Savings at Celcius outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid till 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/f8d2d1a3-b478-4605-b70e-16c5446dd391/CelciusLuxuryBedding.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/celcius-luxury-bedding",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "dfcc-nils",
-   "bank": "DFCC",
-   "merchant": "Nils for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Nils for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "29th & 30th November and 18th & 19th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/a02b3b43-6259-427e-b43c-b42cea38701e/Nilslogo1.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nils",
-   "updated_at": "",
-   "end_date": "2026-12-19"
-  },
-  {
-   "id": "dfcc-ceylon-choice-welisara",
-   "bank": "DFCC",
-   "merchant": "Ceylon Choice - Welisara outlets",
-   "discount": "15%",
-   "description": "15% Savings at Ceylon Choice - Welisara outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "04th to 06th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/262aa287-faa2-43fa-9616-bb7128f44997/CeylonChoicePng1.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/ceylon-choice-welisara",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "dfcc-d-blaq",
-   "bank": "DFCC",
-   "merchant": "D BLAQ",
-   "discount": "15%",
-   "description": "15% Savings at D BLAQ. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "04th to 06th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/c889306e-865c-44a1-ac85-bd09a2eb6a3a/D-Blaq-Logo-for-Card-offers-24.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/d-blaq",
-   "updated_at": "",
-   "end_date": "2026-12-06"
+   "end_date": "2026-12-25"
   },
   {
    "id": "dfcc-down-town",
@@ -50860,158 +51740,6 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/down-town",
    "updated_at": "",
    "end_date": "2026-12-22"
-  },
-  {
-   "id": "dfcc-giggles-lk-2",
-   "bank": "DFCC",
-   "merchant": "giggles.lk - Colombo 06 for bills above Rs. Rs. 10,000/-",
-   "discount": "20%",
-   "description": "20% Savings at giggles.lk - Colombo 06 for bills above Rs. Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 21st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/13a98981-165c-4b33-b78b-41e54f4316b0/Giggles.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/giggles-lk-2",
-   "updated_at": "",
-   "end_date": "2026-12-21"
-  },
-  {
-   "id": "dfcc-handloom-gallery",
-   "bank": "DFCC",
-   "merchant": "Handloom Gallery for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Handloom Gallery for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "28th to 30th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/cb1ad9b9-4fc5-49fe-858d-7b2c429c4f8e/Screenshot_16-3-2026_95820_www.bing.com.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/handloom-gallery",
-   "updated_at": "",
-   "end_date": "2026-11-30"
-  },
-  {
-   "id": "dfcc-house-of-fashions",
-   "bank": "DFCC",
-   "merchant": "House of Fashions",
-   "discount": "25%",
-   "description": "25% Savings at House of Fashions. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "14th November & 12th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/f17f7c1f-920c-48a7-b91b-91f09ff22ecc/Houseoffashion.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/house-of-fashions",
-   "updated_at": "",
-   "end_date": "2026-12-12"
-  },
-  {
-   "id": "dfcc-kadapatha",
-   "bank": "DFCC",
-   "merchant": "Kadapatha for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Kadapatha for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 06th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3e6b363f-8960-4332-8700-49201e1a8118/Kadapatha.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/kadapatha",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "dfcc-kingsman-perenniel",
-   "bank": "DFCC",
-   "merchant": "Kingsman Perennial - Colombo 04",
-   "discount": "20%",
-   "description": "20% Savings at Kingsman Perennial - Colombo 04. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "21st, 22nd November and 12th, 13th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b8a6fb80-b1db-4c44-a945-ce698478ca61/KINGSMANLOGO_760-X-600.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/kingsman-perenniel",
-   "updated_at": "",
-   "end_date": "2026-12-13"
-  },
-  {
-   "id": "dfcc-level-outfitters",
-   "bank": "DFCC",
-   "merchant": "Level Outfitters",
-   "discount": "15%",
-   "description": "15% Savings at Level Outfitters. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 06th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1de19312-5fb4-4610-a56e-ca5eb553537c/Screenshot_16-3-2026_10823_www.bing.com.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/level-outfitters",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "dfcc-libera-flagship-store",
-   "bank": "DFCC",
-   "merchant": "Libera Flagship Store for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Libera Flagship Store for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "05th & 06th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/c705d01d-9394-49b7-87a0-e30f556830df/Libera-Web-Banners_400-X-225.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/libera-flagship-store",
-   "updated_at": "",
-   "end_date": "2026-12-06"
-  },
-  {
-   "id": "dfcc-midnight-divas",
-   "bank": "DFCC",
-   "merchant": "Midnight Divas outlets",
-   "discount": "15%",
-   "description": "15% Savings at Midnight Divas outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "01st to 06th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/56c1fe4f-d47a-4528-8850-9337aba8de0b/Midnight.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/midnight-divas",
-   "updated_at": "",
-   "end_date": "2026-12-06"
   },
   {
    "id": "dfcc-mimosa",
@@ -51050,6 +51778,367 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/the-vanta-studios",
    "updated_at": "",
    "end_date": "2026-12-22"
+  },
+  {
+   "id": "dfcc-kingsman-perenniel",
+   "bank": "DFCC",
+   "merchant": "Kingsman Perennial - Colombo 04",
+   "discount": "20%",
+   "description": "20% Savings at Kingsman Perennial - Colombo 04. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "21st, 22nd November and 12th, 13th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b8a6fb80-b1db-4c44-a945-ce698478ca61/KINGSMANLOGO_760-X-600.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/kingsman-perenniel",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "dfcc-zara-tex",
+   "bank": "DFCC",
+   "merchant": "ZARA TEX - Puttalam",
+   "discount": "25%",
+   "description": "25% Savings at ZARA TEX - Puttalam. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "22nd to 25th November and 05th to 10th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/a7c08b78-44ec-48b3-83d5-04127778c74b/ZaraRedipili.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/zara-tex",
+   "updated_at": "",
+   "end_date": "2026-12-10"
+  },
+  {
+   "id": "dfcc-zuzi",
+   "bank": "DFCC",
+   "merchant": "ZUZI for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at ZUZI for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "26th November & 10th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/27880838-8c2d-4e2c-8e3a-45857eef4035/SuziLogo-0311.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/zuzi",
+   "updated_at": "",
+   "end_date": "2026-12-10"
+  },
+  {
+   "id": "dfcc-yarn-and-darn",
+   "bank": "DFCC",
+   "merchant": "Yarn & Darn - Piliyandala & www.yarnndarn.lk",
+   "discount": "20%",
+   "description": "20% Savings at Yarn & Darn - Piliyandala & www.yarnndarn.lk. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "27th to 29th November and 12th & 13th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3c178868-5fe6-4345-aab0-f891636bcce2/YarnDarn.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/yarn-and-darn",
+   "updated_at": "",
+   "end_date": "2026-12-13"
+  },
+  {
+   "id": "dfcc-thilakawardhana-textiles",
+   "bank": "DFCC",
+   "merchant": "Thilakawardhana Textiles and thilakawardhana.com for bills above Rs. 5,000/-",
+   "discount": "10%",
+   "description": "10% Savings at Thilakawardhana Textiles and thilakawardhana.com for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "28th & 29th November 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/0792dd2d-07f5-4d4c-975a-8ac29f80ecad/ThilakaText.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/thilakawardhana-textiles",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "dfcc-thilakawardhana-blossoms",
+   "bank": "DFCC",
+   "merchant": "Thilakawardhana Blossoms and thilakawardhana.com for bills above Rs. 5,000/-",
+   "discount": "10%",
+   "description": "10% Savings at Thilakawardhana Blossoms and thilakawardhana.com for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "28th & 29th November 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/0792dd2d-07f5-4d4c-975a-8ac29f80ecad/Thilakablossam.JPG",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/thilakawardhana-blossoms",
+   "updated_at": "",
+   "end_date": "2026-11-29"
+  },
+  {
+   "id": "dfcc-handloom-gallery",
+   "bank": "DFCC",
+   "merchant": "Handloom Gallery for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Handloom Gallery for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "28th to 30th November 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/cb1ad9b9-4fc5-49fe-858d-7b2c429c4f8e/Screenshot_16-3-2026_95820_www.bing.com.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/handloom-gallery",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
+   "id": "dfcc-nithijaya-saree-2",
+   "bank": "DFCC",
+   "merchant": "Nithijaya Saree - Nugegoda",
+   "discount": "25%",
+   "description": "25% Savings at Nithijaya Saree - Nugegoda. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "28th & 29th November and 18th, 24th & 28th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Nithijaya-Saree-Logo-Banner-400-X-225.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nithijaya-saree-2",
+   "updated_at": "",
+   "end_date": "2026-12-28"
+  },
+  {
+   "id": "dfcc-queen-nithijaya-saree",
+   "bank": "DFCC",
+   "merchant": "Queen Nithijaya Saree",
+   "discount": "10%",
+   "description": "10% Savings at Queen Nithijaya Saree. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "28th & 29th November and 18th, 24th & 28th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Queen-Nithijaya-Logo-Banners-760-X-600.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/queen-nithijaya-saree",
+   "updated_at": "",
+   "end_date": "2026-12-28"
+  },
+  {
+   "id": "dfcc-celcius-luxury-bedding",
+   "bank": "DFCC",
+   "merchant": "Celcius outlets",
+   "discount": "20%",
+   "description": "20% Savings at Celcius outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid till 31st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/f8d2d1a3-b478-4605-b70e-16c5446dd391/CelciusLuxuryBedding.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/celcius-luxury-bedding",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "dfcc-spring-and-summer-5",
+   "bank": "DFCC",
+   "merchant": "Spring & Summer outlets and www.springandsummer.lk for bills above Rs. 5,000/-",
+   "discount": "25%",
+   "description": "25% Savings at Spring & Summer outlets and www.springandsummer.lk for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "01st, 02nd, 18th and 19th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/da1565b9-b0c8-48d5-801f-785924ff051f/SpringandSummer.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/spring-and-summer-5",
+   "updated_at": "",
+   "end_date": "2026-12-19"
+  },
+  {
+   "id": "dfcc-aditi",
+   "bank": "DFCC",
+   "merchant": "Aditi outlets for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Aditi outlets for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "01st & 02nd December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/599a0aa3-a973-4fcc-9aa3-0bbbc62c9bf7/AditiLogo.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/aditi",
+   "updated_at": "",
+   "end_date": "2026-12-02"
+  },
+  {
+   "id": "dfcc-nadiyas-textile",
+   "bank": "DFCC",
+   "merchant": "Nadiya's Textile outlets",
+   "discount": "20%",
+   "description": "20% Savings at Nadiya's Textile outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "19th & 31st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b709734c-6c67-4deb-99f4-8e512050ef8a/NDSNEWLOGO-2025.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nadiyas-textile",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "dfcc-midnight-divas",
+   "bank": "DFCC",
+   "merchant": "Midnight Divas outlets",
+   "discount": "15%",
+   "description": "15% Savings at Midnight Divas outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "01st to 06th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/56c1fe4f-d47a-4528-8850-9337aba8de0b/Midnight.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/midnight-divas",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "dfcc-dilly-and-carlo",
+   "bank": "DFCC",
+   "merchant": "Dilly & Carlo and www.dillyandcarlo.com for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Dilly & Carlo and www.dillyandcarlo.com for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "03rd & 04th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b32ecb32-9288-487a-9f4d-3ba9e9eb79f2/dillyandcarlo.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/dilly-and-carlo",
+   "updated_at": "",
+   "end_date": "2026-12-04"
+  },
+  {
+   "id": "dfcc-d-blaq",
+   "bank": "DFCC",
+   "merchant": "D BLAQ",
+   "discount": "15%",
+   "description": "15% Savings at D BLAQ. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "04th to 06th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/c889306e-865c-44a1-ac85-bd09a2eb6a3a/D-Blaq-Logo-for-Card-offers-24.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/d-blaq",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "dfcc-ceylon-choice-welisara",
+   "bank": "DFCC",
+   "merchant": "Ceylon Choice - Welisara outlets",
+   "discount": "15%",
+   "description": "15% Savings at Ceylon Choice - Welisara outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "04th to 06th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/262aa287-faa2-43fa-9616-bb7128f44997/CeylonChoicePng1.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/ceylon-choice-welisara",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "dfcc-softlogic-brands",
+   "bank": "DFCC",
+   "merchant": "Odel, Cotton Collection and Softlogic Brands",
+   "discount": "30%",
+   "description": "30% Savings at Odel, Cotton Collection and Softlogic Brands. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "03rd & 04th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/38344f03-b5f1-4c3b-9f88-b14c1d5c9be9/softlogicbrands..png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/softlogic-brands",
+   "updated_at": "",
+   "end_date": "2026-12-04"
+  },
+  {
+   "id": "dfcc-blue-line-collection",
+   "bank": "DFCC",
+   "merchant": "Blue Line Collection",
+   "discount": "15%",
+   "description": "15% Savings at Blue Line Collection. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "04th to 06th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/521c182f-2135-4e84-8933-7d6c8181f739/Blueline-Logo.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/blue-line-collection",
+   "updated_at": "",
+   "end_date": "2026-12-06"
   },
   {
    "id": "dfcc-hameedia-3",
@@ -51128,6 +52217,82 @@
    "end_date": "2026-12-06"
   },
   {
+   "id": "dfcc-asb-fashion",
+   "bank": "DFCC",
+   "merchant": "ASB Fashion outlets",
+   "discount": "20%",
+   "description": "20% Savings at ASB Fashion outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 11th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/ffea595d-c925-42c2-a40a-7ea486597064/ASBFashion.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/asb-fashion",
+   "updated_at": "",
+   "end_date": "2026-12-11"
+  },
+  {
+   "id": "dfcc-glamour-gate",
+   "bank": "DFCC",
+   "merchant": "Glamour Gate for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Glamour Gate for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 11th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/2ad81895-9355-4073-a8a1-40365c837f3c/ASBGlamourGate.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/glamour-gate",
+   "updated_at": "",
+   "end_date": "2026-12-11"
+  },
+  {
+   "id": "dfcc-kadapatha",
+   "bank": "DFCC",
+   "merchant": "Kadapatha for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Kadapatha for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 06th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3e6b363f-8960-4332-8700-49201e1a8118/Kadapatha.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/kadapatha",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "dfcc-libera-flagship-store",
+   "bank": "DFCC",
+   "merchant": "Libera Flagship Store for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Libera Flagship Store for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 06th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/c705d01d-9394-49b7-87a0-e30f556830df/Libera-Web-Banners_400-X-225.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/libera-flagship-store",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
    "id": "dfcc-saree-mandir",
    "bank": "DFCC",
    "merchant": "Saree Mandir - Colombo 06 for bills above Rs. 5,000/-",
@@ -51143,6 +52308,120 @@
    "terms": "",
    "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3282e9b8-2676-4bf4-b24b-a47f4e992a78/Sareemandir.jpeg",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/saree-mandir",
+   "updated_at": "",
+   "end_date": "2026-12-06"
+  },
+  {
+   "id": "dfcc-be-desi",
+   "bank": "DFCC",
+   "merchant": "Be Desi - Colombo 06 for bills above Rs. 10,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Be Desi - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 21st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/8c6239e2-cf8f-4742-a2d5-2b0b40bf7b4a/BeDesi.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/be-desi",
+   "updated_at": "",
+   "end_date": "2026-12-21"
+  },
+  {
+   "id": "dfcc-be-dapper",
+   "bank": "DFCC",
+   "merchant": "Be Dapper - Colombo 06 for bills above Rs. 10,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Be Dapper - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 21st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/4c032f29-ddbe-47e1-9aa8-1bd7f68ac26e/BeDapper.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/be-dapper",
+   "updated_at": "",
+   "end_date": "2026-12-21"
+  },
+  {
+   "id": "dfcc-giggles-lk-2",
+   "bank": "DFCC",
+   "merchant": "giggles.lk - Colombo 06 for bills above Rs. Rs. 10,000/-",
+   "discount": "20%",
+   "description": "20% Savings at giggles.lk - Colombo 06 for bills above Rs. Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 21st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/13a98981-165c-4b33-b78b-41e54f4316b0/Giggles.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/giggles-lk-2",
+   "updated_at": "",
+   "end_date": "2026-12-21"
+  },
+  {
+   "id": "dfcc-raja-and-rani-by-be-desi",
+   "bank": "DFCC",
+   "merchant": "Raja Rani by Be Desi - Colombo 06 for bills above Rs. 10,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Raja Rani by Be Desi - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 21st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/e1a22905-a17c-4991-b189-6b041ef280c2/RajaRanibybedesi.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/raja-and-rani-by-be-desi",
+   "updated_at": "",
+   "end_date": "2026-12-21"
+  },
+  {
+   "id": "dfcc-sultan-by-be-desi",
+   "bank": "DFCC",
+   "merchant": "Sultan By Be Desi - Colombo 06 for bills above Rs. 10,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Sultan By Be Desi - Colombo 06 for bills above Rs. 10,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 21st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/5e520d41-0ea3-40b4-bc0b-90844deb1f05/Sultanbybedesi.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/sultan-by-be-desi",
+   "updated_at": "",
+   "end_date": "2026-12-21"
+  },
+  {
+   "id": "dfcc-sriyani-dress-point",
+   "bank": "DFCC",
+   "merchant": "Sriyani Dress Point outlets for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Sriyani Dress Point outlets for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 06th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b88413e3-88f9-4fe6-ab37-3cd81b04bf61/Sriyani.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/sriyani-dress-point",
    "updated_at": "",
    "end_date": "2026-12-06"
   },
@@ -51166,106 +52445,11 @@
    "end_date": "2026-12-06"
   },
   {
-   "id": "dfcc-nadiyas-textile",
+   "id": "dfcc-level-outfitters",
    "bank": "DFCC",
-   "merchant": "Nadiya's Textile outlets",
-   "discount": "20%",
-   "description": "20% Savings at Nadiya's Textile outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "19th & 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b709734c-6c67-4deb-99f4-8e512050ef8a/NDSNEWLOGO-2025.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nadiyas-textile",
-   "updated_at": "",
-   "end_date": "2026-12-31"
-  },
-  {
-   "id": "dfcc-nisaco-mall",
-   "bank": "DFCC",
-   "merchant": "Nisaco Mall",
-   "discount": "20%",
-   "description": "20% Savings at Nisaco Mall. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "08th & 09th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/9b89101f-bec9-48bb-98f7-d7845e5d78ee/NisacoMall.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nisaco-mall",
-   "updated_at": "",
-   "end_date": "2026-12-09"
-  },
-  {
-   "id": "dfcc-nithijaya-saree-2",
-   "bank": "DFCC",
-   "merchant": "Nithijaya Saree - Nugegoda",
-   "discount": "25%",
-   "description": "25% Savings at Nithijaya Saree - Nugegoda. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "28th & 29th November and 18th, 24th & 28th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Nithijaya-Saree-Logo-Banner-400-X-225.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nithijaya-saree-2",
-   "updated_at": "",
-   "end_date": "2026-12-28"
-  },
-  {
-   "id": "dfcc-queen-nithijaya-saree",
-   "bank": "DFCC",
-   "merchant": "Queen Nithijaya Saree",
-   "discount": "10%",
-   "description": "10% Savings at Queen Nithijaya Saree. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "28th & 29th November and 18th, 24th & 28th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Queen-Nithijaya-Logo-Banners-760-X-600.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/queen-nithijaya-saree",
-   "updated_at": "",
-   "end_date": "2026-12-28"
-  },
-  {
-   "id": "dfcc-zuzi",
-   "bank": "DFCC",
-   "merchant": "ZUZI for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at ZUZI for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "26th November & 10th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/27880838-8c2d-4e2c-8e3a-45857eef4035/SuziLogo-0311.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/zuzi",
-   "updated_at": "",
-   "end_date": "2026-12-10"
-  },
-  {
-   "id": "dfcc-sriyani-dress-point",
-   "bank": "DFCC",
-   "merchant": "Sriyani Dress Point outlets for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Sriyani Dress Point outlets for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "merchant": "Level Outfitters",
+   "discount": "15%",
+   "description": "15% Savings at Level Outfitters. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
    "category": "Fashion",
    "city": "",
    "period": "05th & 06th December 2026",
@@ -51274,8 +52458,8 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b88413e3-88f9-4fe6-ab37-3cd81b04bf61/Sriyani.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/sriyani-dress-point",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1de19312-5fb4-4610-a56e-ca5eb553537c/Screenshot_16-3-2026_10823_www.bing.com.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/level-outfitters",
    "updated_at": "",
    "end_date": "2026-12-06"
   },
@@ -51318,80 +52502,42 @@
    "end_date": "2026-12-19"
   },
   {
-   "id": "dfcc-yarn-and-darn",
+   "id": "dfcc-amante",
    "bank": "DFCC",
-   "merchant": "Yarn & Darn - Piliyandala & www.yarnndarn.lk",
-   "discount": "20%",
-   "description": "20% Savings at Yarn & Darn - Piliyandala & www.yarnndarn.lk. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "27th to 29th November and 12th & 13th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3c178868-5fe6-4345-aab0-f891636bcce2/YarnDarn.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/yarn-and-darn",
-   "updated_at": "",
-   "end_date": "2026-12-13"
-  },
-  {
-   "id": "dfcc-zara-tex",
-   "bank": "DFCC",
-   "merchant": "ZARA TEX - Puttalam",
+   "merchant": "Amante outlets",
    "discount": "25%",
-   "description": "25% Savings at ZARA TEX - Puttalam. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "description": "25% Savings at Amante outlets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
    "category": "Fashion",
    "city": "",
-   "period": "22nd to 25th November and 05th to 10th December 2026",
+   "period": "07th & 08th December 2026",
    "card_types": [
     "credit"
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/a7c08b78-44ec-48b3-83d5-04127778c74b/ZaraRedipili.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/zara-tex",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/fc910dd8-f149-434c-a30c-7031cbaad9c2/Amante.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/amante",
    "updated_at": "",
-   "end_date": "2026-12-10"
+   "end_date": "2026-12-08"
   },
   {
-   "id": "dfcc-zie-fashion",
+   "id": "dfcc-nisaco-mall",
    "bank": "DFCC",
-   "merchant": "ZIE Fashion",
-   "discount": "15%",
-   "description": "15% Savings at ZIE Fashion. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "merchant": "Nisaco Mall",
+   "discount": "20%",
+   "description": "20% Savings at Nisaco Mall. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
    "category": "Fashion",
    "city": "",
-   "period": "20th to 25th November and 10th to 15th & 20th to 25th December 2026",
+   "period": "08th & 09th December 2026",
    "card_types": [
     "credit"
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/4e3b0769-b09f-4968-b1b7-8c3691660db2/NewZIElogo.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/zie-fashion",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/9b89101f-bec9-48bb-98f7-d7845e5d78ee/NisacoMall.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nisaco-mall",
    "updated_at": "",
-   "end_date": "2026-12-25"
-  },
-  {
-   "id": "dfcc-softlogic-brands",
-   "bank": "DFCC",
-   "merchant": "Odel, Cotton Collection and Softlogic Brands",
-   "discount": "30%",
-   "description": "30% Savings at Odel, Cotton Collection and Softlogic Brands. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "03rd & 04th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/38344f03-b5f1-4c3b-9f88-b14c1d5c9be9/softlogicbrands..png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/softlogic-brands",
-   "updated_at": "",
-   "end_date": "2026-12-04"
+   "end_date": "2026-12-09"
   },
   {
    "id": "dfcc-jezza",
@@ -51601,6 +52747,25 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/piyara-fashion",
    "updated_at": "",
    "end_date": "2026-12-18"
+  },
+  {
+   "id": "dfcc-house-of-fashions",
+   "bank": "DFCC",
+   "merchant": "House of Fashions",
+   "discount": "25%",
+   "description": "25% Savings at House of Fashions. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "14th November & 12th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/f17f7c1f-920c-48a7-b91b-91f09ff22ecc/Houseoffashion.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/house-of-fashions",
+   "updated_at": "",
+   "end_date": "2026-12-12"
   },
   {
    "id": "dfcc-gali-s-lingerie",
@@ -51850,6 +53015,25 @@
    "end_date": "2026-12-16"
   },
   {
+   "id": "dfcc-hana-clothing",
+   "bank": "DFCC",
+   "merchant": "Up to 15% Savings HANA Clothing and www.hanaclothing.lk",
+   "discount": "Up to 15%",
+   "description": "Up to 15% Savings HANA Clothing and www.hanaclothing.lk. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "15th to 30th November 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/64a0a125-cc7c-4902-a387-082b537bad14/HanaClothing.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/hana-clothing",
+   "updated_at": "",
+   "end_date": "2026-11-30"
+  },
+  {
    "id": "dfcc-cotton-island",
    "bank": "DFCC",
    "merchant": "Cotton Island outlets for bills above Rs. 5,000/-",
@@ -52078,6 +53262,25 @@
    "end_date": "2026-12-20"
   },
   {
+   "id": "dfcc-nils",
+   "bank": "DFCC",
+   "merchant": "Nils for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Nils for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "29th & 30th November and 18th & 19th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/a02b3b43-6259-427e-b43c-b42cea38701e/Nilslogo1.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nils",
+   "updated_at": "",
+   "end_date": "2026-12-19"
+  },
+  {
    "id": "dfcc-rv-fashion",
    "bank": "DFCC",
    "merchant": "RV Fashion and www.rvfashion.lk for bills above Rs. 5,000/-",
@@ -52211,25 +53414,6 @@
    "end_date": "2026-12-19"
   },
   {
-   "id": "dfcc-diliganz",
-   "bank": "DFCC",
-   "merchant": "Diliganz outlets for bills above Rs. 5,000/-",
-   "discount": "20%",
-   "description": "20% Savings at Diliganz outlets for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "19th & 20th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/35f004cc-289c-4fab-acd4-58d15bce507a/Diliganz.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/diliganz",
-   "updated_at": "",
-   "end_date": "2026-12-20"
-  },
-  {
    "id": "dfcc-dirali",
    "bank": "DFCC",
    "merchant": "Dirali outlets for bills above Rs. 5,000/-",
@@ -52245,6 +53429,25 @@
    "terms": "",
    "image_url": "https://properties.dfcc.lk/dfccweb/uploads/4fbdbf18-1fd0-4371-8058-b77289b6c9fa/Diralilogogold.jpg",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/dirali",
+   "updated_at": "",
+   "end_date": "2026-12-20"
+  },
+  {
+   "id": "dfcc-diliganz",
+   "bank": "DFCC",
+   "merchant": "Diliganz outlets for bills above Rs. 5,000/-",
+   "discount": "20%",
+   "description": "20% Savings at Diliganz outlets for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "19th & 20th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/35f004cc-289c-4fab-acd4-58d15bce507a/Diliganz.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/diliganz",
    "updated_at": "",
    "end_date": "2026-12-20"
   },
@@ -52344,6 +53547,44 @@
    "end_date": "2026-12-31"
   },
   {
+   "id": "dfcc-calista",
+   "bank": "DFCC",
+   "merchant": "Calista Clothing for bills above Rs. 5,000/-",
+   "discount": "15%",
+   "description": "15% Savings at Calista Clothing for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "10th to 15th November and 20th to 31st December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/0428a4ec-b45b-43c4-bdb4-d04ccfd3a8c5/CalistaLogo.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/calista",
+   "updated_at": "",
+   "end_date": "2026-12-31"
+  },
+  {
+   "id": "dfcc-glory-swim-shop",
+   "bank": "DFCC",
+   "merchant": "The Glory Swim Shop",
+   "discount": "25%",
+   "description": "25% Savings at The Glory Swim Shop. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "20th to 22nd December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1e4dfe71-bb02-4c30-9a14-c8ed5cb501a3/Glory-Web-Banners_760-X-600.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/glory-swim-shop",
+   "updated_at": "",
+   "end_date": "2026-12-22"
+  },
+  {
    "id": "dfcc-winmart",
    "bank": "DFCC",
    "merchant": "WinMart – Horana for bills above Rs. 5,000/-",
@@ -52382,11 +53623,11 @@
    "end_date": "2026-12-22"
   },
   {
-   "id": "dfcc-stadium",
+   "id": "dfcc-boss",
    "bank": "DFCC",
-   "merchant": "Stadium",
-   "discount": "Up to 25%",
-   "description": "Up to 25% off + Additional 5% Savings on selected products at Stadium. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "merchant": "BOSS",
+   "discount": "Up to 50%",
+   "description": "Up to 50% + Additional 5% Savings on selected products at BOSS. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
    "category": "Fashion",
    "city": "",
    "period": "21st & 22nd December 2026",
@@ -52395,8 +53636,8 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/e20dc161-ffec-4e64-bf1c-7fc732df95e9/Stadium.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/stadium",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Boss-Web-Banners_760-X-600.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/boss",
    "updated_at": "",
    "end_date": "2026-12-22"
   },
@@ -52416,6 +53657,25 @@
    "terms": "",
    "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Under-Armour-Web-Banners_760-X-600.jpg",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/under-armor",
+   "updated_at": "",
+   "end_date": "2026-12-22"
+  },
+  {
+   "id": "dfcc-stadium",
+   "bank": "DFCC",
+   "merchant": "Stadium",
+   "discount": "Up to 25%",
+   "description": "Up to 25% off + Additional 5% Savings on selected products at Stadium. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "21st & 22nd December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/e20dc161-ffec-4e64-bf1c-7fc732df95e9/Stadium.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/stadium",
    "updated_at": "",
    "end_date": "2026-12-22"
   },
@@ -52454,25 +53714,6 @@
    "terms": "",
    "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Skechers-Banners_760-X-600.jpg",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/skechers",
-   "updated_at": "",
-   "end_date": "2026-12-22"
-  },
-  {
-   "id": "dfcc-boss",
-   "bank": "DFCC",
-   "merchant": "BOSS",
-   "discount": "Up to 50%",
-   "description": "Up to 50% + Additional 5% Savings on selected products at BOSS. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "21st & 22nd December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/3dba3052-4012-488a-9794-dbcdeec66971/Boss-Web-Banners_760-X-600.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/boss",
    "updated_at": "",
    "end_date": "2026-12-22"
   },
@@ -52572,25 +53813,6 @@
    "end_date": "2026-12-31"
   },
   {
-   "id": "dfcc-opal-fashion",
-   "bank": "DFCC",
-   "merchant": "Opal for bills above Rs. 7,500/-",
-   "discount": "20%",
-   "description": "20% Savings at Opal for bills above Rs. 7,500/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "22nd & 28th December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/6e522736-2054-48a0-86c1-08fe44a99f27/OPLOGO1.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/opal-fashion",
-   "updated_at": "",
-   "end_date": "2026-12-28"
-  },
-  {
    "id": "dfcc-hemantha-textiles",
    "bank": "DFCC",
    "merchant": "Hemantha Textiles for bills above Rs. 7,500/-",
@@ -52606,6 +53828,25 @@
    "terms": "",
    "image_url": "https://properties.dfcc.lk/dfccweb/uploads/1fdb8024-7a65-4fdb-b6d5-c583ebe8fb3c/HTLOGO.jpeg",
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/hemantha-textiles",
+   "updated_at": "",
+   "end_date": "2026-12-28"
+  },
+  {
+   "id": "dfcc-opal-fashion",
+   "bank": "DFCC",
+   "merchant": "Opal for bills above Rs. 7,500/-",
+   "discount": "20%",
+   "description": "20% Savings at Opal for bills above Rs. 7,500/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Fashion",
+   "city": "",
+   "period": "22nd & 28th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/6e522736-2054-48a0-86c1-08fe44a99f27/OPLOGO1.jpeg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/opal-fashion",
    "updated_at": "",
    "end_date": "2026-12-28"
   },
@@ -52874,44 +54115,6 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/prasad-fashion-square",
    "updated_at": "",
    "end_date": "2026-12-30"
-  },
-  {
-   "id": "dfcc-thilakawardhana-textiles",
-   "bank": "DFCC",
-   "merchant": "Thilakawardhana Textiles and thilakawardhana.com for bills above Rs. 5,000/-",
-   "discount": "10%",
-   "description": "10% Savings at Thilakawardhana Textiles and thilakawardhana.com for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "28th & 29th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/0792dd2d-07f5-4d4c-975a-8ac29f80ecad/ThilakaText.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/thilakawardhana-textiles",
-   "updated_at": "",
-   "end_date": "2026-11-29"
-  },
-  {
-   "id": "dfcc-thilakawardhana-blossoms",
-   "bank": "DFCC",
-   "merchant": "Thilakawardhana Blossoms and thilakawardhana.com for bills above Rs. 5,000/-",
-   "discount": "10%",
-   "description": "10% Savings at Thilakawardhana Blossoms and thilakawardhana.com for bills above Rs. 5,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Fashion",
-   "city": "",
-   "period": "28th & 29th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/0792dd2d-07f5-4d4c-975a-8ac29f80ecad/Thilakablossam.JPG",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/thilakawardhana-blossoms",
-   "updated_at": "",
-   "end_date": "2026-11-29"
   },
   {
    "id": "dfcc-o2-villas-ella-yala-2",
