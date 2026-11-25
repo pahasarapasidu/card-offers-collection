@@ -41,6 +41,7 @@ const THEMES = {
   },
 };
 const SOON_DAYS = 7;
+const NEW_DAYS = 7;   // "New" label for offers first seen this recently
 const OFFERS_URL = "https://raw.githubusercontent.com/pahasarapasidu/card-offers-collection/main/data/offers.json";
 
 // Some bank sites (e.g. Sampath) reject image requests that don't look like
@@ -94,6 +95,7 @@ const CARD_OPTIONS = [
 // Sort chips are toggles: tap the active one again to go back to the
 // default (featured) order, so nothing looks permanently stuck on.
 const SORTS = [
+  { key: "newest",   label: "Newest" },
   { key: "ending",   label: "Ending soon" },
   { key: "discount", label: "Biggest %" },
 ];
@@ -153,6 +155,9 @@ function prepareOffers(raw) {
       _pct: pctM ? +pctM[1] : 0,
       _d: discountLine(o),
       _search: fold([o.merchant, o.description, o.bank, o.category, o.city].join(" ")),
+      // first_seen: the day our scraper first found the offer ("" = older)
+      _seen: o.first_seen || "",
+      _new: !!o.first_seen && (now - new Date(o.first_seen + "T00:00:00")) / 86400000 < NEW_DAYS,
     };
   }).filter(o => !o._expired);
 }
@@ -198,7 +203,7 @@ export default function App() {
   const [favs, setFavs] = useState([]);
   const [cat, setCat] = useState("All");
   const [query, setQuery] = useState("");
-  const [sort, setSort] = useState("featured");
+  const [sort, setSort] = useState("newest");
   const [selected, setSelected] = useState(null); // offer open in the modal
   const [dataset, setDataset] = useState(() => makeDataset(data));
   const [refreshing, setRefreshing] = useState(false);
@@ -305,12 +310,15 @@ export default function App() {
       (cat === "All" ? true : cat === "♥ Saved" ? favs.includes(o.id) : o.category === cat) &&
       (!words.length || words.every(w => o._search.includes(w)))
     );
+    // Newest first; older offers keep the banks' own order (sort is stable).
+    if (sort === "newest") list = [...list].sort((a, b) => (b._seen > a._seen) - (b._seen < a._seen));
     if (sort === "ending") list = [...list].sort((a, b) => (a._end ?? Infinity) - (b._end ?? Infinity));
     if (sort === "discount") list = [...list].sort((a, b) => b._pct - a._pct);
     return list;
   }, [dataset, myCards, myKinds, favs, cat, query, sort]);
 
   const soonCount = visible.filter(o => o._soon).length;
+  const newCount = visible.filter(o => o._new).length;
 
   return (
     <ThemeContext.Provider value={theme}>
@@ -332,7 +340,7 @@ export default function App() {
             cat={cat} setCat={setCat} favCount={savedCount}
             query={query} setQuery={setQuery}
             sort={sort} setSort={setSort}
-            total={visible.length} soonCount={soonCount}
+            total={visible.length} soonCount={soonCount} newCount={newCount}
           />
         }
         ListEmptyComponent={<Text style={s.empty}>No offers match your cards and filters.</Text>}
@@ -349,7 +357,7 @@ export default function App() {
 }
 
 /* ---------------------------- header ---------------------------- */
-function Header({ dataset, categories, myCards, toggleCard, myKinds, toggleKind, cat, setCat, favCount, query, setQuery, sort, setSort, total, soonCount }) {
+function Header({ dataset, categories, myCards, toggleCard, myKinds, toggleKind, cat, setCat, favCount, query, setQuery, sort, setSort, total, soonCount, newCount }) {
   const { s, T } = useTheme();
   const updated = formatUpdated(dataset.generatedAt);
   return (
@@ -405,13 +413,14 @@ function Header({ dataset, categories, myCards, toggleCard, myKinds, toggleKind,
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={s.chipRow}>
         {SORTS.map(x => (
           <Chip key={x.key} on={sort === x.key} label={x.label}
-            onPress={() => setSort(sort === x.key ? "featured" : x.key)} />
+            onPress={() => setSort(sort === x.key && x.key !== "newest" ? "newest" : x.key)} />
         ))}
       </ScrollView>
 
       <Text style={s.count}>
         {total} offer{total === 1 ? "" : "s"}
         {myCards.length || myKinds.length ? " for your cards" : " — select your cards to personalise"}
+        {newCount ? ` · ${newCount} new this week` : ""}
         {soonCount ? ` · ${soonCount} ending soon` : ""}
       </Text>
     </View>
@@ -460,7 +469,10 @@ function OfferCard({ o, fav, onPress, onFav }) {
         </TouchableOpacity>
       </View>
       <View style={s.cardBody}>
-        <Text style={s.merchant} numberOfLines={1}>{o.merchant}</Text>
+        <View style={s.titleRow}>
+          {o._new && <Text style={s.newTag}>NEW</Text>}
+          <Text style={[s.merchant, { flexShrink: 1 }]} numberOfLines={1}>{o.merchant}</Text>
+        </View>
         <Text style={s.desc} numberOfLines={2}>{o.description}</Text>
         <View style={s.tagRow}>
           <Text style={[s.tag, s.tagBank]}>{o.bank}</Text>
@@ -569,6 +581,9 @@ const makeStyles = (T) => StyleSheet.create({
   favOn: { backgroundColor: T.brand },
   cardBody: { padding: 12 },
   merchant: { fontSize: 15, fontWeight: "700", color: T.text },
+  titleRow: { flexDirection: "row", alignItems: "center", gap: 6 },
+  newTag: { backgroundColor: T.brand, color: T.brandOn, fontSize: 9.5, fontWeight: "800", letterSpacing: 0.6,
+    paddingHorizontal: 5, paddingVertical: 2, borderRadius: 4, overflow: "hidden" },
   desc: { fontSize: 12, color: T.muted, marginTop: 3, lineHeight: 17 },
   tagRow: { flexDirection: "row", flexWrap: "wrap", gap: 6, marginTop: 9 },
   tag: { fontSize: 10, fontWeight: "600", color: T.muted, backgroundColor: T.tagBg,

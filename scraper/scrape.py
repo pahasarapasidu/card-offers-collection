@@ -174,6 +174,25 @@ def load_previous():
     return by_bank
 
 
+def stamp_first_seen(offers, previous, today):
+    """Give each offer the date we first saw it (YYYY-MM-DD), so the apps can
+    show newly added offers first. Banks don't publish this, so it's carried
+    forward from the previous run; offers already listed before tracking
+    began have "" (= older, date unknown). Returns how many are new."""
+    seen = {o["id"]: o.get("first_seen", "") for group in previous.values() for o in group}
+    tracking = any("first_seen" in o for group in previous.values() for o in group)
+    new = 0
+    for o in offers:
+        if o["id"] in seen:
+            o["first_seen"] = seen[o["id"]]
+        elif tracking:
+            o["first_seen"] = today.isoformat()
+            new += 1
+        else:
+            o["first_seen"] = ""   # very first run: no way to tell what's new
+    return new
+
+
 def main():
     previous = load_previous()
     all_offers = []
@@ -224,6 +243,9 @@ def main():
               ", ".join(f"{k or '(none)'} x{n}" for k, n in sorted(UNMAPPED.items(), key=lambda x: -x[1])))
     all_offers = merge_duplicates(live)
     print(f"Merged {len(live) - len(all_offers)} duplicate listings")
+
+    new = stamp_first_seen(all_offers, previous, today)
+    print(f"{new} new offers since the last run")
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     result = {

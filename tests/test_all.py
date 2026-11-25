@@ -92,6 +92,21 @@ class TestCleanUrl(unittest.TestCase):
         self.assertEqual(clean_url("https://x.lk/a%20b.jpg?x=1&y=2"), "https://x.lk/a%20b.jpg?x=1&y=2")  # no double-encoding
 
 
+class TestFirstSeen(unittest.TestCase):
+    def test_carried_forward_and_stamped(self):
+        from scrape import stamp_first_seen
+        prev = {"HNB": [offer(id="old", first_seen=""), offer(id="mid", first_seen="2026-11-20")]}
+        now = [offer(id="old"), offer(id="mid"), offer(id="brand-new")]
+        self.assertEqual(stamp_first_seen(now, prev, dt.date(2026, 11, 25)), 1)
+        self.assertEqual([o["first_seen"] for o in now], ["", "2026-11-20", "2026-11-25"])
+
+    def test_first_run_marks_nothing_new(self):
+        from scrape import stamp_first_seen
+        now = [offer(id="a"), offer(id="b")]
+        self.assertEqual(stamp_first_seen(now, {}, dt.date(2026, 11, 25)), 0)
+        self.assertEqual([o["first_seen"] for o in now], ["", ""])
+
+
 class TestCategories(unittest.TestCase):
     def test_guesses(self):
         cases = {
@@ -161,7 +176,7 @@ class TestDedupe(unittest.TestCase):
 DATA = json.loads((ROOT / "data" / "offers.json").read_text(encoding="utf-8"))
 OFFERS = DATA["offers"]
 FIELDS = ["id", "bank", "merchant", "discount", "description", "category", "city", "period",
-          "card_types", "details", "terms", "image_url", "source_url", "updated_at", "end_date"]
+          "card_types", "details", "terms", "image_url", "source_url", "updated_at", "end_date", "first_seen"]
 CATEGORIES = set(CANONICAL_CATEGORY.values()) | {"Instalment Plans", "Other"}
 CARD_TYPES = {"visa", "mastercard", "amex", "credit", "debit"}
 BANKS = {"Sampath Bank", "Commercial Bank", "HNB", "Seylan Bank", "Nations Trust", "BOC", "NDB", "Peoples Bank", "DFCC"}
@@ -200,6 +215,9 @@ class TestData(unittest.TestCase):
         self.assertFalse(self.problems(
             lambda o: not re.fullmatch(r"(\d{4}-\d{2}-\d{2})?", o["end_date"])))
         self.assertFalse(self.problems(lambda o: o["period"] and not o["end_date"] and end_date(o["period"])))
+
+    def test_first_seen_format(self):
+        self.assertFalse(self.problems(lambda o: not re.fullmatch(r"(\d{4}-\d{2}-\d{2})?", o["first_seen"])))
 
     def test_most_offers_have_end_date(self):
         missing = sum(not o["end_date"] for o in OFFERS)

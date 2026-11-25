@@ -338,6 +338,13 @@
   }
   .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
   .merchant { font-weight: 650; font-size: 15px; line-height: 1.3; }
+  .new {
+    display: inline-block; vertical-align: 2px; margin-right: 6px;
+    background: var(--brand); color: var(--brand-on);
+    font-family: "Inter", sans-serif; font-size: 10px; font-weight: 800;
+    letter-spacing: .06em; text-transform: uppercase;
+    padding: 2px 6px; border-radius: 5px;
+  }
   .desc {
     color: var(--muted); font-size: 12.5px; line-height: 1.5;
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
@@ -460,7 +467,8 @@
         <input class="search" id="search" placeholder="Search merchant — Pizza, Hotel, Keells…">
       </div>
       <select class="sort" id="sort" aria-label="Sort offers">
-        <option value="featured">Sort: Featured</option>
+        <option value="newest">Sort: Newest first</option>
+        <option value="featured">Featured</option>
         <option value="ending">Ending soon</option>
         <option value="discount">Biggest discount</option>
         <option value="az">Merchant A–Z</option>
@@ -510,6 +518,7 @@ const CARD_OPTIONS = [
 
 const PAGE = 48;              // cards rendered per batch
 const SOON_DAYS = 7;          // "ending soon" threshold
+const NEW_DAYS = 7;           // "New" label for offers first seen this recently
 
 let offers = [];
 let myCards = new Set();
@@ -517,7 +526,7 @@ let myKinds = new Set();   // "credit" / "debit": which kind of card the user pa
 let favs = new Set();
 let activeCat = "All";
 let query = "";
-let sortMode = "featured";
+let sortMode = "newest";
 let shown = PAGE;             // how many of the filtered list are rendered
 
 // "voex-*" keys are read once as a fallback so earlier selections survive the rename
@@ -581,6 +590,9 @@ function prepare() {
     o._soon = !o._expired && o._days !== null && o._days <= SOON_DAYS;
     o._endText = o._end ? `${o._end.getFullYear()}-${String(o._end.getMonth() + 1).padStart(2, "0")}-${String(o._end.getDate()).padStart(2, "0")}` : "";
     o._search = fold([o.merchant, o.description, o.bank, o.category, o.city].join(" "));
+    // first_seen: the day our scraper first found the offer ("" = older)
+    o._seen = o.first_seen || "";
+    o._new = !!o._seen && (now - new Date(o._seen + "T00:00:00")) / 86400000 < NEW_DAYS;
   }
 }
 
@@ -628,7 +640,10 @@ function visibleOffers() {
      o.category === activeCat) &&
     (!words.length || words.every(w => o._search.includes(w)))
   );
-  if (sortMode === "ending") {
+  if (sortMode === "newest") {
+    // Newest first; older offers keep the banks' own order (sort is stable).
+    list = list.slice().sort((a, b) => (b._seen > a._seen) - (b._seen < a._seen));
+  } else if (sortMode === "ending") {
     list = list.slice().sort((a, b) => (a._end ?? Infinity) - (b._end ?? Infinity));
   } else if (sortMode === "discount") {
     list = list.slice().sort((a, b) => b._pct - a._pct);
@@ -652,7 +667,7 @@ function cardHTML(o) {
         <button class="fav${favs.has(o.id) ? " on" : ""}" aria-label="Save offer">${favs.has(o.id) ? "♥" : "♡"}</button>
       </div>
       <div class="body">
-        <div class="merchant">${esc(o.merchant)}</div>
+        <div class="merchant">${o._new ? `<span class="new">New</span>` : ""}${esc(o.merchant)}</div>
         <div class="desc">${esc(o.description)}</div>
         <div class="meta">
           <span class="tag bank">${esc(o.bank)}</span>
@@ -698,9 +713,11 @@ function render(reset = true) {
   if (reset) shown = PAGE;
   lastList = visibleOffers();
   const soonCount = lastList.filter(o => o._soon).length;
+  const newCount = lastList.filter(o => o._new).length;
   document.getElementById("count").textContent =
     `${lastList.length} offer${lastList.length === 1 ? "" : "s"}` +
     (myCards.size || myKinds.size ? " for your cards" : " — select your cards to personalise") +
+    (newCount ? ` · ${newCount} new this week` : "") +
     (soonCount ? ` · ${soonCount} ending within a week` : "");
   document.getElementById("empty").hidden = lastList.length > 0;
 
