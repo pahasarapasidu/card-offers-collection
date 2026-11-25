@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T08:33:24Z",
- "offer_count": 3103,
+ "generated_at": "2026-11-25T17:13:26Z",
+ "offer_count": 3108,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -8183,6 +8183,67 @@
    "first_seen": ""
   },
   {
+   "id": "hnb-4225",
+   "bank": "HNB",
+   "merchant": "Burley's Restaurant",
+   "discount": "15% off",
+   "description": "15% off on total bill at Burley's Restaurant",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid On 2026-11-27 & 2026-11-28, 2026-12-30 & 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Burley%27s%20Restaurant/Burley%27sRestaurant.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4225",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": ""
+  },
+  {
+   "id": "hnb-4226",
+   "bank": "HNB",
+   "merchant": "Burley's Restaurant",
+   "discount": "10% off",
+   "description": "10% off on total bill at Burley's Restaurant",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid On 2026-11-27 & 2026-11-28, 2026-12-30 & 2026-12-31",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Burley%27s%20Restaurant/Burley%27sRestaurant.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4226",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": ""
+  },
+  {
+   "id": "hnb-4574",
+   "bank": "HNB",
+   "merchant": "Artisan Diletto",
+   "discount": "20% off",
+   "description": "20% off on dine-In and takeaway at Artisan Diletto",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid From 2026-11-20 to 2026-12-31",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Artisan%20Diletto/ArtisanDiletto.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4574",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-25"
+  },
+  {
    "id": "hnb-4391",
    "bank": "HNB",
    "merchant": "Dindigul Thalappakatti",
@@ -8260,46 +8321,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=60",
    "updated_at": "",
    "end_date": "2026-11-30",
-   "first_seen": ""
-  },
-  {
-   "id": "hnb-4225",
-   "bank": "HNB",
-   "merchant": "Burley's Restaurant",
-   "discount": "15% off",
-   "description": "15% off on total bill at Burley's Restaurant",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid On 2026-11-27 & 2026-11-28, 2026-12-30 & 2026-12-31",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Burley%27s%20Restaurant/Burley%27sRestaurant.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4225",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "hnb-4226",
-   "bank": "HNB",
-   "merchant": "Burley's Restaurant",
-   "discount": "10% off",
-   "description": "10% off on total bill at Burley's Restaurant",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid On 2026-11-27 & 2026-11-28, 2026-12-30 & 2026-12-31",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Burley%27s%20Restaurant/Burley%27sRestaurant.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4226",
-   "updated_at": "",
-   "end_date": "2026-12-31",
    "first_seen": ""
   },
   {
@@ -9334,6 +9355,26 @@
    "first_seen": "2026-11-25"
   },
   {
+   "id": "hnb-2529",
+   "bank": "HNB",
+   "merchant": "Pizza Hut New",
+   "discount": "50% off",
+   "description": "50% off on Total bill above LKR 4,000",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid On (3rd Wednesday) 2026-12-16",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Pizza%20Hut%20New/PizzaHutNew.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=2529",
+   "updated_at": "",
+   "end_date": "2026-12-16",
+   "first_seen": "2026-11-25"
+  },
+  {
    "id": "hnb-1365",
    "bank": "HNB",
    "merchant": "CARGILLS FOOD CITY",
@@ -9341,7 +9382,7 @@
    "description": "20% Off On 300 + Dairy Items For Bills Above LKR 4,000 At Cargills Food City, Express & Food Hall Outlets",
    "category": "Shopping",
    "city": "",
-   "period": "Valid On (Monday) 2026-11-23, 2026-12-07 & 2026-12-28",
+   "period": "Valid On (Monday) 2026-12-07 & 2026-12-28",
    "card_types": [
     "credit"
    ],
@@ -9361,7 +9402,7 @@
    "description": "20% off on Fresh Vegetables & Fruits for bills above LKR 5,000 at SPAR Supermarkets",
    "category": "Shopping",
    "city": "",
-   "period": "Valid On (Wednesday) 2026-11-18 & 2026-12-09",
+   "period": "Valid On (Wednesday) 2026-12-09",
    "card_types": [
     "credit"
    ],
@@ -14516,6 +14557,26 @@
    "first_seen": "2026-11-20"
   },
   {
+   "id": "hnb-4573",
+   "bank": "HNB",
+   "merchant": "Stonex Lanka",
+   "discount": "0%",
+   "description": "Up to 06 months 0% installments at Stonex Lanka",
+   "category": "Instalment Plans",
+   "city": "",
+   "period": "Valid Until 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Stonex%20Lanka/StonexLanka.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4573",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-25"
+  },
+  {
    "id": "hnb-4514",
    "bank": "HNB",
    "merchant": "Wasi.lk",
@@ -18840,7 +18901,7 @@
    "description": "15% off at ZIE Fashion",
    "category": "Fashion",
    "city": "",
-   "period": "Valid Until nov 20, 2026-12-01 - 2026-12-05, 2026-12-20 - 2026-12-25",
+   "period": "Valid From 2026-12-01 to 2026-12-05, 2026-12-20 to 2026-12-25",
    "card_types": [
     "credit",
     "debit"
@@ -18861,7 +18922,7 @@
    "description": "Up 30% off on bills above LKR 10,000 at Adeaz Fashion",
    "category": "Fashion",
    "city": "",
-   "period": "Valid On 21, 22 nov 2026 & 05, 06, 13, 19, 27 dec & 2026-12-31",
+   "period": "Valid On Dec 05, 06, 13, 19, 27 & 2026-12-31",
    "card_types": [
     "credit"
    ],
@@ -18881,7 +18942,7 @@
    "description": "Up 15% off on bills above LKR 10,000 at Adeaz Fashion",
    "category": "Fashion",
    "city": "",
-   "period": "Valid On 21, 22 nov & 05, 06, 13, 19, 27 dec & 2026-12-31",
+   "period": "Valid On Dec 05, 06, 13, 19, 27 & 2026-12-31",
    "card_types": [
     "debit"
    ],
@@ -18901,7 +18962,7 @@
    "description": "20% off on bills above LKR 15,000 at Kingsman Perennial",
    "category": "Fashion",
    "city": "",
-   "period": "Valid On 2026-11-19 & 2026-11-20, 2026-12-05 & 2026-12-06",
+   "period": "Valid On 2026-12-05 & 2026-12-06",
    "card_types": [
     "credit"
    ],
@@ -18921,7 +18982,7 @@
    "description": "15% off on bills above LKR 15,000 at Kingsman Perennial",
    "category": "Fashion",
    "city": "",
-   "period": "Valid On 2026-11-19 & 2026-11-20, 2026-12-05 & 2026-12-06",
+   "period": "Valid On 2026-12-05 & 2026-12-06",
    "card_types": [
     "debit"
    ],
@@ -19579,6 +19640,27 @@
    "first_seen": "2026-11-25"
   },
   {
+   "id": "hnb-4528",
+   "bank": "HNB",
+   "merchant": "TFS",
+   "discount": "10% off",
+   "description": "10% off at TFS",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-01 & 2026-12-02, 2026-12-10 & 2026-12-11",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/TFS/TFS.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4528",
+   "updated_at": "",
+   "end_date": "2026-12-11",
+   "first_seen": "2026-11-25"
+  },
+  {
    "id": "hnb-4529",
    "bank": "HNB",
    "merchant": "Molly Boulevard",
@@ -19642,7 +19724,7 @@
   {
    "id": "hnb-4534",
    "bank": "HNB",
-   "merchant": "HNB Credit Cards New",
+   "merchant": "sereppu",
    "discount": "15% off",
    "description": "15% off at Sereppu",
    "category": "Fashion",
@@ -19654,7 +19736,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/HNB%20Credit%20Cards%20New/HNBCreditCardsNew.jpg",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/sereppu/sereppu.jpg",
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4534",
    "updated_at": "",
    "end_date": "2026-11-30",
@@ -19663,7 +19745,7 @@
   {
    "id": "hnb-4536",
    "bank": "HNB",
-   "merchant": "HNB Credit Cards New",
+   "merchant": "saloma",
    "discount": "15% off",
    "description": "15% off at Saloma Garment",
    "category": "Fashion",
@@ -19674,7 +19756,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/HNB%20Credit%20Cards%20New/HNBCreditCardsNew.jpg",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/saloma/saloma.jpg",
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4536",
    "updated_at": "",
    "end_date": "2026-12-23",
@@ -19683,7 +19765,7 @@
   {
    "id": "hnb-4537",
    "bank": "HNB",
-   "merchant": "HNB Credit Cards New",
+   "merchant": "saloma",
    "discount": "10% off",
    "description": "10% off at Saloma Garment",
    "category": "Fashion",
@@ -19694,7 +19776,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/HNB%20Credit%20Cards%20New/HNBCreditCardsNew.jpg",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/saloma/saloma.jpg",
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4537",
    "updated_at": "",
    "end_date": "2026-12-23",
@@ -19703,7 +19785,7 @@
   {
    "id": "hnb-4538",
    "bank": "HNB",
-   "merchant": "HNB Credit Cards New",
+   "merchant": "design club",
    "discount": "25% off",
    "description": "25% off at Design Club",
    "category": "Fashion",
@@ -19714,7 +19796,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/HNB%20Credit%20Cards%20New/HNBCreditCardsNew.jpg",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/design%20club/designclub.jpg",
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4538",
    "updated_at": "",
    "end_date": "2026-12-25",
@@ -52345,6 +52427,26 @@
    "updated_at": "",
    "end_date": "2026-12-30",
    "first_seen": ""
+  },
+  {
+   "id": "dfcc-radisson-blu-resort-galle",
+   "bank": "DFCC",
+   "merchant": "Radisson Blu Resort Galle",
+   "discount": "20%",
+   "description": "20% Savings on Dinner buffets for minimum 2 Pax at Radisson Blu Resort Galle. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Dining",
+   "city": "",
+   "period": "15th November to 30th December 2026 (7:00 PM - 10:30 PM)",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/d4ae3075-fd03-4b98-93e9-f9686d0a03fa/RadissonBluResortGalle1.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/radisson-blu-resort-galle",
+   "updated_at": "",
+   "end_date": "2026-12-30",
+   "first_seen": "2026-11-25"
   },
   {
    "id": "dfcc-maradha-colombo",
