@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T08:17:24Z",
- "offer_count": 3110,
+ "generated_at": "2026-11-26T21:38:35Z",
+ "offer_count": 3116,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -1092,6 +1092,28 @@
    "first_seen": ""
   },
   {
+   "id": "sampath-3808",
+   "bank": "Sampath Bank",
+   "merchant": "Keells Supermarket",
+   "discount": "25% Discount",
+   "description": "25% Discount on Fresh Vegetables, Fruits & Seafood at all Keells & Super K Outlets on 13th & 27th November 2026 for Sampath Mastercard & Visa Credit Cardholders.",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "2026-11-16 to 2026-11-27",
+   "card_types": [
+    "credit",
+    "mastercard",
+    "visa"
+   ],
+   "details": "· Promotion Period : Valid on 13th & 27th November 2026. · Minimum bill value Rs.5,000/-. · Maximum discount cap per transaction is Rs.1,250/-.",
+   "terms": "1. This offer is valid only for Sampath Mastercard & Visa Credit Cardholders (Excluding Sampath Corporate Cards). 2. In order to enjoy the promotion, the full payment needs to be settled using a Sampath Mastercard or Visa Credit Card. 3. Cardholder shall enjoy the discount on fresh vegetables, fruits and seafood for the total supermarket bills above Rs. 5,000/- (prior to the discount) at all Keells and Super K outlets during the promotional dates. 4. Maximum discount offered will be limited to Rs.1,250/- per day per cardholder. 5. This offer cannot be used in conjunction with any other promotional offers and cannot be exchanged for cash. 6. The promotion is not applicable for packeted Vegetable, packeted Fruits and packeted Fish. 7. This offer is not applicable for online transactions. 8. The discount will be extended for goods purchased for personal use, therefore purchases in large quantities for commercial purposes will not be allowed. Maximum Quantities per bill, · Vegetables - 3Kg or 3 units from each item · Fruits - 3Kg or 3 units from each item · Seafood - 3Kg or 3 units from each item 9. Multiple and split transactions per single customer will not be qualified for the offer. 10. The Bank accepts no responsibility in any way for any goods/services purchased and any dispute relating to same should be resolved by theCardholder directly with Jaykay Marketing Services (Pvt) Ltd and any claim by the Cardholder against Jaykay Marketing Services (Pvt) Ltd will not relieve the Cardholder from his/her obligation or repayment to the Bank. 11. The Bank reserves the right to modify or change the Terms & Conditions applicable for the offer. 12. Sampath Bank reserves the right to amend/withdraw this offer at its sole discretion. 13. In the event of any dispute, the decision of the Bank shall be final. 14. The general Terms & Conditions for Credit Card transaction.",
+   "image_url": "https://www.sampath.lk/api/uploads/blob_185933a7ee_c181d5b21f_494208bc74",
+   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
+   "updated_at": "2026-11-26T09:10:16.000Z",
+   "end_date": "2026-11-27",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "sampath-3737",
    "bank": "Sampath Bank",
    "merchant": "SPAR Supermarket",
@@ -1266,6 +1288,29 @@
    "updated_at": "2026-10-30T08:01:13.000Z",
    "end_date": "2026-11-28",
    "first_seen": ""
+  },
+  {
+   "id": "sampath-3814",
+   "bank": "Sampath Bank",
+   "merchant": "PickMe",
+   "discount": "20% Discount",
+   "description": "Offer: 20% Discount for PickMe Pass Users on PickMe Food Every Tuesday for all Sampath Mastercard & Visa Credit and Debit Cardholders",
+   "category": "Online",
+   "city": "",
+   "period": "2026-11-23 to 2026-12-29",
+   "card_types": [
+    "credit",
+    "debit",
+    "mastercard",
+    "visa"
+   ],
+   "details": "*Offer will be valid only for orders above Rs.2,000/-. *Max discount will be capped at Rs.1,000/- per transaction. *Max 01 transaction will be allowed per cardholder, per offer day. *Offer applicable only for the PickMe Pass Users. *Offer is applicable only for a limited time.",
+   "terms": "1. This offer is valid only for Sampath Mastercard/Visa Credit & Debit Cardholders (Excluding Sampath Coperate Cards). 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard/Visa Credit or Debit Card. 3. Offer *Offer will be valid only for orders above Rs.2,000/-. *Max discount will be capped at Rs.1,000/- per transaction. *Max 01 transaction will be allowed per cardholder, per offer day. *Offer applicable only for the PickMe Pass Users. *Offer is applicable only for a limited time. 4. This offer cannot be combined with any other existing offers or vouchers. 5. The Bank accepts no responsibility in any way for any goods or services purchased and any dispute relating to same should be resolved by the cardholder directly with the partner and any claim by the cardholder against the partner will not relive the cardholder from his/ her obligation or repayment to the Bank. 6. Spending made under above promotion will not qualify for the accumulation of Ultra Rewards Loyalty points. 7. The general terms & conditions of Sampath Bank PLC & PickMe shall apply. 8. In the event of any dispute, the decision of the Bank shall be final. 9. The Bank reserves the right to modify or change the terms & conditions of the offer. 10. The Bank reserves the right to amend/ withdraw this offer at its sole discretion.",
+   "image_url": "https://www.sampath.lk/api/uploads/blob_8dc571e3c9_8a6e259daa_0ae01ccee1",
+   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
+   "updated_at": "2026-11-26T09:11:51.000Z",
+   "end_date": "2026-12-29",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "sampath-3659",
@@ -3004,6 +3049,24 @@
    "updated_at": "2026-10-21T11:38:31.000Z",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "sampath-3811",
+   "bank": "Sampath Bank",
+   "merchant": "Regal Réseau Hotel & Spa, Negombo",
+   "discount": "Card Member Dines Free",
+   "description": "Enjoy Card Member Dines Free at Celestia Restaurant (All-Day Dining) - Regal Réseau Hotel & Spa, Negombo",
+   "category": "Hotels",
+   "city": "Negombo",
+   "period": "2026-11-26 to 2026-11-30",
+   "card_types": [],
+   "details": "Enjoy Card Member Dines Free at Celestia Restaurant (All-Day Dining) - Regal Réseau Hotel & Spa, Negombo for All Sampath Bank Visa Infinite Credit Cardholders",
+   "terms": "1. The offer will be valid only for Sampath Bank Visa Infinite Credit Cardholders 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Bank Visa Infinite Credit Card. 3. The promotions are valid for dine-in guests only, with a minimum of two guests per transaction. 4. The promotions are valid on all 7 days of the week, throughout the promotional period. 5. The offers are exclusively available to Sampath Bank Visa Infinite Credit Cardholders. 6. This offer cannot be exchanged for cash or used in conjunction with other promotional programs or offers conducted by the Bank or the Hotel or to acquire gift vouchers. 7. The offer is not valid for corporate events / functions. 8. 100% of payment is required at point of booking to confirm the reservation. 9. The general terms & conditions of Sampath Bank PLC & Regal Réseau Hotel & Spa, Negombo shall apply. 10. Discounts /Offer will not be applicable for extras & meals other than those entitled for on the basis booked, child or other supplements. 11. The offer cannot be combined with any other existing discounts/offers. 12. The Bank accepts no responsibility in any way for any goods/services purchased and any dispute relating to same should be resolved by the Cardholder directly with the Hotel and any claim by the Cardholder against the Hotel will not relieve the Cardholder from his/her obligation or repayment to the Bank. 13. Spending made under above promotion will not qualify for the accumulation of Ultramiles & Ultra Rewards loyalty points. 14. In the event of any dispute, the decision of the Bank shall be final. 15. The Bank reserves the right to amend/ withdraw or change the terms & conditions of the offers at its sole discretion.",
+   "image_url": "https://www.sampath.lk/api/uploads/blob_8c5d4229c2_0c46b3b5e8_d060d13919",
+   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
+   "updated_at": "2026-11-26T09:11:03.000Z",
+   "end_date": "2026-11-30",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "sampath-3749",
@@ -8886,26 +8949,6 @@
    "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4209",
    "updated_at": "",
    "end_date": "2026-11-30",
-   "first_seen": ""
-  },
-  {
-   "id": "hnb-856",
-   "bank": "HNB",
-   "merchant": "Indian Affair",
-   "discount": "20% off",
-   "description": "20% off on take-away at Indian Affair (Every Thursday)",
-   "category": "Dining",
-   "city": "",
-   "period": "Valid (Every Thursday) Until 2026-11-26",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/indian-affair-logo.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=856",
-   "updated_at": "",
-   "end_date": "2026-11-26",
    "first_seen": ""
   },
   {
@@ -18773,66 +18816,6 @@
    "first_seen": "2026-11-25"
   },
   {
-   "id": "hnb-4517",
-   "bank": "HNB",
-   "merchant": "Barracks Clothing",
-   "discount": "Up to 60% off",
-   "description": "Up to 60% off @ Barracks Clothing",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid On 2026-11-25 & 2026-11-26",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Barracks%20Clothing%20/BarracksClothing.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4517",
-   "updated_at": "",
-   "end_date": "2026-11-26",
-   "first_seen": "2026-11-23"
-  },
-  {
-   "id": "hnb-4519",
-   "bank": "HNB",
-   "merchant": "Handloom Gallery",
-   "discount": "15% off",
-   "description": "15% off at Handloom Gallery",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid On 2026-11-25 & 2026-11-26",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Handloom%20Gallery/HandloomGallery.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4519",
-   "updated_at": "",
-   "end_date": "2026-11-26",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "id": "hnb-4520",
-   "bank": "HNB",
-   "merchant": "Handloom Gallery",
-   "discount": "10% off",
-   "description": "10% off at Handloom Gallery",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid On 2026-11-25 & 2026-11-26",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Handloom%20Gallery/HandloomGallery.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4520",
-   "updated_at": "",
-   "end_date": "2026-11-26",
-   "first_seen": "2026-11-24"
-  },
-  {
    "id": "hnb-4521",
    "bank": "HNB",
    "merchant": "Tropic of Linen",
@@ -19932,7 +19915,8 @@
    "city": "",
    "period": "Valid From 2026-12-23 to 2026-12-27",
    "card_types": [
-    "credit"
+    "credit",
+    "debit"
    ],
    "details": "",
    "terms": "",
@@ -20011,7 +19995,7 @@
    "description": "20% off at Molly Boulevard",
    "category": "Fashion",
    "city": "",
-   "period": "Valid from 11-25 to 11-27,\r\n12-18 to 2026-12-20",
+   "period": "Valid from 2026-11-25 to 2026-11-27, 2026-12-18 to 2026-12-20",
    "card_types": [
     "credit"
    ],
@@ -20031,7 +20015,7 @@
    "description": "10% off at Molly Boulevard",
    "category": "Fashion",
    "city": "",
-   "period": "Valid from 11-25 to 11-27,\r\n12-18 to 2026-12-20",
+   "period": "Valid from 2026-11-25 to 2026-11-27, 2026-12-18 to 2026-12-20",
    "card_types": [
     "debit"
    ],
@@ -20386,6 +20370,46 @@
    "updated_at": "",
    "end_date": "2026-11-29",
    "first_seen": "2026-11-26"
+  },
+  {
+   "id": "hnb-4576",
+   "bank": "HNB",
+   "merchant": "Fashion Bug",
+   "discount": "10% off",
+   "description": "10% off only at Fashion Bug Peradeniya branch",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-05",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/fashion-bug.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4576",
+   "updated_at": "",
+   "end_date": "2026-12-05",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "hnb-4577",
+   "bank": "HNB",
+   "merchant": "Fashion Bug",
+   "discount": "20% off",
+   "description": "20% off only at Fashion Bug Peradeniya branch",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-12-05",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/fashion-bug.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4577",
+   "updated_at": "",
+   "end_date": "2026-12-05",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "hnb-3640",
@@ -32724,6 +32748,26 @@
    "first_seen": ""
   },
   {
+   "id": "seylan-union-lanka-holdings-pvt-ltd-1",
+   "bank": "Seylan Bank",
+   "merchant": "UNION LANKA HOLDINGS (PVT) LTD.",
+   "discount": "0%",
+   "description": "special Offers + 0% Instalment Plans with your Seylan Credit Cards....",
+   "category": "Instalment Plans",
+   "city": "",
+   "period": "2026-11-26 to 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.seylan.lk/uploads/1763467528_691c610863939_UNION-CAR-CARE.jpg",
+   "source_url": "https://www.seylan.lk/union-lanka-holdings-pvt-ltd-1",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "seylan-style-hair-beauty-1",
    "bank": "Seylan Bank",
    "merchant": "STYLE HAIR & BEAUTY",
@@ -39157,26 +39201,6 @@
    "first_seen": ""
   },
   {
-   "id": "boc-keells",
-   "bank": "BOC",
-   "merchant": "Keells",
-   "discount": "25% OFF*",
-   "description": "25% off on Fresh Vegetables, Fruits, Seafood & Meat for BOC Credit Cardholders On Thursdays from 05th to 26th November 2026",
-   "category": "Supermarkets",
-   "city": "",
-   "period": "Until 26 Nov 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/6232/media-240403094135.JPG",
-   "source_url": "https://www.boc.lk/personal-banking/card-offers/supermarkets/keells/product",
-   "updated_at": "",
-   "end_date": "2026-11-26",
-   "first_seen": ""
-  },
-  {
    "id": "boc-laugfs-supermarket",
    "bank": "BOC",
    "merchant": "Laugfs Supermarket",
@@ -40228,6 +40252,27 @@
    "first_seen": ""
   },
   {
+   "id": "ndb-115",
+   "bank": "NDB",
+   "merchant": "Kelly Felder (www.kellyfelder.com)",
+   "discount": "25% Savings",
+   "description": "25% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Fashion",
+   "city": "",
+   "period": "03rd & 04th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/d30cea3d-1f91-43b2-a9d9-815b891e4ce0-kelly-felder.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/115",
+   "updated_at": "",
+   "end_date": "2026-12-04",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "ndb-233",
    "bank": "NDB",
    "merchant": "Asiri Hospitals",
@@ -40448,6 +40493,26 @@
    "updated_at": "",
    "end_date": "2026-11-29",
    "first_seen": "2026-11-25"
+  },
+  {
+   "id": "ndb-10634",
+   "bank": "NDB",
+   "merchant": "Palliyaguruge Jewellers",
+   "discount": "Up to 25% Savings",
+   "description": "Up to 25% Savings with Up to 36 months 0% installment plans",
+   "category": "Instalment Plans",
+   "city": "",
+   "period": "27th & 28th November 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/ec2bd2c1-c1b3-4bc9-81ce-72060d6e0f11-palliyaguruge-jewellers.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/10634",
+   "updated_at": "",
+   "end_date": "2026-11-28",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "ndb-25",
@@ -44198,6 +44263,26 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "peoples-softlogic-black-friday-offer-40-off-cerdit-4",
+   "bank": "Peoples Bank",
+   "merchant": "Softlogic Black Friday Offer",
+   "discount": "40% off",
+   "description": "40% off at Softlogic Black Friday Offer with Peoples Bank credit cards",
+   "category": "Dining",
+   "city": "",
+   "period": "From November 26, 2026 to November 29, 2026 (Open 10 A.M - Till Late)",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Black-Friday-Offer.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/softlogic-black-friday-offer-40-off-cerdit-4/",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "peoples-colombo-steak-house-30-off-credit",
@@ -51409,6 +51494,26 @@
    "first_seen": ""
   },
   {
+   "id": "peoples-softlogic-black-friday-offer-40-off-cerdit-3",
+   "bank": "Peoples Bank",
+   "merchant": "Softlogic Black Friday Offer",
+   "discount": "25%(Up to) off",
+   "description": "25%(Up to) off at Softlogic Black Friday Offer with Peoples Bank credit cards",
+   "category": "Electronics & Furniture",
+   "city": "",
+   "period": "From November 26, 2026 to November 29, 2026 (Open 9 A.M - 10.00 P.M)",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Black-Friday-Offer.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/softlogic-black-friday-offer-40-off-cerdit-3/",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "peoples-quantum-fitness-15-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Quantum Fitness",
@@ -51672,6 +51777,26 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": "2026-11-21"
+  },
+  {
+   "id": "peoples-softlogic-black-friday-offer-40-off-cerdit",
+   "bank": "Peoples Bank",
+   "merchant": "Softlogic Black Friday Offer",
+   "discount": "40%(up to) off",
+   "description": "40%(up to) off at Softlogic Black Friday Offer with Peoples Bank credit cards",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "From November 26, 2026 to November 29, 2026 (Open 7 A.M - 11.00 P.M)",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Black-Friday-Offer.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/softlogic-black-friday-offer-40-off-cerdit/",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "peoples-cargills-25-off-credit",
