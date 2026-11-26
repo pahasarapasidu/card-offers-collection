@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T21:46:58Z",
- "offer_count": 3108,
+ "generated_at": "2026-11-26T08:17:24Z",
+ "offer_count": 3110,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -1359,6 +1359,28 @@
    "first_seen": ""
   },
   {
+   "id": "sampath-3152",
+   "bank": "Sampath Bank",
+   "merchant": "www.buyabans.com",
+   "discount": "Up to 40 months 0% interest instalment plans",
+   "description": "Up to 40 months 0% interest instalment plans at www.buyabans.com for Sampath Mastercard & Visa Credit Cardholders.",
+   "category": "Online",
+   "city": "",
+   "period": "2026-09-07 to 2026-12-31",
+   "card_types": [
+    "credit",
+    "mastercard",
+    "visa"
+   ],
+   "details": "",
+   "terms": "1. This offer is valid only for Sampath Mastercard & Visa Credit Cardholders. 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard or Visa Credit Card. 3. This offer is not valid for purchasing of Gift Vouchers & non-discountable items. 4. This offer cannot be combined with any other existing offers. 5. The minimum bill value should exceed Rs. 5,000/- in order to be eligible for the promotion. 6. All instalment amounts paid are non-refundable and each instalment period of the payment plan as approved by the Bank may not be varied. 7. Once submitted, the details of the instalment plan requested above cannot be changed and part acceleration is not allowed. 8. Spending made under above promotion will not qualify for the accumulation of Ultra Rewards Loyalty points. 9. The Bank accepts no responsibility in any way for any goods or services purchased and any dispute relating to same should be resolved by the cardholder directly with the partner and any claim by the cardholder against the Partner will not relieve the Cardholder from his/her obligation or repayment to the Bank. 10. The general Terms & Conditions of Sampath Bank PLC & Abans PLC shall apply. 11. In the event of any dispute, the decision of the Bank shall be final. 12. The Bank reserves the right to modify or change the Terms & Conditions of the offer.",
+   "image_url": "https://www.sampath.lk/api/uploads/blob_8ceedc0d9e_47032c5b34_c67e7c65d5",
+   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
+   "updated_at": "2026-11-26T07:51:22.000Z",
+   "end_date": "2026-12-31",
+   "first_seen": ""
+  },
+  {
    "id": "sampath-3163",
    "bank": "Sampath Bank",
    "merchant": "www.singer.lk",
@@ -1381,28 +1403,6 @@
    "first_seen": ""
   },
   {
-   "id": "sampath-3152",
-   "bank": "Sampath Bank",
-   "merchant": "www.buyabans.com",
-   "discount": "Up to 20 months 0% interest instalment plans",
-   "description": "Up to 20 months 0% interest instalment plans at www.buyabans.com for Sampath Mastercard & Visa Credit Cardholders.",
-   "category": "Online",
-   "city": "",
-   "period": "2026-09-07 to 2026-12-31",
-   "card_types": [
-    "credit",
-    "mastercard",
-    "visa"
-   ],
-   "details": "",
-   "terms": "1. This offer is valid only for Sampath Mastercard & Visa Credit Cardholders. 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard or Visa Credit Card. 3. This offer is not valid for purchasing of Gift Vouchers & non-discountable items. 4. This offer cannot be combined with any other existing offers. 5. The minimum bill value should exceed Rs. 5,000/- in order to be eligible for the promotion. 6. All instalment amounts paid are non-refundable and each instalment period of the payment plan as approved by the Bank may not be varied. 7. Once submitted, the details of the instalment plan requested above cannot be changed and part acceleration is not allowed. 8. Spending made under above promotion will not qualify for the accumulation of Ultra Rewards Loyalty points. 9. The Bank accepts no responsibility in any way for any goods or services purchased and any dispute relating to same should be resolved by the cardholder directly with the partner and any claim by the cardholder against the Partner will not relieve the Cardholder from his/her obligation or repayment to the Bank. 10. The general Terms & Conditions of Sampath Bank PLC & Abans PLC shall apply. 11. In the event of any dispute, the decision of the Bank shall be final. 12. The Bank reserves the right to modify or change the Terms & Conditions of the offer.",
-   "image_url": "https://www.sampath.lk/api/uploads/blob_8ceedc0d9e_47032c5b34_c67e7c65d5",
-   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
-   "updated_at": "2026-09-08T07:18:50.000Z",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
    "id": "sampath-3536",
    "bank": "Sampath Bank",
    "merchant": "Ceylon Furniture",
@@ -1421,6 +1421,50 @@
    "image_url": "https://www.sampath.lk/api/uploads/blob_dfc12ef887_cdeda5b75a_f1e6fe00a9",
    "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
    "updated_at": "2026-11-03T07:47:42.000Z",
+   "end_date": "2026-12-31",
+   "first_seen": ""
+  },
+  {
+   "id": "sampath-3153",
+   "bank": "Sampath Bank",
+   "merchant": "Damro",
+   "discount": "Up to 40 months 0% instalment plans",
+   "description": "Up to 40 months 0% instalment plans at Damro showrooms for all Sampath Mastercard & Visa Credit Cardholders.",
+   "category": "Electronics & Furniture",
+   "city": "",
+   "period": "2026-09-07 to 2026-12-31",
+   "card_types": [
+    "credit",
+    "mastercard",
+    "visa"
+   ],
+   "details": "The cardholder must inform the merchant of the preferred instalment tenure at the time of payment, and the transaction conversion must be completed at the merchant outlet at the point of payment.",
+   "terms": "1. This offer is valid only for Sampath Mastercard & Visa Credit Cardholders. 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard or Visa Credit Card. 3. This offer is not valid for purchasing of Gift Vouchers & non-discountable items. 4. This offer cannot be combined with any other existing offers. 5. The minimum bill value should exceed Rs. 5,000/- in order to be eligible for the promotion. 6. All instalment amounts paid are non-refundable and each instalment period of the payment plan as approved by the Bank may not be varied. 7. Once submitted, the details of the instalment plan requested above cannot be changed and part acceleration is not allowed. 8. The Bank accepts no responsibility in any way for any goods or services purchased and any dispute relating to same should be resolved by the Cardholder directly with the Partner and any claim by the Cardholder against the Partner will not relieve the Cardholder from his/her obligation or repayment to the Bank. 9. Spending made under above promotion will not qualify for the accumulation of Ultra Rewards Loyalty points. 10. The general Terms & Conditions of Sampath Bank PLC and D R Industries (Pvt) Ltd shall apply. 11. In the event of any dispute, the decision of the Bank shall be final. 12. The Bank reserves the right to modify or change the Terms & Conditions of the offer.",
+   "image_url": "https://www.sampath.lk/api/uploads/blob_768fc11536_2791f60947_1d5a3c4035",
+   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
+   "updated_at": "2026-11-26T07:51:16.000Z",
+   "end_date": "2026-12-31",
+   "first_seen": ""
+  },
+  {
+   "id": "sampath-3150",
+   "bank": "Sampath Bank",
+   "merchant": "Abans",
+   "discount": "06, 12, 20 & 40 months 0% interest instalment plans",
+   "description": "06, 12, 20 & 40 months 0% interest instalment plans at all Abans outlets for all Sampath Mastercard & Visa Credit Cardholders.",
+   "category": "Electronics & Furniture",
+   "city": "",
+   "period": "2026-09-07 to 2026-12-31",
+   "card_types": [
+    "credit",
+    "mastercard",
+    "visa"
+   ],
+   "details": "The cardholder must inform the merchant of the preferred instalment tenure at the time of payment, and the transaction conversion must be completed at the merchant outlet at the point of payment.",
+   "terms": "1. This offer is valid only for Sampath Mastercard & Visa Credit Cardholders. 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard or Visa Credit Card. 3. This offer is not valid for purchasing of Gift Vouchers & non-discountable items. 4. This offer cannot be combined with any other existing offers. 5. The minimum bill value should exceed Rs. 5,000/- in order to be eligible for the promotion. 6. All instalment amounts paid are non-refundable and each instalment period of the payment plan as approved by the Bank may not be varied. 7. Once submitted, the details of the instalment plan requested above cannot be changed and part acceleration is not allowed. 8. The Bank accepts no responsibility in any way for any goods or services purchased and any dispute relating to same should be resolved by the Cardholder directly with the Partner and any claim by the Cardholder against the Partner will not relieve the Cardholder from his/her obligation or repayment to the Bank. 9. Spending made under above promotion will not qualify for the accumulation of Ultra Rewards Loyalty points. 10. The general Terms & Conditions of Sampath Bank PLC and Abans PLC shall apply. 11. In the event of any dispute, the decision of the Bank shall be final. 12. The Bank reserves the right to modify or change the Terms & Conditions of the offer.",
+   "image_url": "https://www.sampath.lk/api/uploads/blob_aed4957110_3ba29191bf_2758ce423f",
+   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
+   "updated_at": "2026-11-26T07:51:09.000Z",
    "end_date": "2026-12-31",
    "first_seen": ""
   },
@@ -1645,28 +1689,6 @@
    "first_seen": ""
   },
   {
-   "id": "sampath-3153",
-   "bank": "Sampath Bank",
-   "merchant": "Damro",
-   "discount": "Up to 24 months 0% instalment plans",
-   "description": "Up to 24 months 0% instalment plans at Damro showrooms for all Sampath Mastercard & Visa Credit Cardholders.",
-   "category": "Electronics & Furniture",
-   "city": "",
-   "period": "2026-09-07 to 2026-12-31",
-   "card_types": [
-    "credit",
-    "mastercard",
-    "visa"
-   ],
-   "details": "The cardholder must inform the merchant of the preferred instalment tenure at the time of payment, and the transaction conversion must be completed at the merchant outlet at the point of payment.",
-   "terms": "1. This offer is valid only for Sampath Mastercard & Visa Credit Cardholders. 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard or Visa Credit Card. 3. This offer is not valid for purchasing of Gift Vouchers & non-discountable items. 4. This offer cannot be combined with any other existing offers. 5. The minimum bill value should exceed Rs. 5,000/- in order to be eligible for the promotion. 6. All instalment amounts paid are non-refundable and each instalment period of the payment plan as approved by the Bank may not be varied. 7. Once submitted, the details of the instalment plan requested above cannot be changed and part acceleration is not allowed. 8. The Bank accepts no responsibility in any way for any goods or services purchased and any dispute relating to same should be resolved by the Cardholder directly with the Partner and any claim by the Cardholder against the Partner will not relieve the Cardholder from his/her obligation or repayment to the Bank. 9. Spending made under above promotion will not qualify for the accumulation of Ultra Rewards Loyalty points. 10. The general Terms & Conditions of Sampath Bank PLC and D R Industries (Pvt) Ltd shall apply. 11. In the event of any dispute, the decision of the Bank shall be final. 12. The Bank reserves the right to modify or change the Terms & Conditions of the offer.",
-   "image_url": "https://www.sampath.lk/api/uploads/blob_768fc11536_2791f60947_1d5a3c4035",
-   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
-   "updated_at": "2026-09-08T07:18:57.000Z",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
    "id": "sampath-3151",
    "bank": "Sampath Bank",
    "merchant": "Arpico Furniture",
@@ -1685,28 +1707,6 @@
    "image_url": "https://www.sampath.lk/api/uploads/blob_ea2618d792_2835870ef5_a0667d7b7b",
    "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
    "updated_at": "2026-09-08T07:18:43.000Z",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "sampath-3150",
-   "bank": "Sampath Bank",
-   "merchant": "Abans",
-   "discount": "06, 12 & 20 months 0% interest instalment plans",
-   "description": "06, 12 & 20 months 0% interest instalment plans at all Abans outlets for all Sampath Mastercard & Visa Credit Cardholders.",
-   "category": "Electronics & Furniture",
-   "city": "",
-   "period": "2026-09-07 to 2026-12-31",
-   "card_types": [
-    "credit",
-    "mastercard",
-    "visa"
-   ],
-   "details": "The cardholder must inform the merchant of the preferred instalment tenure at the time of payment, and the transaction conversion must be completed at the merchant outlet at the point of payment.",
-   "terms": "1. This offer is valid only for Sampath Mastercard & Visa Credit Cardholders. 2. In order to enjoy the promotion, the full payment needs to be settled with a Sampath Mastercard or Visa Credit Card. 3. This offer is not valid for purchasing of Gift Vouchers & non-discountable items. 4. This offer cannot be combined with any other existing offers. 5. The minimum bill value should exceed Rs. 5,000/- in order to be eligible for the promotion. 6. All instalment amounts paid are non-refundable and each instalment period of the payment plan as approved by the Bank may not be varied. 7. Once submitted, the details of the instalment plan requested above cannot be changed and part acceleration is not allowed. 8. The Bank accepts no responsibility in any way for any goods or services purchased and any dispute relating to same should be resolved by the Cardholder directly with the Partner and any claim by the Cardholder against the Partner will not relieve the Cardholder from his/her obligation or repayment to the Bank. 9. Spending made under above promotion will not qualify for the accumulation of Ultra Rewards Loyalty points. 10. The general Terms & Conditions of Sampath Bank PLC and Abans PLC shall apply. 11. In the event of any dispute, the decision of the Bank shall be final. 12. The Bank reserves the right to modify or change the Terms & Conditions of the offer.",
-   "image_url": "https://www.sampath.lk/api/uploads/blob_aed4957110_3ba29191bf_2758ce423f",
-   "source_url": "https://www.sampath.lk/sampath-cards/credit-card-offer",
-   "updated_at": "2026-09-08T07:18:36.000Z",
    "end_date": "2026-12-31",
    "first_seen": ""
   },
@@ -18370,6 +18370,409 @@
    "first_seen": "2026-11-24"
   },
   {
+   "id": "hnb-4429",
+   "bank": "HNB",
+   "merchant": "HOUSE OF FASHIONS NEW",
+   "discount": "25% off",
+   "description": "25% off at House of fashions",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid On 2026-11-28 , 2026-12-12 & 2026-12-19",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/HOUSE%20OF%20FASHIONS%20NEW/HOUSEOFFASHIONSNEW.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4429",
+   "updated_at": "",
+   "end_date": "2026-12-19",
+   "first_seen": ""
+  },
+  {
+   "id": "hnb-4553",
+   "bank": "HNB",
+   "merchant": "Down Town",
+   "discount": "20% off",
+   "description": "20% off at Down Town",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Down%20Town/DownTown.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4553",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4554",
+   "bank": "HNB",
+   "merchant": "Diliganz",
+   "discount": "20% off",
+   "description": "20% off at Diliganz",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Diliganz/Diliganz.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4554",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4555",
+   "bank": "HNB",
+   "merchant": "Diliganz",
+   "discount": "10% off",
+   "description": "10% off at Diliganz",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Diliganz/Diliganz.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4555",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4556",
+   "bank": "HNB",
+   "merchant": "Dirali",
+   "discount": "20% off",
+   "description": "20% off at Dirali",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Dirali/Dirali.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4556",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4557",
+   "bank": "HNB",
+   "merchant": "Dirali",
+   "discount": "10% off",
+   "description": "10% off at Dirali",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Dirali/Dirali.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4557",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4538",
+   "bank": "HNB",
+   "merchant": "design club",
+   "discount": "25% off",
+   "description": "25% off at Design Club",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 2026-11-26 to 2026-11-29, 2026-12-21 to 2026-12-25",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/design%20club/designclub.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4538",
+   "updated_at": "",
+   "end_date": "2026-12-25",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4536",
+   "bank": "HNB",
+   "merchant": "saloma",
+   "discount": "15% off",
+   "description": "15% off at Saloma Garment",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 2026-11-26 to 11-28, 12-09, 12-10, 12-12, 12-22 & 2026-12-23",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/saloma/saloma.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4536",
+   "updated_at": "",
+   "end_date": "2026-12-23",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4537",
+   "bank": "HNB",
+   "merchant": "saloma",
+   "discount": "10% off",
+   "description": "10% off at Saloma Garment",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 2026-11-26 to 11-28, 12-09, 12-10, 12-12, 12-22 & 2026-12-23",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/saloma/saloma.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4537",
+   "updated_at": "",
+   "end_date": "2026-12-23",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4541",
+   "bank": "HNB",
+   "merchant": "Blooms & Butterflies",
+   "discount": "20% off",
+   "description": "20% off at Blooms & Butterflies",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-12-19",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Blooms%20%26%20Butterflies/Blooms%26Butterflies.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4541",
+   "updated_at": "",
+   "end_date": "2026-12-19",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4542",
+   "bank": "HNB",
+   "merchant": "Blooms & Butterflies",
+   "discount": "10% off",
+   "description": "10% off at Blooms & Butterflies",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-12-19",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Blooms%20%26%20Butterflies/Blooms%26Butterflies.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4542",
+   "updated_at": "",
+   "end_date": "2026-12-19",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4551",
+   "bank": "HNB",
+   "merchant": "Montrianna",
+   "discount": "20% off",
+   "description": "20% off at Montrianna",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-12-13",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Montrianna/Montrianna.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4551",
+   "updated_at": "",
+   "end_date": "2026-12-13",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4552",
+   "bank": "HNB",
+   "merchant": "Montrianna",
+   "discount": "5% off",
+   "description": "12.5% off at Montrianna",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-12-13",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Montrianna/Montrianna.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4552",
+   "updated_at": "",
+   "end_date": "2026-12-13",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4543",
+   "bank": "HNB",
+   "merchant": "Comfort",
+   "discount": "20% off",
+   "description": "20% off at Comfort",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Comfort/Comfort.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4543",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4544",
+   "bank": "HNB",
+   "merchant": "Comfort",
+   "discount": "10% off",
+   "description": "10% off at Comfort",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Comfort/Comfort.png",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4544",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4545",
+   "bank": "HNB",
+   "merchant": "La Vivente",
+   "discount": "15% off",
+   "description": "15% off at La Vivente",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/La%20Vivente/LaVivente.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4545",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4546",
+   "bank": "HNB",
+   "merchant": "La Vivente",
+   "discount": "10% off",
+   "description": "10% off at La Vivente",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/La%20Vivente/LaVivente.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4546",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4547",
+   "bank": "HNB",
+   "merchant": "Zigzag",
+   "discount": "20% off",
+   "description": "20% off at Zigzag",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid from 2026-11-28 to 2026-11-30",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/zigzag-logo.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4547",
+   "updated_at": "",
+   "end_date": "2026-11-30",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4549",
+   "bank": "HNB",
+   "merchant": "LEGACY LONDON NEW",
+   "discount": "25% off",
+   "description": "25% off at Legacy London",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-28 & 2026-11-29, 2026-12-12 & 2026-12-13",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/LEGACY%20LONDON%20NEW/LEGACYLONDONNEW.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4549",
+   "updated_at": "",
+   "end_date": "2026-12-13",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4560",
+   "bank": "HNB",
+   "merchant": "JEZZA",
+   "discount": "20% off",
+   "description": "20% off at JEZZA",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid on 2026-11-29 & 2026-11-30, 2026-12-19 & 2026-12-20",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/JEZZA/JEZZA.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4560",
+   "updated_at": "",
+   "end_date": "2026-12-20",
+   "first_seen": "2026-11-25"
+  },
+  {
    "id": "hnb-4517",
    "bank": "HNB",
    "merchant": "Barracks Clothing",
@@ -18428,26 +18831,6 @@
    "updated_at": "",
    "end_date": "2026-11-26",
    "first_seen": "2026-11-24"
-  },
-  {
-   "id": "hnb-4429",
-   "bank": "HNB",
-   "merchant": "HOUSE OF FASHIONS NEW",
-   "discount": "25% off",
-   "description": "25% off at House of fashions",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid On 2026-11-28 , 2026-12-12 & 2026-12-19",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/HOUSE%20OF%20FASHIONS%20NEW/HOUSEOFFASHIONSNEW.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4429",
-   "updated_at": "",
-   "end_date": "2026-12-19",
-   "first_seen": ""
   },
   {
    "id": "hnb-4521",
@@ -19668,7 +20051,7 @@
    "description": "10% off at www.harrietshopping.com",
    "category": "Fashion",
    "city": "",
-   "period": "Valid from 11-25 to 11-30,\r\n12-18 to 2026-12-20",
+   "period": "Valid from 2026-11-25 to 2026-11-30, 2026-12-18 to 2026-12-20",
    "card_types": [
     "credit",
     "debit"
@@ -19689,7 +20072,7 @@
    "description": "15% off at Sereppu",
    "category": "Fashion",
    "city": "",
-   "period": "Valid from 11-26-2026 to 2026-11-30",
+   "period": "Valid from 2026-11-26 to 2026-11-30",
    "card_types": [
     "credit",
     "debit"
@@ -19703,66 +20086,6 @@
    "first_seen": "2026-11-25"
   },
   {
-   "id": "hnb-4536",
-   "bank": "HNB",
-   "merchant": "saloma",
-   "discount": "15% off",
-   "description": "15% off at Saloma Garment",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid from 11-26 to 11-28,\r\n12-09,12-10,12-12,\r\n12-22 & 2026-12-23",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/saloma/saloma.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4536",
-   "updated_at": "",
-   "end_date": "2026-12-23",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4537",
-   "bank": "HNB",
-   "merchant": "saloma",
-   "discount": "10% off",
-   "description": "10% off at Saloma Garment",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid from 11-26 to 11-28,\r\n12-09,12-10,12-12,\r\n12-22 & 2026-12-23",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/saloma/saloma.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4537",
-   "updated_at": "",
-   "end_date": "2026-12-23",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4538",
-   "bank": "HNB",
-   "merchant": "design club",
-   "discount": "25% off",
-   "description": "25% off at Design Club",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid from 11-26 to 11-29,\r\n12-21 to 2026-12-25",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/design%20club/designclub.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4538",
-   "updated_at": "",
-   "end_date": "2026-12-25",
-   "first_seen": "2026-11-25"
-  },
-  {
    "id": "hnb-4539",
    "bank": "HNB",
    "merchant": "SALE HOUSE NEW",
@@ -19770,7 +20093,7 @@
    "description": "20% off at Sale House",
    "category": "Fashion",
    "city": "",
-   "period": "Valid on 11-27, 12-18 & 2026-12-28",
+   "period": "Valid on 2026-11-27, 2026-12-18 & 2026-12-28",
    "card_types": [
     "credit"
    ],
@@ -19790,7 +20113,7 @@
    "description": "10% off at Sale House",
    "category": "Fashion",
    "city": "",
-   "period": "Valid on 11-27, 12-18 & 2026-12-28",
+   "period": "Valid on 2026-11-27, 2026-12-18 & 2026-12-28",
    "card_types": [
     "debit"
    ],
@@ -19803,308 +20126,6 @@
    "first_seen": "2026-11-25"
   },
   {
-   "id": "hnb-4541",
-   "bank": "HNB",
-   "merchant": "Blooms & Butterflies",
-   "discount": "20% off",
-   "description": "20% off at Blooms & Butterflies",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-12-19",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Blooms%20%26%20Butterflies/Blooms%26Butterflies.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4541",
-   "updated_at": "",
-   "end_date": "2026-12-19",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4542",
-   "bank": "HNB",
-   "merchant": "Blooms & Butterflies",
-   "discount": "10% off",
-   "description": "10% off at Blooms & Butterflies",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-12-19",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Blooms%20%26%20Butterflies/Blooms%26Butterflies.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4542",
-   "updated_at": "",
-   "end_date": "2026-12-19",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4543",
-   "bank": "HNB",
-   "merchant": "Comfort",
-   "discount": "20% off",
-   "description": "20% off at Comfort",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-11-29",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Comfort/Comfort.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4543",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4544",
-   "bank": "HNB",
-   "merchant": "Comfort",
-   "discount": "10% off",
-   "description": "10% off at Comfort",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-11-29",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Comfort/Comfort.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4544",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4545",
-   "bank": "HNB",
-   "merchant": "La Vivente",
-   "discount": "15% off",
-   "description": "15% off at La Vivente",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-11-29",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/La%20Vivente/LaVivente.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4545",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4546",
-   "bank": "HNB",
-   "merchant": "La Vivente",
-   "discount": "10% off",
-   "description": "10% off at La Vivente",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-11-29",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/La%20Vivente/LaVivente.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4546",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4547",
-   "bank": "HNB",
-   "merchant": "Zigzag",
-   "discount": "20% off",
-   "description": "20% off at Zigzag",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid from 11-28-2026 to 2026-11-30",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/zigzag-logo.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4547",
-   "updated_at": "",
-   "end_date": "2026-11-30",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4549",
-   "bank": "HNB",
-   "merchant": "LEGACY LONDON NEW",
-   "discount": "25% off",
-   "description": "25% off at Legacy London",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28 & 11-29,\r\n12-12 & 2026-12-13",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/LEGACY%20LONDON%20NEW/LEGACYLONDONNEW.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4549",
-   "updated_at": "",
-   "end_date": "2026-12-13",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4551",
-   "bank": "HNB",
-   "merchant": "Montrianna",
-   "discount": "20% off",
-   "description": "20% off at Montrianna",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-12-13",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Montrianna/Montrianna.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4551",
-   "updated_at": "",
-   "end_date": "2026-12-13",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4552",
-   "bank": "HNB",
-   "merchant": "Montrianna",
-   "discount": "5% off",
-   "description": "12.5% off at Montrianna",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-12-13",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Montrianna/Montrianna.png",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4552",
-   "updated_at": "",
-   "end_date": "2026-12-13",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4553",
-   "bank": "HNB",
-   "merchant": "Down Town",
-   "discount": "20% off",
-   "description": "20% off at Down Town",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-11-29",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Down%20Town/DownTown.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4553",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4554",
-   "bank": "HNB",
-   "merchant": "Diliganz",
-   "discount": "20% off",
-   "description": "20% off at Diliganz",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-11-29",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Diliganz/Diliganz.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4554",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4555",
-   "bank": "HNB",
-   "merchant": "Diliganz",
-   "discount": "10% off",
-   "description": "10% off at Diliganz",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-11-29",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Diliganz/Diliganz.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4555",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4556",
-   "bank": "HNB",
-   "merchant": "Dirali",
-   "discount": "20% off",
-   "description": "20% off at Dirali",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-11-29",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Dirali/Dirali.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4556",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-25"
-  },
-  {
-   "id": "hnb-4557",
-   "bank": "HNB",
-   "merchant": "Dirali",
-   "discount": "10% off",
-   "description": "10% off at Dirali",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-28-2026 & 2026-11-29",
-   "card_types": [
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/Dirali/Dirali.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4557",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-25"
-  },
-  {
    "id": "hnb-4558",
    "bank": "HNB",
    "merchant": "Win Mart",
@@ -20112,7 +20133,7 @@
    "description": "20% off at Win Mart",
    "category": "Fashion",
    "city": "",
-   "period": "Valid on 11-29-2026 & 2026-12-20",
+   "period": "Valid on 2026-11-29 & 2026-12-20",
    "card_types": [
     "credit"
    ],
@@ -20132,7 +20153,7 @@
    "description": "10% off at Win Mart",
    "category": "Fashion",
    "city": "",
-   "period": "Valid on 11-29-2026 & 2026-12-20",
+   "period": "Valid on 2026-11-29 & 2026-12-20",
    "card_types": [
     "debit"
    ],
@@ -20145,27 +20166,6 @@
    "first_seen": "2026-11-25"
   },
   {
-   "id": "hnb-4560",
-   "bank": "HNB",
-   "merchant": "JEZZA",
-   "discount": "20% off",
-   "description": "20% off at JEZZA",
-   "category": "Fashion",
-   "city": "",
-   "period": "Valid on 11-29 & 11-30,\r\n12-19 & 2026-12-20",
-   "card_types": [
-    "credit",
-    "debit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://assets.hnb.lk/atdi/merchants/JEZZA/JEZZA.jpg",
-   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4560",
-   "updated_at": "",
-   "end_date": "2026-12-20",
-   "first_seen": "2026-11-25"
-  },
-  {
    "id": "hnb-4562",
    "bank": "HNB",
    "merchant": "Elegant Smockers",
@@ -20173,7 +20173,7 @@
    "description": "20% off at Elegant Smockers",
    "category": "Fashion",
    "city": "",
-   "period": "Valid from 12-01-2026 & 2026-12-02",
+   "period": "Valid from 2026-12-1 & 2026-12-02",
    "card_types": [
     "credit"
    ],
@@ -20193,7 +20193,7 @@
    "description": "15% off at Disel Fashion",
    "category": "Fashion",
    "city": "",
-   "period": "Valid from 12-01 to 12-03,\r\n12-14 & 2026-12-15",
+   "period": "Valid from 2026-12-01 to 2026-12-03, 2026-12-14 & 2026-12-15",
    "card_types": [
     "credit"
    ],
@@ -20213,7 +20213,7 @@
    "description": "10% off at Disel Fashion",
    "category": "Fashion",
    "city": "",
-   "period": "Valid from 12-01 to 12-03,\r\n12-14 & 2026-12-15",
+   "period": "Valid from 2026-12-01 to 2026-12-03, 2026-12-14 & 2026-12-15",
    "card_types": [
     "debit"
    ],
@@ -20365,6 +20365,27 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": "2026-11-25"
+  },
+  {
+   "id": "hnb-4575",
+   "bank": "HNB",
+   "merchant": "Softlogic",
+   "discount": "",
+   "description": "Softlogic Black Friday Offers",
+   "category": "Fashion",
+   "city": "",
+   "period": "Valid From 2026-11-26 to 2026-11-29",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/softlogic-main.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4575",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-26"
   },
   {
    "id": "hnb-3640",
@@ -29883,7 +29904,7 @@
   {
    "id": "seylan-singer-furniture_",
    "bank": "Seylan Bank",
-   "merchant": "Singer - Furniture",
+   "merchant": "Singer",
    "discount": "Up to 60% Discount",
    "description": "Up to 60% Discounts on selected products + 0% instalment plans with your Seylan Credit Card...",
    "category": "Instalment Plans",
@@ -40422,7 +40443,7 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/a94dd70e-b76c-43d7-9c22-63ea847837dc-anything-anywhere.jpg",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/55260300-c528-4b96-b8d2-ec9daed7dddd-any-purchase-any-where.jfif",
    "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/10633",
    "updated_at": "",
    "end_date": "2026-11-29",
@@ -62243,6 +62264,26 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "dfcc-softlogic-black-friday-offer",
+   "bank": "DFCC",
+   "merchant": "Softlogic Restaurants, Softlogic Brands, Softlogic Max and Softlogic Supermarkets",
+   "discount": "Up to 50%",
+   "description": "Up to 50% Savings at Softlogic Restaurants, Softlogic Brands, Softlogic Max and Softlogic Supermarkets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Dining",
+   "city": "",
+   "period": "26th to 29th November 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/22f9a299-3857-4e91-907e-6a79dac2c9fe/SoftlogicFriday.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/softlogic-black-friday-offer",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-26"
   }
  ]
 }
