@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T21:38:35Z",
- "offer_count": 3116,
+ "generated_at": "2026-11-27T08:28:52Z",
+ "offer_count": 3133,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -7086,6 +7086,26 @@
    "first_seen": "2026-11-25"
   },
   {
+   "id": "hnb-4582",
+   "bank": "HNB",
+   "merchant": "Amaya Hills, Kandy",
+   "discount": "Up to 38% off",
+   "description": "Up to 38% off on HB & FB basis at Amaya Hills, Kandy",
+   "category": "Hotels",
+   "city": "",
+   "period": "Valid Until 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/amaya-hills-new-logo.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4582",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "hnb-4430",
    "bank": "HNB",
    "merchant": "Findmyfare.com",
@@ -8244,6 +8264,26 @@
    "updated_at": "",
    "end_date": "2027-04-30",
    "first_seen": ""
+  },
+  {
+   "id": "hnb-4580",
+   "bank": "HNB",
+   "merchant": "Classic Travels",
+   "discount": "0%",
+   "description": "Special package for Bangkok & Pattaya Tour + Up to 12 months 0% installments at Classic Travel",
+   "category": "Travel",
+   "city": "",
+   "period": "Valid Until 2027-01-10",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/Classic-travel.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4580",
+   "updated_at": "",
+   "end_date": "2027-01-10",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "hnb-4225",
@@ -14600,6 +14640,26 @@
    "first_seen": "2026-11-25"
   },
   {
+   "id": "hnb-4578",
+   "bank": "HNB",
+   "merchant": "The Concept Store",
+   "discount": "Up to 50% off",
+   "description": "Up to 50% off on Selected items + Up to 06 months 0% installments at www.agc.lk & The Concept Store showroom",
+   "category": "Instalment Plans",
+   "city": "",
+   "period": "Valid From 2026-11-16 to 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/asian-group-of-companies.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4578",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "hnb-1508",
    "bank": "HNB",
    "merchant": "Tudo.LK",
@@ -15828,8 +15888,8 @@
    "id": "hnb-4012",
    "bank": "HNB",
    "merchant": "Toyota Lanka",
-   "discount": "Up to 40% off",
-   "description": "Up to 40% off on selected spare parts + Up to 12 months 0% installments at Toyota Lanka",
+   "discount": "Up to 70% off",
+   "description": "Up to 70% off on selected spare parts & services + Up to 12 months 0% installments at Toyota Lanka",
    "category": "Auto",
    "city": "",
    "period": "Valid Until 2026-12-31",
@@ -17024,6 +17084,26 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "hnb-4581",
+   "bank": "HNB",
+   "merchant": "David Pieris Motor Company (Pvt) Ltd - Parts and Accessories Division",
+   "discount": "Up to 40% off",
+   "description": "Up to 40% off on selected tyre brands, spare parts & lubricants + Up to 06 months 0% installment plans at David Pieris Motor Company (Pvt) Ltd",
+   "category": "Auto",
+   "city": "",
+   "period": "Valid From 2026-12-01 to 2026-12-31",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.hnb.lk/atdi/merchants/david-pieris-motor-company.jpg",
+   "source_url": "https://www.hnb.lk/personal/promotions/card-promotion/card-offers?id=4581",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "hnb-4081",
@@ -40254,7 +40334,7 @@
   {
    "id": "ndb-115",
    "bank": "NDB",
-   "merchant": "Kelly Felder (www.kellyfelder.com)",
+   "merchant": "Kelly Felder",
    "discount": "25% Savings",
    "description": "25% Savings on Credit & 10% Savings on Debit cards",
    "category": "Fashion",
@@ -40268,6 +40348,48 @@
    "terms": "",
    "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/d30cea3d-1f91-43b2-a9d9-815b891e4ce0-kelly-felder.jpg",
    "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/115",
+   "updated_at": "",
+   "end_date": "2026-12-04",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "ndb-121",
+   "bank": "NDB",
+   "merchant": "REDVERS BULLER at Kelly Felder",
+   "discount": "25% Savings",
+   "description": "25% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Fashion",
+   "city": "",
+   "period": "03rd & 04th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/4400da44-1a4e-4fee-a1e6-30a40c6b53a1-redvers-buller.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/121",
+   "updated_at": "",
+   "end_date": "2026-12-04",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "ndb-123",
+   "bank": "NDB",
+   "merchant": "Scylla Zelus at Kelly Felder",
+   "discount": "25% Savings",
+   "description": "25% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Fashion",
+   "city": "",
+   "period": "03rd & 04th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/b29718f3-dea0-42bb-bec9-294af3346df5-syclla-zelus.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/123",
    "updated_at": "",
    "end_date": "2026-12-04",
    "first_seen": "2026-11-27"
@@ -40657,6 +40779,26 @@
    "first_seen": ""
   },
   {
+   "id": "ndb-109",
+   "bank": "NDB",
+   "merchant": "House Of Fashions",
+   "discount": "15% Savings",
+   "description": "15% Savings on Total bill",
+   "category": "Fashion",
+   "city": "",
+   "period": "6th, 13th & 23rd December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/e394b2f7-722a-4a2e-b60e-7b91bd79f250_whatsapp-image-2024-11-20-at-10.23.49-am-(5).jpeg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/109",
+   "updated_at": "",
+   "end_date": "2026-12-23",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "ndb-235",
    "bank": "NDB",
    "merchant": "Nawaloka Hospital",
@@ -40934,11 +41076,32 @@
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/28c7620f-8b63-49ba-82d8-4394b1a3f84f_whatsapp-image-2024-11-20-at-10.23.49-am-(1).jpeg",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/6066b9a1-07fc-4b89-870b-2d2c156a670e-mimosa.jpg",
    "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/153",
    "updated_at": "",
    "end_date": "2026-11-27",
    "first_seen": "2026-11-25"
+  },
+  {
+   "id": "ndb-160",
+   "bank": "NDB",
+   "merchant": "Cool Planet",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Other",
+   "city": "",
+   "period": "10th, 11th & 24th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/255aebff-37ac-4888-9318-d5248d9e19ce-nolimit.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/160",
+   "updated_at": "",
+   "end_date": "2026-12-24",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "ndb-237",
@@ -41383,6 +41546,27 @@
    "first_seen": ""
   },
   {
+   "id": "ndb-10539",
+   "bank": "NDB",
+   "merchant": "NickNack",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Other",
+   "city": "",
+   "period": "10th, 11th & 24th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/1b71b124-b5e9-4357-9a1e-3e38348b86e7_nick-nack.jfif",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/10539",
+   "updated_at": "",
+   "end_date": "2026-12-24",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "ndb-242",
    "bank": "NDB",
    "merchant": "Classic Travels",
@@ -41464,6 +41648,27 @@
    "first_seen": ""
   },
   {
+   "id": "ndb-137",
+   "bank": "NDB",
+   "merchant": "Fashion Bug",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Fashion",
+   "city": "",
+   "period": "05th & 06th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/2d3c8c8a-7fff-46ff-b436-622956603e98-fashion-bug.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/137",
+   "updated_at": "",
+   "end_date": "2026-12-06",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "ndb-173",
    "bank": "NDB",
    "merchant": "Celcius Luxury Bedding",
@@ -41483,6 +41688,27 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "ndb-189",
+   "bank": "NDB",
+   "merchant": "Moonstone – Havelock City Mall",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Other",
+   "city": "",
+   "period": "10th, 11th & 24th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/088cb956-476e-4297-8ebf-d267346ce8e5_whatsapp-image-2024-11-20-at-10.23.49-am-(7).jpeg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/189",
+   "updated_at": "",
+   "end_date": "2026-12-24",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "ndb-243",
@@ -41605,6 +41831,27 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "ndb-142",
+   "bank": "NDB",
+   "merchant": "SWX (Shirt works)",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Other",
+   "city": "",
+   "period": "10th & 11th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/ab4cef61-9fc4-486f-946c-ef415a7e5a5f-redvers-buller.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/142",
+   "updated_at": "",
+   "end_date": "2026-12-11",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "ndb-245",
@@ -41767,6 +42014,27 @@
    "first_seen": ""
   },
   {
+   "id": "ndb-116",
+   "bank": "NDB",
+   "merchant": "Envoy Mansion",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit Cards & 10% Savings on Debit Cards",
+   "category": "Other",
+   "city": "",
+   "period": "19th & 20th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/97e50526-b441-4fff-8f86-696a2ce858cb_whatsapp-image-2024-11-20-at-10.23.49-am-(6).jpeg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/116",
+   "updated_at": "",
+   "end_date": "2026-12-20",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "ndb-129",
    "bank": "NDB",
    "merchant": "La Vivente",
@@ -41786,6 +42054,47 @@
    "updated_at": "",
    "end_date": "2026-11-27",
    "first_seen": ""
+  },
+  {
+   "id": "ndb-146",
+   "bank": "NDB",
+   "merchant": "Saffans",
+   "discount": "10% Savings",
+   "description": "10% Savings on Credit cards",
+   "category": "Other",
+   "city": "",
+   "period": "05th & 06th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/80373fcd-804f-4fe7-9ad9-f787a1a1dd99-saffans.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/146",
+   "updated_at": "",
+   "end_date": "2026-12-06",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "ndb-147",
+   "bank": "NDB",
+   "merchant": "P.G. Martin",
+   "discount": "15% Savings",
+   "description": "15% Savings on Total bill",
+   "category": "Other",
+   "city": "",
+   "period": "5th - 13th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/61c037c5-7693-4fde-82ee-b42a8fafeea6_whatsapp-image-2024-11-20-at-10.23.49-am-(8).jpeg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/147",
+   "updated_at": "",
+   "end_date": "2026-12-13",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "ndb-223",
@@ -41967,6 +42276,48 @@
    "first_seen": ""
   },
   {
+   "id": "ndb-117",
+   "bank": "NDB",
+   "merchant": "Hameedia",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit Cards & 10% Savings on Debit Cards",
+   "category": "Other",
+   "city": "",
+   "period": "19th & 20th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/9d469c17-59ea-4a17-ba0b-591e996594a2_whatsapp-image-2024-11-20-at-10.23.49-am-(5).jpeg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/117",
+   "updated_at": "",
+   "end_date": "2026-12-20",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "ndb-143",
+   "bank": "NDB",
+   "merchant": "Emerald Flagship Store",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit Cards & 10% Savings on Debit Cards",
+   "category": "Other",
+   "city": "",
+   "period": "10th & 11th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/ee499f29-232c-49dd-b72b-3853ed432b73-redvers-buller.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/143",
+   "updated_at": "",
+   "end_date": "2026-12-11",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "ndb-313",
    "bank": "NDB",
    "merchant": "JADE Restaurant",
@@ -41985,6 +42336,27 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "ndb-10541",
+   "bank": "NDB",
+   "merchant": "Crocodile",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Other",
+   "city": "",
+   "period": "10th & 11th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/efa13bfb-d7c7-4afb-b1a6-65d7105825b3-crocodile.jpg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/10541",
+   "updated_at": "",
+   "end_date": "2026-12-11",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "ndb-402",
@@ -42025,6 +42397,69 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "ndb-122",
+   "bank": "NDB",
+   "merchant": "Signature",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit Cards & 10% Savings on Debit Cards",
+   "category": "Other",
+   "city": "",
+   "period": "19th & 20th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/5f9eae87-1ea0-4f53-90ba-0d5ec39120e7_whatsapp-image-2024-11-20-at-10.23.49-am-(6).jpeg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/122",
+   "updated_at": "",
+   "end_date": "2026-12-20",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "ndb-229",
+   "bank": "NDB",
+   "merchant": "Joey Clothing",
+   "discount": "20% Savings",
+   "description": "20% Savings on Credit & 10% Savings on Debit cards",
+   "category": "Fashion",
+   "city": "",
+   "period": "1st - 3rd December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/fe0e7154-4fff-43db-9417-74e3b12d7fc0_whatsapp-image-2024-11-20-at-10.23.49-am-(4).jpeg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/229",
+   "updated_at": "",
+   "end_date": "2026-12-03",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "ndb-124",
+   "bank": "NDB",
+   "merchant": "H- Sports (Racecourse)",
+   "discount": "15% Savings",
+   "description": "15% Savings on Credit Cards & 10% Savings on Debit Cards",
+   "category": "Education",
+   "city": "",
+   "period": "19th & 20th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://ndbbankweb.ndbbank.com/cardoffer/images/5966ad73-65a8-4ac1-9598-5a2fc522a90d_whatsapp-image-2024-11-20-at-10.23.49-am-(8).jpeg",
+   "source_url": "https://www.ndbbank.com/cards/card-offers/offer-details/124",
+   "updated_at": "",
+   "end_date": "2026-12-20",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "ndb-337",
@@ -42358,6 +42793,26 @@
    "first_seen": ""
   },
   {
+   "id": "peoples-sigiriya-kings-resort-by-araliya-35-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Sigiriya King's Resort By Araliya",
+   "discount": "35% off",
+   "description": "35% off at Sigiriya King's Resort By Araliya with Peoples Bank credit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "From November 25, 2026 to December 18, 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Sigiriya_Kings_Resort.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/sigiriya-kings-resort-by-araliya-35-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-18",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "peoples-elephas-resort-30-off-credit",
    "bank": "Peoples Bank",
    "merchant": "Elephas Resort - Sigiriya",
@@ -42396,6 +42851,86 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "peoples-araliya-red-nuwaraeliya-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Araliya Red - Nuwaraeliya",
+   "discount": "30% off",
+   "description": "30% off at Araliya Red - Nuwaraeliya with Peoples Bank credit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "From November 25, 2026 to December 19, 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Araliya_Red_Nuwaraeliya.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/araliya-red-nuwaraeliya-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-19",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "peoples-araliya-beach-resort-unawatuna-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Araliya Beach Resort - Unawatuna",
+   "discount": "30% off",
+   "description": "30% off at Araliya Beach Resort - Unawatuna with Peoples Bank credit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "From November 25, 2026 to December 25, 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Araliya_Beach_Resort.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/araliya-beach-resort-unawatuna-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-25",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "peoples-araliya-green-city-nuwaraeliya-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Araliya Green City- Nuwaraeliya",
+   "discount": "30% off",
+   "description": "30% off at Araliya Green City- Nuwaraeliya with Peoples Bank credit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "From November 25, 2026 to December 19, 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Araliya_Green_City.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/araliya-green-city-nuwaraeliya-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-19",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "peoples-araliya-green-hills-nuwaraeliya-30-off-credit",
+   "bank": "Peoples Bank",
+   "merchant": "Araliya Green Hills - Nuwaraeliya",
+   "discount": "30% off",
+   "description": "30% off at Araliya Green Hills - Nuwaraeliya with Peoples Bank credit cards",
+   "category": "Hotels",
+   "city": "",
+   "period": "From November 25, 2026 to December 19, 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://www.peoplesbank.lk/roastoth/2026/11/Araliya_Green_Hills.jpg",
+   "source_url": "https://www.peoplesbank.lk/promotion/araliya-green-hills-nuwaraeliya-30-off-credit/",
+   "updated_at": "",
+   "end_date": "2026-12-19",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "peoples-south-lake-resort-koggala-30-off-credit",
@@ -52767,6 +53302,126 @@
    "first_seen": ""
   },
   {
+   "id": "dfcc-crystal-jade",
+   "bank": "DFCC",
+   "merchant": "Crystal Jade - One Galle Face Mall",
+   "discount": "25%",
+   "description": "25% Savings at Crystal Jade - One Galle Face Mall. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Dining",
+   "city": "",
+   "period": "Every Tuesday from 01st to 29th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/8bc6c0dc-85bc-43ee-8b0b-e99fb4467c48/Crystal-Jade.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/crystal-jade",
+   "updated_at": "",
+   "end_date": "2026-12-29",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "dfcc-burger-king",
+   "bank": "DFCC",
+   "merchant": "Burger King",
+   "discount": "25%",
+   "description": "25% Savings at Burger King. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Dining",
+   "city": "",
+   "period": "Every Tuesday from 01st to 29th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/8d13f3af-eb69-48ad-bc6c-12b315fe00d4/Burger-King.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/burger-king",
+   "updated_at": "",
+   "end_date": "2026-12-29",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "dfcc-baskin-robbins",
+   "bank": "DFCC",
+   "merchant": "Baskin Robbins",
+   "discount": "25%",
+   "description": "25% Savings at Baskin Robbins. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Dining",
+   "city": "",
+   "period": "Every Tuesday from 01st to 29th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/dfdda8c1-22e1-42fc-b412-bf4ea1178c76/Baskin-Robbins.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/baskin-robbins",
+   "updated_at": "",
+   "end_date": "2026-12-29",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "dfcc-popeyes",
+   "bank": "DFCC",
+   "merchant": "POPEYES",
+   "discount": "25%",
+   "description": "25% Savings at POPEYES. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Dining",
+   "city": "",
+   "period": "Every Tuesday from 01st to 29th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/6d72ba78-0fe1-49a0-957f-5ccc960e5360/Popeyes.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/popeyes",
+   "updated_at": "",
+   "end_date": "2026-12-29",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "dfcc-delifrance",
+   "bank": "DFCC",
+   "merchant": "Delifrance for bills above Rs. 2,500/-",
+   "discount": "25%",
+   "description": "25% Savings at Delifrance for bills above Rs. 2,500/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Dining",
+   "city": "",
+   "period": "Every Tuesday from 01st to 29th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/5ad8a3b7-267e-41ba-8e43-0b6bf4780886/Delifrance.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/delifrance",
+   "updated_at": "",
+   "end_date": "2026-12-29",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "dfcc-subway",
+   "bank": "DFCC",
+   "merchant": "Subway",
+   "discount": "25%",
+   "description": "25% Savings at Subway. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Dining",
+   "city": "",
+   "period": "Every Tuesday from 01st to 29th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/42c7e0bb-74aa-4cb0-acae-28bc80ce89d1/Subway.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/subway",
+   "updated_at": "",
+   "end_date": "2026-12-29",
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "dfcc-domino-s-pizza",
    "bank": "DFCC",
    "merchant": "Domino’s Pizza for bills above Rs. 5,000/-",
@@ -59084,326 +59739,6 @@
    "first_seen": ""
   },
   {
-   "id": "dfcc-siddhalepa-clinics",
-   "bank": "DFCC",
-   "merchant": "Siddhalepa Clinics",
-   "discount": "15%",
-   "description": "15% Savings on treatments for bills above Rs. 10,000/- at Siddhalepa Clinics. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "01st November to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/74eea162-857d-488e-ba07-058bd923a14d/Siddalepa.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/siddhalepa-clinics",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-siddhalepa-ayurveda-hospital",
-   "bank": "DFCC",
-   "merchant": "20% Savings on room rate for in-door patients Siddhalepa Ayu",
-   "discount": "20%",
-   "description": "20% Savings on room rate for in-door patients Siddhalepa Ayurveda Hospital - Mt. Lavinia. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "01st November to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/d029d9bb-febb-45cc-9479-68c5c264bed7/1.SiddhalepaAyurvedhaOfficialLogo.jpeg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/siddhalepa-ayurveda-hospital",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-aroma-bliss-ceylon-2",
-   "bank": "DFCC",
-   "merchant": "Aroma Bliss Ceylon",
-   "discount": "15%",
-   "description": "15% Savings on selected products & services at Aroma Bliss Ceylon. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "15th to 30th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b88905c5-5c6e-47d4-bfb3-12ab67c333fc/AromaBliss.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/aroma-bliss-ceylon-2",
-   "updated_at": "",
-   "end_date": "2026-11-30",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-kashi-spa-and-wellness-retreat",
-   "bank": "DFCC",
-   "merchant": "Kashi - Spa & Wellness",
-   "discount": "20%",
-   "description": "20% Savings on all treatments at Kashi - Spa & Wellness. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "15th November to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/0faa5192-be1d-4c00-bbf0-a16068a884ef/Kashi-Spa--Retreat_400-X-225.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/kashi-spa-and-wellness-retreat",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-swasthya-wellness-spa",
-   "bank": "DFCC",
-   "merchant": "Swasthya Wellness Spa",
-   "discount": "15%",
-   "description": "15% Savings on treatments for bills above Rs. 15,000/- at Swasthya Wellness Spa. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "15th November to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/61bea80b-35ac-49c5-8f58-90c440731ff8/SwathyaSpa.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/swasthya-wellness-spa",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-estheti-centre",
-   "bank": "DFCC",
-   "merchant": "Esthéti Centre",
-   "discount": "15%",
-   "description": "15% Savings on selected machine treatments at Esthéti Centre. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "15th November to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/eaf5d15c-902a-4c94-a494-eab196ff026e/EsthetiCentrelogo1.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/estheti-centre",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-lush-skin-clinique",
-   "bank": "DFCC",
-   "merchant": "Lush Skin Clinique",
-   "discount": "20%",
-   "description": "20% Savings on all treatments at Lush Skin Clinique. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "15th November to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/6a091ac8-3413-40f7-8237-61daa0169442/Lushclinic.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/lush-skin-clinique",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-taglio-by-lush",
-   "bank": "DFCC",
-   "merchant": "Taglio by Lush",
-   "discount": "15%",
-   "description": "15% Savings on Facial Treatments, Pedicure & Manicure at Taglio by Lush. Offer valid on DFCC Credit and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "15th November to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/38c7424c-ebb6-49c5-937c-8b76c28e9f6d/Taglio-by-Lush.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/taglio-by-lush",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-hairskiin-clinic-colombo-08",
-   "bank": "DFCC",
-   "merchant": "Hairskiin Sri Lanka",
-   "discount": "25%",
-   "description": "25% Savings on Total Bill at Hairskiin Sri Lanka. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "15th November to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/f005fd02-f786-4046-886a-bffcf7b3500d/HairSkin.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/hairskiin-clinic-colombo-08",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-hairskiin-one-colombo-08",
-   "bank": "DFCC",
-   "merchant": "Hairskiin ONE - Colombo 08",
-   "discount": "25%",
-   "description": "25% Savings on Total Bill for New Hair Replacements, Premium Hair & Beauty Treatments for bills above Rs. 50,000/- at Hairskiin ONE - Colombo 08. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "15th November to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/82d54529-cc1d-4b8d-8bd4-2f5447ca0763/HaiirSkiinOneLogo.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/hairskiin-one-colombo-08",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-luxasella-by-hairskiin-colombo-03",
-   "bank": "DFCC",
-   "merchant": "Luxasella by Hairskiin - Colombo 03",
-   "discount": "25%",
-   "description": "25% Savings on Total Bill for treatments for bills above Rs. 25,000/- at Luxasella by Hairskiin - Colombo 03.",
-   "category": "Health",
-   "city": "",
-   "period": "15th November to 31st December 2026",
-   "card_types": [],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/c9b3e526-018f-4e10-aff9-8958e35cff86/Hairskiin_Gold.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/luxasella-by-hairskiin-colombo-03",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-supplementvault-lk",
-   "bank": "DFCC",
-   "merchant": "www.supplementvault.lk",
-   "discount": "15%",
-   "description": "15% Savings at www.supplementvault.lk. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "01st to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/4ddab482-b179-4319-81ff-6101e2cb2b72/Supplementvault.lk-LOGO_760-X-6001.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/supplementvault-lk",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-cosmetics-lk",
-   "bank": "DFCC",
-   "merchant": "Cosmetics.lk",
-   "discount": "10%",
-   "description": "10% Savings on all products at Cosmetics.lk. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "01st to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/dc98c6a4-a9f9-4c6f-88da-4428f1f106a6/CosmeticsLK-LOGO_760-X-6001.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/cosmetics-lk",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-the-body-shop",
-   "bank": "DFCC",
-   "merchant": "The Body Shop",
-   "discount": "20%",
-   "description": "20% Savings on All MRP Products at The Body Shop. Offer valid on DFCC Visa Signature & Visa Infinite Credit Cards and Standard Chartered Visa Infinite Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "Every Thursday from 01st August 2026 to 31st March 2027",
-   "card_types": [
-    "credit",
-    "visa"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/01ae963e-3210-4661-b7c5-367442fce107/THEBODYSHOP.jpg",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/the-body-shop",
-   "updated_at": "",
-   "end_date": "2027-03-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-footrub",
-   "bank": "DFCC",
-   "merchant": "Footrub",
-   "discount": "20%",
-   "description": "20% Savings on the total bill at Footrub. Offer valid on DFCC Visa Credit Cards and Standard Chartered Visa Credit Cards now serviced by DFCC Bank. Applicable only on Tap to Pay Transactions",
-   "category": "Other",
-   "city": "",
-   "period": "Valid every Thursday from 1 Aug 2026 to 31 Jan 2027",
-   "card_types": [
-    "credit",
-    "visa"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/fe3cfec9-b60d-4c87-86cd-5429b8c6775c/FootrubLogo.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/footrub",
-   "updated_at": "",
-   "end_date": "2027-01-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-nawaloka-care",
-   "bank": "DFCC",
-   "merchant": "Nawaloka Care Laboratories for bills above Rs. 3,000/-",
-   "discount": "15%",
-   "description": "15% Savings on Lab tests & services at Nawaloka Care Laboratories for bills above Rs. 3,000/-. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Health",
-   "city": "",
-   "period": "Valid from Friday to Sunday from 09th October 2026 to 31st January 2027",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/d9f5f0e6-8b3c-4193-85c8-68568b114754/NawalokaCareLabsLogoFinal_Eng1.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/nawaloka-care",
-   "updated_at": "",
-   "end_date": "2027-01-31",
-   "first_seen": ""
-  },
-  {
    "id": "dfcc-cool-kidz",
    "bank": "DFCC",
    "merchant": "Cool Kidz – Col. 04",
@@ -59964,24 +60299,24 @@
    "first_seen": ""
   },
   {
-   "id": "dfcc-umrah-travel",
+   "id": "dfcc-sri-lankan-airlines",
    "bank": "DFCC",
-   "merchant": "Umrah Travel",
-   "discount": "up to 35%",
-   "description": "Enjoy up to 35% Savings on flights, hotels & dining at Umrah Travel. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "merchant": "www.srilankan.com",
+   "discount": "20%",
+   "description": "20% Savings with 12 & 24 months 0% Easy Payment Plans on base fare to Colombo and all SriLankan Airlines direct destinations at www.srilankan.com. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
    "category": "Travel",
    "city": "",
-   "period": "Valid till 26th January 2027",
+   "period": "Valid till 27th November 2026",
    "card_types": [
     "credit"
    ],
    "details": "",
    "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b57f54e9-7756-4f52-970c-96e002346c85/Screenshotumrahtravel.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/umrah-travel",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/f2ec3618-2b43-4acb-bd9c-8f1501f18416/SLA.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/sri-lankan-airlines",
    "updated_at": "",
-   "end_date": "2027-01-26",
-   "first_seen": ""
+   "end_date": "2026-11-27",
+   "first_seen": "2026-11-27"
   },
   {
    "id": "dfcc-www-crazyjets-com-2",
@@ -60041,6 +60376,26 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/fitsair",
    "updated_at": "",
    "end_date": "2026-12-15",
+   "first_seen": ""
+  },
+  {
+   "id": "dfcc-umrah-travel",
+   "bank": "DFCC",
+   "merchant": "Umrah Travel",
+   "discount": "up to 35%",
+   "description": "Enjoy up to 35% Savings on flights, hotels & dining at Umrah Travel. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
+   "category": "Travel",
+   "city": "",
+   "period": "Valid till 26th January 2027",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/b57f54e9-7756-4f52-970c-96e002346c85/Screenshotumrahtravel.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/umrah-travel",
+   "updated_at": "",
+   "end_date": "2027-01-26",
    "first_seen": ""
   },
   {
@@ -60584,6 +60939,27 @@
    "source_url": "https://www.dfcc.lk/cards/cards-promotions/travel-googoo",
    "updated_at": "",
    "end_date": "2027-11-30",
+   "first_seen": ""
+  },
+  {
+   "id": "dfcc-the-body-shop",
+   "bank": "DFCC",
+   "merchant": "The Body Shop",
+   "discount": "20%",
+   "description": "20% Savings on All MRP Products at The Body Shop. Offer valid on DFCC Visa Credit Cards and Standard Chartered Visa Credit Cards now serviced by DFCC Bank.",
+   "category": "Other",
+   "city": "",
+   "period": "Every Thursday from 01st April 2026 to 31st March 2027",
+   "card_types": [
+    "credit",
+    "visa"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/01ae963e-3210-4661-b7c5-367442fce107/THEBODYSHOP.jpg",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/the-body-shop",
+   "updated_at": "",
+   "end_date": "2027-03-31",
    "first_seen": ""
   },
   {
@@ -61867,6 +62243,27 @@
    "first_seen": ""
   },
   {
+   "id": "dfcc-footrub",
+   "bank": "DFCC",
+   "merchant": "Footrub",
+   "discount": "20%",
+   "description": "20% Savings on the total bill at Footrub. Offer valid on DFCC Visa Credit Cards and Standard Chartered Visa Credit Cards now serviced by DFCC Bank. Applicable only on Tap to Pay Transactions",
+   "category": "Other",
+   "city": "",
+   "period": "Valid every Thursday from 1 Aug 2026 to 31 Jan 2027",
+   "card_types": [
+    "credit",
+    "visa"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/fe3cfec9-b60d-4c87-86cd-5429b8c6775c/FootrubLogo.png",
+   "source_url": "https://www.dfcc.lk/cards/cards-promotions/footrub",
+   "updated_at": "",
+   "end_date": "2027-01-31",
+   "first_seen": ""
+  },
+  {
    "id": "dfcc-celcius-bedding",
    "bank": "DFCC",
    "merchant": "Celcius Bedding",
@@ -62369,46 +62766,6 @@
    "updated_at": "",
    "end_date": "2026-11-30",
    "first_seen": ""
-  },
-  {
-   "id": "dfcc-green-solar",
-   "bank": "DFCC",
-   "merchant": "Green Solar",
-   "discount": "15%",
-   "description": "Up to 15% Savings and Up to 48 Months 0% Easy Payment Plans at Green Solar. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Instalment Plans",
-   "city": "",
-   "period": "01st October to 31st December 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/a41ad057-c06c-4253-8066-614b62e1e974/green-electric-solar-logo1.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/green-solar",
-   "updated_at": "",
-   "end_date": "2026-12-31",
-   "first_seen": ""
-  },
-  {
-   "id": "dfcc-softlogic-black-friday-offer",
-   "bank": "DFCC",
-   "merchant": "Softlogic Restaurants, Softlogic Brands, Softlogic Max and Softlogic Supermarkets",
-   "discount": "Up to 50%",
-   "description": "Up to 50% Savings at Softlogic Restaurants, Softlogic Brands, Softlogic Max and Softlogic Supermarkets. Offer valid on DFCC Credit Cards and Standard Chartered Credit Cards now serviced by DFCC Bank.",
-   "category": "Dining",
-   "city": "",
-   "period": "26th to 29th November 2026",
-   "card_types": [
-    "credit"
-   ],
-   "details": "",
-   "terms": "",
-   "image_url": "https://properties.dfcc.lk/dfccweb/uploads/22f9a299-3857-4e91-907e-6a79dac2c9fe/SoftlogicFriday.png",
-   "source_url": "https://www.dfcc.lk/cards/cards-promotions/softlogic-black-friday-offer",
-   "updated_at": "",
-   "end_date": "2026-11-29",
-   "first_seen": "2026-11-26"
   }
  ]
 }
