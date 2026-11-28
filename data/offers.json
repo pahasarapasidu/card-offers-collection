@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T21:23:51Z",
- "offer_count": 3154,
+ "generated_at": "2026-11-28T07:48:45Z",
+ "offer_count": 3170,
  "banks": [
   "BOC",
   "Commercial Bank",
@@ -3457,6 +3457,24 @@
    "first_seen": ""
   },
   {
+   "id": "combank-enjoy-unbeatable-discounts-with-combank-cards-when-you-pay-using-the-mintpay-app",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy unbeatable discounts with ComBank Cards when you pay using the MintPay App",
+   "discount": "Up to 35% Off",
+   "description": "Enjoy unbeatable discounts with ComBank Cards when you pay using the MintPay App",
+   "category": "Online",
+   "city": "",
+   "period": "Offers valid till 30th November 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Mint-Pay-Offers-Nov-2026-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/seasonal-offers/enjoy-unbeatable-discounts-with-combank-cards-when-you-pay-using-the-mintpay-app",
+   "updated_at": "",
+   "end_date": "2026-11-30",
+   "first_seen": "2026-11-28"
+  },
+  {
    "id": "combank-better-watch-out-you-might-just-buy-it-all-with-combank-cards",
    "bank": "Commercial Bank",
    "merchant": "Better Watch Out - You Might Just Buy It All with ComBank Cards!",
@@ -3473,6 +3491,27 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "combank-enjoy-the-art-of-dining-at-segafredo-cafe-or-subway-with-combank-credit-and-debit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy the art of dining at Segafredo Cafe or Subway with ComBank Credit and Debit Cards",
+   "discount": "Up to 20% Off",
+   "description": "Enjoy the art of dining at Segafredo Cafe or Subway with ComBank Credit and Debit Cards",
+   "category": "Dining",
+   "city": "",
+   "period": "Offer valid till 31st December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/SUBWAY-SEGAFREDO-CAFFE-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-segafredo-cafe-or-subway-with-combank-credit-and-debit-cards",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-28"
   },
   {
    "id": "combank-enjoy-the-art-of-dining-at-pegasus-reef-wattala-with-combank-credit-and-debit-cards",
@@ -3574,6 +3613,27 @@
    "updated_at": "",
    "end_date": "2026-11-30",
    "first_seen": ""
+  },
+  {
+   "id": "combank-enjoy-the-art-of-dining-at-ramada-with-combank-credit-and-debit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy the art of dining at Ramada with ComBank Credit and Debit Cards",
+   "discount": "Up to 20% Off",
+   "description": "Enjoy the art of dining at Ramada with ComBank Credit and Debit Cards",
+   "category": "Dining",
+   "city": "",
+   "period": "Offer valid till 30th December 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/September/Ramada-Hotel-Dining-Credit-cards-Sep-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-ramada-with-combank-credit-and-debit-cards",
+   "updated_at": "",
+   "end_date": "2026-12-30",
+   "first_seen": "2026-11-28"
   },
   {
    "id": "combank-enjoy-the-art-of-dining-at-pullman-city-centre-colombo-with-combank-credit-and-debit-cards",
@@ -3825,6 +3885,27 @@
    "first_seen": ""
   },
   {
+   "id": "combank-enjoy-unbeatable-black-friday-deals-at-singer-with-combank-credit-and-debit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy unbeatable Black Friday deals at Singer with ComBank Credit and Debit Cards",
+   "discount": "Up to 60% Off",
+   "description": "Enjoy unbeatable Black Friday deals at Singer with ComBank Credit and Debit Cards",
+   "category": "Electronics & Furniture",
+   "city": "",
+   "period": "Offer valid from 25th to 29th November 2026",
+   "card_types": [
+    "credit",
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Singer-Black-Friday-Offer-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/mobile-electronic-equipment/enjoy-unbeatable-black-friday-deals-at-singer-with-combank-credit-and-debit-cards",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-28"
+  },
+  {
    "id": "combank-unwrap-the-seasonal-magic-at-keells-hampers-with-combank-credit-cards",
    "bank": "Commercial Bank",
    "merchant": "Unwrap the seasonal magic at Keells (Hampers) with ComBank Credit Cards",
@@ -4068,6 +4149,26 @@
    "first_seen": ""
   },
   {
+   "id": "combank-enjoy-the-best-supermarket-deals-at-arpico-for-the-total-bill-with-combank-credit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy the best supermarket deals at Arpico for the Total Bill with ComBank Credit Cards",
+   "discount": "Up to 25% Off",
+   "description": "Enjoy the best supermarket deals at Arpico for the Total Bill with ComBank Credit Cards",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "Offer valid on 15th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/January/Arpico-supermarket-offer-total-bill-ComBank-credit-cards-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-arpico-for-the-total-bill-with-combank-credit-cards",
+   "updated_at": "",
+   "end_date": "2026-12-15",
+   "first_seen": "2026-11-28"
+  },
+  {
    "id": "combank-enjoy-the-best-supermarket-fresh-deals-at-arpico-with-combank-credit-cards",
    "bank": "Commercial Bank",
    "merchant": "Enjoy the best supermarket fresh deals at Arpico with ComBank Credit Cards",
@@ -4075,7 +4176,7 @@
    "description": "Enjoy the best supermarket fresh deals at Arpico with ComBank Credit Cards",
    "category": "Supermarkets",
    "city": "",
-   "period": "Offer valid on every Sunday till 29th November 2026",
+   "period": "Offer valid on every Sunday till 27th December 2026",
    "card_types": [
     "credit"
    ],
@@ -4084,7 +4185,7 @@
    "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/January/Arpico-supermarket-offer-ComBank-credit-cards-thumb.jpg",
    "source_url": "https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-fresh-deals-at-arpico-with-combank-credit-cards",
    "updated_at": "",
-   "end_date": "2026-11-29",
+   "end_date": "2026-12-27",
    "first_seen": ""
   },
   {
@@ -4330,6 +4431,26 @@
    "first_seen": ""
   },
   {
+   "id": "combank-enjoy-the-art-of-dining-at-ramada-with-combank-premium-credit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy the art of dining at Ramada with ComBank Premium Credit Cards",
+   "discount": "Up to 25% Off",
+   "description": "Enjoy the art of dining at Ramada with ComBank Premium Credit Cards",
+   "category": "Premium",
+   "city": "",
+   "period": "Offer valid till 30th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Ramada-Hotel-Dining-Offers-Premium-Offer-Cards-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/premium-card-offers/enjoy-the-art-of-dining-at-ramada-with-combank-premium-credit-cards",
+   "updated_at": "",
+   "end_date": "2026-12-30",
+   "first_seen": "2026-11-28"
+  },
+  {
    "id": "combank-enjoy-the-art-of-dining-at-pullman-city-centre-colombo-with-combank-premium-credit-cards",
    "bank": "Commercial Bank",
    "merchant": "Enjoy the art of dining at Pullman City Centre Colombo with ComBank Premium Credit Cards",
@@ -4428,6 +4549,66 @@
    "updated_at": "",
    "end_date": "2026-12-19",
    "first_seen": ""
+  },
+  {
+   "id": "combank-enjoy-exclusive-supermarket-deals-at-arpico-with-combank-premium-credit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Enjoy exclusive supermarket deals at Arpico with ComBank Premium Credit Cards",
+   "discount": "Up to 20% Off",
+   "description": "Enjoy exclusive supermarket deals at Arpico with ComBank Premium Credit Cards",
+   "category": "Premium",
+   "city": "",
+   "period": "Offer valid on 17th December 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/January/Arpico-supermarket-offer-ComBank-premium-credit-cards-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/premium-card-offers/enjoy-exclusive-supermarket-deals-at-arpico-with-combank-premium-credit-cards",
+   "updated_at": "",
+   "end_date": "2026-12-17",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "combank-black-friday-cashback-reward-with-combank-lankapay-jcb-debit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Black Friday Cashback Reward with ComBank LankaPay JCB Debit Cards",
+   "discount": "Up to 25% Off",
+   "description": "Black Friday Cashback Reward with ComBank LankaPay JCB Debit Cards",
+   "category": "Other",
+   "city": "",
+   "period": "Offer valid on 27th and 28th November 2026",
+   "card_types": [
+    "debit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Black-Friday-JCB-Card-Offer-Nov-26.jpg-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/other-offers/black-friday-cashback-reward-with-combank-lankapay-jcb-debit-cards",
+   "updated_at": "",
+   "end_date": "2026-11-28",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "combank-buy-now-and-pay-later-with-combank-credit-cards",
+   "bank": "Commercial Bank",
+   "merchant": "Buy now and pay later with ComBank Credit Cards",
+   "discount": "Best Offer",
+   "description": "Buy now and pay later with ComBank Credit Cards",
+   "category": "Other",
+   "city": "",
+   "period": "Offer valid on 27th to 29th November 2026",
+   "card_types": [
+    "credit"
+   ],
+   "details": "",
+   "terms": "",
+   "image_url": "https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2026/November/Flexi-Week-EDM-NOV-4th-Week-thumb.jpg",
+   "source_url": "https://www.combank.lk/rewards-promotion/other-offers/buy-now-and-pay-later-with-combank-credit-cards",
+   "updated_at": "",
+   "end_date": "2026-11-29",
+   "first_seen": "2026-11-28"
   },
   {
    "id": "combank-make-every-space-extraordinary-with-lanka-tiles-using-combank-credit-cards",
@@ -33334,6 +33515,24 @@
    "first_seen": ""
   },
   {
+   "id": "ntb-20-savings-39",
+   "bank": "Nations Trust",
+   "merchant": "SPAR Supermarket",
+   "discount": "20% savings",
+   "description": "20% savings at SPAR Supermarket",
+   "category": "Supermarkets",
+   "city": "",
+   "period": "Valid on 29 November and 19 & 30 December",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4136/New-Project-(3).jpg",
+   "source_url": "https://www.nationstrust.com/promotions/20-savings-39",
+   "updated_at": "",
+   "end_date": "2026-12-30",
+   "first_seen": "2026-11-28"
+  },
+  {
    "id": "ntb-25-savings-4",
    "bank": "Nations Trust",
    "merchant": "Keells",
@@ -33687,7 +33886,7 @@
    "card_types": [],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.nationstrust.com/4112/New-Project-(70).jpg",
+   "image_url": "https://assets.nationstrust.com/4129/New-Project.jpg",
    "source_url": "https://www.nationstrust.com/promotions/10-savings-17",
    "updated_at": "",
    "end_date": "2026-12-25",
@@ -34227,7 +34426,7 @@
    "card_types": [],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.nationstrust.com/3511/New-Project-(69).jpg",
+   "image_url": "https://assets.nationstrust.com/4142/New-Project-(69).jpg",
    "source_url": "https://www.nationstrust.com/promotions/15-savings-30",
    "updated_at": "",
    "end_date": "2026-12-06",
@@ -34731,7 +34930,7 @@
    "card_types": [],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.nationstrust.com/3318/New-Project-(28).jpg",
+   "image_url": "https://assets.nationstrust.com/4143/New-Project-(28).jpg",
    "source_url": "https://www.nationstrust.com/promotions/up-to-20-savings-16",
    "updated_at": "",
    "end_date": "2026-12-06",
@@ -35073,7 +35272,7 @@
    "card_types": [],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.nationstrust.com/4002/Crust_pizzeria.png",
+   "image_url": "https://assets.nationstrust.com/4131/New-Project-(1).jpg",
    "source_url": "https://www.nationstrust.com/promotions/20-savings-17",
    "updated_at": "",
    "end_date": "2027-01-31",
@@ -35307,7 +35506,7 @@
    "card_types": [],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.nationstrust.com/3421/New-Project-(56).jpg",
+   "image_url": "https://assets.nationstrust.com/4132/New-Project-(56).jpg",
    "source_url": "https://www.nationstrust.com/promotions/up-to-15-savings-2",
    "updated_at": "",
    "end_date": "2026-12-31",
@@ -35728,6 +35927,24 @@
    "first_seen": ""
   },
   {
+   "id": "ntb-special-savings-8",
+   "bank": "Nations Trust",
+   "merchant": "1864 Limited Edition - Galle Face Hotel",
+   "discount": "Special Savings",
+   "description": "Special Savings at 1864 Limited Edition - Galle Face Hotel",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid on 30 November 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4139/!864.png",
+   "source_url": "https://www.nationstrust.com/promotions/special-savings-8",
+   "updated_at": "",
+   "end_date": "2026-11-30",
+   "first_seen": "2026-11-28"
+  },
+  {
    "id": "ntb-25-savings-1",
    "bank": "Nations Trust",
    "merchant": "Chinese Dragon Cafe",
@@ -35944,6 +36161,24 @@
    "first_seen": ""
   },
   {
+   "id": "ntb-10-savings-19",
+   "bank": "Nations Trust",
+   "merchant": "Pastamania",
+   "discount": "10% savings",
+   "description": "10% savings at Pastamania",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid from 1 to 31 December 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4116/images.png",
+   "source_url": "https://www.nationstrust.com/promotions/10-savings-19",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-28"
+  },
+  {
    "id": "ntb-up-to-25-savings",
    "bank": "Nations Trust",
    "merchant": "Taj Samudra, Colombo",
@@ -36124,6 +36359,42 @@
    "first_seen": ""
   },
   {
+   "id": "ntb-20-savings-42",
+   "bank": "Nations Trust",
+   "merchant": "BURGER HANGOVER",
+   "discount": "20% savings",
+   "description": "20% savings at BURGER HANGOVER",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid from 1 to 31 December 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4119/images.png",
+   "source_url": "https://www.nationstrust.com/promotions/20-savings-42",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "ntb-20-savings-53",
+   "bank": "Nations Trust",
+   "merchant": "TAMARIND MULTI CUISINE RESTAURANT",
+   "discount": "20% savings",
+   "description": "20% savings at TAMARIND MULTI CUISINE RESTAURANT",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid from 1 to 31 December 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4118/images.png",
+   "source_url": "https://www.nationstrust.com/promotions/20-savings-53",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-28"
+  },
+  {
    "id": "ntb-20-savings-9",
    "bank": "Nations Trust",
    "merchant": "Sheraton Colombo Hotel – Bayu",
@@ -36248,6 +36519,24 @@
    "updated_at": "",
    "end_date": "2026-12-31",
    "first_seen": ""
+  },
+  {
+   "id": "ntb-10-savings-18",
+   "bank": "Nations Trust",
+   "merchant": "ISLAND WRAPS",
+   "discount": "10% savings",
+   "description": "10% savings at ISLAND WRAPS",
+   "category": "Dining",
+   "city": "",
+   "period": "Valid from 1 to 31 December 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4117/images.jpg",
+   "source_url": "https://www.nationstrust.com/promotions/10-savings-18",
+   "updated_at": "",
+   "end_date": "2026-12-31",
+   "first_seen": "2026-11-28"
   },
   {
    "id": "ntb-30-savings-5",
@@ -37258,6 +37547,24 @@
    "first_seen": ""
   },
   {
+   "id": "ntb-special-savings-9",
+   "bank": "Nations Trust",
+   "merchant": "Mintpay",
+   "discount": "Special savings",
+   "description": "Special savings at Mintpay",
+   "category": "Online",
+   "city": "",
+   "period": "Valid till 30 November 2026",
+   "card_types": [],
+   "details": "",
+   "terms": "",
+   "image_url": "https://assets.nationstrust.com/4134/New-Project-(29).jpg",
+   "source_url": "https://www.nationstrust.com/promotions/special-savings-9",
+   "updated_at": "",
+   "end_date": "2026-11-30",
+   "first_seen": "2026-11-28"
+  },
+  {
    "id": "ntb-up-to-15-savings-13",
    "bank": "Nations Trust",
    "merchant": "Lassana.com",
@@ -38259,7 +38566,7 @@
    "card_types": [],
    "details": "",
    "terms": "",
-   "image_url": "https://assets.nationstrust.com/4122/Installment.png",
+   "image_url": "https://assets.nationstrust.com/4141/Installment.png",
    "source_url": "https://www.nationstrust.com/promotions/enjoy-installment-plans-at-a-range-of-merchant-partners-9",
    "updated_at": "",
    "end_date": "2026-12-31",
